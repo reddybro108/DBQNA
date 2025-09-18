@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+sentence-transformers
+qdrant-client
+pymupdf
+python-docx
+transformers
+torch
+faiss-cpu
+pydantic
+requests
