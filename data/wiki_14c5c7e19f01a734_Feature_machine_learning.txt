@@ -1,0 +1,174 @@
+Title: Feature (machine learning)
+URL: https://en.wikipedia.org/wiki/Feature_(machine_learning)
+PageID: 1299404
+Categories: Category:Data mining, Category:Machine learning, Category:Pattern recognition
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+In machine learning and pattern recognition , a feature is an individual measurable property or characteristic of a data set. Choosing informative, discriminating, and independent features is crucial to produce effective algorithms for pattern recognition , classification , and regression tasks. Features are usually numeric, but other types such as strings and graphs are used in syntactic pattern recognition , after some pre-processing step such as one-hot encoding . The concept of "features" is related to that of explanatory variables used in statistical techniques such as linear regression .
+Feature types
+In feature engineering, two types of features are commonly used: numerical and categorical.
+Numerical features are continuous values that can be measured on a scale. Examples of numerical features include age, height, weight, and income. Numerical features can be used in machine learning algorithms directly. [ citation needed ]
+Categorical features are discrete values that can be grouped into categories. Examples of categorical features include gender, color, and zip code. Categorical features typically need to be converted to numerical features before they can be used in machine learning algorithms. This can be done using a variety of techniques, such as one-hot encoding, label encoding, and ordinal encoding.
+The type of feature that is used in feature engineering depends on the specific machine learning algorithm that is being used. Some machine learning algorithms, such as decision trees, can handle both numerical and categorical features. Other machine learning algorithms, such as linear regression, can only handle numerical features.
+Classification
+A numeric feature can be conveniently described by a feature vector. One way to achieve binary classification is using a linear predictor function (related to the perceptron ) with a feature vector as input. The method consists of calculating the scalar product between the feature vector and a vector of weights, qualifying those observations whose result exceeds a threshold.
+Algorithms for classification from a feature vector include nearest neighbor classification , neural networks , and statistical techniques such as Bayesian approaches .
+Examples
+In character recognition , features may include histograms counting the number of black pixels along horizontal and vertical directions, number of internal holes, stroke detection and many others.
+In speech recognition , features for recognizing phonemes can include noise ratios, length of sounds, relative power, filter matches and many others.
+In spam detection algorithms, features may include the presence or absence of certain email headers, 
+the email structure, the language, the frequency of specific terms, the grammatical correctness of the text.
+In computer vision , there are a large number of possible features , such as edges and objects.
+Feature vectors
+In pattern recognition and machine learning , a feature vector is an n-dimensional vector of numerical features that represent some object. Many algorithms in machine learning require a numerical representation of objects, since such representations facilitate processing and statistical analysis. When representing images, the feature values might correspond to the pixels of an image, while when representing texts the features might be the frequencies of occurrence of textual terms. Feature vectors are equivalent to the vectors of explanatory variables used in statistical procedures such as linear regression .  Feature vectors are often combined with weights using a dot product in order to construct a linear predictor function that is used to determine a score for making a prediction.
+The vector space associated with these vectors is often called the feature space . In order to reduce the dimensionality of the feature space, a number of dimensionality reduction techniques can be employed.
+Higher-level features can be obtained from already available features and added to the feature vector; for example, for the study of diseases the feature 'Age' is useful and is defined as Age = 'Year of death' minus 'Year of birth' . This process is referred to as feature construction . Feature construction is the application of a set of constructive operators to a set of existing features resulting in construction of new features. Examples of such constructive operators include checking for the equality conditions {=, ≠}, the arithmetic operators {+,−,×, /}, the array operators {max(S), min(S), average(S)} as well as other more sophisticated operators, for example count(S,C) that counts the number of features in the feature vector S satisfying some condition C or, for example, distances to other recognition classes generalized by some accepting device. Feature construction has long been considered a powerful tool for increasing both accuracy and understanding of structure, particularly in high-dimensional problems. Applications include studies of disease and emotion recognition from speech.
+Selection and extraction
+The initial set of raw features can be redundant and large enough that estimation and optimization is made difficult or ineffective. Therefore, a preliminary step in many applications of machine learning and pattern recognition consists of selecting a subset of features, or constructing a new and reduced set of features to facilitate learning, and to improve generalization and interpretability.
+Extracting or selecting features is a combination of art and science; developing systems to do so is known as feature engineering . It requires the experimentation of multiple possibilities and the combination of automated techniques with the intuition and knowledge of the domain expert . Automating this process is feature learning , where a machine not only uses features for learning, but learns the features itself.
+See also
+Covariate
+Dimensionality reduction
+Feature engineering
+Hashing trick
+Statistical classification
+Explainable artificial intelligence
+References

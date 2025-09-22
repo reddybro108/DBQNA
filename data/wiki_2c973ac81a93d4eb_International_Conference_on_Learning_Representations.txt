@@ -1,0 +1,200 @@
+Title: International Conference on Learning Representations
+URL: https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations
+PageID: 59466481
+Categories: Category:Artificial intelligence conferences, Category:Computer conference stubs, Category:International conferences in Canada, Category:Signal processing conferences
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+The International Conference on Learning Representations ( ICLR ) is a machine learning conference typically held in late April or early May each year. Along with NeurIPS and ICML , it is one of the three primary conferences of high impact in machine learning and artificial intelligence research.
+The conference includes invited talks as well as oral and poster presentations of refereed papers. Since its inception in 2013, ICLR has employed an open peer review process to referee paper submissions (based on models proposed by Yann LeCun ). In 2019, there were 1591 paper submissions, of which 500 accepted with poster presentations (31%) and 24 with oral presentations (1.5%). In 2021, there were 2997 paper submissions, of which 860 were accepted (29%). It was founded by LeCun and Yoshua Bengio in 2012.
+Locations
+ICLR 2026, Brazil
+ICLR 2025, Singapore
+ICLR 2024, Vienna , Austria
+ICLR 2023, Kigali , Rwanda
+ICLR 2022 (virtual conference)
+ICLR 2021, Vienna , Austria (virtual conference)
+ICLR 2020, Addis Ababa , Ethiopia (virtual conference)
+ICLR 2019, New Orleans , Louisiana , United States
+ICLR 2018, Vancouver , Canada
+ICLR 2017, Toulon , France
+ICLR 2016, San Juan , Puerto Rico , United States
+ICLR 2015, San Diego , California , United States
+ICLR 2014, Banff National Park , Canada
+ICLR 2013, Scottsdale , Arizona , United States
+See also
+ICML
+NeurIPS
+AAAI Conference on Artificial Intelligence
+References
+External links
+Official website
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology
+This article about a computer conference is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

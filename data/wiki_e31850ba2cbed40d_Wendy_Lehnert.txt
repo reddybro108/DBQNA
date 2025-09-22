@@ -1,0 +1,39 @@
+Title: Wendy Lehnert
+URL: https://en.wikipedia.org/wiki/Wendy_Lehnert
+PageID: 62564562
+Categories: Category:21st-century American women, Category:American computer scientists, Category:American women academics, Category:American women computer scientists, Category:Computational linguistics researchers, Category:Fellows of the Association for the Advancement of Artificial Intelligence, Category:Living people, Category:Machine learning researchers, Category:Natural language processing researchers, Category:Portland State University alumni, Category:University of Massachusetts Amherst faculty, Category:Yale University alumni, Category:Yale University faculty, Category:Yeshiva University alumni
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Wendy Grace Lehnert is an American computer scientist specializing in natural language processing and known for her pioneering use of machine learning in natural language processing. She is a professor emerita at the University of Massachusetts Amherst .
+Education and career
+Lehnert earned a bachelor's degree in mathematics from Portland State University in 1972, and a master's degree from Yeshiva University in 1974. She became a student of Roger Schank at Yale University , completing her Ph.D. there in 1977 with a dissertation on The Process of Question Answering , and was hired by Yale as an assistant professor. She moved to the University of Massachusetts Amherst in 1982. At Amherst, her doctoral students have included Claire Cardie and Ellen Riloff . She retired in 2011.
+Books
+Lehnert has written both scholarly and popular books on computing, including:
+The Process of Question Answering: A Computer Simulation of Cognition (L. Erlbaum Associates, 1978)
+Light on the Web: Essentials to Make the 'Net Work for You (Addison-Wesley, 1981)
+Strategies for Natural Language Processing (with Martin Ringle, L. Erlbaum Associates, 1982)
+The Web Wizard's Guide to Freeware and Shareware (Addison-Wesley, 1982)
+Internet 101: A Beginner's Guide to the Internet and the World Wide Web (Addison-Wesley, 1998)
+The Web Wizard's Guide to HTML (Addison-Wesley, 2001)
+Web 101: Making the Net Work for You (with Richard Kopec, Addison-Wesley; 3rd ed., 2007)
+Recognition
+In 1991, Lehnert was elected as an AAAI Fellow .
+References
+External links
+Home page
+ISNI
+VIAF
+GND
+United States
+Australia
+Netherlands
+Norway
+Latvia
+Korea
+Israel
+CiNii
+Mathematics Genealogy Project
+DBLP
+IdRef
+Yale LUX

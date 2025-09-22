@@ -1,0 +1,317 @@
+Title: Machine learning in physics
+URL: https://en.wikipedia.org/wiki/Machine_learning_in_physics
+PageID: 61373032
+Categories: Category:Machine learning, Category:Quantum information science, Category:Quantum programming, Category:Theoretical computer science
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Introduction
+Glossary
+History
+Classical mechanics
+Old quantum theory
+Bra–ket notation
+Hamiltonian
+Interference
+Complementarity
+Decoherence
+Entanglement
+Energy level
+Measurement
+Nonlocality
+Quantum number
+State
+Superposition
+Symmetry
+Tunnelling
+Uncertainty
+Wave function Collapse
+Collapse
+Bell's inequality
+CHSH inequality
+Davisson–Germer
+Double-slit
+Elitzur–Vaidman
+Franck–Hertz
+Leggett inequality
+Leggett–Garg inequality
+Mach–Zehnder
+Popper
+Quantum eraser Delayed-choice
+Delayed-choice
+Schrödinger's cat
+Stern–Gerlach
+Wheeler's delayed-choice
+Overview
+Heisenberg
+Interaction
+Matrix
+Phase-space
+Schrödinger
+Sum-over-histories (path integral)
+Dirac
+Klein–Gordon
+Pauli
+Rydberg
+Schrödinger
+Bayesian
+Consciousness causes collapse
+Consistent histories
+Copenhagen
+de Broglie–Bohm
+Ensemble
+Hidden-variable
+Many-worlds
+Objective-collapse
+Quantum logic
+Superdeterminism
+Relational
+Transactional
+Relativistic quantum mechanics
+Quantum field theory
+Quantum information science
+Quantum computing
+Quantum chaos
+EPR paradox
+Density matrix
+Scattering theory
+Quantum statistical mechanics
+Quantum machine learning
+Aharonov
+Bell
+Bethe
+Blackett
+Bloch
+Bohm
+Bohr
+Born
+Bose
+de Broglie
+Compton
+Dirac
+Davisson
+Debye
+Ehrenfest
+Einstein
+Everett
+Fock
+Fermi
+Feynman
+Glauber
+Gutzwiller
+Heisenberg
+Hilbert
+Jordan
+Kramers
+Lamb
+Landau
+Laue
+Moseley
+Millikan
+Onnes
+Pauli
+Planck
+Rabi
+Raman
+Rydberg
+Schrödinger
+Simmons
+Sommerfeld
+von Neumann
+Weyl
+Wien
+Wigner
+Zeeman
+Zeilinger
+v
+t
+e
+Applying machine learning (ML) (including deep learning ) methods to the study of quantum systems is an emergent area of physics research. A basic example of this is quantum state tomography , where a quantum state is learned from measurement. Other examples include learning Hamiltonians, learning quantum phase transitions , and automatically generating new quantum experiments. ML is effective at processing large amounts of experimental or calculated data in order to characterize an unknown quantum system, making its application useful in contexts including quantum information theory , quantum technology development, and computational materials design. In this context, for example, it can be used as a tool to interpolate pre-calculated interatomic potentials , or directly solving the Schrödinger equation with a variational method .
+Applications of machine learning to physics
+Noisy data
+The ability to experimentally control and prepare increasingly complex quantum systems brings with it a growing need to turn large and noisy data sets into meaningful information. This is a problem that has already been studied extensively in the classical setting, and consequently, many existing machine learning techniques can be naturally adapted to more efficiently address experimentally relevant problems. For example, Bayesian methods and concepts of algorithmic learning can be fruitfully applied to tackle quantum state classification, Hamiltonian learning, and the characterization of an unknown unitary transformation . Other problems that have been addressed with this approach are given in the following list:
+Identifying an accurate model for the dynamics of a quantum system, through the reconstruction of the Hamiltonian ;
+Extracting information on unknown states;
+Learning unknown unitary transformations and measurements;
+Engineering of quantum gates from qubit networks with pairwise interactions, using time dependent or independent Hamiltonians.
+Improving the extraction accuracy of physical observables from absorption images of ultracold atoms (degenerate Fermi gas), by the generation of an ideal reference frame.
+Calculated and noise-free data
+Quantum machine learning can also be applied to dramatically accelerate the prediction of quantum properties of molecules and materials. This can be helpful for the computational design of new molecules or materials. Some examples include
+Interpolating interatomic potentials;
+Inferring molecular atomization energies throughout chemical compound space ;
+Accurate potential energy surfaces with restricted Boltzmann machines;
+Automatic generation of new quantum experiments;
+Solving the many-body, static and time-dependent Schrödinger equation;
+Identifying phase transitions from entanglement spectra;
+Generating adaptive feedback schemes for quantum metrology and quantum tomography .
+Variational circuits
+Variational circuits are a family of algorithms which utilize training based on circuit parameters and an objective function. Variational circuits are generally composed of a classical device communicating input parameters (random or pre-trained parameters) into a quantum device, along with a classical Mathematical optimization function. These circuits are very heavily dependent on the architecture of the proposed quantum device because parameter adjustments are adjusted based solely on the classical components within the device. Though the application is considerably infantile in the field of quantum machine learning, it has incredibly high promise for more efficiently generating efficient optimization functions.
+Sign problem
+Machine learning techniques can be used to find a better manifold of integration for path integrals in order to avoid the sign problem.
+Fluid dynamics
+Physics discovery and prediction
+A deep learning system was reported to learn intuitive physics from visual data (of virtual 3D environments) based on an unpublished approach inspired by studies of visual cognition in infants. Other researchers have developed a machine learning algorithm that could discover sets of basic variables of various physical systems and predict the systems' future dynamics from video recordings of their behavior. In the future, it may be possible that such can be used to automate the discovery of physical laws of complex systems. Beyond discovery and prediction, "blank slate"-type of learning of fundamental aspects of the physical world may have further applications such as improving adaptive and broad artificial general intelligence . [ additional citation(s) needed ] In specific, prior machine learning models were "highly specialised and lack a general understanding of the world".
+See also
+Quantum computing
+Quantum machine learning
+Quantum annealing
+Quantum neural network
+HHL Algorithm
+References
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology
+v
+t
+e
+DiVincenzo's criteria
+NISQ era
+Quantum computing timeline
+timeline
+Quantum information
+Quantum programming
+Quantum simulation
+Qubit physical vs. logical
+physical vs. logical
+Quantum processors cloud-based
+cloud-based
+Bell's
+Eastin–Knill
+Gleason's
+Gottesman–Knill
+Holevo's
+No-broadcasting
+No-cloning
+No-communication
+No-deleting
+No-hiding
+No-teleportation
+PBR
+Quantum speed limit
+Threshold
+Solovay–Kitaev
+Schrödinger-HJW
+Classical capacity entanglement-assisted quantum capacity
+entanglement-assisted
+quantum capacity
+Entanglement distillation
+Entanglement swapping
+Monogamy of entanglement
+LOCC
+Quantum channel quantum network
+quantum network
+State purification
+Quantum teleportation quantum energy teleportation quantum gate teleportation
+quantum energy teleportation
+quantum gate teleportation
+Superdense coding
+Post-quantum cryptography
+Quantum coin flipping
+Quantum money
+Quantum key distribution BB84 SARG04 other protocols
+BB84
+SARG04
+other protocols
+Quantum secret sharing
+Algorithmic cooling
+Amplitude amplification
+Bernstein–Vazirani
+BHT
+Boson sampling
+Deutsch–Jozsa
+Grover's
+HHL
+Hidden subgroup
+Magic state distillation
+Quantum annealing
+Quantum counting
+Quantum Fourier transform
+Quantum optimization
+Quantum phase estimation
+Shor's
+Simon's
+VQE
+BQP
+DQC1
+EQP
+QIP
+QMA
+PostBQP
+Quantum supremacy
+Quantum volume
+QC scaling laws
+Randomized benchmarking XEB
+XEB
+Relaxation times T 1 T 2
+T 1
+T 2
+Adiabatic quantum computation
+Continuous-variable quantum information
+One-way quantum computer cluster state
+cluster state
+Quantum circuit quantum logic gate
+quantum logic gate
+Quantum machine learning quantum neural network
+quantum neural network
+Quantum Turing machine
+Topological quantum computer
+Hamiltonian quantum computation
+Codes 5 qubit CSS GKP quantum convolutional stabilizer Shor Bacon–Shor Steane Toric gnu
+5 qubit
+CSS
+GKP
+quantum convolutional
+stabilizer
+Shor
+Bacon–Shor
+Steane
+Toric
+gnu
+Entanglement-assisted
+Cavity QED
+Circuit QED
+Linear optical QC
+KLM protocol
+Neutral atom QC
+Trapped-ion QC
+Kane QC
+Spin qubit QC
+NV center
+NMR QC
+Charge qubit
+Flux qubit
+Phase qubit
+Transmon
+OpenQASM – Qiskit – IBM QX
+Quil – Forest/Rigetti QCS
+Cirq
+Q#
+libquantum
+many others...
+Quantum information science
+Quantum mechanics topics

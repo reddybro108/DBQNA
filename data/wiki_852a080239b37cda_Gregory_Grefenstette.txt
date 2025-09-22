@@ -1,0 +1,52 @@
+Title: Gregory Grefenstette
+URL: https://en.wikipedia.org/wiki/Gregory_Grefenstette
+PageID: 54655067
+Categories: Category:1956 births, Category:American artificial intelligence researchers, Category:American computer scientists, Category:Florida Institute for Human and Machine Cognition people, Category:French computer scientists, Category:Living people, Category:Natural language processing researchers
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Gregory Grefenstette (born April 25, 1956) is a French-American researcher and professor of computer science, in particular of artificial intelligence and natural language processing . As of 2020 [update] , he is the chief scientific officer at Biggerpan, a company developing a predictive contextual engine for the mobile web. Grefenstette is also a senior associate researcher at the Florida Institute for Human and Machine Cognition (IHMC).
+Biography
+Grefenstette was born in Pittsburgh in 1956. He started M.I.T. as an undergraduate and received his bachelor's degree at Stanford in 1978. He received a master's degree from Paris-Sud 1983 and a PhD in computer science from the University of Pittsburgh in 1993. From 1984 to 1989, he was an assistant professor at the University of Tours .
+Grefenstette's research primarily focuses on natural language processing. Following his PhD work on "Exploring Automatic Thesaurus Generation", he mostly addressed large-scale natural language processing problems and co-edited with Adam Kilgarriff a special issue of Computational Linguistics on using the Internet as a corpus for machine learning. Previous to his position at Biggerpan, Grefenstette was an Advanced Researcher at INRIA , the French national research institute in computer science, working on personal semantics. Prior to that, he was the chief science officer of Exalead , a search engine company, managing the OSEO QUAERO CMSE program on innovative multimedia indexing technologies. Grefenstette is also a former chief scientist at the Xerox Research Centre Europe (1993–2001), at Clairvoyance Corporation (2001–2004), and with the French CEA (2004–2008).
+Grefenstette has received 20 US patents, mostly based on his work at Xerox. With his research team, he has received awards for his work on semantic maps and won a three-year grant from the Lagardere Foundation in 2007. He has also authored four books and has been part of several journal publications. Referenced in many natural language processing research papers, Grefenstette is especially known for his work on cross-language information retrieval and distributional semantics .
+Selected works
+Books
+Grefenstette, Gregory; Wilber, Laura (2011). Search-based Applications: At the Confluence of Search and Database Technologies . Morgan & Claypool Publishers. ISBN 9781608455072 .
+Renals, Steve; Grefenstette, Gregory (September 9, 2003). Text- and Speech-Triggered Information Access: 8th ELSNET Summer School, Chios Island, Greece, July 15-30, 2000, Revised Lectures . Springer. ISBN 9783540451150 .
+Grefenstette, Gregory (1998). Cross-language information retrieval . Kluwer Academic Publishers. ISBN 9781461527107 .
+Grefenstette, Gregory (December 6, 2012). Explorations in Automatic Thesaurus Discovery . Springer Science & Business Media. ISBN 9781461527107 .
+Major publications
+Source:
+Hanks, Patrick (2016). International Handbook of Modern Lexis and Lexicography . Springer. ISBN 9783642545320 .
+Grefenstette, Gregory and Lawrence Muchemi. 2016. Determining the Characteristic Vocabulary for a Specialized Dictionary using Word2vec and a Directed Crawler, 10th Language Resources and Evaluation Conference
+Grefenstette, Gregory. 2016. Extracting Weighted Language Lexicons from Wikipedia .
+Grefenstette, Gregory; Rafes, Karima (2015). "Transforming Wikipedia into an Ontology-based Information Retrieval Search Engine for Local Experts using a Third-Party Taxonomy". arXiv : 1511.01259 [ cs.IR ].
+"Adam Kilgarriff's Legacy to Computational Linguistics and Beyond, Proceedings of the 17th International Conference on Intelligent Text Processing and Computational Linguistics (CICLING 2016)" (PDF) .
+"Extracting Hierarchical Topic Models from the Web for Improving Digital Archive Access" (PDF) .
+Grefenstette, Gregory (September 10, 2015). "Personal Information Systems and Personal Semantics" . Cled 2015 .
+Grefenstette, Gregory (2015). "Personal Semantics". Language Production, Cognition, and the Lexicon . Text, Speech and Language Technology. Vol. 48. Springer, Cham. pp. 203– 219. doi : 10.1007/978-3-319-08043-7_12 . ISBN 978-3-319-08042-0 .
+Grefenstette, Gregory (2015). "INRIASAC: Simple Hypernym Extraction Methods". arXiv : 1502.01271 [ cs.CL ].
+Law-To, Julien; Grefenstette, Gregory; Landais, Rémi (2013). "Semantic dispatching of multimedia news with MEWS". Proceedings of the 21st ACM international conference on Multimedia . MM '13. New York, NY, USA: ACM. pp. 427– 428. doi : 10.1145/2502081.2502253 . ISBN 9781450324045 . S2CID 37205031 .
+Awards
+2010 ACM Multimedia Grand Challenge Bronze award
+2009 ACM Multimedia Grand Challenge, most practical system award
+2007 three-year grant by Lagardere Foundation for work on semantic maps
+1978 ITT International Fellow to Belgium
+References
+ISNI
+VIAF
+GND
+WorldCat
+United States
+France
+BnF data
+Czech Republic
+Netherlands
+Israel
+ORCID
+zbMATH
+DBLP
+MathSciNet
+IdRef
+Yale LUX

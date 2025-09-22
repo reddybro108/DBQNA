@@ -1,0 +1,29 @@
+Title: Contrastive Hebbian learning
+URL: https://en.wikipedia.org/wiki/Contrastive_Hebbian_learning
+PageID: 67321086
+Categories: Category:Artificial neural networks, Category:Computational neuroscience stubs, Category:Hebbian theory, Category:Machine learning stubs
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Contrastive Hebbian learning is a biologically plausible form of Hebbian learning .
+It is based on the contrastive divergence algorithm, which has been used to train a variety of energy-based latent variable models.
+In 2003, contrastive Hebbian learning was shown to be equivalent in power to the backpropagation algorithms commonly used in machine learning .
+See also
+Oja's rule
+Generalized Hebbian algorithm
+References
+v
+t
+e
+Contrastive Hebbian learning
+Generalized Hebbian algorithm
+Oja's rule
+Engram (neuropsychology)
+Feedforward neural network
+Backpropagation
+Leabra
+GeneRec
+This artificial neural network -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
