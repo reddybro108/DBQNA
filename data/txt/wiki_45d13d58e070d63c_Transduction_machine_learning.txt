@@ -2,7 +2,7 @@ Title: Transduction (machine learning)
 URL: https://en.wikipedia.org/wiki/Transduction_(machine_learning)
 PageID: 960361
 Categories: Category:Machine learning
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 In logic , statistical inference , and supervised learning , transduction or transductive inference is reasoning from
@@ -16,14 +16,14 @@ his view that transduction is preferable to induction since, according to him, i
 solving a more general problem (inferring a function) before solving a more
 specific problem (computing outputs for new cases): "When solving a problem of
 interest, do not solve a more general problem as an intermediate step. Try to
-get the answer that you really need but not a more general one.".
+get the answer that you really need but not a more general one.". [ 1 ]
 An example of learning which is not inductive would be in the case of binary
 classification, where the inputs tend to cluster in two groups. A large set of
 test inputs may help in finding the clusters, thus providing useful information
 about the classification labels. The same predictions would not be obtainable
 from a model which induces a function based only on the training cases.  Some
 people may call this an example of the closely related semi-supervised learning , since Vapnik's motivation is quite different. 
-The most well-known example of a case-bases learning algorithm is the k-nearest neighbor algorithm , which is related to transductive learning algorithms. Another example of an algorithm in this category is the Transductive Support Vector Machine (TSVM).
+The most well-known example of a case-bases learning algorithm is the k-nearest neighbor algorithm , which is related to transductive learning algorithms. [ 2 ] Another example of an algorithm in this category is the Transductive Support Vector Machine (TSVM).
 A third possible motivation of transduction arises through the need
 to approximate. If exact inference is computationally prohibitive, one may at
 least try to make sure that the approximations are good at the test inputs. In

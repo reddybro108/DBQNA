@@ -2,12 +2,13 @@ Title: Timeline of machine learning
 URL: https://en.wikipedia.org/wiki/Timeline_of_machine_learning
 PageID: 50828755
 Categories: Category:Computing timelines, Category:Machine learning
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 This page is a timeline of machine learning . Major discoveries, achievements, milestones and other major events in machine learning are included.
 Overview
 Timeline
+[ 13 ]
 See also
 History of artificial intelligence
 Timeline of artificial intelligence

@@ -2,19 +2,19 @@ Title: Machine Learning (journal)
 URL: https://en.wikipedia.org/wiki/Machine_Learning_(journal)
 PageID: 5721403
 Categories: Category:Academic journals established in 1986, Category:Computer science journal stubs, Category:Computer science journals, Category:Delayed open access journals, Category:Machine learning, Category:Machine learning stubs, Category:Springer Science+Business Media academic journals
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 Machine Learning is a peer-reviewed scientific journal , published since 1986.
-In 2001, forty editors and members of the editorial board of Machine Learning resigned in order to support the Journal of Machine Learning Research (JMLR), saying that in the era of the internet, it was detrimental for researchers to continue publishing their papers in expensive journals with pay-access archives. Instead, they wrote, they supported the model of JMLR , in which authors retained copyright over their papers and archives were freely available on the internet.
-Following the mass resignation, Kluwer changed their publishing policy to allow authors to self-archive their papers online after peer-review .
+In 2001, forty editors and members of the editorial board of Machine Learning resigned in order to support the Journal of Machine Learning Research (JMLR), saying that in the era of the internet, it was detrimental for researchers to continue publishing their papers in expensive journals with pay-access archives. Instead, they wrote, they supported the model of JMLR , in which authors retained copyright over their papers and archives were freely available on the internet. [ 1 ]
+Following the mass resignation, Kluwer changed their publishing policy to allow authors to self-archive their papers online after peer-review . [ 2 ]
 Abstracting and indexing
-The journal is abstracted and indexed in several databases, for example in:
-Science Citation Index Expanded
-Scopus
-EI Compendex
-INSPEC
-DBLP
+The journal is abstracted and indexed in several databases, for example in: [ 3 ]
+Science Citation Index Expanded [ 4 ]
+Scopus [ 5 ]
+EI Compendex [ 6 ]
+INSPEC [ 7 ]
+DBLP [ 8 ]
 Selected articles
 J.R. Quinlan (1986). "Induction of Decision Trees" . Machine Learning . 1 : 81– 106. doi : 10.1007/BF00116251 .
 Nick Littlestone (1988). "Learning Quickly When Irrelevant Attributes Abound: A New Linear-threshold Algorithm" (PDF) . Machine Learning . 2 (4): 285– 318. doi : 10.1007/BF00116827 . Archived from the original (PDF) on 2022-07-02 . Retrieved 2020-02-22 .
