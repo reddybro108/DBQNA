@@ -1,0 +1,272 @@
+Title: Deeplearning4j
+URL: https://en.wikipedia.org/wiki/Deeplearning4j
+PageID: 43169442
+Categories: Category:Cluster computing, Category:Deep learning software, Category:Free data analysis software, Category:Free science software, Category:Free software programmed in Java (programming language), Category:Free software programmed in Scala, Category:Free statistical software, Category:Hadoop, Category:Image processing, Category:Java (programming language) libraries, Category:Java (programming language) software, Category:Java platform, Category:Java programming language family, Category:Natural language processing, Category:Numerical programming languages, Category:Open-source artificial intelligence, Category:Scala (programming language), Category:Software using the Apache license
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+Eclipse Deeplearning4j is a programming library written in Java for the Java virtual machine (JVM). [ 2 ] [ 3 ] It is a framework with wide support for deep learning algorithms. [ 4 ] Deeplearning4j includes implementations of the restricted Boltzmann machine , deep belief net , deep autoencoder, stacked denoising autoencoder and recursive neural tensor network , word2vec , doc2vec, and GloVe . These algorithms all include distributed parallel versions that integrate with Apache Hadoop and Spark . [ 5 ]
+Deeplearning4j is open-source software released under Apache License 2.0 , [ 6 ] developed mainly by a machine learning group headquartered in San Francisco . [ 7 ] It is supported commercially by the startup Skymind, which bundles DL4J, TensorFlow , Keras and other deep learning libraries in an enterprise distribution called the Skymind Intelligence Layer. [ 8 ] Deeplearning4j was contributed to the Eclipse Foundation in October 2017. [ 9 ] [ 10 ]
+Introduction
+Deeplearning4j relies on the widely used programming language Java , though it is compatible with Clojure and includes a Scala application programming interface (API). It is powered by its own open-source numerical computing library, ND4J , and works with both central processing units (CPUs) and graphics processing units (GPUs). [ 11 ] [ 12 ]
+Deeplearning4j has been used in several commercial and academic applications. The code is hosted on GitHub . [ 13 ] A support forum is maintained on Gitter . [ 14 ]
+The framework is composable, meaning shallow neural nets such as restricted Boltzmann machines, convolutional nets, autoencoders, and recurrent nets can be added to one another to create deep nets of varying types. It also has extensive visualization tools, [ 15 ] and a computation graph. [ 16 ]
+Distributed
+Training with Deeplearning4j occurs in a cluster. Neural nets are trained in parallel via iterative reduce, which works on Hadoop -YARN and on Spark . [ 7 ] [ 17 ] Deeplearning4j also integrates with CUDA kernels to conduct pure GPU operations, and works with distributed GPUs.
+Scientific computing for the JVM
+Deeplearning4j includes an n-dimensional array class using ND4J that allows scientific computing in Java and Scala, similar to the functions that NumPy provides to Python . It's effectively based on a library for linear algebra and matrix manipulation in a production environment.
+DataVec vectorization library for machine-learning
+DataVec vectorizes various file formats and data types using an input/output format system similar to Hadoop's use of MapReduce; that is, it turns various data types into columns of scalars termed vectors . DataVec is designed to vectorize CSVs, images, sound, text, video, and time series. [ 18 ] [ 19 ]
+Text and NLP
+Deeplearning4j includes a vector space modeling and topic modeling toolkit, implemented in Java and integrating with parallel GPUs for performance. It is designed to handle large text sets.
+Deeplearning4j includes implementations of term frequency–inverse document frequency ( tf–idf ), deep learning , and Mikolov's word2vec algorithm, [ 20 ] doc2vec, and GloVe, reimplemented and optimized in Java. It relies on t-distributed stochastic neighbor embedding (t-SNE) for word-cloud visualizations.
+Real-world use cases and integrations
+Real-world use cases for Deeplearning4j include network intrusion detection and cybersecurity, fraud detection for the financial sector, [ 21 ] [ 22 ] anomaly detection in industries such as manufacturing, recommender systems in e-commerce and advertising, [ 23 ] and image recognition. [ 24 ] Deeplearning4j has integrated with other machine-learning platforms such as RapidMiner, Prediction.io, [ 25 ] and Weka . [ 26 ]
+Machine Learning Model Server
+Deeplearning4j serves machine-learning models for inference in production using the free developer edition of SKIL, the Skymind Intelligence Layer. [ 27 ] [ 28 ] A model server serves the parametric machine-learning models that makes decisions about data. It is used for the inference stage of a machine-learning workflow, after data pipelines and model training. A model server is the tool that allows data science research to be deployed in a real-world production environment.
+What a Web server is to the Internet, a model server is to AI. Where a Web server receives an HTTP request and returns data about a Web site, a model server receives data, and returns a decision or prediction about that data: e.g. sent an image, a model server might return a label for that image, identifying faces or animals in photographs.
+The SKIL model server is able to import models from Python frameworks such as Tensorflow, Keras, Theano and CNTK, overcoming a major barrier in deploying deep learning models.
+Benchmarks
+Deeplearning4j is as fast as Caffe for non-trivial image recognition tasks using multiple GPUs. [ 29 ] For programmers unfamiliar with HPC on the JVM, there are several parameters that must be adjusted to optimize neural network training time. These include setting the heap space, the garbage collection algorithm, employing off-heap memory and pre-saving data (pickling) for faster ETL. [ 30 ] Together, these optimizations can lead to a 10x acceleration in performance with Deeplearning4j.
+API Languages: Java, Scala, Python, Clojure & Kotlin
+Deeplearning4j can be used via multiple API languages including Java, Scala, Python, Clojure and Kotlin. Its Scala API is called ScalNet. [ 31 ] Keras serves as its Python API. [ 32 ] And its Clojure wrapper is known as DL4CLJ. [ 33 ] The core languages performing the large-scale mathematical operations necessary for deep learning are C, C++ and CUDA C.
+Tensorflow, Keras & Deeplearning4j
+Tensorflow, Keras and Deeplearning4j work together. Deeplearning4j can import models from Tensorflow and other Python frameworks if they have been created with Keras. [ 34 ]
+See also
+Free and open-source software portal
+Computer programming portal
+Comparison of deep learning software
+Artificial intelligence
+Machine learning
+Deep learning
+References
+v
+t
+e
+Datasets
+Digital geometry
+Commercial systems
+Feature detection
+Geometry
+Image sensor technology
+Learning
+Morphology
+Motion analysis
+Noise reduction techniques
+Recognition and categorization
+Research infrastructure
+Researchers
+Segmentation
+Software
+Computer stereo vision
+Motion capture
+Object recognition 3D object recognition
+3D object recognition
+3D reconstruction from multiple images
+2D to 3D conversion
+Gaussian splatting
+Neural radiance field
+Shape from focus
+Simultaneous localization and mapping
+Structure from motion
+View synthesis
+Visual hull
+4D reconstruction Free viewpoint television Volumetric capture
+Free viewpoint television
+Volumetric capture
+3D pose estimation
+Activity recognition
+Audio-visual speech recognition
+Automatic image annotation
+Automatic number-plate recognition
+Automated species identification
+Augmented reality
+Bioimage informatics
+Blob detection
+Computer-aided diagnosis
+Content-based image retrieval Reverse image search
+Reverse image search
+Eye tracking
+Face recognition
+Foreground detection
+Gesture recognition
+Image denoising
+Image restoration
+Landmark detection
+Medical image computing
+Object detection Moving object detection Small object detection
+Moving object detection
+Small object detection
+Optical character recognition
+Pose tracking
+Remote sensing
+Robotic mapping
+Autonomous vehicles
+Video content analysis
+Video motion analysis
+Video surveillance
+Video tracking
+v
+t
+e
+Comparison
+Apache MXNet
+Apache SINGA
+Caffe
+Deeplearning4j
+DeepSpeed
+Dlib
+Keras
+Microsoft Cognitive Toolkit
+ML.NET
+OpenNN
+PyTorch
+TensorFlow
+Theano
+Torch
+ONNX
+OpenVINO
+MindSpore
+Apple Core ML
+IBM Watson
+Neural Designer
+Wolfram Mathematica
+MATLAB Deep Learning Toolbox
+Category

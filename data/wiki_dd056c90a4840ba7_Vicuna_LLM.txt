@@ -1,0 +1,152 @@
+Title: Vicuna LLM
+URL: https://en.wikipedia.org/wiki/Vicuna_LLM
+PageID: 75403579
+Categories: Category:2023 in artificial intelligence, Category:2023 software, Category:Generative pre-trained transformers, Category:Large language models, Category:Natural language processing stubs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+Vicuna LLM is an omnibus large language model used in AI research. [ 1 ] Its methodology is to enable the public at large to contrast and compare the accuracy of LLMs "in the wild" (an example of citizen science ) and to vote on their output; a question-and-answer chat format is used. At the beginning of each round two LLM chatbots from a  diverse pool of nine are presented randomly and anonymously, their identities only being revealed upon voting on their answers. The user has the option of either replaying ("regenerating") a round, or beginning an entirely fresh one with new LLMs. [ 2 ] (The user also has the option of choosing which LLMs to do battle.) Based on Llama 2 , [ 3 ] [ 4 ] it is an open source project, [ 5 ] [ 6 ] and it itself has become the subject of academic research in the burgeoning field. [ 7 ] [ 8 ] A non-commercial, public demo of the Vicuna-13b model is available to access using LMSYS. [ 9 ]
+References
+External links
+[1] Test bed
+This large language model -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

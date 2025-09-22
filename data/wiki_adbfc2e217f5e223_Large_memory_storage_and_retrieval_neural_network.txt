@@ -1,0 +1,13 @@
+Title: Large memory storage and retrieval neural network
+URL: https://en.wikipedia.org/wiki/Large_memory_storage_and_retrieval_neural_network
+PageID: 57169104
+Categories: Category:Deep learning
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+A large memory storage and retrieval neural network (LAMSTAR) [ 1 ] [ 2 ] is a fast deep learning neural network of many layers that can use many filters simultaneously. These filters may be nonlinear, stochastic, logic, non-stationary , or even non-analytical. They are biologically motivated and learn continuously.
+A LAMSTAR neural network may serve as a dynamic neural network in spatial or time domains or both. Its speed is provided by Hebbian link-weights [ 3 ] that integrate the various and usually different filters (preprocessing functions) into its many layers and to dynamically rank the significance of the various layers and functions relative to a given learning task. This vaguely imitates biological learning that integrates various preprocessors ( cochlea , retina , etc. ) and cortexes ( auditory , visual , etc. ) and their various regions. Its deep learning capability is further enhanced by using inhibition, correlation and by its ability to cope with incomplete data, or "lost" neurons or layers even amidst a task. It is fully transparent due to its link weights. The link-weights allow dynamic determination of innovation and redundancy, and facilitate the ranking of layers, of filters or of individual neurons relative to a task.
+LAMSTAR has been applied to many domains, including medical [ 4 ] [ 5 ] [ 6 ] and financial predictions, [ 7 ] adaptive filtering of noisy speech in unknown noise, [ 8 ] still-image recognition, [ 9 ] video image recognition, [ 10 ] software security [ 11 ] and adaptive control of non-linear systems. [ 12 ] LAMSTAR had a much faster learning speed and somewhat lower error rate than a CNN based on ReLU -function filters and max pooling, in 20 comparative studies. [ 13 ]
+These applications demonstrate delving into aspects of the data that are hidden from shallow learning networks and the human senses, such as in the cases of predicting onset of sleep apnea events, [ 5 ] of an electrocardiogram of a fetus as recorded from skin-surface electrodes placed on the mother's abdomen early in pregnancy, [ 6 ] of financial prediction [ 1 ] or in blind filtering of noisy speech. [ 8 ]
+LAMSTAR was proposed in 1996 and was further developed Graupe and Kordylewski from 1997–2002. [ 14 ] [ 15 ] [ 16 ] A modified version, known as LAMSTAR 2, was developed by Schneider and Graupe in 2008. [ 17 ] [ 18 ]
+References

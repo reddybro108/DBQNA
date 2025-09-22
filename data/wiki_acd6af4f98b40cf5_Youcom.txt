@@ -1,0 +1,56 @@
+Title: You.com
+URL: https://en.wikipedia.org/wiki/You.com
+PageID: 70378687
+Categories: Category:Chatbots, Category:Internet properties established in 2021, Category:Internet search engines, Category:Large language models, Category:Text-to-image generation, Category:Virtual assistants
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+You.com is an AI assistant that began as a personalization-focused search engine . [ 1 ] While still offering web search capabilities, You.com has evolved to prioritize a chat-first AI assistant. [ 2 ]
+The company was founded in 2020 by Richard Socher, [ 3 ] [ 4 ] the former Chief Scientist at Salesforce and third most-cited researcher in Natural Language Processing with over 175,000 citations, [ 5 ] and Bryan McCann, [ 6 ] [ 7 ] [ 8 ] [ 9 ] a former Lead Research Scientist in NLP at Salesforce . Socher is CEO and McCann CTO. [ 10 ] [ 11 ]
+In December 2022, You.com was the first search engine [ 12 ] to integrate a consumer-facing Large Language Model (LLM) with real-time internet access for up-to-date responses with citations. [ 13 ] [ 2 ] In February 2023, it was the first to introduce multimodal AI chat capabilities, providing users with various types of responses, including visual elements like stock charts. [ 14 ]
+In 2023, Time named Socher to the "TIME100 AI", recognizing "the most influential people in AI". [ 15 ] In an interview with Time , Socher expressed You.com's goal of enhancing user productivity and access to information, stating, "to give people answers more quickly, make them more productive, efficient, more well-informed, with better privacy." [ 16 ]
+History
+Following its 2020 founding, You.com opened its public beta on November 9, 2021, [ 17 ] and received $20 million in funding led by Salesforce founder and CEO Marc Benioff . [ 6 ] [ 18 ] Other investors include Breyer Capital, Sound Ventures, and Day One Ventures. [ 19 ]
+The domain You.com was initially purchased in 1996 by Benioff. [ 10 ] Benioff invested in You.com and transferred ownership of the You.com domain name to the company. [ 19 ] Benioff called You.com "the future of search" in a statement during its public beta launch and said, "We're at a critical inflection point in the internet's history, and we must take steps to restore trust online." [ 19 ]
+In July 2022, You.com announced its $25 million Series A funding round led by Radical Ventures [ 20 ] with participation from Marc Benioff's Time Ventures, Breyer Capital, Norwest Venture Partners and Day One Ventures. [ 21 ] By mid-December 2022, You.com shared that it had surpassed one million active users, [ 22 ] and the number of searches grew by over 400% in six months. [ 23 ]
+Features
+On December 23, 2022, You.com was the first search engine to launch a ChatGPT -style chatbot with live web results alongside its responses. [ 24 ] [ 25 ] [ 12 ] Initially known as YouChat, [ 26 ] the chatbot was primarily based on the GPT-3.5 large language model and could answer questions, suggest ideas, [ 27 ] translate text, [ 28 ] summarize articles, compose emails, and write code snippets , while staying up-to-date with current events [ 12 ] and citing sources. Several further versions of YouChat were released. The second version, called YouChat 2.0, was released on February 7, 2023, [ 29 ] [ 30 ] incorporated improved conversational AI [ 31 ] and community-built applications by blending a large language model named C-A-L (Chat, Apps, and Links). [ 31 ] [ 26 ] This update enabled YouChat to provide results in various formats, such as charts, [ 32 ] photos, [ 33 ] videos, tables, graphs, text or code, so users can find answers without leaving the search results page . YouChat 3.0, unveiled on May 4, 2023, [ 34 ] combined chat functionality with results from Reddit , TikTok , Stack Overflow and Wikipedia .
+AI Modes
+In 2023, You.com transitioned from a search engine to a chat-first AI assistant, while still offering web search capabilities. [ 1 ] You.com introduced AI Modes to offer a tailored interaction experience through its platform. These modes—Smart, Genius, Create, and Research—are designed to address varying user needs, from quick information retrieval to complex problem-solving to research and creative content generation. [ 2 ] Within You.com's AI Modes, the Custom Model Selector grants users the flexibility to switch between various leading AI models, such as OpenAI 's GPT-4 , Anthropic 's Claude series, Google 's Gemini Pro , and Zephyr. [ 35 ]
+YouPro
+On June 21, 2023, You.com introduced YouPro, a paid subscription service granting unlimited access to its advanced chatbot functionalities. [ 36 ] Both free and paid versions of You.com give users access to the internet, unlike others that have knowledge cutoffs. [ 35 ]
+AI Tools
+Early on,You.com featured AI-powered tools throughout its product experience. In March 2022, the company launched YouWrite, a GPT-3 text generator for writing e-mails and other documents. [ 37 ] [ 38 ] YouWrite [ 39 ] is an AI writing tool [ 40 ] that aims to help writers, [ 30 ] authors, and bloggers overcome writer's block and improve their skills. It can provide assistance with the creation various types of written content [ 40 ] including emails, blog posts, novels, essays and social media posts. It uses OpenAI's GPT-3 [ 41 ] to generate content for users based on information [ 42 ] [ 43 ] such as text type, target audience and desired tone, provided by users in text prompts.
+YouImagine is an artificial intelligence art tool [ 44 ] that uses Stable Diffusion . [ 26 ] [ 45 ] It allow users to submit prompts, which are used by AI to generate images. [ 46 ]
+On July 14, 2022, You.com announced the launch of YouCode, [ 47 ] a programming knowledge base, similar to resources like Stack Overflow and GitHub , that aimed to help programmers to find solutions to issues. [ 32 ] YouCode had a search bar that used natural language processing , AI code generation tools, [ 48 ] code samples, and a collection of relevant resources. It allowed developers to search for code snippets [ 49 ] [ 50 ] and access relevant documentation, [ 51 ] and academic publications. [ 49 ] There were several built-in developer-specific tools, such as a code editor and a debugging console, [ 26 ] tools to verify JSON files, [ 52 ] [ 50 ] and to generate color codes in various formats like HEX, RGB, and HSV. [ 41 ]
+Reception
+In its review of You.com's YouPro service, ZDNet highlighted its cost-effectiveness for accessing diverse large language models from leading tech companies. [ 35 ] It praised YouPro for offering unique features such as comprehensive internet access and a Custom Model Selector, enhancing the AI chat experience. ZDNet recommended YouPro for individuals looking to explore advanced AI capabilities affordably, though it noted experiences might vary compared to using models on their native platforms. [ 35 ]
+You.com was named one of Time's "The Best Inventions of 2022." [ 53 ] [ 54 ]
+References
+External links
+Official website
+v
+t
+e
+LMArena
+List of chatbots
+List of LLMs
+character.ai
+ChatGPT
+Claude
+Command
+Copilot
+DeepSeek
+Ernie
+Gemini
+GLM
+Grok
+Hunyuan
+Kimi
+Llama
+Mistral
+Perplexity
+Poe
+Qwen
+You.com
+Category

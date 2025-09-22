@@ -1,0 +1,1323 @@
+Title: Google Neural Machine Translation
+URL: https://en.wikipedia.org/wiki/Google_Neural_Machine_Translation
+PageID: 52840911
+Categories: Category:Applications of artificial intelligence, Category:Artificial neural networks, Category:Computational linguistics, Category:Google Translate, Category:Machine translation, Category:Tasks of natural language processing
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Legal
+Literary
+Bible
+Quran
+Kural
+Linguistic validation
+Medical
+Regulatory
+Technical
+Interpretation
+Cultural
+Word-for-word
+Sense-for-sense
+Homophonic
+Translation studies
+Skopos theory
+Translation project
+Translation criticism
+Equivalence
+Contrastive linguistics
+Polysystem theory
+CAT
+Machine translation
+Mobile translation
+Translation management system
+Dubbing
+Subtitling
+Pre-editing
+Postediting
+Multimedia translation
+Glocalization
+Internationalization and localization
+Language localization
+Video game localization
+Dub localization
+Website localization
+Software localization
+Associations
+Awards
+Organizations
+Schools
+Untranslatability
+Transcription
+Transliteration
+Video relay service (VRS)
+Telephone interpreting
+Language barrier
+Fan translation ( of video games )
+Fansub
+Fandub
+Scanlation
+Journalistic translation
+Books and magazines on translation
+Bible translations by language
+Translated books List of most translated works
+List of most translated works
+Translators
+Kural translations by language
+v
+t
+e
+Google Neural Machine Translation ( GNMT ) was a neural machine translation (NMT) system developed by Google and introduced in November 2016 that used an artificial neural network to increase fluency and accuracy in Google Translate . [ 1 ] [ 2 ] [ 3 ] [ 4 ] The neural network consisted of two main blocks, an encoder and a decoder, both of LSTM architecture with 8 1024-wide layers each and a simple 1-layer 1024-wide feedforward attention mechanism connecting them. [ 4 ] [ 5 ] The total number of parameters has been variously described as over 160 million, [ 6 ] approximately 210 million, [ 7 ] 278 million [ 8 ] or 380 million. [ 9 ] It used WordPiece tokenizer , and beam search decoding strategy. It ran on Tensor Processing Units .
+By 2020, the system had been replaced by another deep learning system based on a Transformer encoder and an RNN decoder. [ 10 ]
+GNMT improved on the quality of translation by applying an example-based (EBMT) machine translation method in which the system learns from millions of examples of language translation. [ 2 ] GNMT's proposed architecture of system learning was first tested on over a hundred languages supported by Google Translate. [ 2 ] With the large end-to-end framework, the system learns over time to create better, more natural translations. [ 1 ] GNMT attempts to translate whole sentences at a time, rather than just piece by piece. [ 1 ] The GNMT network can undertake interlingual machine translation by encoding the semantics of the sentence, rather than by memorizing phrase-to-phrase translations. [ 2 ] [ 11 ]
+History
+The Google Brain project was established in 2011 in the "secretive Google X research lab" [ 12 ] by Google Fellow Jeff Dean , Google Researcher Greg Corrado , and Stanford University Computer Science professor Andrew Ng . [ 13 ] [ 14 ] [ 15 ] Ng's work has led to some of the biggest breakthroughs at Google and Stanford. [ 12 ]
+In November 2016, Google Neural Machine Translation system (GNMT) was introduced. Since then, Google Translate began using neural machine translation (NMT) in preference to its previous statistical methods (SMT) [ 1 ] [ 16 ] [ 17 ] [ 18 ] which had been used since October 2007, with its proprietary, in-house SMT technology. [ 19 ] [ 20 ]
+Training GNMT was a big effort at the time and took, by a 2018 OpenAI estimate, on the order of 79 petaFLOP-days (or 7e21 FLOPs) of compute which was 1.5 orders of magnitude larger than Seq2seq model of 2014 [ 21 ] (but about 2x smaller than GPT-J-6B in 2021 [ 22 ] ).
+Google Translate's NMT system uses a large artificial neural network capable of deep learning . [ 1 ] [ 2 ] [ 3 ] By using millions of examples, GNMT improves the quality of translation, [ 2 ] using broader context to deduce the most relevant translation. The result is then rearranged and adapted to approach grammatically based human language. [ 1 ] GNMT's proposed architecture of system learning was first tested on over a hundred languages supported by Google Translate. [ 2 ] GNMT did not create its own universal interlingua but rather aimed at finding the commonality between many languages using insights from psychology and linguistics. [ 23 ] The new translation engine was first enabled for eight languages: to and from English and French, German, Spanish, Portuguese, Chinese, Japanese, Korean and Turkish in November 2016. [ 24 ] In March 2017, three additional languages were enabled: Russian, Hindi and Vietnamese along with Thai for which support was added later. [ 25 ] [ 26 ] Support for Hebrew and Arabic was also added with help from the Google Translate Community in the same month. [ 27 ] In mid April 2017 Google Netherlands announced support for Dutch and other European languages related to English. [ 28 ] Further support was added for nine Indian languages: Hindi, Bengali, Marathi, Gujarati, Punjabi, Tamil, Telugu, Malayalam and Kannada at the end of April 2017. [ 29 ]
+By 2020, Google had changed methodology to use a different neural network system based on transformers , and had phased out NMT. [ 30 ]
+Evaluation
+The GNMT system was said to represent an improvement over the former Google Translate in that it will be able to handle "zero-shot translation", that is it directly translates one language into another. For example, it might be trained just for Japanese-English and Korean-English translation, but can perform Japanese-Korean translation. The system appears to have learned to produce a language-independent intermediate representation of language (an " interlingua "), which allows it to perform zero-shot translation by converting from and to the interlingua. [ 2 ] Google Translate previously first translated the source language into English and then translated the English into the target language rather than translating directly from one language to another. [ 11 ]
+A July 2019 study in Annals of Internal Medicine found that "Google Translate is a viable, accurate tool for translating non–English-language trials". Only one disagreement between reviewers reading machine-translated trials was due to a translation error. Since many medical studies are excluded from systematic reviews because the reviewers do not understand the language, GNMT has the potential to reduce bias and improve accuracy in such reviews. [ 31 ]
+Languages supported by GNMT
+As of December 2021, all of the languages of Google Translate support GNMT, with Latin being the most recent addition.
+Afrikaans
+Albanian
+Amharic
+Arabic
+Armenian
+Azerbaijani
+Basque
+Belarusian
+Bengali
+Bosnian
+Bulgarian
+Burmese
+Catalan
+Cebuano
+Chewa
+Chinese ( Simplified )
+Chinese ( Traditional )
+Corsican
+Croatian
+Czech
+Danish
+Dutch
+English
+Esperanto
+Estonian
+Filipino ( Tagalog )
+Finnish
+French
+Galician
+Georgian
+German
+Greek
+Gujarati
+Haitian Creole
+Hausa
+Hawaiian
+Hebrew
+Hindi
+Hmong
+Hungarian
+Icelandic
+Igbo
+Indonesian
+Irish
+Italian
+Japanese
+Javanese
+Kannada
+Kazakh
+Khmer
+Kinyarwanda
+Korean
+Kurdish ( Kurmanji )
+Kyrgyz
+Lao
+Latin
+Latvian
+Lithuanian
+Luxembourgish
+Macedonian
+Malagasy
+Malay
+Malayalam
+Maltese
+Maori
+Marathi
+Mongolian
+Nepali
+Norwegian ( Bokmål )
+Odia
+Pashto
+Persian
+Polish
+Portuguese
+Punjabi ( Gurmukhi )
+Romanian
+Russian
+Samoan
+Scottish Gaelic
+Serbian
+Shona
+Sindhi
+Sinhala
+Slovak
+Slovenian
+Somali
+Sotho
+Spanish
+Sundanese
+Swahili
+Swedish
+Tajik
+Tamil
+Tatar
+Telugu
+Thai
+Turkish
+Turkmen
+Ukrainian
+Urdu
+Uyghur
+Uzbek
+Vietnamese
+Welsh
+West Frisian
+Xhosa
+Yiddish
+Yoruba
+Zulu
+See also
+Example-based machine translation
+Rule-based machine translation
+Comparison of machine translation applications
+Statistical machine translation
+Artificial intelligence
+Cache language model
+Computational linguistics
+Computer-assisted translation
+History of machine translation
+List of emerging technologies
+List of research laboratories for machine translation
+Neural machine translation
+Machine translation
+Universal translator
+References
+External links
+Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
+The Advantages and Disadvantages of Machine Translation
+Statistical Machine Translation
+International Association for Machine Translation (IAMT) Archived June 24, 2010, at the Wayback Machine
+Machine Translation Archive Archived April 1, 2019, at the Wayback Machine by John Hutchins . An electronic repository (and bibliography) of articles, books and papers in the field of machine translation and computer-based translation technology
+Machine translation (computer-based translation) – Publications by John Hutchins (includes PDFs of several books on machine translation)
+v
+t
+e
+AI
+Area 120
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google.org Crisis Response
+Crisis Response
+Health
+Registry
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Security Operations
+Owlchemy Labs
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders' Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind 2018 2019
+2018
+2019
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN/YouTube presidential debates
+Code-in
+Code Jam
+Developer Day
+Developers Live
+Doodle4Google
+Future of Go Summit
+G-Day
+Hash Code
+I/O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship 2024
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards 2013 2015
+2013
+2015
+YouTube Space Lab
+YouTube Symphony Orchestra
+111 Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye-1
+Googleplex
+Ivanpah Solar Power Facility
+James R. Thompson Center
+King's Cross
+Mayfield Mall
+Pier 57
+Sidewalk Toronto
+St. John's Terminal
+Submarine cables Dunant Grace Hopper Unity
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L. Hennessy
+Urs Hölzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai (CEO)
+Ruth Porat (CFO)
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Andy Bechtolsheim
+Sergey Brin (co-founder)
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page (co-founder)
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M. Tilghman
+Rachel Whetstone
+Susan Wojcicki
+Censorship
+DeGoogle
+FairSearch
+" Google's Ideological Echo Chamber "
+No Tech for Apartheid
+Privacy concerns Street View YouTube
+Street View
+YouTube
+Trade unions Alphabet Workers Union
+Alphabet Workers Union
+YouTube copyright issues
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Android apps
+April Fools' Day jokes
+Doodles Doodle Champion Island Games Magic Cat Academy
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History Gmail Search YouTube
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium Blink
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Studio
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR-Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema.org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin UTM parameters
+UTM parameters
+V8
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Android Cupcake Donut Eclair Froyo Gingerbread Honeycomb Ice Cream Sandwich Jelly Bean KitKat Lollipop Marshmallow Nougat Oreo Pie 10 11 12 13 14 15 16 version history smartphones
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+10
+11
+12
+13
+14
+15
+16
+version history
+smartphones
+Android Automotive
+Android Go devices
+devices
+Android Things
+Android TV devices
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+BERT
+Chinchilla
+DreamBooth
+Gemini
+Gemma
+Imagen (2023)
+LaMDA
+PaLM
+T5
+Veo (text-to-video model)
+VideoPoet
+XLNet
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+AAB
+APK
+AV1
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+Ultra HDR
+VP3
+VP6
+VP8
+VP9
+WebM
+WebP
+WOFF2
+Carbon
+Dart
+Go
+Sawzall
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank matrix
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+.app
+.dev
+.google
+.zip
+g.co
+google.by
+Croscore
+Noto
+Product Sans
+Roboto
+Aardvark
+Account Dashboard Takeout
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts & Culture
+Assistant
+Attribution
+Authenticator
+BebaPay
+BeatThatQuote.com
+Beam
+Blog Search
+Blogger
+Body
+Bookmarks
+Books Ngram Viewer
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents (social app)
+Currents (news app)
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+Earth
+Etherpad
+Expeditions
+Express
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find Hub
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+Gboard
+Gemini
+Gesture Search
+Gizmo5
+Google+
+Gmail
+Goggles
+GOOG-411
+Grasshopper
+Groups
+Hangouts
+Helpouts
+iGoogle
+Images Image Labeler
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools Japanese Input Pinyin
+Japanese Input
+Pinyin
+Insights for Search
+Jaiku
+Jamboard
+Kaggle
+Keep
+Knol
+Labs
+Latitude
+Lens
+Like.com
+Live Transcribe
+Lively
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+Nearby Share
+News
+News & Weather
+News Archive
+Notebook
+NotebookLM
+Now
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+Panoramio
+PaperofRecord.com
+Patents
+Page Creator
+Pay (mobile app)
+Pay (payment method)
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Public Alerts
+Public Data Explorer
+Question Hub
+Quick, Draw!
+Quick Search Box
+Quick Share
+Quickoffice
+Read Along
+Reader
+Reply
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search AI Overviews Knowledge Graph SafeSearch
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow (chatbot)
+Sparrow (email client)
+Speech Recognition & Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic 3D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+URL Shortener
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+Pixel (2016)
+Pixel 2 (2017)
+Pixel 3 (2018)
+Pixel 3a (2019)
+Pixel 4 (2019)
+Pixel 4a (2020)
+Pixel 5 (2020)
+Pixel 5a (2021)
+Pixel 6 (2021)
+Pixel 6a (2022)
+Pixel 7 (2022)
+Pixel 7a (2023)
+Pixel Fold (2023)
+Pixel 8 (2023)
+Pixel 8a (2024)
+Pixel 9 (2024)
+Pixel 9 Pro Fold (2024)
+Pixel 9a (2025)
+Pixel 10 (2025)
+Pixel 10 Pro Fold (2025)
+Pixel Watch (2022)
+Pixel Watch 2 (2023)
+Pixel Watch 3 (2024)
+Pixel Watch 4 (2025)
+Pixel C (2015)
+Pixel Slate (2018)
+Pixel Tablet (2023)
+Chromebook Pixel (2013–2015)
+Pixelbook (2017)
+Pixelbook Go (2019)
+Pixel Buds (2017–present)
+Nexus One (2010)
+Nexus S (2010)
+Galaxy Nexus (2011)
+Nexus 4 (2012)
+Nexus 5 (2013)
+Nexus 6 (2014)
+Nexus 5X (2015)
+Nexus 6P (2015)
+Nexus 7 (2012)
+Nexus 10 (2012)
+Nexus 7 (2013)
+Nexus 9 (2014)
+Nexus Q (2012)
+Nexus Player (2014)
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest smart speakers Thermostat Wifi
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+v
+t
+e
+Feldman v. Google, Inc. (2007)
+Rescuecom Corp. v. Google Inc. (2009)
+Goddard v. Google, Inc. (2009)
+Rosetta Stone Ltd. v. Google, Inc. (2012)
+Google, Inc. v. American Blind & Wallpaper Factory, Inc. (2017)
+Jedi Blue
+European Union (2010–present)
+United States v. Adobe Systems, Inc., Apple Inc., Google Inc., Intel Corporation, Intuit, Inc., and Pixar (2011)
+Umar Javeed, Sukarma Thapar, Aaqib Javeed vs. Google LLC and Ors. (2019)
+United States v. Google LLC (2020)
+United States v. Google LLC (2023)
+Perfect 10, Inc. v. Amazon.com, Inc. (2007)
+Viacom International, Inc. v. YouTube, Inc. (2010)
+Lenz v. Universal Music Corp. (2015)
+Authors Guild, Inc. v. Google, Inc. (2015)
+Field v. Google, Inc. (2016)
+Google LLC v. Oracle America, Inc. (2021)
+Smartphone patent wars
+Rocky Mountain Bank v. Google, Inc. (2009)
+Hibnick v. Google, Inc. (2010)
+United States v. Google Inc. (2012)
+Judgement of the German Federal Court of Justice on Google's autocomplete function (2013)
+Joffe v. Google, Inc. (2013)
+Mosley v SARL Google (2013)
+Google Spain v AEPD and Mario Costeja González (2014)
+Frank v. Gaos (2019)
+Garcia v. Google, Inc. (2015)
+Google LLC v Defteros (2020)
+Epic Games v. Google (2021)
+Gonzalez v. Google LLC (2022)
+Beauty YouTuber
+BookTube
+BreadTube
+" Don't be evil "
+Gayglers
+Google as a verb
+Google bombing 2004 U.S. presidential election
+2004 U.S. presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber list
+list
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Africa
+Antarctica
+Asia Israel
+Israel
+Europe
+North America Canada United States
+Canada
+United States
+Oceania
+South America Argentina Chile Colombia
+Argentina
+Chile
+Colombia
+Copyright strike
+Education
+Features
+Moderation
+Most-disliked videos
+Most-liked videos
+Most-subscribed channels
+Most-viewed channels
+Most-viewed videos Arabic music videos Chinese music videos French music videos Indian videos Pakistani videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+YouTube Premium original programming
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+AlphaGo
+Google: Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Google Hacks
+The Google Story
+Googled: The End of the World as We Know It
+How Google Works
+I'm Feeling Lucky
+In the Plex
+The MANIAC
+Google Feud
+Google Me (film)
+" Google Me " (Kim Zolciak song)
+" Google Me " (Teyana Taylor song)
+Is Google Making Us Stupid?
+Proceratium google
+Matt Nathanson: Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego?
+" Attention Is All You Need "
+elgooG
+Generative pre-trained transformer
+" Me at the zoo "
+Predictions of the end
+Relationship with Wikipedia
+" Reunion "
+Robot Constitution
+Category
+Outline
+v
+t
+e
+Dictionary-based
+Rule-based
+Transfer-based
+Statistical
+Example-based
+Interlingual
+Neural
+Hybrid
+v
+t
+e
+Ambient intelligence Internet of things
+Internet of things
+Artificial intelligence Applications of artificial intelligence Machine translation Machine vision Mobile translation Progress in artificial intelligence Semantic Web Speech recognition
+Applications of artificial intelligence
+Machine translation
+Machine vision
+Mobile translation
+Progress in artificial intelligence
+Semantic Web
+Speech recognition
+Atomtronics
+Carbon nanotube field-effect transistor
+Cybermethodology
+Augmented reality
+Fourth-generation optical discs 3D optical data storage Holographic data storage
+3D optical data storage
+Holographic data storage
+GPGPU
+Memory CBRAM ECRAM FRAM Millipede MRAM NRAM PRAM Racetrack memory RRAM SONOS UltraRAM
+CBRAM
+ECRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+Racetrack memory
+RRAM
+SONOS
+UltraRAM
+Optical computing
+RFID Chipless RFID
+Chipless RFID
+Software-defined radio
+Three-dimensional integrated circuit
+Automation
+Collingridge dilemma
+Differential technological development
+Disruptive innovation
+Ephemeralization
+Ethics AI Bioethics Cyberethics Neuroethics Robot ethics
+AI
+Bioethics
+Cyberethics
+Neuroethics
+Robot ethics
+Exploratory engineering
+Proactionary principle
+Technological change Technological unemployment
+Technological unemployment
+Technological convergence
+Technological evolution
+Technological paradigm
+Technology forecasting Accelerating change Future-oriented technology analysis Horizon scanning Moore's law Technological singularity Technology scouting
+Accelerating change
+Future-oriented technology analysis
+Horizon scanning
+Moore's law
+Technological singularity
+Technology scouting
+Technology in science fiction
+Technology readiness level
+Technology roadmap
+Transhumanism
+List
+v
+t
+e
+AI-complete
+Bag-of-words
+n -gram Bigram Trigram
+Bigram
+Trigram
+Computational linguistics
+Natural language understanding
+Stop words
+Text processing
+Argument mining
+Collocation extraction
+Concept mining
+Coreference resolution
+Deep linguistic processing
+Distant reading
+Information extraction
+Named-entity recognition
+Ontology learning
+Parsing Semantic parsing Syntactic parsing
+Semantic parsing
+Syntactic parsing
+Part-of-speech tagging
+Semantic analysis
+Semantic role labeling
+Semantic decomposition
+Semantic similarity
+Sentiment analysis
+Terminology extraction
+Text mining
+Textual entailment
+Truecasing
+Word-sense disambiguation
+Word-sense induction
+Compound-term processing
+Lemmatisation
+Lexical analysis
+Text chunking
+Stemming
+Sentence segmentation
+Word segmentation
+Multi-document summarization
+Sentence extraction
+Text simplification
+Computer-assisted
+Example-based
+Rule-based
+Statistical
+Transfer-based
+Neural
+BERT
+Document-term matrix
+Explicit semantic analysis
+fastText
+GloVe
+Language model ( large )
+Latent semantic analysis
+Seq2seq
+Word embedding
+Word2vec
+Corpus linguistics
+Lexical resource
+Linguistic Linked Open Data
+Machine-readable dictionary
+Parallel text
+PropBank
+Semantic network
+Simple Knowledge Organization System
+Speech corpus
+Text corpus
+Thesaurus (information retrieval)
+Treebank
+Universal Dependencies
+BabelNet
+Bank of English
+DBpedia
+FrameNet
+Google Ngram Viewer
+UBY
+WordNet
+Wikidata
+Speech recognition
+Speech segmentation
+Speech synthesis
+Natural language generation
+Optical character recognition
+Document classification
+Latent Dirichlet allocation
+Pachinko allocation
+Automated essay scoring
+Concordancer
+Grammar checker
+Predictive text
+Pronunciation assessment
+Spell checker
+Chatbot
+Interactive fiction
+Question answering
+Virtual assistant
+Voice user interface
+Formal semantics
+Hallucination
+Natural Language Toolkit
+spaCy

@@ -1,0 +1,173 @@
+Title: Spatial embedding
+URL: https://en.wikipedia.org/wiki/Spatial_embedding
+PageID: 66367931
+Categories: Category:Data mining, Category:Machine learning, Category:Spatial analysis
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+Spatial embedding is one of feature learning techniques used in spatial analysis where points, lines, polygons or other spatial data types. [ 1 ] representing geographic locations are mapped to vectors of real numbers. Conceptually it involves a mathematical embedding from a space with many dimensions per geographic object to a continuous vector space with a much lower dimension.
+Such embedding methods allow complex spatial data to be used in neural networks and have been shown to improve performance in spatial analysis tasks [ 2 ] [ 3 ]
+Embedded data types
+Geographic data can take many forms: text, [ 4 ] [ 5 ] [ 6 ] images, [ 7 ] [ 8 ] graphs, [ 9 ] [ 10 ] trajectories, [ 11 ] [ 12 ] [ 13 ] polygons. [ 14 ] Depending on the task, there may be a need to combine multimodal data from different sources. [ 2 ] [ 15 ] The next section describes examples of different types of data and their uses.
+Text
+Geolocated posts on social media can be used to acquire a library of documents bound to a given place that can be later transformed to embedded vectors using word embedding techniques. [ 4 ]
+Image
+Satellites and aircraft collect digital spatial data acquired from remotely sensed images which can be used in machine learning. They are sometimes hard to analyse using basic image analysis methods and convolutional neural networks can be used to acquire an embedding of images bound to a given geographical object or a region. [ 7 ]
+Point
+A single point of interest (POI) can be assigned multiple features that can be used in machine learning. These could be demographic, transportation, meteorological, or economic data, for example. When embedding single points, it is common to consider the entire set of available points as nodes in a graph. [ 10 ]
+Line / multiline
+Among other things, motion trajectories are represented as lines (multilines). Individual trajectories are embedded taking into account travel time, distances and also features of points visited along the way. Embedding of trajectories allows to improve performance of such tasks as clustering and also categorization. [ 13 ]
+Polygon
+The geographic areas analyzed in machine learning are defined by both administrative boundaries and top-down division into grids of regular shapes such as rectangles, for example. Both types are represented as polygons and, like points, can be assigned different demographic, transportation, or economic features. A polygon can also have features related to the size of the area or shape it represents.
+Graph
+An example domain where graph representation is used is the street layout in a city, where vertices can be intersections and edges can be roads. The vertices can also be destination points like public transport stops or important points in the city, and the edges represent the flow between them. Embedding graphs or single vertices allows to improve accuracy of analysis methods in which the treated geographical domain can be represented as a network. [ 9 ]
+Usage
+POI recommendation [ 15 ] [ 16 ] - generating personalized point of interest recommendations based on user preferences.
+Next/future location prediction [ 10 ] [ 17 ] - prediction of the next location a person will go to based on their historical trajectory.
+Zone functions classification [ 13 ] - based on different mobility of people or POI distribution a function of a given area in a city can be predicted.
+Crime prediction [ 18 ] - estimation of crime rate in different regions of a city.
+Local event detection [ 6 ] - studying spatio-temporal changes in embeddings can provide valuable information in detection of local event occurring in specific location.
+Regional mobility popularity prediction [ 11 ] - analysis of mobility can show patterns in popularity of different regions in a city.
+Shape matching [ 14 ] - finding a similar shape of given polygon, for example finding building with the same shape as input building.
+Travel time estimation [ 19 ] [ 20 ] [ 21 ] - predicting estimated travel time given current traffic conditions and special occurring events.
+Time estimation for on-demand food delivery [ 22 ] - estimation of delivery time when placing an order through the website.
+Temporal aspect
+Some of the data analyzed has a timestamp associated with it. In some cases of data analysis this information is omitted and in others it is used to divide the set into groups. The most common division is the separation of weekdays from weekends or division into hours of the day. This is particularly important in the analysis of mobility data , because the characteristics of mobility during the week and at different times of the day are very different from each other. [ 3 ] [ 23 ] [ 24 ] Another area in which time division into, for example, individual months can be used is in the analysis of tourism of a given region. [ 16 ] In order to take such a split into account, embedding methods treat the time stamp specifically or separate versions of the model are developed for different subgroups of the analyzed set.
+References

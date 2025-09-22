@@ -2,7 +2,7 @@ Title: Learning curve (machine learning)
 URL: https://en.wikipedia.org/wiki/Learning_curve_(machine_learning)
 PageID: 59968610
 Categories: Category:Machine learning, Category:Model selection
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 Supervised learning
@@ -142,14 +142,14 @@ Outline of machine learning
 v
 t
 e
-In machine learning (ML), a learning curve (or training curve ) is a graphical representation that shows how a model's performance on a training set (and usually a validation set) changes with the number of training iterations ( epochs ) or the amount of training data. Typically, the number of training epochs or training set size is plotted on the x -axis, and the value of the loss function (and possibly some other metric such as the cross-validation score ) on the y -axis.
-Synonyms include error curve , experience curve , improvement curve and generalization curve .
-More abstractly, learning curves plot the difference between learning effort and predictive performance, where "learning effort" usually means the number of training samples, and "predictive performance" means accuracy on testing samples.
-Learning curves have many useful purposes in ML, including:
+In machine learning (ML), a learning curve (or training curve ) is a graphical representation that shows how a model's performance on a training set (and usually a validation set) changes with the number of training iterations ( epochs ) or the amount of training data. [ 1 ] Typically, the number of training epochs or training set size is plotted on the x -axis, and the value of the loss function (and possibly some other metric such as the cross-validation score ) on the y -axis.
+Synonyms include error curve , experience curve , improvement curve and generalization curve . [ 2 ]
+More abstractly, learning curves plot the difference between learning effort and predictive performance, where "learning effort" usually means the number of training samples, and "predictive performance" means accuracy on testing samples. [ 3 ]
+Learning curves have many useful purposes in ML, including: [ 4 ] [ 5 ] [ 6 ]
 choosing model parameters during design,
 adjusting optimization to improve convergence,
 and diagnosing problems such as overfitting (or underfitting).
-Learning curves can also be tools for determining how much a model benefits from adding more training data, and whether the model suffers more from a variance error or a bias error . If both the validation score and the training score converge to a certain value, then the model will no longer significantly benefit from more training data.
+Learning curves can also be tools for determining how much a model benefits from adding more training data, and whether the model suffers more from a variance error or a bias error . If both the validation score and the training score converge to a certain value, then the model will no longer significantly benefit from more training data. [ 7 ]
 Formal definition
 When creating a function to approximate the distribution of some data, it is necessary to define a loss function L ( f θ ( X ) , Y ) {\displaystyle L(f_{\theta }(X),Y)} to measure how good the model output is (e.g., accuracy for classification tasks or mean squared error for regression). We then define an optimization process which finds model parameters θ {\displaystyle \theta } such that L ( f θ ( X ) , Y ) {\displaystyle L(f_{\theta }(X),Y)} is minimized, referred to as θ ∗ {\displaystyle \theta ^{*}} .
 Training curve for amount of data

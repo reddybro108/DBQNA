@@ -1,0 +1,1353 @@
+Title: Gemma (language model)
+URL: https://en.wikipedia.org/wiki/Gemma_(language_model)
+PageID: 76155063
+Categories: Category:2024 in artificial intelligence, Category:2024 software, Category:Chatbots, Category:Generative pre-trained transformers, Category:Google DeepMind, Category:Google software, Category:Large language models, Category:Multimodal interaction
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Gemma is a series of open-source large language models developed by Google DeepMind . It is based on similar technologies as Gemini . The first version was released in February 2024, followed by Gemma 2 in June 2024 and Gemma 3 in March 2025. Variants of Gemma have also been developed, such as the vision-language model PaliGemma and the model DolphinGemma for understanding dolphin communication.
+History
+In February 2024, Google debuted Gemma, a family of free and open-source LLMs that serve as a lightweight version of Gemini. They come in two sizes, with a neural network with two and seven billion parameters , respectively. Multiple publications viewed this as a response to Meta and others open-sourcing their AI models, and a stark reversal from Google's longstanding practice of keeping its AI proprietary. [ 3 ] [ 4 ] [ 5 ]
+Gemma 2 was released on June 27, 2024, [ 6 ] and Gemma 3 was released on March 12, 2025. [ 2 ] [ 7 ]
+Overview
+Based on similar technologies as the Gemini series of models, Gemma is described by Google as helping support its mission of "making AI helpful for everyone." [ 8 ] Google offers official Gemma variants optimized for specific use cases, such as MedGemma for medical analysis and DolphinGemma for studying dolphin communication. [ 9 ]
+Since its release, Gemma models have had over 150 million downloads, with 70,000 variants available on Hugging Face . [ 10 ]
+The latest generation of models is Gemma 3, offered in 1, 4, 12, and 27 billion parameter sizes with support for over 140 languages. As multimodal models, they support both text and image input. [ 11 ] Google also offers Gemma 3n, smaller models optimized for execution on consumer devices like phones, laptops, and tablets. [ 12 ]
+Architecture
+The latest version of Gemma, Gemma 3, is based on a decoder-only transformer architecture with grouped-query attention (GQA) and the SigLIP vision encoder. Every model has a context length of 128K, with the exception of Gemma 3 1B, which has a context length of 32K. [ 13 ]
+Quantized versions fine-tuned using quantization-aware training (QAT) are also available, [ 13 ] offering sizable memory usage improvements with some negative impact on accuracy and precision. [ 14 ]
+Variants
+Google develops official variants of Gemma models designed for specific purposes, like medical analysis or programming. These include:
+ShieldGemma 2 (4B): Based on the Gemma 3 family, ShieldGemma is designed to identify and filter violent, dangerous, and sexually explicit images. [ 15 ]
+MedGemma (4B and 27B): Also based on Gemma 3, MedGemma is designed for medical applications like image analysis. However, Google also notes that MedGemma "isn't yet clinical grade." [ 16 ]
+DolphinGemma (roughly 400M): Developed in collaboration with researchers at Georgia Tech and the Wild Dolphin Project, DolphinGemma aims to better understand dolphin communication through audio analysis . [ 17 ] [ 18 ]
+CodeGemma (2B and 7B): CodeGemma is a group of models designed for code completion as well as general coding use. [ 19 ] It supports multiple programming languages, including Python , Java , C++ , and more. [ 20 ]
+Note: open-weight models can have their context length rescaled at inference time. With Gemma 1, Gemma 2, PaliGemma, and PaliGemma 2, the cost is a linear increase of kv-cache size relative to context window size. With Gemma 3 there is an improved growth curve due to the separation of local and global attention. With RecurrentGemma the memory use is unchanged after 2,048 tokens.
+References
+External links
+Official website
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+v
+t
+e
+AI
+Area 120
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google.org Crisis Response
+Crisis Response
+Health
+Registry
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Security Operations
+Owlchemy Labs
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders' Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind 2018 2019
+2018
+2019
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN/YouTube presidential debates
+Code-in
+Code Jam
+Developer Day
+Developers Live
+Doodle4Google
+Future of Go Summit
+G-Day
+Hash Code
+I/O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship 2024
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards 2013 2015
+2013
+2015
+YouTube Space Lab
+YouTube Symphony Orchestra
+111 Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye-1
+Googleplex
+Ivanpah Solar Power Facility
+James R. Thompson Center
+King's Cross
+Mayfield Mall
+Pier 57
+Sidewalk Toronto
+St. John's Terminal
+Submarine cables Dunant Grace Hopper Unity
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L. Hennessy
+Urs Hölzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai (CEO)
+Ruth Porat (CFO)
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Andy Bechtolsheim
+Sergey Brin (co-founder)
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page (co-founder)
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M. Tilghman
+Rachel Whetstone
+Susan Wojcicki
+Censorship
+DeGoogle
+FairSearch
+" Google's Ideological Echo Chamber "
+No Tech for Apartheid
+Privacy concerns Street View YouTube
+Street View
+YouTube
+Trade unions Alphabet Workers Union
+Alphabet Workers Union
+YouTube copyright issues
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Android apps
+April Fools' Day jokes
+Doodles Doodle Champion Island Games Magic Cat Academy
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History Gmail Search YouTube
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium Blink
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Studio
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR-Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema.org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin UTM parameters
+UTM parameters
+V8
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Android Cupcake Donut Eclair Froyo Gingerbread Honeycomb Ice Cream Sandwich Jelly Bean KitKat Lollipop Marshmallow Nougat Oreo Pie 10 11 12 13 14 15 16 version history smartphones
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+10
+11
+12
+13
+14
+15
+16
+version history
+smartphones
+Android Automotive
+Android Go devices
+devices
+Android Things
+Android TV devices
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+BERT
+Chinchilla
+DreamBooth
+Gemini
+Gemma
+Imagen (2023)
+LaMDA
+PaLM
+T5
+Veo (text-to-video model)
+VideoPoet
+XLNet
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+AAB
+APK
+AV1
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+Ultra HDR
+VP3
+VP6
+VP8
+VP9
+WebM
+WebP
+WOFF2
+Carbon
+Dart
+Go
+Sawzall
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank matrix
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+.app
+.dev
+.google
+.zip
+g.co
+google.by
+Croscore
+Noto
+Product Sans
+Roboto
+Aardvark
+Account Dashboard Takeout
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts & Culture
+Assistant
+Attribution
+Authenticator
+BebaPay
+BeatThatQuote.com
+Beam
+Blog Search
+Blogger
+Body
+Bookmarks
+Books Ngram Viewer
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents (social app)
+Currents (news app)
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+Earth
+Etherpad
+Expeditions
+Express
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find Hub
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+Gboard
+Gemini
+Gesture Search
+Gizmo5
+Google+
+Gmail
+Goggles
+GOOG-411
+Grasshopper
+Groups
+Hangouts
+Helpouts
+iGoogle
+Images Image Labeler
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools Japanese Input Pinyin
+Japanese Input
+Pinyin
+Insights for Search
+Jaiku
+Jamboard
+Kaggle
+Keep
+Knol
+Labs
+Latitude
+Lens
+Like.com
+Live Transcribe
+Lively
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+Nearby Share
+News
+News & Weather
+News Archive
+Notebook
+NotebookLM
+Now
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+Panoramio
+PaperofRecord.com
+Patents
+Page Creator
+Pay (mobile app)
+Pay (payment method)
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Public Alerts
+Public Data Explorer
+Question Hub
+Quick, Draw!
+Quick Search Box
+Quick Share
+Quickoffice
+Read Along
+Reader
+Reply
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search AI Overviews Knowledge Graph SafeSearch
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow (chatbot)
+Sparrow (email client)
+Speech Recognition & Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic 3D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+URL Shortener
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+Pixel (2016)
+Pixel 2 (2017)
+Pixel 3 (2018)
+Pixel 3a (2019)
+Pixel 4 (2019)
+Pixel 4a (2020)
+Pixel 5 (2020)
+Pixel 5a (2021)
+Pixel 6 (2021)
+Pixel 6a (2022)
+Pixel 7 (2022)
+Pixel 7a (2023)
+Pixel Fold (2023)
+Pixel 8 (2023)
+Pixel 8a (2024)
+Pixel 9 (2024)
+Pixel 9 Pro Fold (2024)
+Pixel 9a (2025)
+Pixel 10 (2025)
+Pixel 10 Pro Fold (2025)
+Pixel Watch (2022)
+Pixel Watch 2 (2023)
+Pixel Watch 3 (2024)
+Pixel Watch 4 (2025)
+Pixel C (2015)
+Pixel Slate (2018)
+Pixel Tablet (2023)
+Chromebook Pixel (2013–2015)
+Pixelbook (2017)
+Pixelbook Go (2019)
+Pixel Buds (2017–present)
+Nexus One (2010)
+Nexus S (2010)
+Galaxy Nexus (2011)
+Nexus 4 (2012)
+Nexus 5 (2013)
+Nexus 6 (2014)
+Nexus 5X (2015)
+Nexus 6P (2015)
+Nexus 7 (2012)
+Nexus 10 (2012)
+Nexus 7 (2013)
+Nexus 9 (2014)
+Nexus Q (2012)
+Nexus Player (2014)
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest smart speakers Thermostat Wifi
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+v
+t
+e
+Feldman v. Google, Inc. (2007)
+Rescuecom Corp. v. Google Inc. (2009)
+Goddard v. Google, Inc. (2009)
+Rosetta Stone Ltd. v. Google, Inc. (2012)
+Google, Inc. v. American Blind & Wallpaper Factory, Inc. (2017)
+Jedi Blue
+European Union (2010–present)
+United States v. Adobe Systems, Inc., Apple Inc., Google Inc., Intel Corporation, Intuit, Inc., and Pixar (2011)
+Umar Javeed, Sukarma Thapar, Aaqib Javeed vs. Google LLC and Ors. (2019)
+United States v. Google LLC (2020)
+United States v. Google LLC (2023)
+Perfect 10, Inc. v. Amazon.com, Inc. (2007)
+Viacom International, Inc. v. YouTube, Inc. (2010)
+Lenz v. Universal Music Corp. (2015)
+Authors Guild, Inc. v. Google, Inc. (2015)
+Field v. Google, Inc. (2016)
+Google LLC v. Oracle America, Inc. (2021)
+Smartphone patent wars
+Rocky Mountain Bank v. Google, Inc. (2009)
+Hibnick v. Google, Inc. (2010)
+United States v. Google Inc. (2012)
+Judgement of the German Federal Court of Justice on Google's autocomplete function (2013)
+Joffe v. Google, Inc. (2013)
+Mosley v SARL Google (2013)
+Google Spain v AEPD and Mario Costeja González (2014)
+Frank v. Gaos (2019)
+Garcia v. Google, Inc. (2015)
+Google LLC v Defteros (2020)
+Epic Games v. Google (2021)
+Gonzalez v. Google LLC (2022)
+Beauty YouTuber
+BookTube
+BreadTube
+" Don't be evil "
+Gayglers
+Google as a verb
+Google bombing 2004 U.S. presidential election
+2004 U.S. presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber list
+list
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Africa
+Antarctica
+Asia Israel
+Israel
+Europe
+North America Canada United States
+Canada
+United States
+Oceania
+South America Argentina Chile Colombia
+Argentina
+Chile
+Colombia
+Copyright strike
+Education
+Features
+Moderation
+Most-disliked videos
+Most-liked videos
+Most-subscribed channels
+Most-viewed channels
+Most-viewed videos Arabic music videos Chinese music videos French music videos Indian videos Pakistani videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+YouTube Premium original programming
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+AlphaGo
+Google: Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Google Hacks
+The Google Story
+Googled: The End of the World as We Know It
+How Google Works
+I'm Feeling Lucky
+In the Plex
+The MANIAC
+Google Feud
+Google Me (film)
+" Google Me " (Kim Zolciak song)
+" Google Me " (Teyana Taylor song)
+Is Google Making Us Stupid?
+Proceratium google
+Matt Nathanson: Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego?
+" Attention Is All You Need "
+elgooG
+Generative pre-trained transformer
+" Me at the zoo "
+Predictions of the end
+Relationship with Wikipedia
+" Reunion "
+Robot Constitution
+Category
+Outline
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category

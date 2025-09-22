@@ -1,0 +1,11 @@
+Title: Deep Learning Indaba
+URL: https://en.wikipedia.org/wiki/Deep_Learning_Indaba
+PageID: 80340841
+Categories: Category:Artificial intelligence, Category:Computational fields of study, Category:Computational neuroscience, Category:Cybernetics, Category:Data science, Category:Deep learning, Category:Internet search engines, Category:Recurring events established in 2017
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+The Deep Learning Indaba is an annual conference and educational event that aims to strengthen machine learning and artificial intelligence (AI) capacity across Africa. Launched in 2017, it brings together students, researchers, industry practitioners, and policymakers from across the African continent . [ 1 ] [ 2 ]
+History
+The Deep Learning Indaba began in 2017 at the University of the Witwatersrand with over 300 participants from 23 African countries, offering tutorials in advanced AI topics and featuring notable speakers like Nando de Freitas . [ 3 ] [ 4 ] In 2018, it expanded to 650 delegates at Stellenbosch University , introducing parallel sessions to encourage collaboration. The 2019 edition in Nairobi , Kenya, reflected further growth, with increasing sponsorship and support from major tech companies like Google and Microsoft.
+Reference

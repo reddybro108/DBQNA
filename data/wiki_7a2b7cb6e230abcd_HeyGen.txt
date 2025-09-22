@@ -1,0 +1,205 @@
+Title: HeyGen
+URL: https://en.wikipedia.org/wiki/HeyGen
+PageID: 79290430
+Categories: Category:Deep learning software applications, Category:Text-to-image generation
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Artificial general intelligence
+Intelligent agent
+Recursive self-improvement
+Planning
+Computer vision
+General game playing
+Knowledge representation
+Natural language processing
+Robotics
+AI safety
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+Open-source
+Bioinformatics
+Deepfake
+Earth sciences
+Finance
+Generative AI Art Audio Music
+Art
+Audio
+Music
+Government
+Healthcare Mental health
+Mental health
+Industry
+Software development
+Translation
+Military
+Physics
+Projects
+AI alignment
+Artificial consciousness
+The bitter lesson
+Chinese room
+Friendly AI
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+Timeline
+Progress
+AI winter
+AI boom
+AI bubble
+Glossary
+v
+t
+e
+HeyGen is a generative artificial intelligence company that creates photo-realistic avatars via user-submitted photos and videos as well as a library of pre-made avatars and voices. [ 1 ] [ 2 ] The digital avatar can recite prompts in multiple languages. [ 1 ] [ 3 ]
+When submitting content to be used in the generation of a video, users are required to give verbal consent, along with a spoken password to verify their identity. Human moderators are used to remove and block any content used for the purpose of bullying, harassment, and the spread of disinformation , [ 4 ] in addition to the use of an automated content filter. [ 1 ]
+History
+HeyGen (originally named Surreal , later rebranded from Movio) [ 5 ] was founded by Joshua Xu and Wayne Liang in 2020. HeyGen established its headquarters in Los Angeles in 2022. [ 6 ] The company initially raised capital from investors including Sequoia China (now HongShan) and ZhenFund . [ 2 ]
+The HeyGen app launched in September 2022. In November 2023, the company raised $5.6 million in funding from Sarah Guo ’s venture capital firm, Conviction. In exchange for the funding, Guo would replace HongShan’s seat on the board of directors. As of the same date, the company reported employing 25 people. [ 2 ]
+In 2024, the service was used to translate and lip-sync Argentinian president Javier Milei’s speech to the World Economic Forum . [ 7 ]
+In June 2024, HeyGen raised $60 million in a funding round that valued the company at $500 million. The funding was led by Benchmark , with participation from Conviction , Bond Capital, and Thrive Capital . As of that date, the company reported having more than 40,000 customers and an annualized recurring revenue of $35 million. [ 4 ]
+In November 2024, HeyGen was recognized by Fast Company as part of the publication’s "Next Big Things in Tech" list. [ 8 ] The company was also recognized by Inc. as part of their 2024 "Best in Business" list. [ 9 ]
+References
+External links
+Official website
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category

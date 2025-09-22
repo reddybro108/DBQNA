@@ -1,0 +1,23 @@
+Title: Brave Leo
+URL: https://en.wikipedia.org/wiki/Brave_Leo
+PageID: 75348159
+Categories: Category:Brave Software, Category:Chatbots, Category:Large language models, Category:Natural language processing stubs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Brave Leo is a large language model -based chatbot developed by Brave Software and included with the Brave desktop browser.
+History
+In November 2023, the company said versions for iOS and Android would be available "in the coming months". [ 1 ]
+Features
+Leo uses the LLaMA 2 LLM from Meta Platforms and the Claude LLM from Anthropic .
+It can suggest followup questions, and summarize webpages, PDFs, and videos. [ 2 ] [ 3 ]
+Leo has a $15 (US) per month premium version that enables more requests and uses larger LLMs. [ 2 ] [ 4 ]
+Privacy
+The answers given by Leo are not saved. [ 5 ] Brave uses the slogan Love Privacy to emphasize its focus on user privacy and data protection. The phrase has been featured in Brave's official marketing campaigns and has been cited in media coverage of the browser's privacy-first approach. [ 6 ]
+Controversies
+PCWorld reported that Leo evades questions about US elections. [ 7 ]
+References
+This large language model -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

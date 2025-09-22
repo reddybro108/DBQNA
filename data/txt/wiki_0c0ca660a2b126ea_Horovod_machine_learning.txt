@@ -1,0 +1,79 @@
+Title: Horovod (machine learning)
+URL: https://en.wikipedia.org/wiki/Horovod_(machine_learning)
+PageID: 64507979
+Categories: Category:2017 software, Category:Computational neuroscience stubs, Category:Deep learning software, Category:Free and open-source software stubs, Category:Free software programmed in C++, Category:Free software programmed in Python, Category:Free statistical software, Category:Machine learning stubs, Category:Open-source artificial intelligence, Category:Python (programming language) scientific libraries, Category:Software using the Apache license
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Horovod is a free and open-source software framework for distributed deep learning training using TensorFlow , Keras , PyTorch , and Apache MXNet . Horovod is hosted under the Linux Foundation AI (LF AI). Horovod has the goal of improving the speed, scale, and resource allocation when training a machine learning model.
+See also
+Comparison of deep learning software
+Differentiable programming
+All-Reduce
+References
+External links
+Official website
+horovod on GitHub
+v
+t
+e
+Comparison
+Apache MXNet
+Apache SINGA
+Caffe
+Deeplearning4j
+DeepSpeed
+Dlib
+Keras
+Microsoft Cognitive Toolkit
+ML.NET
+OpenNN
+PyTorch
+TensorFlow
+Theano
+Torch
+ONNX
+OpenVINO
+MindSpore
+Apple Core ML
+IBM Watson
+Neural Designer
+Wolfram Mathematica
+MATLAB Deep Learning Toolbox
+Category
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology
+This free and open-source software article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
+This artificial neural network -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

@@ -1,0 +1,229 @@
+Title: BLOOM (language model)
+URL: https://en.wikipedia.org/wiki/BLOOM_(language_model)
+PageID: 71889610
+Categories: Category:2022 in artificial intelligence, Category:Generative pre-trained transformers, Category:Large language models, Category:Natural language processing stubs, Category:Open-source artificial intelligence
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+The BigScience Large Open-science Open-access Multilingual Language Model ( BLOOM ) is an open-access large language model (LLM). [ 1 ] It was created by a volunteer-driven research effort to provide a transparently-created alternative to proprietary AI models. [ 2 ]
+With 176 billion parameters, BLOOM is a transformer -based autoregressive model designed to generate text in 46 natural languages and 13 programming languages. The model, source code, and the data used to train it are all distributed under free licences, allowing for public research and use. [ 3 ] [ 4 ]
+Development
+BLOOM is the main outcome of the BigScience initiative, a one-year-long research workshop that took place from May 2021 to May 2022. [ 5 ] The project was led by HuggingFace and involved several hundred volunteer researchers and engineers from academia and the private sector. The model was trained between March and July 2022 on the Jean Zay public supercomputer in France, managed by GENCI and IDRIS ( CNRS ). [ 6 ]
+BLOOM's training corpus, named ROOTS, combines data extracted from the then-latest version of the web-based OSCAR corpus (38% of ROOTS) and newly collected data extracted from a manually selected and documented list of language data sources. In total, the model was trained on approximately 366 billion (1.6TB) tokens. [ 7 ] [ 8 ]
+External links
+Bigscience project on HuggingFace
+References
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category
+This large language model -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

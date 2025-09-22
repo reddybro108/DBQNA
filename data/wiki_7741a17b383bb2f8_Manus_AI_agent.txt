@@ -1,0 +1,148 @@
+Title: Manus (AI agent)
+URL: https://en.wikipedia.org/wiki/Manus_(AI_agent)
+PageID: 79424088
+Categories: Category:2025 in artificial intelligence, Category:2025 software, Category:Large language models
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Manus (meaning hand in Latin ) is an autonomous artificial intelligence agent developed by the same startup that created Monica, headquartered in Singapore. The agent is designed to independently carry out complex real-world tasks without direct or continuous human guidance. Some within the media have touted it as one of the world's first autonomous agents that is seemingly capable of independent thinking, dynamic planning, and decision-making. [ 1 ] [ 2 ]
+Xiao Hong is the key person behind Manus.im. Early in his career, he founded Nightingale Technology, which created productivity tools like “Yi Ban Assistant” and “Wei Ban Assistant”, which are AI-driven platforms that have been widely utilized among enterprise users. Known for his “kitbashing” approach, Xiao focused on the goal of enhancing established platforms, such as WeChat , by integrating AI capabilities into their existing framework. [ 3 ]
+History
+Manus was founded to create artificial intelligence agents capable of operating independently, based on large language models (LLM). The official launch of Manus was on March 6, 2025. VentureBeat described Manus as a major advance because it could autonomously handle complex tasks, including writing and deploying code. [ 4 ] Manus was described as a turning point in the development of artificial intelligence due to its ability to operate entirely without direct human intervention and complete complex tasks autonomously, including writing and deploying code. [ 4 ]
+References
+External links
+Official website
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category

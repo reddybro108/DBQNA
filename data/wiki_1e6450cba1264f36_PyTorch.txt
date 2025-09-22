@@ -1,0 +1,223 @@
+Title: PyTorch
+URL: https://en.wikipedia.org/wiki/PyTorch
+PageID: 54022970
+Categories: Category:Deep learning software, Category:Facebook software, Category:Free science software, Category:Free software programmed in C, Category:Free software programmed in Python, Category:Open-source artificial intelligence, Category:Python (programming language) scientific libraries, Category:Software using the BSD license
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+PyTorch is an open-source machine learning library based on the Torch library, [ 4 ] [ 5 ] [ 6 ] used for applications such as computer vision , deep learning research [ 7 ] and natural language processing , [ 7 ] originally developed by Meta AI and now part of the Linux Foundation umbrella. [ 8 ] [ 9 ] [ 10 ] [ 11 ] It is one of the most popular deep learning frameworks, alongside others such as TensorFlow , [ 12 ] offering free and open-source software released under the modified BSD license . Although the Python interface is more polished and the primary focus of development, PyTorch also has a C++ interface. [ 13 ]
+PyTorch utilises tensors as a intrinsic datatype, very similar to NumPy . Model training is handled by an automatic differentiation system, Autograd, which constructs a directed acyclic graph of a forward pass of a model for a given input, for which automatic differentiation utilising the chain rule , computes model-wide gradients. [ 14 ] PyTorch is capable of transparent leveraging of SIMD units, such as GPGPUs .
+A number of commercial deep learning architectures are built on top of PyTorch, including Tesla Autopilot , [ 15 ] Uber 's Pyro, [ 16 ] Hugging Face 's Transformers, [ 17 ] [ 18 ] and Catalyst. [ 19 ] [ 20 ]
+History
+In 2001, Torch was written and released under a GPL license . It was a machine-learning library written in C++, supporting methods including neural networks, support vector machines (SVM), hidden Markov models , etc. [ 21 ] [ 22 ] [ 23 ] It was improved to Torch7 in 2012. [ 24 ] Development on Torch ceased in 2018 and was subsumed by the PyTorch project. [ 25 ]
+Meta (formerly known as Facebook) operates both PyTorch and Convolutional Architecture for Fast Feature Embedding ( Caffe2 ), but models defined by the two frameworks were mutually incompatible. The Open Neural Network Exchange ( ONNX ) project was created by Meta and Microsoft in September 2017 for converting models between frameworks. Caffe2 was merged into PyTorch at the end of March 2018. [ 26 ] In September 2022, Meta announced that PyTorch would be governed by the independent PyTorch Foundation, a newly created subsidiary of the Linux Foundation . [ 27 ]
+PyTorch 2.0 was released on 15 March 2023, introducing TorchDynamo , a Python-level compiler that makes code run up to 2x faster, along with significant improvements in training and inference performance across major cloud platforms . [ 28 ] [ 29 ]
+PyTorch tensors
+PyTorch defines a class called Tensor ( torch.Tensor ) to store and operate on homogeneous multidimensional rectangular arrays of numbers. PyTorch Tensors are similar to NumPy Arrays, but can also be operated on by a CUDA -capable NVIDIA GPU . PyTorch has also been developing support for other GPU platforms, for example, AMD's ROCm [ 30 ] and Apple's Metal Framework. [ 31 ]
+PyTorch supports various sub-types of Tensors. [ 32 ]
+Note that the term "tensor" here does not carry the same meaning as tensor in mathematics or physics. The meaning of the word in machine learning is only superficially related to its original meaning as a certain kind of object in linear algebra . Tensors in PyTorch are simply multi-dimensional arrays.
+PyTorch neural networks
+PyTorch defines a module called nn ( torch.nn ) to describe neural networks and to support training. This module offers a comprehensive collection of building blocks for neural networks, including various layers and activation functions, enabling the construction of complex models. Networks are built by inheriting from the torch.nn module and defining the sequence of operations in the forward() function.
+Example
+The following program shows the low-level functionality of the library with a simple example.
+The following code-block defines a neural network with linear layers using the nn module.
+See also
+Free and open-source software portal
+Comparison of deep learning software
+Differentiable programming
+DeepSpeed
+References
+External links
+Official website
+v
+t
+e
+Comparison
+Apache MXNet
+Apache SINGA
+Caffe
+Deeplearning4j
+DeepSpeed
+Dlib
+Keras
+Microsoft Cognitive Toolkit
+ML.NET
+OpenNN
+PyTorch
+TensorFlow
+Theano
+Torch
+ONNX
+OpenVINO
+MindSpore
+Apple Core ML
+IBM Watson
+Neural Designer
+Wolfram Mathematica
+MATLAB Deep Learning Toolbox
+Category
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology

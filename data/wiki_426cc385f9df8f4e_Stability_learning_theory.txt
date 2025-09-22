@@ -2,11 +2,11 @@ Title: Stability (learning theory)
 URL: https://en.wikipedia.org/wiki/Stability_(learning_theory)
 PageID: 33886025
 Categories: Category:Learning, Category:Machine learning
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 Stability , also known as algorithmic stability , is a notion in computational learning theory of how a machine learning algorithm output is changed with small perturbations to its inputs. A stable learning algorithm is one for which the prediction does not change much when the training data is modified slightly. For instance, consider a machine learning algorithm that is being trained to recognize handwritten letters of the alphabet, using 1000 examples of handwritten letters and their labels ("A" to "Z") as a training set. One way to modify this training set is to leave out an example, so that only 999 examples of handwritten letters and their labels are available. A stable learning algorithm would produce a similar classifier with both the 1000-element and 999-element training sets.
-Stability can be studied for many types of learning problems, from language learning to inverse problems in physics and engineering, as it is a property of the learning process rather than the type of information being learned. The study of stability gained importance in computational learning theory in the 2000s when it was shown to have a connection with generalization . It was shown that for large classes of learning algorithms, notably empirical risk minimization algorithms, certain types of stability ensure good generalization.
+Stability can be studied for many types of learning problems, from language learning to inverse problems in physics and engineering, as it is a property of the learning process rather than the type of information being learned. The study of stability gained importance in computational learning theory in the 2000s when it was shown to have a connection with generalization . [ 1 ] It was shown that for large classes of learning algorithms, notably empirical risk minimization algorithms, certain types of stability ensure good generalization.
 History
 A central goal in designing a machine learning system is to guarantee that the learning algorithm will generalize , or perform accurately on new examples after being trained on a finite number of them. In the 1990s, milestones were reached in obtaining generalization bounds for supervised learning algorithms . The technique historically used to prove generalization was to show that an algorithm was consistent , using the uniform convergence properties of empirical quantities to their means. This technique was used to obtain generalization bounds for the large class of empirical risk minimization (ERM) algorithms. An ERM algorithm is one that selects a solution from a hypothesis space H {\displaystyle H} in such a way to minimize the empirical error on a training set S {\displaystyle S} .
 A general result, proved by Vladimir Vapnik for an ERM binary classification algorithms, is that for any target function and input distribution, any hypothesis space H {\displaystyle H} with VC-dimension d {\displaystyle d} , and n {\displaystyle n} training examples, the algorithm is consistent and will produce a training error that is at most O ( d n ) {\displaystyle O\left({\sqrt {\frac {d}{n}}}\right)} (plus logarithmic factors) from the true error. The result was later extended to almost-ERM algorithms with function classes that do not have unique minimizers.
@@ -14,13 +14,13 @@ Vapnik's work, using what became known as VC theory , established a relationship
 Stability analysis was developed in the 2000s for computational learning theory and is an alternative method for obtaining generalization bounds. The stability of an algorithm is a property of the learning process, rather than a direct property of the hypothesis space H {\displaystyle H} , and it can be assessed in algorithms that have hypothesis spaces with unbounded or undefined VC-dimension such as nearest neighbor. A stable learning algorithm is one for which the learned function does not change much when the training set is slightly modified, for instance by leaving out an example. A measure of Leave one out error is used in a Cross Validation Leave One Out (CVloo) algorithm to evaluate a learning algorithm's stability with respect to the loss function. As such, stability analysis is the application of sensitivity analysis to machine learning.
 Summary of classic results
 Early 1900s - Stability in learning theory was earliest described in terms of continuity of the learning map L {\displaystyle L} , traced to Andrey Nikolayevich Tikhonov [ citation needed ] .
-1979 - Devroye and Wagner observed that the leave-one-out behavior of an algorithm is related to its sensitivity to small changes in the sample.
-1999 - Kearns and Ron discovered a connection between finite VC-dimension and stability.
-2002 - In a landmark paper, Bousquet and Elisseeff proposed the notion of uniform hypothesis stability of a learning algorithm and showed that it implies low generalization error. Uniform hypothesis stability, however, is a strong condition that does not apply to large classes of algorithms, including ERM algorithms with a hypothesis space of only two functions.
-2002 - Kutin and Niyogi extended Bousquet and Elisseeff's results by providing generalization bounds for several weaker forms of stability which they called almost-everywhere stability . Furthermore, they took an initial step in establishing the relationship between stability and consistency in ERM algorithms in the Probably Approximately Correct (PAC) setting.
-2004 - Poggio et al. proved a general relationship between stability and ERM consistency. They proposed a statistical form of leave-one-out-stability which they called CVEEEloo stability , and showed that it is a) sufficient for generalization in bounded loss classes, and b) necessary and sufficient for consistency (and thus generalization) of ERM algorithms for certain loss functions such as the square loss, the absolute value and the binary classification loss.
-2010 - Shalev Shwartz et al. noticed problems with the original results of Vapnik due to the complex relations between hypothesis space and loss class. They discuss stability notions that capture different loss classes and different types of learning, supervised and unsupervised.
-2016 - Moritz Hardt et al. proved stability of gradient descent given certain assumption on the hypothesis and number of times each instance is used to update the model.
+1979 - Devroye and Wagner observed that the leave-one-out behavior of an algorithm is related to its sensitivity to small changes in the sample. [ 2 ]
+1999 - Kearns and Ron discovered a connection between finite VC-dimension and stability. [ 3 ]
+2002 - In a landmark paper, Bousquet and Elisseeff proposed the notion of uniform hypothesis stability of a learning algorithm and showed that it implies low generalization error. Uniform hypothesis stability, however, is a strong condition that does not apply to large classes of algorithms, including ERM algorithms with a hypothesis space of only two functions. [ 4 ]
+2002 - Kutin and Niyogi extended Bousquet and Elisseeff's results by providing generalization bounds for several weaker forms of stability which they called almost-everywhere stability . Furthermore, they took an initial step in establishing the relationship between stability and consistency in ERM algorithms in the Probably Approximately Correct (PAC) setting. [ 5 ]
+2004 - Poggio et al. proved a general relationship between stability and ERM consistency. They proposed a statistical form of leave-one-out-stability which they called CVEEEloo stability , and showed that it is a) sufficient for generalization in bounded loss classes, and b) necessary and sufficient for consistency (and thus generalization) of ERM algorithms for certain loss functions such as the square loss, the absolute value and the binary classification loss. [ 6 ]
+2010 - Shalev Shwartz et al. noticed problems with the original results of Vapnik due to the complex relations between hypothesis space and loss class. They discuss stability notions that capture different loss classes and different types of learning, supervised and unsupervised. [ 7 ]
+2016 - Moritz Hardt et al. proved stability of gradient descent given certain assumption on the hypothesis and number of times each instance is used to update the model. [ 8 ]
 Preliminary definitions
 We define several terms related to learning algorithms training sets, so that we can then define stability in multiple ways and present theorems from the field.
 A machine learning algorithm, also known as a learning map L {\displaystyle L} , maps a training data set, which is a set of labeled examples ( x , y ) {\displaystyle (x,y)} , onto a function f {\displaystyle f} from X {\displaystyle X} to Y {\displaystyle Y} , where X {\displaystyle X} and Y {\displaystyle Y} are in the same space of the training examples. The functions f {\displaystyle f} are selected from a hypothesis space of functions called H {\displaystyle H} .
@@ -73,15 +73,15 @@ This is an important result for the foundations of learning theory, because it s
 The generalization bound is given in the article.
 Algorithms that are stable
 This is a list of algorithms that have been shown to be stable, and the article where the associated generalization bounds are provided.
-Linear regression
-k-NN classifier with a {0-1} loss function.
-Support Vector Machine (SVM) classification with a bounded kernel and where the regularizer is a norm in a Reproducing Kernel Hilbert Space. A large regularization constant C {\displaystyle C} leads to good stability.
-Soft margin SVM classification.
-Regularized Least Squares regression.
-The minimum relative entropy algorithm for classification.
-A version of bagging regularizers with the number k {\displaystyle k} of regressors increasing with n {\displaystyle n} .
-Multi-class SVM classification.
-All learning algorithms with Tikhonov regularization satisfies Uniform Stability criteria and are, thus, generalizable.
+Linear regression [ 9 ]
+k-NN classifier with a {0-1} loss function. [ 2 ]
+Support Vector Machine (SVM) classification with a bounded kernel and where the regularizer is a norm in a Reproducing Kernel Hilbert Space. A large regularization constant C {\displaystyle C} leads to good stability. [ 4 ]
+Soft margin SVM classification. [ 4 ]
+Regularized Least Squares regression. [ 4 ]
+The minimum relative entropy algorithm for classification. [ 4 ]
+A version of bagging regularizers with the number k {\displaystyle k} of regressors increasing with n {\displaystyle n} . [ 10 ]
+Multi-class SVM classification. [ 10 ]
+All learning algorithms with Tikhonov regularization satisfies Uniform Stability criteria and are, thus, generalizable. [ 11 ]
 References
 Further reading
 S.Kutin and P.Niyogi.Almost-everywhere algorithmic stability and generalization error. In Proc. of UAI 18, 2002

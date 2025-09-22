@@ -1,0 +1,195 @@
+Title: Error-driven learning
+URL: https://en.wikipedia.org/wiki/Error-driven_learning
+PageID: 27141248
+Categories: Category:Machine learning algorithms
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+In reinforcement learning , error-driven learning is a method for adjusting a model's ( intelligent agent 's) parameters based on the difference between its output results and the ground truth . These models stand out as they depend on environmental feedback, rather than explicit labels or categories. [ 1 ] They are based on the idea that language acquisition involves the minimization of the prediction error (MPSE). [ 2 ] By leveraging these prediction errors, the models consistently refine expectations and decrease computational complexity.  Typically, these algorithms are operated by the GeneRec algorithm. [ 3 ]
+Error-driven learning has widespread applications in cognitive sciences and computer vision . These methods have also found successful application in natural language processing (NLP), including areas like part-of-speech tagging , [ 4 ] parsing , [ 4 ] named entity recognition (NER), [ 5 ] machine translation (MT), [ 6 ] speech recognition (SR), [ 4 ] and dialogue systems . [ 7 ]
+Formal Definition
+Error-driven learning models are ones that rely on the feedback of prediction errors to adjust the expectations or parameters of a model. The key components of error-driven learning include the following:
+A set S {\displaystyle S} of states representing the different situations that the learner can encounter.
+A set A {\displaystyle A} of actions that the learner can take in each state.
+A prediction function P ( s , a ) {\displaystyle P(s,a)} that gives the learner’s current prediction of the outcome of taking action a {\displaystyle a} in state s {\displaystyle s} .
+An error function E ( o , p ) {\displaystyle E(o,p)} that compares the actual outcome o {\displaystyle o} with the prediction p {\displaystyle p} and produces an error value.
+An update rule U ( p , e ) {\displaystyle U(p,e)} that adjusts the prediction p {\displaystyle p} in light of the error e {\displaystyle e} . [ 2 ]
+Algorithms
+Error-driven learning algorithms refer to a category of reinforcement learning algorithms that leverage the disparity between the real output and the expected output of a system to regulate the system's parameters. Typically applied in supervised learning, these algorithms are provided with a collection of input-output pairs to facilitate the process of generalization. [ 2 ]
+The widely utilized error backpropagation learning algorithm is known as GeneRec , a generalized recirculation algorithm primarily employed for gene prediction in DNA sequences. Many other error-driven learning algorithms are derived from alternative versions of GeneRec. [ 3 ]
+Applications
+Cognitive science
+Simpler error-driven learning models effectively capture complex human cognitive phenomena and anticipate elusive behaviors. They provide a flexible mechanism for modeling the brain's learning process, encompassing perception , attention , memory , and decision-making . By using errors as guiding signals, these algorithms adeptly adapt to changing environmental demands and objectives, capturing statistical regularities and structure. [ 2 ]
+Furthermore, cognitive science has led to the creation of new error-driven learning algorithms that are both biologically  acceptable and computationally efficient . These algorithms, including deep belief networks , spiking neural networks , and reservoir computing , follow the principles and constraints of the brain and nervous system. Their primary aim is to capture the emergent properties and dynamics of neural circuits and systems. [ 2 ] [ 8 ]
+Computer vision
+Computer vision is a complex task that involves understanding and interpreting visual data, such as images or videos. [ 9 ]
+In the context of error-driven learning, the computer vision model learns from the mistakes it makes during the interpretation process. When an error is encountered, the model updates its internal parameters to avoid making the same mistake in the future. This repeated process of learning from errors helps improve the model’s performance over time. [ 9 ]
+For NLP to do well at computer vision, it employs deep learning techniques. This form of computer vision is sometimes called neural computer vision (NCV), since it makes use of neural networks. NCV therefore interprets visual data based on a statistical, trial and error approach and can deal with context and other subtleties of visual data. [ 9 ]
+Natural Language Processing
+Part-of-speech tagging
+Part-of-speech (POS) tagging is a crucial component in Natural Language Processing (NLP). It helps resolve human language ambiguity at different analysis levels. In addition, its output (tagged data) can be used in various applications of NLP such as information extraction , information retrieval , question Answering , speech eecognition , text-to-speech conversion, partial parsing, and grammar correction. [ 4 ]
+Parsing
+Parsing in NLP involves breaking down a text into smaller pieces ( phrases ) based on grammar rules. If a sentence cannot be parsed, it may contain grammatical errors.
+In the context of error-driven learning, the parser learns from the mistakes it makes during the parsing process. When an error is encountered, the parser updates its internal model to avoid making the same mistake in the future. This iterative process of learning from errors helps improve the parser’s performance over time. [ 4 ]
+In conclusion, error-driven learning plays a crucial role in improving the accuracy and efficiency of NLP parsers by allowing them to learn from their mistakes and adapt their internal models accordingly.
+Named entity recognition (NER)
+NER is the task of identifying and classifying entities (such as persons, locations, organizations, etc.) in a text. Error-driven learning can help the model learn from its false positives and false negatives and improve its recall and precision on (NER). [ 5 ]
+In the context of error-driven learning, the significance of NER is quite profound. Traditional sequence labeling methods identify nested entities layer by layer. If an error occurs in the recognition of an inner entity , it can lead to incorrect identification of the outer entity, leading to a problem known as error propagation of nested entities. [ 10 ] [ 11 ]
+This is where the role of NER becomes crucial in error-driven learning. By accurately recognizing and classifying entities, it can help minimize these errors and improve the overall accuracy of the learning process. Furthermore, deep learning -based NER methods have shown to be more accurate as they are capable of assembling words, enabling them to understand the semantic and syntactic relationship between various words better. [ 10 ] [ 11 ]
+Machine translation
+Machine translation is a complex task that involves converting text from one language to another. [ 6 ] In the context of error-driven learning, the machine translation model learns from the mistakes it makes during the translation process. When an error is encountered, the model updates its internal parameters to avoid making the same mistake in the future. This iterative process of learning from errors helps improve the model’s performance over time. [ 12 ]
+Speech recognition
+Speech recognition is a complex task that involves converting spoken language into written text. In the context of error-driven learning, the speech recognition model learns from the mistakes it makes during the recognition process. When an error is encountered, the model updates its internal parameters to avoid making the same mistake in the future. This iterative process of learning from errors helps improve the model’s performance over time. [ 13 ]
+Dialogue systems
+Dialogue systems are a popular NLP task as they have promising real-life applications. They are also complicated tasks since many NLP tasks deserving study are involved.
+In the context of error-driven learning, the dialogue system learns from the mistakes it makes during the dialogue process. When an error is encountered, the model updates its internal parameters to avoid making the same mistake in the future. This iterative process of learning from errors helps improve the model’s performance over time. [ 7 ]
+Advantages
+Error-driven learning has several advantages over other types of machine learning algorithms:
+They can learn from feedback and correct their mistakes, which makes them adaptive and robust to noise and changes in the data.
+They can handle large and high-dimensional data sets , as they do not require explicit feature engineering or prior knowledge of the data distribution.
+They can achieve high accuracy and performance, as they can learn complex and nonlinear relationships between the input and the output. [ 2 ]
+Limitations
+Although error driven learning has its advantages, their algorithms also have the following limitations:
+They can suffer from overfitting , which means that they memorize the training data and fail to generalize to new and unseen data. This can be mitigated by using regularization techniques, such as adding a penalty term to the loss function , or reducing the complexity of the model. [ 14 ]
+They can be sensitive to the choice of the error function , the learning rate , the initialization of the weights, and other hyperparameters , which can affect the convergence and the quality of the solution. This requires careful tuning and experimentation, or using adaptive methods that adjust the hyperparameters automatically.
+They can be computationally expensive and time-consuming, especially for nonlinear and deep models, as they require multiple iterations(repetitions) and calculations to update the weights of the system. This can be alleviated by using parallel and distributed computing , or using specialized hardware such as GPUs or TPUs. [ 2 ]
+See also
+Predictive coding
+References

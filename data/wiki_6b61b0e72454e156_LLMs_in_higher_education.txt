@@ -1,0 +1,29 @@
+Title: LLMs in higher education
+URL: https://en.wikipedia.org/wiki/LLMs_in_higher_education
+PageID: 80030688
+Categories: Category:Higher education, Category:Large language models
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Platform University
+AI in education
+AI literacy
+Surveillance capitalism
+Platform economy
+Platform capitalism
+Tay
+Affinity spaces
+Facebook Zero
+v
+t
+e
+The growing interest in large language models (LLMs) has raised questions regarding their role, if any, within higher education. These questions have also looked specifically at the role of ChatGPT in education . [ 1 ] [ 2 ] [ 3 ] [ 4 ]
+Usage
+Proponents of LLMs, and their production and generation of coherent text often indistinguishable from human writing, argue LLMs can be used to increase the efficiency of teaching and research. [ 5 ] [ 6 ] Chatbots can offer quick answers to common questions, and summarize and assist with literature reviews. Some studies show that chatbots can be useful as academic coaches. [ 7 ] LLM's also represent a challenge for traditional assessment practices with their ability to generate essays or assignments in response to a prompt, [ 8 ] leading to questions about academic integrity. [ 9 ]
+The public discussion around LLM's has been extreme [ 10 ] and polarized. [ 11 ]
+Higher Education (HE) has been flooded with  "AI-hype". Ed tech is seen as mission critical. Certain scholarly works have reported on the benefits of LLMS, but others have highlighted the challenges and ethical concerns, such as data privacy, bias, "fake information", transparency, accountability, over-reliance and the digital divide. [ 5 ] [ 12 ] Academics could become Ai fluent an recognize of the implications of outsourcing thought to an algorithm and notice the potential biases of AI technologies. They might also consider  whether LLM’s are fit for purpose and reflect critically  on their impact on the individual or society at large. [ 13 ]
+Language teacher perspective
+The public advent of Large Language Models (LLMs) has presented both possibilities and challenges for language teachers. Concerns include academic integrity and authenticity of students writing (assignments, essays, summaries, or even creative pieces) and the circumvention of the very learning processes. [ 14 ] Uncritical teachers have been cautioned about how learning might be circumvented by LLMs [ 15 ]
+Language teachers have been forced to re-evaluate traditional assessment methods and reconsider the aspects of language proficiency they prioritize. Emphasis has shifted to a critical evaluation of information, the development of a unique voice and the revision of AI-generated content  with AI literacy being integrated into the curriculum. [ 16 ]
+LLMs offer resources to generating practice materials, provide instant feedback on grammar and syntax and offer students an additional layer of support outside of class time. While not considered a substitute for nuanced human feedback, some studies suggest this immediate corrective capacity can be particularly useful for reinforcing basic language rules [ 17 ] while offering a personalized learning experience, tailored to individual student needs. [ 15 ]
+References

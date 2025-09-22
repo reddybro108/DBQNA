@@ -1,0 +1,20 @@
+Title: Ablation (artificial intelligence)
+URL: https://en.wikipedia.org/wiki/Ablation_(artificial_intelligence)
+PageID: 65434605
+Categories: Category:Artificial neural networks
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+In artificial intelligence (AI), particularly machine learning (ML), [ 1 ] ablation is the removal of a component of an AI system. An ablation study aims to determine the contribution of a component to an AI system by removing the component, and then analyzing the resultant performance of the system. [ 2 ]
+The term is an analogy with biology (removal of components of an organism), and is particularly used in the analysis of artificial neural networks by analogy with ablative brain surgery . [ 3 ] Other analogies include other neurological systems such as that of Drosophila , and the vertebrate brain.
+Ablation studies require that a system exhibit graceful degradation : the system must continue to function even when certain components are missing or degraded. [ 4 ] According to some researchers, ablation studies have been deemed a convenient technique in investigating artificial intelligence and its durability to structural damages. [ 5 ]
+Ablation studies damage or remove certain components in a controlled setting to investigate all possible outcomes of system failure; this characterizes how each action impacts overall system performance and capability. The ablation process can be used to test systems that perform tasks such as speech recognition , object detection , and robot control . [ 6 ]
+History
+The term is credited to Allen Newell , [ 7 ] one of the founders of artificial intelligence, who used it in his 1974 tutorial on speech recognition , published in Newell (1975) . The term is by analogy with ablation in biology. The motivation was that, while individual components are engineered, the contribution of an individual component to the overall system performance is not clear; removing components allows this analysis. [ 4 ]
+Newell compared the human brain to artificial computers. With this in thought, Newell saw both as knowledge systems whereas procedures such as ablation can be performed on both to test certain hypotheses.
+See also
+Muntzing
+References
+Further reading
+Cohen, Paul R.; Howe, Adele E. (1988-12-15). "How Evaluation Guides AI Research: The Message Still Counts More than the Medium" . AI Magazine . 9 (4): 35– 43. doi : 10.1609/aimag.v9i4.952 . ISSN 2371-9621 .
+Newell, Allen (1975). D. Raj Reddy (ed.). A Tutorial on Speech Understanding Systems . In Speech Recognition: Invited Papers Presented at the 1974 IEEE Symposium. New York: Academic. p. 43 .

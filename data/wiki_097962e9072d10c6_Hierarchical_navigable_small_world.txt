@@ -1,0 +1,133 @@
+Title: Hierarchical navigable small world
+URL: https://en.wikipedia.org/wiki/Hierarchical_navigable_small_world
+PageID: 76162223
+Categories: Category:Algorithms and data structures stubs, Category:Computing stubs, Category:Data mining, Category:Database index techniques, Category:Graphs, Category:Machine learning, Category:Network science, Category:Search algorithms
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Theory
+Graph
+Complex network
+Contagion
+Small-world
+Scale-free
+Community structure
+Percolation
+Evolution
+Controllability
+Graph drawing
+Social capital
+Link analysis
+Optimization
+Reciprocity
+Closure
+Homophily
+Transitivity
+Preferential attachment
+Balance theory
+Network effect
+Social influence
+Informational (computing)
+Telecommunication
+Transport
+Social
+Scientific collaboration
+Biological
+Artificial neural
+Interdependent
+Semantic
+Spatial
+Dependency
+Flow
+on-Chip
+Clique
+Component
+Cut
+Cycle
+Data structure
+Edge
+Loop
+Neighborhood
+Path
+Vertex
+Adjacency list / matrix
+Incidence list / matrix
+Bipartite
+Complete
+Directed
+Hyper
+Labeled
+Multi
+Random
+Weighted
+Metrics
+Algorithms
+Centrality
+Degree
+Motif
+Clustering
+Degree distribution
+Assortativity
+Distance
+Modularity
+Efficiency
+Random graph
+Erdős–Rényi
+Barabási–Albert
+Bianconi–Barabási
+Fitness model
+Watts–Strogatz
+Exponential random (ERGM)
+Random geometric (RGG)
+Hyperbolic (HGN)
+Hierarchical
+Stochastic block
+Blockmodeling
+Maximum entropy
+Soft configuration
+LFR Benchmark
+Boolean network
+agent based
+Epidemic / SIR
+Lists
+Categories
+Topics
+Software
+Network scientists
+Category:Network theory
+Category:Graph theory
+v
+t
+e
+The Hierarchical navigable small world ( HNSW ) algorithm is a graph -based approximate nearest neighbor search technique used in many vector databases . Nearest neighbor search without an index involves computing the distance from the query to each point in the database, which for large datasets is computationally prohibitive. For high-dimensional data, tree-based exact vector search techniques such as the k-d tree and R-tree do not perform well enough because of the curse of dimensionality . To remedy this, approximate k-nearest neighbor searches have been proposed, such as locality-sensitive hashing (LSH) and product quantization (PQ) that trade performance for accuracy. The HNSW graph offers an approximate k-nearest neighbor search which scales logarithmically even in high-dimensional data.
+It is an extension of the earlier work on navigable small world graphs presented at the Similarity Search and Applications (SISAP) conference in 2012 with an additional hierarchical navigation to find entry points to the main graph faster. HNSW-based libraries are among the best performers in the approximate nearest neighbors benchmark.
+A related technique is IVFFlat.
+Use in vector databases
+HNSW is a key method for approximate nearest neighbor search in high-dimensional vector databases , for example in the context of embeddings from neural networks in large language models. Databases that use HNSW as search index include:
+SingleStore
+Apache Lucene Vector Search
+Chroma
+Qdrant
+Redis
+Vespa
+Vearch Gamma
+Weaviate
+pgvector
+MariaDB
+MongoDB Atlas
+ClickHouse
+Milvus
+DuckDB
+Kuzu
+Cozo
+TiDB
+Several of these use either the hnswlib library provided by the original authors, or the FAISS library. libvictor is another high-performance library that implements HNSW and other indexing structures, designed for flexibility and integration in custom vector database solutions.
+References
+This algorithms or data structures -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
+This computing article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

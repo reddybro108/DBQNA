@@ -1,0 +1,741 @@
+Title: Glossary of artificial intelligence
+URL: https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence
+PageID: 50336055
+Categories: Category:Glossaries of science, Category:Glossaries of technology, Category:Machine learning
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+This glossary of artificial intelligence is a list of definitions of terms and concepts relevant to the study of artificial intelligence (AI), its subdisciplines, and related fields. Related glossaries include Glossary of computer science , Glossary of robotics , Glossary of machine vision , and Glossary of logic .
+Artificial general intelligence
+Intelligent agent
+Recursive self-improvement
+Planning
+Computer vision
+General game playing
+Knowledge representation
+Natural language processing
+Robotics
+AI safety
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+Open-source
+Bioinformatics
+Deepfake
+Earth sciences
+Finance
+Generative AI Art Audio Music
+Art
+Audio
+Music
+Government
+Healthcare Mental health
+Mental health
+Industry
+Software development
+Translation
+Military
+Physics
+Projects
+AI alignment
+Artificial consciousness
+The bitter lesson
+Chinese room
+Friendly AI
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+Timeline
+Progress
+AI winter
+AI boom
+AI bubble
+Glossary
+v
+t
+e
+A
+Pronounced "A-star".
+Also abduction .
+Also adaptive network-based fuzzy inference system .
+Also artificial emotional intelligence or emotion AI .
+Also fuzzy string searching .
+Also argumentation system .
+Also machine intelligence .
+Also simply AI planning .
+Also self-driving car , robot car , and driverless car .
+B
+Also backward reasoning .
+Also stochastic Hopfield network with hidden units .
+Also propositional satisfiability problem ; abbreviated SATISFIABILITY or SAT .
+Also bagging or bootstrapping .
+Also self-learning know-how system .
+Also exhaustive search or generate and test .
+C
+Also smartbot , talkbot , chatterbot , bot , IM bot , interactive agent , conversational interface , or artificial conversational entity .
+Also clustering .
+Also artificial creativity , mechanical creativity , creative computing , or creative computation .
+Also theoretical neuroscience or mathematical neuroscience .
+Also algorithmic number theory .
+Also statistical computing .
+Also conlang .
+Also recombination .
+D
+Also dataset .
+Also enterprise data warehouse ( EDW ).
+Also theory of choice .
+Also epigenetic robotics .
+Also conversational agent ( CA ).
+Also dimension reduction .
+Also decentralized artificial intelligence .
+Also dilution .
+E
+Also interface agent .
+F
+Also representation learning .
+Also first-order predicate calculus or predicate logic .
+Also forward reasoning .
+Also friendly AI or FAI .
+G
+Also graph search .
+H
+I
+Also cognitive augmentation , machine augmented intelligence , and enhanced intelligence .
+Also virtual assistant or personal digital assistant .
+Also logic tree .
+J
+Also Clique Tree .
+K
+L
+M
+Also mathematical programming .
+Also computer audition ( CA ).
+Also mechatronic engineering .
+Also self-organized system .
+N
+Also entity identification , entity chunking , and entity extraction .
+Also brain–computer interface ( BCI ), neural-control interface ( NCI ), mind-machine interface ( MMI ), direct neural interface ( DNI ), or brain–machine interface ( BMI ).
+Also neuromorphic computing .
+Also non-deterministic polynomial-time hardness .
+O
+Also Ockham's razor or Ocham's razor .
+Also ontology extraction , ontology generation , or ontology acquisition .
+P
+Also pathing .
+Also first-order logic , predicate logic , and first-order predicate calculus .
+Also rationality principle .
+Also propositional logic , statement logic , sentential calculus , sentential logic , and zeroth-order logic .
+Q
+R
+Also random decision forest .
+S
+Also frame network .
+Also reasoning engine , rules engine , or simply reasoner .
+Also weak supervision .
+Also simply SLD resolution .
+Also sparse coding or SDL .
+T
+Also simply the singularity .
+Abbreviated H+ or h+ .
+Also tree search .
+U
+V
+W
+Also narrow AI .
+X
+References
+Works cited
+Abran, Alain; Moore, James W.; Bourque, Pierre; Dupuis, Robert; Tripp, Leonard L. (2004). Guide to the Software Engineering Body of Knowledge . IEEE. ISBN 978-0-7695-2330-9 .
+Cardelli, Luca (2004). "Type systems" (PDF) . In Allen B. Tucker (ed.). CRC Handbook of Computer Science and Engineering (2nd ed.). CRC Press. ISBN 978-1584883609 .
+Haugeland, John (1985). Artificial Intelligence: The Very Idea . Cambridge, Mass.: MIT Press. ISBN 978-0-262-08153-5 .
+Legg, Shane; Hutter, Marcus (15 June 2007). "A Collection of Definitions of Intelligence". arXiv : 0706.3639 [ cs.AI ].
+Mitchell, Melanie (1996). An Introduction to Genetic Algorithms . Cambridge, MA: MIT Press. ISBN 9780585030944 .
+Nilsson, Nils (1998). Artificial Intelligence: A New Synthesis . Morgan Kaufmann. ISBN 978-1-55860-467-4 . Archived from the original on 26 July 2020 . Retrieved 18 November 2019 .
+Pierce, Benjamin C. (2002). Types and Programming Languages . MIT Press. ISBN 978-0-262-16209-8 .
+Poole, David ; Mackworth, Alan ; Goebel, Randy (1998). Computational Intelligence: A Logical Approach . New York: Oxford University Press. ISBN 978-0-19-510270-3 . Archived from the original on 26 July 2020 . Retrieved 22 August 2020 .
+Russell, Stuart J. ; Norvig, Peter (2003), Artificial Intelligence: A Modern Approach (2nd ed.), Upper Saddle River, New Jersey: Prentice Hall, ISBN 0-13-790395-2
+Turing, Alan (October 1950). "Computing Machinery and Intelligence" . Mind . 59 (236): 433– 460. doi : 10.1093/mind/LIX.236.433 . ISSN 1460-2113 . JSTOR 2251299 . S2CID 14636783 .
+Notes
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology
+v
+t
+e
+Computer programming
+DevOps
+Empirical software engineering
+Experimental software engineering
+Formal methods
+Requirements engineering
+Search-based software engineering
+Site reliability engineering
+Social software engineering
+Software deployment
+Software design
+Software maintenance
+Software testing
+Systems analysis
+Abstraction
+CI/CD
+Compatibility Backward compatibility Compatibility layer Compatibility mode Forward compatibility Software incompatibility
+Backward compatibility
+Compatibility layer
+Compatibility mode
+Forward compatibility
+Software incompatibility
+Component-based software engineering
+Data modeling
+Enterprise architecture
+Functional specification
+Modeling language
+Programming paradigm
+Software
+Software archaeology
+Software architecture
+Software configuration management
+Software development process/methodology
+Software quality
+Software quality assurance
+Software system
+Software verification and validation
+Structured analysis Essential analysis
+Essential analysis
+Agile
+Aspect-oriented
+Object orientation
+Ontology
+SDLC
+Service orientation
+Agile
+EUP
+Executable UML
+Incremental model
+Iterative model
+Prototype model
+RAD
+Scrum
+Spiral model
+UP
+V-model
+Waterfall model
+XP
+Model-driven engineering
+Round-trip engineering
+CMMI
+Data model
+ER model
+Function model
+Information model
+Metamodeling
+Object model
+SPICE
+Systems model
+View model
+IDEF
+SysML
+UML
+USL
+Computer engineering
+Computer science
+Information science
+Project management
+Risk management
+Systems engineering
+Category
+Commons
+v
+t
+e
+Printed circuit board
+Peripheral
+Integrated circuit
+Very-large-scale integration
+System on a chip (SoC)
+Energy consumption (green computing)
+Electronic design automation
+Hardware acceleration
+Processor
+Size / Form
+Computer architecture
+Computational complexity
+Dependability
+Embedded system
+Real-time computing
+Cyber-physical system
+Fault tolerance
+Wireless sensor network
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+Programming paradigm
+Programming language
+Compiler
+Domain-specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+Control variable
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software engineering
+Software maintenance
+Programming team
+Open-source model
+Model of computation Stochastic
+Stochastic
+Formal language
+Automata theory
+Computability theory
+Computational complexity theory
+Logic
+Semantics
+Algorithm design
+Analysis of algorithms
+Algorithmic efficiency
+Randomized algorithm
+Computational geometry
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+Theoretical computer science
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+Cryptography
+Formal methods
+Security hacker
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+Interaction design
+Augmented reality
+Virtual reality
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+Human–computer interaction
+Mobile computing
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+Natural language processing
+Knowledge representation and reasoning
+Computer vision
+Automated planning and scheduling
+Search methodology
+Control method
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Multi-task learning
+Cross-validation
+Animation
+Rendering
+Photograph manipulation
+Graphics processing unit
+Image compression
+Solid modeling
+Quantum computing
+E-commerce
+Enterprise software
+Computational mathematics
+Computational physics
+Computational chemistry
+Computational biology
+Computational social science
+Computational engineering
+Differentiable computing
+Computational healthcare
+Digital art
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Video games
+Word processing
+Operations research
+Educational technology
+Document management
+Category
+Outline
+Glossaries
+v
+t
+e
+Evolutionary algorithm
+Evolutionary data mining
+Evolutionary multimodal optimization
+Human-based evolutionary computation
+Interactive evolutionary computation
+Cellular evolutionary algorithm
+Covariance Matrix Adaptation Evolution Strategy (CMA-ES)
+Cultural algorithm
+Differential evolution
+Evolutionary programming
+Genetic algorithm
+Genetic programming
+Gene expression programming
+Evolution strategy
+Natural evolution strategy
+Neuroevolution
+Learning classifier system
+Swarm intelligence
+Ant colony optimization
+Bees algorithm
+Cuckoo search
+Particle swarm optimization
+Bacterial Colony Optimization
+Firefly algorithm
+Harmony search
+Gaussian adaptation
+Memetic algorithm
+Artificial development
+Artificial intelligence
+Artificial life
+Digital organism
+Evolutionary robotics
+Fitness function
+Fitness landscape
+Fitness approximation
+Genetic operators
+Interactive evolutionary computation
+No free lunch in search and optimization
+Machine learning
+Mating pool
+Premature convergence
+Program synthesis
+ACM
+IEEE
+ACM SIGEVO
+IEEE CIS
+CEC
+GECCO
+PPSN
+EvoStar
+FOGA
+Evolutionary Computation (journal)
+IEEE Trans Evol Comput
+ACM Trans Evol Learning Optim
+v
+t
+e
+Ambient intelligence Internet of things
+Internet of things
+Artificial intelligence Applications of artificial intelligence Machine translation Machine vision Mobile translation Progress in artificial intelligence Semantic Web Speech recognition
+Applications of artificial intelligence
+Machine translation
+Machine vision
+Mobile translation
+Progress in artificial intelligence
+Semantic Web
+Speech recognition
+Atomtronics
+Carbon nanotube field-effect transistor
+Cybermethodology
+Augmented reality
+Fourth-generation optical discs 3D optical data storage Holographic data storage
+3D optical data storage
+Holographic data storage
+GPGPU
+Memory CBRAM ECRAM FRAM Millipede MRAM NRAM PRAM Racetrack memory RRAM SONOS UltraRAM
+CBRAM
+ECRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+Racetrack memory
+RRAM
+SONOS
+UltraRAM
+Optical computing
+RFID Chipless RFID
+Chipless RFID
+Software-defined radio
+Three-dimensional integrated circuit
+Automation
+Collingridge dilemma
+Differential technological development
+Disruptive innovation
+Ephemeralization
+Ethics AI Bioethics Cyberethics Neuroethics Robot ethics
+AI
+Bioethics
+Cyberethics
+Neuroethics
+Robot ethics
+Exploratory engineering
+Proactionary principle
+Technological change Technological unemployment
+Technological unemployment
+Technological convergence
+Technological evolution
+Technological paradigm
+Technology forecasting Accelerating change Future-oriented technology analysis Horizon scanning Moore's law Technological singularity Technology scouting
+Accelerating change
+Future-oriented technology analysis
+Horizon scanning
+Moore's law
+Technological singularity
+Technology scouting
+Technology in science fiction
+Technology readiness level
+Technology roadmap
+Transhumanism
+List
+v
+t
+e
+Outline
+Glossary
+Index
+History
+Geography
+Hall of Fame
+Ethics
+Laws
+Competitions
+AI competitions
+Aerobot
+Anthropomorphic Humanoid Android Cyborg Gynoid
+Humanoid
+Android
+Cyborg
+Gynoid
+Claytronics
+Companion
+Automaton Animatronic Audio-Animatronics
+Animatronic Audio-Animatronics
+Audio-Animatronics
+Industrial
+Articulated arm
+arm
+Domestic
+Educational
+Entertainment
+Juggling
+Military
+Medical
+Service
+Disability
+Agricultural
+Food service
+Retail
+BEAM robotics
+Soft robotics
+Biorobotics
+Cloud robotics
+Continuum robot
+Unmanned vehicle aerial ground
+aerial
+ground
+Mobile robot
+Microbotics
+Nanorobotics
+Necrobotics
+Robotic spacecraft Space probe
+Space probe
+Swarm
+Telerobotics
+Underwater remotely-operated Robotic fish
+remotely-operated
+Robotic fish
+Tracks
+Walking Hexapod
+Hexapod
+Climbing
+Electric unicycle
+Robotic fins
+Motion planning
+Simultaneous localization and mapping
+Visual odometry
+Vision-guided robot systems
+Evolutionary
+Kits
+Simulator
+Suite
+Open-source
+Software
+Adaptable
+Developmental
+Human–robot interaction
+Paradigms
+Perceptual
+Situated
+Ubiquitous
+ABB
+Amazon Robotics
+Anybots
+Barrett Technology
+Boston Dynamics
+Doosan Robotics
+Energid Technologies
+FarmWise
+FANUC
+Figure AI
+Foster-Miller
+Harvest Automation
+HD Hyundai Robotics
+Honeybee Robotics
+Intuitive Surgical
+IRobot
+KUKA
+Rainbow Robotics
+Starship Technologies
+Symbotic
+Universal Robotics
+Wolf Robotics
+Yaskawa
+Critique of work
+Powered exoskeleton
+Workplace robotics safety Robotic tech vest
+Robotic tech vest
+Technological unemployment
+Terrainability
+Fictional robots
+Category
+Outline
+v
+t
+e
+Artificial intelligence
+Backup
+BitTorrent
+Blogging
+Computer science
+Cryptographic keys
+Digital forensics
+Graphics
+Hardware
+Internet
+Microelectronics manufacturing
+MUD
+Operating systems
+Quantum computing
+Reconfigurable computing
+Software
+Unified Modeling Language
+Video games
+v
+t
+e
+Aerospace engineering
+Agriculture
+Archaeology
+Architecture
+Artificial intelligence
+Astronomy
+Biology
+Botany
+Calculus
+Cell biology
+Cellular and molecular biology 0–L M–Z
+0–L
+M–Z
+Chemistry
+Civil engineering
+Clinical research
+Computer hardware
+Computer science
+Developmental and reproductive biology
+Ecology
+Economics
+Electrical and electronics engineering
+Engineering A–L M–Z
+A–L
+M–Z
+Entomology
+Environmental science
+Genetics and evolutionary biology
+Geography A–M N–Z Arabic toponyms Hebrew toponyms Western and South Asia
+A–M
+N–Z
+Arabic toponyms
+Hebrew toponyms
+Western and South Asia
+Geology
+Ichthyology
+Machine vision
+Mathematics
+Mechanical engineering
+Medicine
+Meteorology
+Mycology
+Nanotechnology
+Ornithology
+Physics
+Probability and statistics
+Psychiatry
+Quantum computing
+Robotics
+Scientific naming
+Structural engineering
+Virology

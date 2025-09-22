@@ -1,0 +1,17 @@
+Title: Lottery ticket hypothesis
+URL: https://en.wikipedia.org/wiki/Lottery_ticket_hypothesis
+PageID: 77166040
+Categories: Category:Hypotheses, Category:Machine learning, Category:Machine learning stubs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+In machine learning , the lottery ticket hypothesis is that artificial neural networks with random weights can contain a subnetwork which (entirely by chance) can be tuned to a similar performance as tuning the whole network. [ 1 ] The term derived from considering the probability of a tunable subnetwork as the equivalent to a winning lottery ticket ; the chance of any given ticket winning is tiny, but if you buy enough of them you are certain to win, and the number of possible subnetworks increases exponentially as the power set of the set of connections, making the number of possible subnetworks astronomical for any reasonably large network.
+Malach et. al. proved a stronger version of the hypothesis, namely that a sufficiently overparameterized untuned network will typically contain a subnetwork that is already an approximation to the given goal, even before tuning. [ 2 ] A similar result has been proven for the special case of convolutional neural networks . [ 3 ]
+See also
+Grokking (machine learning)
+Pruning (artificial neural network)
+References
+This machine learning -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

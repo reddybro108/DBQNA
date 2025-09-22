@@ -1,0 +1,379 @@
+Title: Flux (text-to-image model)
+URL: https://en.wikipedia.org/wiki/Flux_(text-to-image_model)
+PageID: 78378498
+Categories: Category:2024 establishments in Germany, Category:2024 in artificial intelligence, Category:2024 software, Category:Artificial intelligence art, Category:Deep learning software applications, Category:Generative artificial intelligence, Category:Open-source artificial intelligence, Category:Software using the Apache license, Category:Text-to-image generation, Category:Unsupervised learning
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Flux (also known as FLUX.1 ) is a text-to-image model developed by Black Forest Labs (BFL), based in Freiburg im Breisgau , Germany. Black Forest Labs was founded by former employees of Stability AI . As with other text-to-image models, Flux generates images from natural language descriptions, called prompts .
+History
+Black Forest Labs (BFL) was founded in 2024 by Robin Rombach, Andreas Blattmann, and Patrick Esser, former employees of Stability AI. [ 2 ] [ 3 ] All three founders had previously researched the artificial intelligence image generation at Ludwig Maximilian University of Munich as research assistants under Björn Ommer. [ 4 ] [ 5 ] [ 6 ] They published their research results on image generation in 2022, which resulted in creation of Stable Diffusion . [ 6 ] [ 7 ] Investors in BFL included venture capital firm Andreessen Horowitz , Brendan Iribe , Michael Ovitz , Garry Tan , and Vladlen Koltun . [ 8 ] The company received an initial investment of US$ 31 million. [ 9 ] [ 10 ]
+In August 2024, Flux was integrated into the Grok chatbot developed by xAI and made available as part of premium feature on X (formerly Twitter) . [ 11 ] [ 12 ] [ 13 ] [ 14 ] Grok later switched to its own text-to-image model Aurora in December 2024. [ 15 ]
+On 18 November 2024, Mistral AI announced that its Le Chat chatbot had integrated Flux Pro as its image generation model. [ 16 ] [ 17 ]
+On 21 November 2024, BFL announced the release of Flux.1 Tools, a suite of editing tools designed to be used on top of existing Flux models. The tools consisting of Flux.1 Fill for inpainting and outpainting, Flux.1 Depth for control based on extracted depth map of input images and prompts, Flux.1 Canny for control based on extracted canny edges of input images and prompts, and Flux.1 Redux for mixing existing input images and prompts. Each tools are available in both Pro and Dev models. [ 18 ] [ 19 ]
+In January 2025, BFL announced a partnership with Nvidia for inclusion of Flux models as foundation models for Nvidia's Blackwell microarchitecture. [ 20 ] The company also announced the release of Flux Pro Finetuning API, designed for customisation and fine-tuning of Flux-generated images and a partnership with German media company Hubert Burda Media for usage of Flux Pro as part of content creation. [ 21 ]
+On 29 May 2025, BFL announced Flux.1 Kontext, a suite of models that enable in-context image generation and editing, allowing users to prompt with both text and images. [ 22 ] [ 23 ] Alongside this, BFL Playground, an interface for testing Flux models was released. [ 22 ] [ 23 ]
+On 31 July 2025, BFL announced Flux.1 Krea Dev, a model developed in collaboration with Krea AI that trained to achieve better performance, more varied aesthetics, and better realism compared to existing text-to-image models. [ 24 ]
+Models
+Flux is a series of text-to-image models. The models are based on rectified flow transformer blocks scaled to 12 billion parameters. [ 8 ] [ 25 ] Flux.1 models were released under different licences with Schnell (meaning Fast or Quick in German language ) released as open-source software under Apache License , Dev released as source-available software under a non-commercial licence (users can obtain a self-serving commercial licence for Dev from  BFL), and Pro released as proprietary software and only available as API that can be licensed by third-party users. [ 26 ] [ 27 ] Users retained the ownership of resulting output regardless of models used. [ 28 ] [ 29 ]
+The models can be used either online or locally by using generative AI user interfaces such as ComfyUI and Stable Diffusion WebUI Forge (a fork of Automatic1111 WebUI). [ 8 ] [ 30 ]
+An improved flagship model, Flux 1.1 Pro was released on 2 October 2024. [ 31 ] [ 32 ] Two additional modes were added on 6 November, Ultra which can generate image at four times higher resolution and up to 4 megapixel without affecting generation speed and Raw which can generate hyper-realistic image in the style of candid photography . [ 33 ] [ 34 ] [ 35 ]
+Flux.1 Kontext is a series with in-context image generation and editing capabilities. It is available in Pro , Max , and Dev models. Pro is the highest quality model and can be used to iteratively modify an existing image by using prompt while Max is optimised for speed of generation. [ 22 ] Dev is an open-weight model released under non-commercial licence, same as Flux.1 Dev. [ 36 ]
+Related to Flux is text-to-video model SOTA, under development as of June 2025 [update] . [ 8 ]
+Reception
+According to a test performed by Ars Technica , the outputs generated by Flux.1 Dev and Flux.1 Pro are comparable with DALL-E 3 in terms of prompt fidelity, with the photorealism closely matched Midjourney 6 and generated human hands with more consistency over previous models such as Stable Diffusion XL. [ 37 ]
+Flux has been criticised for its very realistic generated images. According to media reports, depictions ranged from an image of Donald Trump posing with guns to disturbing scenes, which triggered discussions about ethical implications of Flux models. [ 4 ] [ 13 ]
+After the release of the model, social media platform X was flooded with Flux-generated images. [ 38 ] [ 39 ] Black Forest Labs has not provided exact details of the data used to train the model. [ 33 ] Ars Technica suspected that Flux is based on a large, unauthorised collection of images scraped from the internet , a controversial practice with potential legal consequences. [ 37 ] [ 40 ]
+According to a test performed by Japanese technology news website Gigazine for Flux.1 Kontext, the model series has a good understanding in English language and can easily transfer style of image from photorealistic into anime-style according to prompts given by the user, however its capability to understand Japanese language is quite poor. [ 41 ]
+Availability
+In addition to the official BFL Playground on its website, [ 42 ] the Flux models are also widely available through various third-party platforms for creative and professional use. These include repositories on platforms like Hugging Face [ 43 ] and Replicate. [ 44 ]
+References
+External links
+Official website
+Flux models on Hugging Face
+Flux models on Replicate
+Flux models on FAL.ai
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category

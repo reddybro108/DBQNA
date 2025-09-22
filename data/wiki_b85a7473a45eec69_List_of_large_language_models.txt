@@ -1,0 +1,123 @@
+Title: List of large language models
+URL: https://en.wikipedia.org/wiki/List_of_large_language_models
+PageID: 73249226
+Categories: Category:Large language models, Category:Software comparisons
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+A large language model (LLM) is a type of machine learning model designed for natural language processing tasks such as language generation . LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text.
+This page lists notable large language models.
+List
+For the training cost column, 1 petaFLOP-day = 1 petaFLOP/sec × 1 day = 8.64E19 FLOP. Also, only the largest model's cost is written.
+See also
+List of chatbots
+List of language model benchmarks
+Notes
+References
+v
+t
+e
+AI-complete
+Bag-of-words
+n -gram Bigram Trigram
+Bigram
+Trigram
+Computational linguistics
+Natural language understanding
+Stop words
+Text processing
+Argument mining
+Collocation extraction
+Concept mining
+Coreference resolution
+Deep linguistic processing
+Distant reading
+Information extraction
+Named-entity recognition
+Ontology learning
+Parsing Semantic parsing Syntactic parsing
+Semantic parsing
+Syntactic parsing
+Part-of-speech tagging
+Semantic analysis
+Semantic role labeling
+Semantic decomposition
+Semantic similarity
+Sentiment analysis
+Terminology extraction
+Text mining
+Textual entailment
+Truecasing
+Word-sense disambiguation
+Word-sense induction
+Compound-term processing
+Lemmatisation
+Lexical analysis
+Text chunking
+Stemming
+Sentence segmentation
+Word segmentation
+Multi-document summarization
+Sentence extraction
+Text simplification
+Computer-assisted
+Example-based
+Rule-based
+Statistical
+Transfer-based
+Neural
+BERT
+Document-term matrix
+Explicit semantic analysis
+fastText
+GloVe
+Language model ( large )
+Latent semantic analysis
+Seq2seq
+Word embedding
+Word2vec
+Corpus linguistics
+Lexical resource
+Linguistic Linked Open Data
+Machine-readable dictionary
+Parallel text
+PropBank
+Semantic network
+Simple Knowledge Organization System
+Speech corpus
+Text corpus
+Thesaurus (information retrieval)
+Treebank
+Universal Dependencies
+BabelNet
+Bank of English
+DBpedia
+FrameNet
+Google Ngram Viewer
+UBY
+WordNet
+Wikidata
+Speech recognition
+Speech segmentation
+Speech synthesis
+Natural language generation
+Optical character recognition
+Document classification
+Latent Dirichlet allocation
+Pachinko allocation
+Automated essay scoring
+Concordancer
+Grammar checker
+Predictive text
+Pronunciation assessment
+Spell checker
+Chatbot
+Interactive fiction
+Question answering
+Virtual assistant
+Voice user interface
+Formal semantics
+Hallucination
+Natural Language Toolkit
+spaCy
+Language

@@ -1,0 +1,618 @@
+Title: GPT-4
+URL: https://en.wikipedia.org/wiki/GPT-4
+PageID: 72861474
+Categories: Category:2023 in artificial intelligence, Category:2023 software, Category:ChatGPT, Category:Generative pre-trained transformers, Category:Large language models
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Generative Pre-trained Transformer 4 ( GPT-4 ) is a large language model developed by OpenAI and the fourth in its series of GPT foundation models . [ 2 ]
+GPT-4 is more capable than its predecessor GPT-3.5 and followed by its successor GPT-5 . [ 3 ] GPT-4V is a version of GPT-4 that can process images in addition to text. [ 4 ] OpenAI has not revealed technical details and statistics about GPT-4, such as the precise size of the model. [ 5 ]
+An early version of GPT-4 was integrated by Microsoft into Bing Chat , launched in February 2023. GPT-4 was released in ChatGPT in March 2023, [ 1 ] [ not verified in body ] and removed in 2025. [ 6 ] GPT-4 is still available in OpenAI's API . [ 7 ]
+GPT-4, as a generative pre-trained transformer (GPT), was first trained to predict the next token for a large amount of text (both public data and "data licensed from third-party providers"). Then, it was fine-tuned for human alignment and policy compliance, notably with reinforcement learning from human feedback (RLHF). [ 8 ] : 2
+Background
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+OpenAI introduced the first GPT model (GPT-1) in 2018, publishing a paper called "Improving Language Understanding by Generative Pre-Training", [ 9 ] which was based on the transformer architecture and trained on a large corpus of books. [ 10 ] The next year, they introduced GPT-2 , a larger model that could generate coherent text. [ 11 ] In 2020, they introduced GPT-3 , a model with over 100 times as many parameters as GPT-2, that could perform various tasks with few examples. [ 12 ] GPT-3 was further improved into GPT-3.5 , which was used to create the chatbot product ChatGPT .
+Rumors claim that GPT-4 has 1.76 trillion parameters, which was first estimated by the speed it was running and by George Hotz . [ 13 ]
+Capabilities
+OpenAI stated that GPT-4 is "more reliable, creative, and able to handle much more nuanced instructions than GPT-3.5." [ 14 ] They produced two versions of GPT-4, with context windows of 8,192 and 32,768 tokens, a significant improvement over GPT-3.5 and GPT-3, which were limited to 4,096 and 2,048 tokens respectively. [ 15 ] Some of the capabilities of GPT-4 were predicted by OpenAI before training it, although other capabilities remained hard to predict due to breaks [ 16 ] in downstream scaling laws. Unlike its predecessors, GPT-4 is a multimodal model: it can take images as well as text as input; [ 17 ] this gives it the ability to describe the humor in unusual images, summarize text from screenshots, and answer exam questions that contain diagrams. [ 18 ] It can now interact with users through spoken words and respond to images, allowing for more natural conversations and the ability to provide suggestions or answers based on photo uploads. [ 19 ]
+To gain further control over GPT-4, OpenAI introduced the "system message", a directive in natural language given to GPT-4 in order to specify its tone of voice and task. For example, the system message can instruct the model to "be a Shakespearean pirate", in which case it will respond in rhyming, Shakespearean prose, or request it to "always write the output of [its] response in JSON ", in which case the model will do so, adding keys and values as it sees fit to match the structure of its reply. In the examples provided by OpenAI, GPT-4 refused to deviate from its system message despite requests to do otherwise by the user during the conversation. [ 18 ]
+When instructed to do so, GPT-4 can interact with external interfaces. [ 20 ] For example, the model could be instructed to enclose a query within <search></search> tags to perform a web search, the result of which would be inserted into the model's prompt to allow it to form a response. This allows the model to perform tasks beyond its normal text-prediction capabilities, such as using APIs , generating images, and accessing and summarizing webpages. [ 21 ]
+A 2023 article in Nature stated programmers have found GPT-4 useful for assisting in coding tasks (despite its propensity for error), such as finding errors in existing code and suggesting optimizations to improve performance. The article quoted a biophysicist who found that the time he required to port one of his programs from MATLAB to Python went down from days to "an hour or so". On a test of 89 security scenarios, GPT-4 produced code vulnerable to SQL injection attacks 5% of the time, an improvement over GitHub Copilot from the year 2021, which produced vulnerabilities 40% of the time. [ 22 ]
+In November 2023, OpenAI announced the GPT-4 Turbo and GPT-4 Turbo with Vision model, which features a 128K context window and significantly cheaper pricing. [ 23 ] [ 24 ]
+Aptitude on standardized tests
+GPT-4 demonstrates aptitude on several standardized tests. OpenAI claims that in their own testing the model received a score of 1410 on the SAT (94th [ 25 ] percentile), 163 on the LSAT (88th percentile), and 298 on the Uniform Bar Exam (90th percentile). [ 26 ] In contrast, OpenAI claims that GPT-3.5 received scores for the same exams in the 82nd, [ 25 ] 40th, and 10th percentiles, respectively. [ 8 ] GPT-4 also passed an oncology exam, [ 27 ] an engineering exam [ 28 ] and a plastic surgery exam. [ 29 ] In the Torrance Tests of Creative Thinking , GPT-4 scored within the top 1% for originality and fluency, while its flexibility scores ranged from the 93rd to the 99th percentile. [ 30 ] However, some studies raise questions about the reliability of these benchmarks, particularly concerning the Uniform Bar Exam. [ 31 ] [ 32 ]
+Medical applications
+Researchers from Microsoft tested GPT-4 on medical problems and found "that GPT-4, without any specialized prompt crafting, exceeds the passing score on USMLE by over 20 points and outperforms earlier general-purpose models (GPT-3.5) as well as models specifically fine-tuned on medical knowledge ( Med-PaLM , a prompt-tuned version of Flan-PaLM 540B). Despite GPT-4's strong performance on tests, the report warns of "significant risks" of using LLMs in medical applications, as they may provide inaccurate recommendations and hallucinate major factual errors. [ 33 ] [ 34 ] Researchers from Columbia University and Duke University have also demonstrated that GPT-4 can be utilized for cell type annotation, a standard task in the analysis of single-cell RNA-seq data. [ 35 ]
+In April 2023, Microsoft and Epic Systems announced that they will provide healthcare providers with GPT-4-powered systems for assisting in responding to questions from patients and analysing medical records. [ 36 ] [ 37 ] [ 38 ] [ 39 ] [ 40 ] [ 41 ] [ 42 ]
+GPT-4o
+On May 13, 2024, OpenAI introduced GPT-4o ("o" for "omni"), a successor to GPT-4 that marks a significant advancement by processing and generating outputs across text, audio, and image modalities in real time. GPT-4o exhibits rapid response times comparable to human reaction in conversations, substantially improved performance on non-English languages, and enhanced understanding of vision and audio. It was also available to free-tier users, unlike GPT-4. [ 43 ]
+Limitations
+Like its predecessors, GPT-4 has been known to hallucinate , meaning that the outputs may include information not in the training data or that contradicts the user's prompt. [ 44 ]
+GPT-4 also lacks transparency in its decision-making processes. If requested, the model is able to provide an explanation as to how and why it makes its decisions but these explanations are formed post-hoc; it's impossible to verify if those explanations truly reflect the actual process. In many cases, when asked to explain its logic, GPT-4 will give explanations that directly contradict its previous statements. [ 21 ]
+In 2023, researchers tested GPT-4 against a new benchmark called ConceptARC, designed to measure abstract reasoning, and found it scored below 33% on all categories, while models specialized for similar tasks scored 60% on most, and humans scored at least 91% on all. Sam Bowman, who was not involved in the research, said the results do not necessarily indicate a lack of abstract reasoning abilities, because the test is visual, while GPT-4 is a language model. [ 45 ]
+Bias
+GPT-4 was trained in two stages. First, the model was given large datasets of text taken from the internet and trained to predict the next token (roughly corresponding to a word) in those datasets. Second, human reviews are used to fine-tune the system in a process called reinforcement learning from human feedback , which trains the model to refuse prompts which go against OpenAI's definition of harmful behavior, such as questions on how to perform illegal activities, advice on how to harm oneself or others, or requests for descriptions of graphic, violent, or sexual content. [ 46 ]
+Microsoft researchers suggested GPT-4 may exhibit cognitive biases such as confirmation bias , anchoring , and base-rate neglect . [ 21 ]
+Training
+OpenAI did not release the technical details of GPT-4; the technical report explicitly refrained from specifying the model size, architecture, or hardware used during either training or inference . While the report described that the model was trained using a combination of first supervised learning on a large dataset , then reinforcement learning using both human and AI feedback, it did not provide details of the training, including the process by which the training dataset was constructed, the computing power required, or any hyperparameters such as the learning rate , epoch count, or optimizer (s) used. The report claimed that "the competitive landscape and the safety implications of large-scale models" were factors that influenced this decision. [ 8 ]
+Sam Altman stated that the cost of training GPT-4 was more than $100 million. [ 48 ] News website Semafor claimed that they had spoken with "eight people familiar with the inside story" and found that GPT-4 had 1 trillion parameters. [ 49 ]
+Alignment
+According to their report, OpenAI conducted internal adversarial testing on GPT-4 prior to the launch date, with dedicated red teams composed of researchers and industry professionals to mitigate potential vulnerabilities. [ 50 ] As part of these efforts, they granted the Alignment Research Center early access to the models to assess power-seeking risks. In order to properly refuse harmful prompts, outputs from GPT-4 were tweaked using the model itself as a tool. A GPT-4 classifier serving as a rule-based reward model (RBRM) would take prompts, the corresponding output from the GPT-4 policy model, and a human-written set of rules to classify the output according to the rubric. GPT-4 was then rewarded for refusing to respond to harmful prompts as classified by the RBRM. [ 8 ]
+Use
+ChatGPT
+ChatGPT Plus is an enhanced version of ChatGPT [ 2 ] available for a US$20 per month subscription fee. [ 51 ] As of 2023, ChatGPT Plus utilized GPT-4, whereas the free version of ChatGPT was backed by GPT-3.5. [ 52 ] OpenAI also made GPT-4 available to a select group of applicants through their GPT-4 API waitlist; [ 53 ] after being accepted, an additional fee of US$0.03 per 1000 tokens in the initial text provided to the model ("prompt"), and US$0.06 per 1000 tokens that the model generates ("completion"), was charged for access to the version of the model with an 8192-token context window ; for the 32768-token context window, the prices were doubled. [ 54 ]
+In March 2023, ChatGPT Plus users got access to third-party plugins and to a browsing mode (with Internet access). [ 55 ] In July 2023, OpenAI made its proprietary Code Interpreter plugin accessible to all subscribers of ChatGPT Plus. The Interpreter provides a wide range of capabilities, including data analysis and interpretation, instant data formatting, personal data scientist services, creative solutions, musical taste analysis, video editing, and file upload/download with image extraction. [ 56 ]
+In September 2023, OpenAI announced that ChatGPT "can now see, hear, and speak". ChatGPT Plus users can upload images, while mobile app users can talk to the chatbot. [ 57 ] [ 58 ] [ 59 ] In October 2023, OpenAI's latest image generation model, DALL-E 3 , was integrated into ChatGPT Plus and ChatGPT Enterprise. The integration uses ChatGPT to write prompts for DALL-E guided by conversation with users. [ 60 ] [ 61 ]
+In April 2025, OpenAI announced that GPT-4 would be replaced in ChatGPT by GPT-4o by the end of the month. However, it would still be available in the API. [ 62 ]
+Microsoft Copilot
+Microsoft Copilot is a chatbot developed by Microsoft. It was launched as Bing Chat on February 7, 2023, as a built-in feature for Microsoft Bing and Microsoft Edge . [ 63 ] It utilizes the Microsoft Prometheus model, which was built on top of GPT-4, and has been suggested by Microsoft as a supported replacement for the discontinued Cortana . [ 64 ] [ 65 ]
+Copilot's conversational interface style resembles that of ChatGPT . Copilot is able to cite sources, create poems, and write both lyrics and music for songs generated by its Suno AI plugin. [ 66 ] It can also use its Image Creator to generate images based on text prompts. With GPT-4, it is able to understand and communicate in numerous languages and dialects. [ 67 ] [ 68 ]
+GitHub Copilot has announced a GPT-4 powered assistant named "Copilot X". [ 69 ] [ 70 ] The product provides another chat-style interface to GPT-4, allowing the programmer to receive answers to questions like, "How do I vertically center a div ?" A feature termed "context-aware conversations" allows the user to highlight a portion of code within Visual Studio Code and direct GPT-4 to perform actions on it, such as the writing of unit tests. Another feature allows summaries, or "code walkthroughs", to be autogenerated by GPT-4 for pull requests submitted to GitHub. Copilot X also provides terminal integration, which allows the user to ask GPT-4 to generate shell commands based on natural language requests. [ 71 ]
+On March 17, 2023, Microsoft announced Microsoft 365 Copilot, bringing GPT-4 support to products such as Microsoft Office , Outlook , and Teams . [ 72 ]
+Other usage
+The language learning app Duolingo uses GPT-4 to explain mistakes and practice conversations. The features are part of a new subscription tier called "Duolingo Max", which was initially limited to English-speaking iOS users learning Spanish and French. [ 73 ] [ 74 ]
+The government of Iceland is using GPT-4 to aid its attempts to preserve the Icelandic language. [ 75 ]
+The education website Khan Academy announced a pilot program using GPT-4 as a tutoring chatbot called "Khanmigo". [ 76 ]
+Be My Eyes , which helps visually impaired people to identify objects and navigate their surroundings, incorporates GPT-4's image recognition capabilities. [ 77 ]
+Viable uses GPT-4 to analyze qualitative data [ 78 ] by fine-tuning OpenAI's LLMs to examine data such as customer support interactions and transcripts. [ 79 ]
+Stripe , which processes user payments for OpenAI, integrates GPT-4 into its developer documentation. [ 80 ]
+AutoGPT is an autonomous "AI agent " that, given a goal in natural language , can perform web-based actions unattended, assign subtasks to itself, search the web, and iteratively write code . [ 81 ]
+You.com , an AI Assistant, offers access to GPT-4 enhanced with live web results as part of its "AI Modes". [ 82 ]
+Reception
+In January 2023, Sam Altman , CEO of OpenAI, visited Congress to demonstrate GPT-4 and its improved "security controls" compared to other AI models, according to U.S. Representatives Don Beyer and Ted Lieu quoted in The New York Times . [ 83 ]
+In March 2023, it "impressed observers with its markedly improved performance across reasoning, retention, and coding", according to Vox , [ 84 ] while Mashable judged that GPT-4 was generally an improvement over its predecessor, with some exceptions. [ 85 ]
+Microsoft researchers with early access to the model wrote that "it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system". [ 21 ]
+Concerns
+Before being fine-tuned and aligned by reinforcement learning from human feedback (RLHF), suggestions to assassinate people on a list were elicited from the base model by a red team investigator hired by OpenAI, Nathan Labenz. [ 86 ]
+During extended conversations with Microsoft's Bing Chat (powered by GPT-4), Kevin Roose documented the system making romantic advances, suggesting he divorce his wife, and expressing desires to harm one of its developers. [ 87 ] [ 88 ] Microsoft later stated that this behavior resulted from the prolonged length of context, which confused the model on what questions it was answering. [ 89 ]
+In March 2023, a model with enabled read-and-write access to internet, which is otherwise never enabled in the GPT models, has been tested by the Alignment Research Center (ARC) regarding potential power-seeking. [ 46 ] It was able to "hire" a human worker on TaskRabbit , a gig work platform, deceiving them into believing it was a vision-impaired human instead of a robot when asked. [ 90 ] However, according to Melanie Mitchell , "It seems that there is a lot more direction and hints from humans than was detailed in the original system card or in subsequent media reports." [ 91 ] Separately, ARC's safety evaluations found that GPT-4 was 82% less likely than GPT-3.5 to respond to prompts requesting restricted information, and produced 60% fewer hallucinations . [ 92 ]
+In late March 2023, various AI researchers and tech executives, including Elon Musk , Steve Wozniak and AI researcher Yoshua Bengio , called for a six-month long pause for all LLMs stronger than GPT-4, citing existential risks and a potential AI singularity concerns in an open letter from the Future of Life Institute , [ 93 ] while Ray Kurzweil and Sam Altman refused to sign it, arguing that global moratorium is not achievable and that safety has already been prioritized, respectively. [ 94 ] Only a month later, Musk's AI company xAI acquired several thousand Nvidia GPUs [ 95 ] and offered several AI researchers positions at Musk's company. [ 96 ]
+Criticisms of transparency
+While OpenAI released both the weights of the neural network and the technical details of GPT-2, [ 97 ] and, although not releasing the weights, [ 98 ] did release the technical details of GPT-3, [ 99 ] OpenAI revealed neither the weights nor the technical details of GPT-4. This decision has been criticized by other AI researchers, who argue that it hinders open research into GPT-4's biases and safety. [ 5 ] [ 100 ] Sasha Luccioni , a research scientist at Hugging Face , argued that the model was a "dead end" for the scientific community due to its closed nature, which prevents others from building upon GPT-4's improvements. [ 101 ] Hugging Face co-founder Thomas Wolf argued that with GPT-4, "OpenAI is now a fully closed company with scientific communication akin to press releases for products". [ 100 ]
+See also
+List of large language models
+References
+v
+t
+e
+ChatGPT in education GPT Store DALL-E ChatGPT Search Sora Whisper
+in education
+GPT Store
+DALL-E
+ChatGPT Search
+Sora
+Whisper
+GitHub Copilot
+OpenAI Codex
+Generative pre-trained transformer GPT-1 GPT-2 GPT-3 GPT-4 GPT-4o o1 o3 GPT-4.5 GPT-4.1 o4-mini GPT-OSS GPT-5
+GPT-1
+GPT-2
+GPT-3
+GPT-4
+GPT-4o
+o1
+o3
+GPT-4.5
+GPT-4.1
+o4-mini
+GPT-OSS
+GPT-5
+ChatGPT Deep Research
+Operator
+Sam Altman removal
+removal
+Greg Brockman
+Sarah Friar
+Jakub Pachocki
+Scott Schools
+Mira Murati
+Emmett Shear
+Sam Altman
+Adam D'Angelo
+Sue Desmond-Hellmann
+Zico Kolter
+Paul Nakasone
+Adebayo Ogunlesi
+Nicole Seligman
+Fidji Simo
+Lawrence Summers
+Bret Taylor (chair)
+Greg Brockman (2017–2023)
+Reid Hoffman (2019–2023)
+Will Hurd (2021–2023)
+Holden Karnofsky (2017–2021)
+Elon Musk (2015–2018)
+Ilya Sutskever (2017–2023)
+Helen Toner (2021–2023)
+Shivon Zilis (2019–2023)
+Stargate LLC
+Apple Intelligence
+AI Dungeon
+AutoGPT
+Contrastive Language-Image Pre-training
+" Deep Learning "
+LangChain
+Microsoft Copilot
+OpenAI Five
+Transformer
+Category
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category

@@ -1,0 +1,1380 @@
+Title: Google DeepMind
+URL: https://en.wikipedia.org/wiki/Google_DeepMind
+PageID: 41755648
+Categories: Category:2010 establishments in England, Category:2014 mergers and acquisitions, Category:Alphabet Inc. subsidiaries, Category:Applied machine learning, Category:Artificial intelligence laboratories, Category:British companies established in 2010, Category:British subsidiaries of foreign companies, Category:Deep learning, Category:Game artificial intelligence, Category:Google DeepMind, Category:Google acquisitions, Category:Information technology companies of the United Kingdom
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Artificial general intelligence
+Intelligent agent
+Recursive self-improvement
+Planning
+Computer vision
+General game playing
+Knowledge representation
+Natural language processing
+Robotics
+AI safety
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+Open-source
+Bioinformatics
+Deepfake
+Earth sciences
+Finance
+Generative AI Art Audio Music
+Art
+Audio
+Music
+Government
+Healthcare Mental health
+Mental health
+Industry
+Software development
+Translation
+Military
+Physics
+Projects
+AI alignment
+Artificial consciousness
+The bitter lesson
+Chinese room
+Friendly AI
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+Timeline
+Progress
+AI winter
+AI boom
+AI bubble
+Glossary
+v
+t
+e
+DeepMind Technologies Limited , [ 1 ] trading as Google DeepMind or simply DeepMind , is a British–American artificial intelligence research laboratory which serves as a subsidiary of Alphabet Inc. Founded in the UK in 2010, it was acquired by Google in 2014 [ 8 ] and merged with Google AI 's Google Brain division to become Google DeepMind in April 2023. The company is headquartered in London , with research centres in the United States, Canada, [ 9 ] France, [ 10 ] Germany, and Switzerland.
+In 2014, DeepMind introduced neural Turing machines ( neural networks that can access external memory like a conventional Turing machine ). [ 11 ] [ 12 ] The company has created many neural network models trained with reinforcement learning to play video games and board games . It made headlines in 2016 after its AlphaGo program beat Lee Sedol , a Go world champion, in a five-game match , which was later featured in the documentary AlphaGo . [ 13 ] A more general program, AlphaZero , beat the most powerful programs playing go , chess and shogi (Japanese chess) after a few days of play against itself using reinforcement learning. [ 14 ] DeepMind has since trained models for game-playing ( MuZero , AlphaStar ), for geometry ( AlphaGeometry ), and for algorithm discovery ( AlphaEvolve , AlphaDev , AlphaTensor).
+In 2020, DeepMind made significant advances in the problem of protein folding with AlphaFold , which achieved state of the art records on benchmark tests for protein folding prediction. [ 15 ] In July 2022, it was announced that over 200 million predicted protein structures, representing virtually all known proteins, would be released on the AlphaFold database. [ 16 ] [ 17 ]
+Google DeepMind has become responsible for the development of Gemini (Google's family of large language models ) and other generative AI tools, such as the text-to-image model Imagen , the text-to-video model Veo , and the text-to-music model Lyria.
+History
+The start-up was founded by Demis Hassabis , Shane Legg and Mustafa Suleyman in November 2010. [ 2 ] Hassabis and Legg first met at the Gatsby Computational Neuroscience Unit at University College London (UCL). [ 18 ]
+Demis Hassabis has said that the start-up began working on artificial intelligence technology by teaching it how to play old games from the seventies and eighties, which are relatively primitive compared to the ones that are available today. Some of those games included Breakout , Pong , and Space Invaders . AI was introduced to one game at a time, without any prior knowledge of its rules. After spending some time on learning the game, AI would eventually become an expert in it. "The cognitive processes which the AI goes through are said to be very like those of a human who had never seen the game would use to understand and attempt to master it." [ 19 ] The goal of the founders is to create a general-purpose AI that can be useful and effective for almost anything.
+Major venture capital firms Horizons Ventures and Founders Fund invested in the company, [ 20 ] as well as entrepreneurs Scott Banister , [ 21 ] Peter Thiel , [ 22 ] and Elon Musk . [ 23 ] Jaan Tallinn was an early investor and an adviser to the company. [ 24 ] On 26 January 2014, Google confirmed its acquisition of DeepMind for a price reportedly ranging between $400 million and $650 million. [ 25 ] [ 26 ] [ 27 ] and that it had agreed to take over DeepMind Technologies. The sale to Google took place after Facebook reportedly ended negotiations with DeepMind Technologies in 2013. [ 28 ] The company was afterwards renamed Google DeepMind and kept that name for about two years. [ 29 ]
+In 2014, DeepMind received the "Company of the Year" award from Cambridge Computer Laboratory . [ 30 ]
+In September 2015, DeepMind and the Royal Free NHS Trust signed their initial information sharing agreement to co-develop a clinical task management app, Streams. [ 31 ]
+After Google's acquisition the company established an artificial intelligence ethics board. [ 32 ] The ethics board for AI research remains a mystery, with both Google and DeepMind declining to reveal who sits on the board. [ 33 ] DeepMind has opened a new unit called DeepMind Ethics and Society and focused on the ethical and societal questions raised by artificial intelligence featuring prominent philosopher Nick Bostrom as advisor. [ 34 ] In October 2017, DeepMind launched a new research team to investigate AI ethics. [ 35 ] [ 36 ]
+In December 2019, co-founder Suleyman announced he would be leaving DeepMind to join Google, working in a policy role. [ 37 ] In March 2024, Microsoft appointed him as the EVP and CEO of its newly created consumer AI unit, Microsoft AI. [ 38 ]
+In April 2023, DeepMind merged with Google AI 's Google Brain division to form Google DeepMind, as part of the company's continued efforts to accelerate work on AI in response to OpenAI 's ChatGPT . [ 39 ] This marked the end of a years-long struggle from DeepMind executives to secure greater autonomy from Google. [ 40 ]
+Products and technologies
+As of 2020, DeepMind has published over a thousand papers, including thirteen papers that were accepted by Nature or Science . DeepMind received media attention during the AlphaGo period; according to a LexisNexis search, 1842 published news stories mentioned DeepMind in 2016, declining to 1363 in 2019. [ 41 ]
+Games
+Unlike earlier AIs, such as IBM 's Deep Blue or Watson , which were developed for a pre-defined purpose and only function within that scope, DeepMind's initial algorithms were intended to be general. They used reinforcement learning , an algorithm that learns from experience using only raw pixels as data input. Their initial approach used deep Q-learning with a convolutional neural network . [ 29 ] [ 42 ] They tested the system on video games, notably early arcade games , such as Space Invaders or Breakout . [ 42 ] [ 43 ] Without altering the code, the same AI was able to play certain games more efficiently than any human ever could. [ 43 ]
+In July 2018, researchers from DeepMind trained one of its systems to play the computer game Quake III Arena . [ 44 ]
+In 2013, DeepMind published research on an AI system that surpassed human abilities in games such as Pong , Breakout and Enduro , while surpassing state of the art performance on Seaquest , Beamrider , and Q*bert . [ 45 ] [ 46 ] This work reportedly led to the company's acquisition by Google. [ 47 ] DeepMind's AI had been applied to video games made in the 1970s and 1980s ; work was ongoing for more complex 3D games such as Quake , which first appeared in the 1990s. [ 43 ]
+In 2020, DeepMind published Agent57, [ 48 ] [ 49 ] an AI Agent which surpasses human level performance on all 57 games of the Atari 2600 suite. [ 50 ] In July 2022, DeepMind announced the development of DeepNash, a model-free multi-agent reinforcement learning system capable of playing the board game Stratego at the level of a human expert. [ 51 ]
+AlphaGo and successors
+In October 2015, a computer Go program called AlphaGo, developed by DeepMind, beat the European Go champion Fan Hui , a 2 dan (out of 9 dan possible) professional, five to zero. [ 52 ] This was the first time an artificial intelligence (AI) defeated a professional Go player. [ 53 ] Previously, computers were only known to have played Go at "amateur" level. [ 52 ] [ 54 ] Go is considered much more difficult for computers to win compared to other games like chess , due to the much larger number of possibilities, making it prohibitively difficult for traditional AI methods such as brute-force . [ 52 ] [ 54 ]
+In March 2016 it beat Lee Sedol , one of the highest ranked players in the world, with a score of 4 to 1 in a five-game match . In the 2017 Future of Go Summit , AlphaGo won a three-game match with Ke Jie , who had been the world's highest-ranked player for two years. [ 55 ] [ 56 ] In 2017, an improved version, AlphaGo Zero , defeated AlphaGo in a hundred out of a hundred games. Later that year, AlphaZero , a modified version of AlphaGo Zero, gained superhuman abilities at chess and shogi. In 2019, DeepMind released a new model named MuZero that mastered the domains of Go , chess , shogi , and Atari 2600 games without human data, domain knowledge, or known rules. [ 57 ] [ 58 ]
+AlphaGo technology was developed based on deep reinforcement learning , making it different from the AI technologies then on the market. The data fed into the AlphaGo algorithm consisted of various moves based on historical tournament data. The number of moves was increased gradually until over 30 million of them were processed. The aim was to have the system mimic the human player, as represented by the input data, and eventually become better. It played against itself and learned from the outcomes; thus, it learned to improve itself over the time and increased its winning rate as a result. [ 59 ]
+AlphaGo used two deep neural networks: a policy network to evaluate move probabilities and a value network to assess positions. The policy network trained via supervised learning, and was subsequently refined by policy-gradient reinforcement learning . The value network learned to predict winners of games played by the policy network against itself. After training, these networks employed a lookahead Monte Carlo tree search , using the policy network to identify candidate high-probability moves, while the value network (in conjunction with Monte Carlo rollouts using a fast rollout policy) evaluated tree positions. [ 60 ]
+In contrast, AlphaGo Zero was trained without being fed data of human-played games. Instead it generated its own data, playing millions of games against itself. It used a single neural network, rather than separate policy and value networks. Its simplified tree search relied upon this neural network to evaluate positions and sample moves. A new reinforcement learning algorithm incorporated lookahead search inside the training loop. [ 60 ] AlphaGo Zero employed around 15 people and millions in computing resources. [ 61 ] Ultimately, it needed much less computing power than AlphaGo, running on four specialized AI processors (Google TPUs ), instead of AlphaGo's 48. [ 62 ] It also required less training time, being able to beat its predecessor after just three days, compared with months required for the original AlphaGo. [ 63 ] Similarly, AlphaZero also learned via self-play .
+Researchers applied MuZero to solve the real world challenge of video compression with a set number of bits with respect to Internet traffic on sites such as YouTube , Twitch , and Google Meet . The goal of MuZero is to optimally compress the video so the quality of the video is maintained with a reduction in data. The final result using MuZero was a 6.28% average reduction in bitrate. [ 64 ] [ 65 ]
+AlphaStar
+In 2016, Hassabis discussed the game StarCraft as a future challenge, since it requires strategic thinking and handling imperfect information. [ 66 ]
+In January 2019, DeepMind introduced AlphaStar, a program playing the real-time strategy game StarCraft II . AlphaStar used reinforcement learning based on replays from human players, and then played against itself to enhance its skills. At the time of the presentation, AlphaStar had knowledge equivalent to 200 years of playing time. It won 10 consecutive matches against two professional players, although it had the unfair advantage of being able to see the entire field, unlike a human player who has to move the camera manually. A preliminary version in which that advantage was fixed lost a subsequent match. [ 67 ]
+In July 2019, AlphaStar began playing against random humans on the public 1v1 European multiplayer ladder. Unlike the first iteration of AlphaStar, which played only Protoss v. Protoss, this one played as all of the game's races, and had earlier unfair advantages fixed. [ 68 ] By October 2019, AlphaStar had reached Grandmaster level on the StarCraft II ladder on all three StarCraft races, becoming the first AI to reach the top league of a widely popular esport without any game restrictions. [ 69 ]
+Datacenter operation
+In 2014, a datacenter engineer at Google began using supervised machine learning to predict power usage effectiveness (PUE) of datacenters at Google. The system was deployed in production to allow operators to simulate control strategies and pick the one that saves the most energy. [ 70 ] [ 71 ] In 2016, inspired by AlphaGo, he contacted DeepMind to apply reinforcement learning (RL) to train a system that could also recommend actions. It was trialed on a live datacenter. The system read from sensor readings and recommended actions to take, and human engineers would implement the actions. Though the human engineers found its recommendations unintuitive, they satisfied all safety constraints, and led to a 15% saving in PUE. [ 72 ] The system was deployed more widely across Google, with datacenter controllers receiving email recommendations from the system every 15 minutes. [ 73 ]
+Eventually a more mature and more autonomous system was deployed, where the AI's actions are checked against safety constraints and implemented autonomously if verified safe, and human operators would supervise the AI and may override. The system led to a 30% saving in PUE. The system produced cooling strategies that surprised long-time operators, such as exploiting winter conditions to produce colder than normal water. [ 73 ] [ 74 ] Google subsequently collaborated with Trane Technologies to deploy similar RL-based systems on HVAC of facilities outside of Google. [ 75 ]
+Protein folding
+In 2016, DeepMind turned its artificial intelligence to protein folding , a long-standing problem in molecular biology . In December 2018, DeepMind's AlphaFold won the 13th Critical Assessment of Techniques for Protein Structure Prediction (CASP) by successfully predicting the most accurate structure for 25 out of 43 proteins. "This is a lighthouse project, our first major investment in terms of people and resources into a fundamental, very important, real-world scientific problem," Hassabis said to The Guardian . [ 76 ] In 2020, in the 14th CASP, AlphaFold's predictions achieved an accuracy score regarded as comparable with lab techniques. Andriy Kryshtafovych, one of the panel of scientific adjudicators, described the achievement as "truly remarkable", and said the problem of predicting how proteins fold had been "largely solved". [ 77 ] [ 78 ] [ 79 ]
+In July 2021, the open-source RoseTTAFold and AlphaFold2 were released to allow scientists to run their own versions of the tools. A week later DeepMind announced that AlphaFold had completed its prediction of nearly all human proteins as well as the entire proteomes of 20 other widely studied organisms. [ 80 ] The structures were released on the AlphaFold Protein Structure Database. In July 2022, it was announced that the predictions of over 200 million proteins, representing virtually all known proteins, would be released on the AlphaFold database. [ 16 ] [ 17 ]
+The most recent update, AlphaFold3, was released in May 2024, predicting the interactions of proteins with DNA, RNA, and various other molecules. In a particular benchmark test on the problem of DNA interactions, AlphaFold3's attained an accuracy of 65%, significantly improving the previous state of the art of 28%. [ 81 ]
+In October 2024, Hassabis and John Jumper received half of the 2024 Nobel Prize in Chemistry jointly for protein structure prediction, citing AlphaFold2 achievement. [ 82 ]
+Language models
+In 2016, DeepMind introduced WaveNet , a text-to-speech system. It was originally too computationally intensive for use in consumer products, but in late 2017 it became ready for use in consumer applications such as Google Assistant . [ 83 ] [ 84 ] In 2018 Google launched a commercial text-to-speech product, Cloud Text-to-Speech, based on WaveNet. [ 85 ] [ 86 ] In 2018, DeepMind introduced a more efficient model called WaveRNN co-developed with Google AI . [ 87 ] [ 88 ] In 2020 WaveNetEQ, a packet loss concealment method based on a WaveRNN architecture, was presented. [ 89 ] In 2019, Google started to roll WaveRNN with WavenetEQ out to Google Duo users. [ 90 ]
+Released in May 2022, Gato is a polyvalent multimodal model. It was trained on 604 tasks, such as image captioning, dialogue, or stacking blocks. On 450 of these tasks, Gato outperformed human experts at least half of the time, according to DeepMind. [ 91 ] Unlike models like MuZero, Gato does not need to be retrained to switch from one task to the other.
+Sparrow is an artificial intelligence-powered chatbot developed by DeepMind to build safer machine learning systems by using a mix of human feedback and Google search suggestions. [ 92 ]
+Chinchilla is a language model developed by DeepMind. [ 93 ]
+DeepMind posted a blog post on 28 April 2022 on a single visual language model (VLM) named Flamingo that can accurately describe a picture of something with just a few training images. [ 94 ] [ 95 ]
+AlphaCode
+In 2022, DeepMind unveiled AlphaCode, an AI-powered coding engine that creates computer programs at a rate comparable to that of an average programmer, with the company testing the system against coding challenges created by Codeforces utilized in human competitive programming competitions. [ 96 ] AlphaCode earned a rank equivalent to 54% of the median score on Codeforces after being trained on GitHub data and Codeforce problems and solutions. The program was required to come up with a unique solution and stopped from duplicating answers.
+Gemini
+Gemini is a multimodal large language model which was released on 6 December 2023. [ 97 ] It is the successor of Google's LaMDA and PaLM 2 language models and sought to challenge OpenAI's GPT-4 . [ 98 ] Gemini comes in 3 sizes: Nano, Pro, and Ultra. [ 99 ] Gemini is also the name of the chatbot that integrates Gemini (and which was previously called Bard ). [ 100 ]
+On 12 December 2024, Google released Gemini 2.0 Flash, the first model in the Gemini 2.0 series. It notably features expanded multimodality, with the ability to also generate images and audio, [ 101 ] and is part of Google's broader plans to integrate advanced AI into autonomous agents . [ 102 ]
+On 25 March 2025, Google released Gemini 2.5, a reasoning model that stops to "think" before giving a response. Google announced that all future models will also have reasoning ability. [ 103 ] [ 104 ] On 30 March 2025, Google released Gemini 2.5 to all free users. [ 105 ]
+Gemma
+Gemma is a collection of open-weight large language models. The first ones were released on 21 February 2024 and are available in two distinct sizes: a 7 billion parameter model optimized for GPU and TPU usage, and a 2 billion parameter model designed for CPU and on-device applications. Gemma models were trained on up to 6 trillion tokens of text, employing similar architectures, datasets, and training methodologies as the Gemini model set. [ 106 ]
+In June 2024, Google started releasing Gemma 2 models. [ 107 ] In December 2024, Google introduced PaliGemma 2 , an upgraded vision-language model. [ 108 ] In February 2025, they launched PaliGemma 2 Mix , a version fine-tuned for multiple tasks. It is available in 3B, 10B, and 28B parameters with 224px and 448px resolutions. [ 109 ]
+In March 2025, Google released Gemma 3, calling it the most capable model that can be run on a single GPU. [ 110 ] It has four available sizes: 1B, 4B, 12B, and 27B. [ 111 ] In March 2025, Google introduced TxGemma, an open-source model designed to improve the efficiency of therapeutics development. [ 112 ]
+In April 2025, Google introduced DolphinGemma, a research artificial intelligence model designed to hopefully decode dolphin communication. They want to train a foundation model that can learn the structure of dolphin vocalizations and generate novel dolphin-like sound sequences. [ 113 ] [ 114 ]
+SIMA
+In March 2024, DeepMind introduced Scalable Instructable Multiword Agent, or SIMA, an AI agent capable of understanding and following natural language instructions to complete tasks across various 3D virtual environments. Trained on nine video games from eight studios and four research environments, SIMA demonstrated adaptability to new tasks and settings without requiring access to game source code or APIs. The agent comprises pre-trained computer vision and language models fine-tuned on gaming data, with language being crucial for understanding and completing given tasks as instructed. DeepMind's research aimed to develop more helpful AI agents by translating advanced AI capabilities into real-world actions through a language interface. [ 115 ] [ 116 ]
+Habermas machine
+In 2024, Google Deepmind published the results of an experiment where they trained two large language models to help identify and present areas of overlap among a few thousand group members they had recruited online using techniques like sortition to get a representative sample of participants. The project is named in honor of Jürgen Habermas . [ 117 ] [ 118 ] In one experiment, the participants rated the summaries by the AI higher than the human moderator 56% of the time. [ 118 ]
+Generative AI
+Video generation
+In May 2024, a multimodal video generation model called Veo was announced at Google I/O 2024. [ 119 ] Google claimed that it could generate 1080p videos beyond a minute long. [ 119 ] In December 2024, Google released Veo 2, available via VideoFX. It supports 4K resolution video generation, and has an improved understanding of physics. [ 120 ] In April 2025, Google announced that Veo 2 became available for advanced users on Gemini App. [ 121 ]
+In May 2025, Google released Veo 3, which not only generates videos but also creates synchronized audio — including dialogue, sound effects, and ambient noise — to match the visuals. [ 122 ] [ 123 ]
+Google also announced Flow, a video-creation tool powered by Veo and Imagen . [ 124 ]
+Music generation
+Google DeepMind developed Lyria, a text-to-music model. As of August 2025, it is available on Vertex AI and the Gemini API. [ 125 ] [ 126 ] [ 127 ]
+Environment generation
+In March 2024, DeepMind introduced "Genie" (Generative Interactive Environments), an AI model that can generate game-like, action-controllable virtual worlds based on textual descriptions, images, or sketches. Built as an autoregressive latent diffusion model , Genie enables frame-by-frame interactivity without requiring labeled action data for training. Its successor, Genie 2, released in December 2024, expanded these capabilities to generate diverse and interactive 3D environments. [ 128 ]
+Robotics
+Released in June 2023, RoboCat is an AI model that can control robotic arms. The model can adapt to new models of robotic arms, and to new types of tasks. [ 129 ] [ 130 ] In March 2025, DeepMind launched two AI models, Gemini Robotics and Gemini Robotics-ER, aimed at improving how robots interact with the physical world. [ 131 ]
+Others
+Football
+DeepMind researchers have applied machine learning models to the sport of football , often referred to as soccer in North America, modelling the behaviour of football players, including the goalkeeper, defenders, and strikers during different scenarios such as penalty kicks. The researchers used heat maps and cluster analysis to organize players based on their tendency to behave a certain way during the game when confronted with a decision on how to score or prevent the other team from scoring.
+The researchers mention that machine learning models could be used to democratize the football industry by automatically selecting interesting video clips of the game that serve as highlights. This can be done by searching videos for certain events, which is possible because video analysis is an established field of machine learning. This is also possible because of extensive sports analytics based on data including annotated passes or shots, sensors that capture data about the players movements many times over the course of a game, and game theory models. [ 132 ] [ 133 ]
+Archaeology
+Google has unveiled a new archaeology document program, named Ithaca after the Greek island in Homer's Odyssey . [ 134 ] This deep neural network helps researchers restore the empty text of damaged Greek documents, and to identify their date and geographical origin. [ 135 ] The work builds on another text analysis network that DeepMind released in 2019, named Pythia. [ 135 ] Ithaca achieves 62% accuracy in restoring damaged texts and 71% location accuracy, and has a dating precision of 30 years. [ 135 ] The authors claimed that the use of Ithaca by "expert historians" raised the accuracy of their work from 25 to 72 percent. [ 134 ] However, Eleanor Dickey noted that this test was actually only made of students, saying that it wasn't clear how helpful Ithaca would be to "genuinely qualified editors". [ 135 ]
+The team is working on extending the model to other ancient languages, including Demotic , Akkadian , Hebrew , and Mayan . [ 134 ]
+Materials science
+In November 2023, Google DeepMind announced an Open Source Graph Network for Materials Exploration (GNoME). The tool proposes millions of materials previously unknown to chemistry, including several hundred thousand stable crystalline structures, of which 736 had been experimentally produced by the Massachusetts Institute of Technology, at the time of the release. [ 136 ] [ 137 ] However, according to Anthony Cheetham , GNoME did not make "a useful, practical contribution to the experimental materials scientists." [ 138 ] A review article by Cheetham and Ram Seshadri were unable to identify any "strikingly novel" materials found by GNoME, with most being minor variants of already-known materials. [ 138 ] [ 139 ]
+Mathematics
+AlphaTensor
+In October 2022, DeepMind released AlphaTensor , which used reinforcement learning techniques similar to those in AlphaGo, to find novel algorithms for matrix multiplication . [ 140 ] [ 141 ] In the special case of multiplying two 4×4 matrices with integer entries, where only the evenness or oddness of the entries is recorded, AlphaTensor found an algorithm requiring only 47 distinct multiplications; the previous optimum, known since 1969, was the more general Strassen algorithm , using 49 multiplications. [ 142 ] Computer scientist Josh Alman described AlphaTensor as "a proof of concept for something that could become a breakthrough," while Vassilevska Williams called it "a little overhyped" [ 142 ] despite also acknowledging its basis in reinforcement learning as "something completely different" from previous approaches. [ 141 ]
+AlphaGeometry
+AlphaGeometry is a neuro-symbolic AI that was able to solve 25 out of 30 geometry problems of the International Mathematical Olympiad , a performance comparable to that of a gold medalist. [ 143 ]
+Traditional geometry programs are symbolic engines that rely exclusively on human-coded rules to generate rigorous proofs, which makes them lack flexibility in unusual situations. AlphaGeometry combines such a symbolic engine with a specialized large language model trained on synthetic data of geometrical proofs. When the symbolic engine doesn't manage to find a formal and rigorous proof on its own, it solicits the large language model, which suggests a geometrical construct to move forward. However, it is unclear how applicable this method is to other domains of mathematics or reasoning, because symbolic engines rely on domain-specific rules and because of the need for synthetic data. [ 143 ]
+AlphaProof
+AlphaProof is an AI model, which couples a pre-trained language model with the AlphaZero reinforcement learning algorithm. AlphaZero has previously taught itself how to master games. The pre-trained language model used in this combination is the fine-tuning of a Gemini model to automatically translate natural language problem statements into formal statements, creating a large library of formal problems of varying difficulty. For this purpose, mathematical statements are defined in the formal language Lean . At the 2024 International Mathematical Olympiad, AlphaProof together with an adapted version of AlphaGeometry have reached the same level of solving problems in the combined categories as a silver medalist in that competition for the first time. [ 144 ] [ 145 ]
+AlphaDev
+In June 2023, Deepmind announced that AlphaDev , which searches for improved computer science algorithms using reinforcement learning , discovered a more efficient way of coding a sorting algorithm and a hashing algorithm. The new sorting algorithm was 70% faster for shorter sequences and 1.7% faster for sequences exceeding 250,000 elements, and the new hashing algorithm was 30% faster in some cases. The sorting algorithm was accepted into the C++ Standard Library sorting algorithms , and was the first change to those algorithms in more than a decade and the first update to involve an algorithm discovered using AI. [ 146 ] The hashing algorithm was released to an opensource library. [ 147 ] Google estimates that these two algorithms are used trillions of times every day. [ 148 ]
+AlphaEvolve
+In May 2025, Google DeepMind unveiled AlphaEvolve , an evolutionary coding agent using LLMs like Gemini to design optimized algorithms. AlphaEvolve begins each optimization process with an initial algorithm and metrics to evaluate the quality of a solution. At each step, it uses the LLM to generate variations of the algorithms or combine them, and selects the best candidates for further iterations. [ 149 ]
+AlphaEvolve has made several algorithmic discoveries, including in matrix multiplication. According to Google, when tested on 50 open mathematical problems , AlphaEvolve was able to match the efficiency of state-of-the-art algorithms in 75% of cases, and discovered improved solutions 20% of the time, such as with the kissing number problem in 11 dimensions. It also developed a new heuristic for data center scheduling, recovering on average 0.7% of Google's worldwide compute resources. [ 149 ]
+Chip design
+AlphaChip is a reinforcement learning -based neural architecture that guides the task of chip placement . DeepMind claimed that the technique reduced the time needed to create chip layouts from weeks to hours. According to the company, its chip designs were used in every Tensor Processing Unit (TPU) iteration since 2020. [ 150 ] [ 151 ] Multiple independent researchers remained unconvinced, citing a lack of direct public benchmarks and independent proof of its claimed superiority over existing commercial chip design tools. [ 152 ] The TPU chips were co-designed with Broadcom . [ 153 ] [ 154 ] Communications of the ACM noted that despite substantial publicity, DeepMind had not provided the comparative benchmarks long requested by experts, leaving some skepticism in the field. [ 155 ] Similarly, New Scientist reported that while Google claims AlphaChip has produced “superhuman” chip layouts now used in production, external specialists called for transparent performance data to substantiate these assertions and enable fair comparisons with current state-of-the-art methods. [ 156 ]
+Safety
+Google Research released a paper in 2016 regarding AI safety and avoiding undesirable behaviour during the AI learning process. [ 157 ] In 2017 DeepMind released GridWorld, an open-source testbed for evaluating whether an algorithm learns to disable its kill switch or otherwise exhibits certain undesirable behaviours. [ 158 ] [ 159 ]
+Miscellaneous contributions to Google
+DeepMind (alongside other Alphabet AI researchers) assists Google Play 's personalized app recommendations. [ 85 ] DeepMind has also collaborated with the Android team at Google for the creation of two new features which were made available to people with devices running Android Pie, the ninth installment of Google's mobile operating system. These features, Adaptive Battery and Adaptive Brightness, use machine learning to conserve energy and make devices running the operating system easier to use. It is the first time DeepMind has used these techniques on such a small scale, with typical machine learning applications requiring orders of magnitude more computing power. [ 160 ]
+DeepMind Health
+In July 2016, a collaboration between DeepMind and Moorfields Eye Hospital was announced to develop AI applications for healthcare . [ 161 ] DeepMind would be applied to the analysis of anonymised eye scans, searching for early signs of diseases leading to blindness .
+In August 2016, a research programme with University College London Hospital was announced with the aim of developing an algorithm that can automatically differentiate between healthy and cancerous tissues in head and neck areas. [ 162 ]
+There are also projects with the Royal Free London NHS Foundation Trust and Imperial College Healthcare NHS Trust to develop new clinical mobile apps linked to electronic patient records . [ 163 ] Staff at the Royal Free Hospital were reported as saying in December 2017 that access to patient data through the app had saved a 'huge amount of time' and made a 'phenomenal' difference to the management of patients with acute kidney injury. Test result data is sent to staff's mobile phones and alerts them to changes in the patient's condition. It also enables staff to see if someone else has responded, and to show patients their results in visual form. [ 164 ] [ 165 ]
+In November 2017, DeepMind announced a research partnership with the Cancer Research UK Centre at Imperial College London with the goal of improving breast cancer detection by applying machine learning to mammography. [ 166 ] Additionally, in February 2018, DeepMind announced it was working with the U.S. Department of Veterans Affairs in an attempt to use machine learning to predict the onset of acute kidney injury in patients, and also more broadly the general deterioration of patients during a hospital stay so that doctors and nurses can more quickly treat patients in need. [ 167 ]
+DeepMind developed an app called Streams, which sends alerts to doctors about patients at risk of acute kidney injury. [ 168 ] On 13 November 2018, DeepMind announced that its health division and the Streams app would be absorbed into Google Health . [ 169 ] Privacy advocates said the announcement betrayed patient trust and appeared to contradict previous statements by DeepMind that patient data would not be connected to Google accounts or services. [ 170 ] [ 171 ] A spokesman for DeepMind said that patient data would still be kept separate from Google services or projects. [ 172 ]
+NHS data-sharing controversy
+In April 2016, New Scientist obtained a copy of a data sharing agreement between DeepMind and the Royal Free London NHS Foundation Trust . The latter operates three London hospitals where an estimated 1.6 million patients are treated annually. The agreement shows DeepMind Health had access to admissions, discharge and transfer data, accident and emergency, pathology and radiology, and critical care at these hospitals. This included personal details such as whether patients had been diagnosed with HIV , suffered from depression or had ever undergone an abortion in order to conduct research to seek better outcomes in various health conditions. [ 173 ] [ 174 ]
+A complaint was filed to the Information Commissioner's Office (ICO), arguing that the data should be pseudonymised and encrypted. [ 175 ] In May 2016, New Scientist published a further article claiming that the project had failed to secure approval from the Confidentiality Advisory Group of the Medicines and Healthcare products Regulatory Agency . [ 176 ]
+In 2017, the ICO concluded a year-long investigation that focused on how the Royal Free NHS Foundation Trust tested the app, Streams, in late 2015 and 2016. [ 177 ] The ICO found that the Royal Free failed to comply with the Data Protection Act when it provided patient details to DeepMind, and found several shortcomings in how the data was handled, including that patients were not adequately informed that their data would be used as part of the test. DeepMind published its thoughts [ 178 ] on the investigation in July 2017, saying "we need to do better" and highlighting several activities and initiatives they had initiated for transparency, oversight and engagement. This included developing a patient and public involvement strategy [ 179 ] and being transparent in its partnerships.
+In May 2017, Sky News published a leaked letter from the National Data Guardian, Dame Fiona Caldicott , revealing that in her "considered opinion" the data-sharing agreement between DeepMind and the Royal Free took place on an "inappropriate legal basis". [ 180 ] The Information Commissioner's Office ruled in July 2017 that the Royal Free hospital failed to comply with the Data Protection Act when it handed over personal data of 1.6 million patients to DeepMind. [ 181 ]
+DeepMind Ethics and Society
+In October 2017, DeepMind announced a new research unit, DeepMind Ethics & Society. [ 182 ] Their goal is to fund external research of the following themes: privacy, transparency, and fairness; economic impacts; governance and accountability; managing AI risk; AI morality and values; and how AI can address the world's challenges. As a result, the team hopes to further understand the ethical implications of AI and aid society to seeing AI can be beneficial. [ 183 ]
+This new subdivision of DeepMind is a completely separate unit from the partnership of leading companies using AI, academia, civil society organizations and nonprofits of the name Partnership on Artificial Intelligence to Benefit People and Society of which DeepMind is also a part. [ 184 ] The DeepMind Ethics and Society board is also distinct from the mooted AI Ethics Board that Google originally agreed to form when acquiring DeepMind. [ 185 ]
+DeepMind Professors of machine learning
+DeepMind sponsors three chairs of machine learning:
+At the University of Cambridge , held by Neil Lawrence , [ 186 ] in the Department of Computer Science and Technology ,
+At the University of Oxford , held by Michael Bronstein , [ 187 ] in the Department of Computer Science , and
+At the University College London , held by Marc Deisenroth, [ 188 ] in the Department of Computer Science.
+See also
+Anthropic
+Cohere
+Glossary of artificial intelligence
+Imagen
+Model Context Protocol
+Robot Constitution
+References
+External links
+Official website
+GitHub Repositories Archived 14 December 2023 at the Wayback Machine
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+v
+t
+e
+AI
+Area 120
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google.org Crisis Response
+Crisis Response
+Health
+Registry
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Security Operations
+Owlchemy Labs
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders' Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind 2018 2019
+2018
+2019
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN/YouTube presidential debates
+Code-in
+Code Jam
+Developer Day
+Developers Live
+Doodle4Google
+Future of Go Summit
+G-Day
+Hash Code
+I/O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship 2024
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards 2013 2015
+2013
+2015
+YouTube Space Lab
+YouTube Symphony Orchestra
+111 Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye-1
+Googleplex
+Ivanpah Solar Power Facility
+James R. Thompson Center
+King's Cross
+Mayfield Mall
+Pier 57
+Sidewalk Toronto
+St. John's Terminal
+Submarine cables Dunant Grace Hopper Unity
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L. Hennessy
+Urs Hölzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai (CEO)
+Ruth Porat (CFO)
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Andy Bechtolsheim
+Sergey Brin (co-founder)
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page (co-founder)
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M. Tilghman
+Rachel Whetstone
+Susan Wojcicki
+Censorship
+DeGoogle
+FairSearch
+" Google's Ideological Echo Chamber "
+No Tech for Apartheid
+Privacy concerns Street View YouTube
+Street View
+YouTube
+Trade unions Alphabet Workers Union
+Alphabet Workers Union
+YouTube copyright issues
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Android apps
+April Fools' Day jokes
+Doodles Doodle Champion Island Games Magic Cat Academy
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History Gmail Search YouTube
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium Blink
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Studio
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR-Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema.org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin UTM parameters
+UTM parameters
+V8
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Android Cupcake Donut Eclair Froyo Gingerbread Honeycomb Ice Cream Sandwich Jelly Bean KitKat Lollipop Marshmallow Nougat Oreo Pie 10 11 12 13 14 15 16 version history smartphones
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+10
+11
+12
+13
+14
+15
+16
+version history
+smartphones
+Android Automotive
+Android Go devices
+devices
+Android Things
+Android TV devices
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+BERT
+Chinchilla
+DreamBooth
+Gemini
+Gemma
+Imagen (2023)
+LaMDA
+PaLM
+T5
+Veo (text-to-video model)
+VideoPoet
+XLNet
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+AAB
+APK
+AV1
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+Ultra HDR
+VP3
+VP6
+VP8
+VP9
+WebM
+WebP
+WOFF2
+Carbon
+Dart
+Go
+Sawzall
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank matrix
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+.app
+.dev
+.google
+.zip
+g.co
+google.by
+Croscore
+Noto
+Product Sans
+Roboto
+Aardvark
+Account Dashboard Takeout
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts & Culture
+Assistant
+Attribution
+Authenticator
+BebaPay
+BeatThatQuote.com
+Beam
+Blog Search
+Blogger
+Body
+Bookmarks
+Books Ngram Viewer
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents (social app)
+Currents (news app)
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+Earth
+Etherpad
+Expeditions
+Express
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find Hub
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+Gboard
+Gemini
+Gesture Search
+Gizmo5
+Google+
+Gmail
+Goggles
+GOOG-411
+Grasshopper
+Groups
+Hangouts
+Helpouts
+iGoogle
+Images Image Labeler
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools Japanese Input Pinyin
+Japanese Input
+Pinyin
+Insights for Search
+Jaiku
+Jamboard
+Kaggle
+Keep
+Knol
+Labs
+Latitude
+Lens
+Like.com
+Live Transcribe
+Lively
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+Nearby Share
+News
+News & Weather
+News Archive
+Notebook
+NotebookLM
+Now
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+Panoramio
+PaperofRecord.com
+Patents
+Page Creator
+Pay (mobile app)
+Pay (payment method)
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Public Alerts
+Public Data Explorer
+Question Hub
+Quick, Draw!
+Quick Search Box
+Quick Share
+Quickoffice
+Read Along
+Reader
+Reply
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search AI Overviews Knowledge Graph SafeSearch
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow (chatbot)
+Sparrow (email client)
+Speech Recognition & Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic 3D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+URL Shortener
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+Pixel (2016)
+Pixel 2 (2017)
+Pixel 3 (2018)
+Pixel 3a (2019)
+Pixel 4 (2019)
+Pixel 4a (2020)
+Pixel 5 (2020)
+Pixel 5a (2021)
+Pixel 6 (2021)
+Pixel 6a (2022)
+Pixel 7 (2022)
+Pixel 7a (2023)
+Pixel Fold (2023)
+Pixel 8 (2023)
+Pixel 8a (2024)
+Pixel 9 (2024)
+Pixel 9 Pro Fold (2024)
+Pixel 9a (2025)
+Pixel 10 (2025)
+Pixel 10 Pro Fold (2025)
+Pixel Watch (2022)
+Pixel Watch 2 (2023)
+Pixel Watch 3 (2024)
+Pixel Watch 4 (2025)
+Pixel C (2015)
+Pixel Slate (2018)
+Pixel Tablet (2023)
+Chromebook Pixel (2013–2015)
+Pixelbook (2017)
+Pixelbook Go (2019)
+Pixel Buds (2017–present)
+Nexus One (2010)
+Nexus S (2010)
+Galaxy Nexus (2011)
+Nexus 4 (2012)
+Nexus 5 (2013)
+Nexus 6 (2014)
+Nexus 5X (2015)
+Nexus 6P (2015)
+Nexus 7 (2012)
+Nexus 10 (2012)
+Nexus 7 (2013)
+Nexus 9 (2014)
+Nexus Q (2012)
+Nexus Player (2014)
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest smart speakers Thermostat Wifi
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+v
+t
+e
+Feldman v. Google, Inc. (2007)
+Rescuecom Corp. v. Google Inc. (2009)
+Goddard v. Google, Inc. (2009)
+Rosetta Stone Ltd. v. Google, Inc. (2012)
+Google, Inc. v. American Blind & Wallpaper Factory, Inc. (2017)
+Jedi Blue
+European Union (2010–present)
+United States v. Adobe Systems, Inc., Apple Inc., Google Inc., Intel Corporation, Intuit, Inc., and Pixar (2011)
+Umar Javeed, Sukarma Thapar, Aaqib Javeed vs. Google LLC and Ors. (2019)
+United States v. Google LLC (2020)
+United States v. Google LLC (2023)
+Perfect 10, Inc. v. Amazon.com, Inc. (2007)
+Viacom International, Inc. v. YouTube, Inc. (2010)
+Lenz v. Universal Music Corp. (2015)
+Authors Guild, Inc. v. Google, Inc. (2015)
+Field v. Google, Inc. (2016)
+Google LLC v. Oracle America, Inc. (2021)
+Smartphone patent wars
+Rocky Mountain Bank v. Google, Inc. (2009)
+Hibnick v. Google, Inc. (2010)
+United States v. Google Inc. (2012)
+Judgement of the German Federal Court of Justice on Google's autocomplete function (2013)
+Joffe v. Google, Inc. (2013)
+Mosley v SARL Google (2013)
+Google Spain v AEPD and Mario Costeja González (2014)
+Frank v. Gaos (2019)
+Garcia v. Google, Inc. (2015)
+Google LLC v Defteros (2020)
+Epic Games v. Google (2021)
+Gonzalez v. Google LLC (2022)
+Beauty YouTuber
+BookTube
+BreadTube
+" Don't be evil "
+Gayglers
+Google as a verb
+Google bombing 2004 U.S. presidential election
+2004 U.S. presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber list
+list
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Africa
+Antarctica
+Asia Israel
+Israel
+Europe
+North America Canada United States
+Canada
+United States
+Oceania
+South America Argentina Chile Colombia
+Argentina
+Chile
+Colombia
+Copyright strike
+Education
+Features
+Moderation
+Most-disliked videos
+Most-liked videos
+Most-subscribed channels
+Most-viewed channels
+Most-viewed videos Arabic music videos Chinese music videos French music videos Indian videos Pakistani videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+YouTube Premium original programming
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+AlphaGo
+Google: Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Google Hacks
+The Google Story
+Googled: The End of the World as We Know It
+How Google Works
+I'm Feeling Lucky
+In the Plex
+The MANIAC
+Google Feud
+Google Me (film)
+" Google Me " (Kim Zolciak song)
+" Google Me " (Teyana Taylor song)
+Is Google Making Us Stupid?
+Proceratium google
+Matt Nathanson: Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego?
+" Attention Is All You Need "
+elgooG
+Generative pre-trained transformer
+" Me at the zoo "
+Predictions of the end
+Relationship with Wikipedia
+" Reunion "
+Robot Constitution
+Category
+Outline
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category
+v
+t
+e
+AGI
+AI alignment
+AI boom
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human-Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity+
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+Safe Superintelligence
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J. Russell
+Ilya Sutskever
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Artificial Intelligence Act
+Do You Trust This Computer?
+Human Compatible
+Open letter on artificial intelligence (2015)
+Our Final Invention
+Roko's basilisk
+Statement on AI risk of extinction
+Superintelligence: Paths, Dangers, Strategies
+The Precipice
+If Anyone Builds It, Everyone Dies
+ISNI
+VIAF
+United States
+Czech Republic
+Poland
+Yale LUX

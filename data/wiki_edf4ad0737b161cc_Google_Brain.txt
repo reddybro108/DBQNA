@@ -1,0 +1,1251 @@
+Title: Google Brain
+URL: https://en.wikipedia.org/wiki/Google_Brain
+PageID: 41184517
+Categories: Category:2011 establishments in California, Category:2023 disestablishments in California, Category:American companies disestablished in 2023, Category:Applied machine learning, Category:Artificial intelligence researchers, Category:Defunct organizations based in California, Category:Google
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Google Brain was a deep learning artificial intelligence research team that served as the sole AI branch of Google before being incorporated under the newer umbrella of Google AI , a research division at Google dedicated to artificial intelligence. Formed in 2011, it combined open-ended machine learning research with information systems and large-scale computing resources. [ 1 ] It created tools such as TensorFlow , which allow neural networks to be used by the public, and multiple internal AI research projects, [ 2 ] and aimed to create research opportunities in machine learning and natural language processing . [ 2 ] It was merged into former Google sister company DeepMind to form Google DeepMind in April 2023.
+History
+The Google Brain project began in 2011 as a part-time research collaboration between Google fellow Jeff Dean and Google Researcher Greg Corrado. [ 3 ] Google Brain started as a Google X project and became so successful that it was graduated back to Google: Astro Teller has said that Google Brain paid for the entire cost of Google X . [ 4 ]
+In June 2012, the New York Times reported that a cluster of 16,000 processors in 1,000 computers dedicated to mimicking some aspects of human brain activity had successfully trained itself to recognize a cat based on 10 million digital images taken from YouTube videos. [ 3 ] The story was also covered by National Public Radio . [ 5 ]
+In March 2013, Google hired Geoffrey Hinton , a leading researcher in the deep learning field, and acquired the company DNNResearch Inc. headed by Hinton. Hinton said that he would be dividing his future time between his university research and his work at Google. [ 6 ]
+In April 2023, Google Brain merged with Google sister company DeepMind to form Google DeepMind , as part of the company's continued efforts to accelerate work on AI. [ 7 ]
+Team and location
+Google Brain was initially established by Google Fellow Jeff Dean and visiting Stanford professor Andrew Ng . In 2014, the team included Jeff Dean , Quoc Le , Ilya Sutskever , Alex Krizhevsky , Samy Bengio , and Vincent Vanhoucke. In 2017, team members included Anelia Angelova, Samy Bengio , Greg Corrado, George Dahl, Michael Isard, Anjuli Kannan, Hugo Larochelle, Chris Olah, Salih Edneer, Benoit Steiner, Vincent Vanhoucke, Vijay Vasudevan, and Fernanda Viegas . [ 8 ] Chris Lattner , who created Apple 's programming language Swift and then ran Tesla 's autonomy team for six months, joined Google Brain's team in August 2017. [ 9 ] Lattner left the team in January 2020 and joined SiFive . [ 10 ]
+As of 2021 [update] , Google Brain was led by Jeff Dean , Geoffrey Hinton , and Zoubin Ghahramani . Other members include Katherine Heller, Pi-Chuan Chang, Ian Simon, Jean-Philippe Vert, Nevena Lazic, Anelia Angelova, Lukasz Kaiser, Carrie Jun Cai, Eric Breck, Ruoming Pang, Carlos Riquelme, Hugo Larochelle, and David Ha. [ 8 ] Samy Bengio left the team in April 2021, [ 11 ] and Zoubin Ghahramani took on his responsibilities.
+Google Research includes Google Brain and is based in Mountain View, California . It also has satellite groups in Accra , Amsterdam , Atlanta , Beijing , Berlin , Cambridge (Massachusetts) , Israel , Los Angeles , London , Montreal , Munich , New York City , Paris , Pittsburgh , Princeton , San Francisco , Seattle , Tokyo , Toronto , and Zürich . [ 12 ]
+Projects
+Artificial-intelligence-devised encryption system
+In October 2016, Google Brain designed an experiment to determine that neural networks are capable of learning secure symmetric encryption . [ 13 ] In this experiment, three neural networks were created: Alice, Bob and Eve. [ 14 ] Adhering to the idea of a generative adversarial network (GAN), the goal of the experiment was for Alice to send an encrypted message to Bob that Bob could decrypt, but the adversary, Eve, could not. [ 14 ] Alice and Bob maintained an advantage over Eve, in that they shared a key used for encryption and decryption . [ 13 ] In doing so, Google Brain demonstrated the capability of neural networks to learn secure encryption . [ 13 ]
+Image enhancement
+In February 2017, Google Brain determined a probabilistic method for converting pictures with 8x8 resolution to a resolution of 32x32. [ 15 ] [ 16 ] The method built upon an already existing probabilistic model called pixelCNN to generate pixel translations. [ 17 ] [ 18 ]
+The proposed software utilizes two neural networks to make approximations for the pixel makeup of translated images. [ 16 ] [ 19 ] The first network, known as the "conditioning network," downsizes high-resolution images to 8x8 and attempts to create mappings from the original 8x8 image to these higher-resolution ones. [ 16 ] The other network, known as the "prior network," uses the mappings from the previous network to add more detail to the original image. [ 16 ] The resulting translated image is not the same image in higher resolution, but rather a 32x32 resolution estimation based on other existing high-resolution images. [ 16 ] Google Brain's results indicate the possibility for neural networks to enhance images. [ 20 ]
+Google Translate
+The Google Brain team contributed to the Google Translate project by employing a new deep learning system that combines artificial neural networks with vast databases of multilingual texts. [ 21 ] In September 2016, Google Neural Machine Translation (GNMT) was launched, an end-to-end learning framework, able to learn from a large number of examples. [ 21 ] Previously, Google Translate's Phrase-Based Machine Translation (PBMT) approach would statistically analyze word by word and try to match corresponding words in other languages without considering the surrounding phrases in the sentence. [ 22 ] But rather than choosing a replacement for each individual word in the desired language, GNMT evaluates word segments in the context of the rest of the sentence to choose more accurate replacements. [ 2 ] Compared to older PBMT models, the GNMT model scored a 24% improvement in similarity to human translation, with a 60% reduction in errors. [ 2 ] [ 21 ] The GNMT has also shown significant improvement for notoriously difficult translations, like Chinese to English . [ 21 ]
+While the introduction of the GNMT has increased the quality of Google Translate's translations for the pilot languages, it was very difficult to create such improvements for all of its 103 languages. Addressing this problem, the Google Brain Team was able to develop a Multilingual GNMT system, which extended the previous one by enabling translations between multiple languages. Furthermore, it allows for Zero-Shot Translations, which are translations between two languages that the system has never explicitly seen before. [ 23 ] Google announced that Google Translate can now also translate without transcribing, using neural networks. This means that it is possible to translate speech in one language directly into text in another language, without first transcribing it to text.
+According to the Researchers at Google Brain, this intermediate step can be avoided using neural networks. In order for the system to learn this, they exposed it to many hours of Spanish audio together with the corresponding English text. The different layers of neural networks, replicating the human brain, were able to link the corresponding parts and subsequently manipulate the audio waveform until it was transformed to English text. [ 24 ] Another drawback of the GNMT model is that it causes the time of translation to increase exponentially with the number of words in the sentence. [ 2 ] This caused the Google Brain Team to add 2000 more processors to ensure the new translation process would still be fast and reliable. [ 22 ]
+Robotics
+Aiming to improve traditional robotics control algorithms where new skills of a robot need to be hand-programmed , robotics researchers at Google Brain are developing machine learning techniques to allow robots to learn new skills on their own. [ 25 ] They also attempt to develop ways for information sharing between robots so that robots can learn from each other during their learning process, also known as cloud robotics . [ 26 ] As a result, Google has launched the Google Cloud Robotics Platform for developers in 2019, an effort to combine robotics , AI , and the cloud to enable efficient robotic automation through cloud-connected collaborative robots. [ 26 ]
+Robotics research at Google Brain has focused mostly on improving and applying deep learning algorithms to enable robots to complete tasks by learning from experience, simulation, human demonstrations, and/or visual representations. [ 27 ] [ 28 ] [ 29 ] [ 30 ] For example, Google Brain researchers showed that robots can learn to pick and throw rigid objects into selected boxes by experimenting in an environment without being pre-programmed to do so. [ 27 ] In another research, researchers trained robots to learn behaviors such as pouring liquid from a cup; robots learned from videos of human demonstrations recorded from multiple viewpoints. [ 29 ]
+Google Brain researchers have collaborated with other companies and academic institutions on robotics research. In 2016, the Google Brain Team collaborated with researchers at X in a research on learning hand-eye coordination for robotic grasping. [ 31 ] Their method allowed real-time robot control for grasping novel objects with self-correction. [ 31 ] In 2020, researchers from Google Brain, Intel AI Lab, and UC Berkeley created an AI model for robots to learn surgery-related tasks such as suturing from training with surgery videos. [ 30 ]
+Interactive Speaker Recognition with Reinforcement Learning
+In 2020, Google Brain Team and University of Lille presented a model for automatic speaker recognition which they called Interactive Speaker Recognition. The ISR module recognizes a speaker from a given list of speakers only by requesting a few user specific words. [ 32 ] The model can be altered to choose speech segments in the context of Text-To-Speech Training. [ 32 ] It can also prevent malicious voice generators from accessing the data. [ 32 ]
+TensorFlow
+TensorFlow is an open source software library powered by Google Brain that allows anyone to utilize machine learning by providing the tools to train one's own neural network. [ 2 ] The tool has been used to develop software using deep learning models that farmers use to reduce the amount of manual labor required to sort their yield, by training it with a data set of human-sorted images. [ 2 ]
+Magenta
+Magenta is a project that uses Google Brain to create new information in the form of art and music rather than classify and sort existing data. [ 2 ] TensorFlow was updated with a suite of tools for users to guide the neural network to create images and music. [ 2 ] However, the team from Valdosta State University found that the AI struggles to perfectly replicate human intention in artistry , similar to the issues faced in translation . [ 2 ]
+Medical applications
+The image sorting capabilities of Google Brain have been used to help detect certain medical conditions by seeking out patterns that human doctors may not notice to provide an earlier diagnosis. [ 2 ] During screening for breast cancer, this method was found to have one quarter the false positive rate of human pathologists, who require more time to look over each photo and cannot spend their entire focus on this one task. [ 2 ] Due to the neural network's very specific training for a single task, it cannot identify other afflictions present in a photo that a human could easily spot. [ 2 ]
+Transformer
+The transformer deep learning architecture was invented by Google Brain researchers in 2017, and explained in the scientific paper Attention Is All You Need . [ 33 ] Google owns a patent on this widely used architecture, but hasn't enforced it. [ 34 ] [ 35 ]
+Text-to-image model
+Google Brain announced in 2022 that it created two different types of text-to-image models called Imagen and Parti that compete with OpenAI 's DALL-E . [ 36 ] [ 37 ]
+Later in 2022, the project was extended to text-to-video. [ 38 ]
+Imagen development was transferred to Google Deepmind after the merger with Deepmind. [ 39 ]
+Other Google products
+The Google Brain projects' technology is currently used in various other Google products such as the Android Operating System 's speech recognition system , photo search for Google Photos , smart reply in Gmail , and video recommendations in YouTube . [ 40 ] [ 41 ] [ 42 ]
+Reception
+Google Brain has received coverage in Wired , [ 43 ] [ 44 ] [ 45 ] NPR , [ 5 ] and Big Think . [ 46 ] These articles have contained interviews with key team members Ray Kurzweil and Andrew Ng, and focus on explanations of the project's goals and applications. [ 43 ] [ 5 ] [ 46 ]
+Controversies
+In December 2020, AI ethicist Timnit Gebru left Google. [ 47 ] While the exact nature of her quitting or being fired is disputed, the cause of the departure was her refusal to retract a paper entitled " On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? " and a related ultimatum she made, setting conditions to be met otherwise she would leave. [ 47 ] This paper explored potential risks of the growth of AI such as Google Brain, including environmental impact, biases in training data, and the ability to deceive the public. [ 47 ] [ 48 ] The request to retract the paper was made by Megan Kacholia, vice president of Google Brain. [ 49 ] As of April 2021, nearly 7000 current or former Google employees and industry supporters have signed an open letter accusing Google of "research censorship" and condemning Gebru's treatment at the company. [ 50 ]
+In February 2021, Google fired one of the leaders of the company's AI ethics team, Margaret Mitchell . [ 49 ] The company's statement alleged that Mitchell had broken company policy by using automated tools to find support for Gebru. [ 49 ] In the same month, engineers outside the ethics team began to quit, citing the termination of Gebru as their reason for leaving. [ 51 ] In April 2021, Google Brain co-founder Samy Bengio announced his resignation from the company. [ 11 ] Despite being Gebru's manager, Bengio was not notified before her termination, and he posted online in support of both her and Mitchell. [ 11 ] While Bengio's announcement focused on personal growth as his reason for leaving, anonymous sources indicated to Reuters that the turmoil within the AI ethics team played a role in his considerations. [ 11 ]
+In March 2022, Google fired AI researcher Satrajit Chatterjee after he questioned the findings of a paper published in Nature , by Google's AI team members, Anna Goldie and Azalia Mirhoseini. [ 52 ] [ 53 ] This paper claimed that their AI techniques (in particular reinforcement learning) for the placement problem for integrated circuits were superior to prior methods. [ 54 ] However, this claim is contested because claimed results, especially fast chip design , were not properly supported by specific empirical data and found inconsistent with subsequent published research. [ 55 ] [ 56 ] [ 57 ] [ 58 ] The paper does not report run times of prior and proposed methods on specific inputs, lacks head-to-head comparisons to sufficiently advanced implementations of prior methods, and is difficult to replicate due to proprietary training and test data. [ 57 ] At least one initially favorable commentary has been retracted upon further review, [ 59 ] and the paper is under investigation by Nature. [ 60 ] Further media coverage conveyed skepticism about research published by Google and noted that Google had not provided the comparative benchmarks long requested by experts. [ 61 ] [ 62 ] California Judge Frederick Chung ruled that Chatterjee had "adequately supported his claim that Google terminated him in retaliation for refusing to participate in an act that would violate state or federal law." In his lawsuit, Chatterjee claimed a Google research paper overhyped technology. [ 63 ] [ 64 ]
+See also
+Artificial intelligence art
+Glossary of artificial intelligence
+List of artificial intelligence projects
+Noosphere
+Quantum Artificial Intelligence Lab – run by Google in collaboration with NASA and Universities Space Research Association
+References
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+v
+t
+e
+AI
+Area 120
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google.org Crisis Response
+Crisis Response
+Health
+Registry
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Security Operations
+Owlchemy Labs
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders' Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind 2018 2019
+2018
+2019
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN/YouTube presidential debates
+Code-in
+Code Jam
+Developer Day
+Developers Live
+Doodle4Google
+Future of Go Summit
+G-Day
+Hash Code
+I/O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship 2024
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards 2013 2015
+2013
+2015
+YouTube Space Lab
+YouTube Symphony Orchestra
+111 Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye-1
+Googleplex
+Ivanpah Solar Power Facility
+James R. Thompson Center
+King's Cross
+Mayfield Mall
+Pier 57
+Sidewalk Toronto
+St. John's Terminal
+Submarine cables Dunant Grace Hopper Unity
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L. Hennessy
+Urs Hölzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai (CEO)
+Ruth Porat (CFO)
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Andy Bechtolsheim
+Sergey Brin (co-founder)
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page (co-founder)
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M. Tilghman
+Rachel Whetstone
+Susan Wojcicki
+Censorship
+DeGoogle
+FairSearch
+" Google's Ideological Echo Chamber "
+No Tech for Apartheid
+Privacy concerns Street View YouTube
+Street View
+YouTube
+Trade unions Alphabet Workers Union
+Alphabet Workers Union
+YouTube copyright issues
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Android apps
+April Fools' Day jokes
+Doodles Doodle Champion Island Games Magic Cat Academy
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History Gmail Search YouTube
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium Blink
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Studio
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR-Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema.org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin UTM parameters
+UTM parameters
+V8
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Android Cupcake Donut Eclair Froyo Gingerbread Honeycomb Ice Cream Sandwich Jelly Bean KitKat Lollipop Marshmallow Nougat Oreo Pie 10 11 12 13 14 15 16 version history smartphones
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+10
+11
+12
+13
+14
+15
+16
+version history
+smartphones
+Android Automotive
+Android Go devices
+devices
+Android Things
+Android TV devices
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+BERT
+Chinchilla
+DreamBooth
+Gemini
+Gemma
+Imagen (2023)
+LaMDA
+PaLM
+T5
+Veo (text-to-video model)
+VideoPoet
+XLNet
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+AAB
+APK
+AV1
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+Ultra HDR
+VP3
+VP6
+VP8
+VP9
+WebM
+WebP
+WOFF2
+Carbon
+Dart
+Go
+Sawzall
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank matrix
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+.app
+.dev
+.google
+.zip
+g.co
+google.by
+Croscore
+Noto
+Product Sans
+Roboto
+Aardvark
+Account Dashboard Takeout
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts & Culture
+Assistant
+Attribution
+Authenticator
+BebaPay
+BeatThatQuote.com
+Beam
+Blog Search
+Blogger
+Body
+Bookmarks
+Books Ngram Viewer
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents (social app)
+Currents (news app)
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+Earth
+Etherpad
+Expeditions
+Express
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find Hub
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+Gboard
+Gemini
+Gesture Search
+Gizmo5
+Google+
+Gmail
+Goggles
+GOOG-411
+Grasshopper
+Groups
+Hangouts
+Helpouts
+iGoogle
+Images Image Labeler
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools Japanese Input Pinyin
+Japanese Input
+Pinyin
+Insights for Search
+Jaiku
+Jamboard
+Kaggle
+Keep
+Knol
+Labs
+Latitude
+Lens
+Like.com
+Live Transcribe
+Lively
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+Nearby Share
+News
+News & Weather
+News Archive
+Notebook
+NotebookLM
+Now
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+Panoramio
+PaperofRecord.com
+Patents
+Page Creator
+Pay (mobile app)
+Pay (payment method)
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Public Alerts
+Public Data Explorer
+Question Hub
+Quick, Draw!
+Quick Search Box
+Quick Share
+Quickoffice
+Read Along
+Reader
+Reply
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search AI Overviews Knowledge Graph SafeSearch
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow (chatbot)
+Sparrow (email client)
+Speech Recognition & Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic 3D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+URL Shortener
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+Pixel (2016)
+Pixel 2 (2017)
+Pixel 3 (2018)
+Pixel 3a (2019)
+Pixel 4 (2019)
+Pixel 4a (2020)
+Pixel 5 (2020)
+Pixel 5a (2021)
+Pixel 6 (2021)
+Pixel 6a (2022)
+Pixel 7 (2022)
+Pixel 7a (2023)
+Pixel Fold (2023)
+Pixel 8 (2023)
+Pixel 8a (2024)
+Pixel 9 (2024)
+Pixel 9 Pro Fold (2024)
+Pixel 9a (2025)
+Pixel 10 (2025)
+Pixel 10 Pro Fold (2025)
+Pixel Watch (2022)
+Pixel Watch 2 (2023)
+Pixel Watch 3 (2024)
+Pixel Watch 4 (2025)
+Pixel C (2015)
+Pixel Slate (2018)
+Pixel Tablet (2023)
+Chromebook Pixel (2013–2015)
+Pixelbook (2017)
+Pixelbook Go (2019)
+Pixel Buds (2017–present)
+Nexus One (2010)
+Nexus S (2010)
+Galaxy Nexus (2011)
+Nexus 4 (2012)
+Nexus 5 (2013)
+Nexus 6 (2014)
+Nexus 5X (2015)
+Nexus 6P (2015)
+Nexus 7 (2012)
+Nexus 10 (2012)
+Nexus 7 (2013)
+Nexus 9 (2014)
+Nexus Q (2012)
+Nexus Player (2014)
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest smart speakers Thermostat Wifi
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+v
+t
+e
+Feldman v. Google, Inc. (2007)
+Rescuecom Corp. v. Google Inc. (2009)
+Goddard v. Google, Inc. (2009)
+Rosetta Stone Ltd. v. Google, Inc. (2012)
+Google, Inc. v. American Blind & Wallpaper Factory, Inc. (2017)
+Jedi Blue
+European Union (2010–present)
+United States v. Adobe Systems, Inc., Apple Inc., Google Inc., Intel Corporation, Intuit, Inc., and Pixar (2011)
+Umar Javeed, Sukarma Thapar, Aaqib Javeed vs. Google LLC and Ors. (2019)
+United States v. Google LLC (2020)
+United States v. Google LLC (2023)
+Perfect 10, Inc. v. Amazon.com, Inc. (2007)
+Viacom International, Inc. v. YouTube, Inc. (2010)
+Lenz v. Universal Music Corp. (2015)
+Authors Guild, Inc. v. Google, Inc. (2015)
+Field v. Google, Inc. (2016)
+Google LLC v. Oracle America, Inc. (2021)
+Smartphone patent wars
+Rocky Mountain Bank v. Google, Inc. (2009)
+Hibnick v. Google, Inc. (2010)
+United States v. Google Inc. (2012)
+Judgement of the German Federal Court of Justice on Google's autocomplete function (2013)
+Joffe v. Google, Inc. (2013)
+Mosley v SARL Google (2013)
+Google Spain v AEPD and Mario Costeja González (2014)
+Frank v. Gaos (2019)
+Garcia v. Google, Inc. (2015)
+Google LLC v Defteros (2020)
+Epic Games v. Google (2021)
+Gonzalez v. Google LLC (2022)
+Beauty YouTuber
+BookTube
+BreadTube
+" Don't be evil "
+Gayglers
+Google as a verb
+Google bombing 2004 U.S. presidential election
+2004 U.S. presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber list
+list
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Africa
+Antarctica
+Asia Israel
+Israel
+Europe
+North America Canada United States
+Canada
+United States
+Oceania
+South America Argentina Chile Colombia
+Argentina
+Chile
+Colombia
+Copyright strike
+Education
+Features
+Moderation
+Most-disliked videos
+Most-liked videos
+Most-subscribed channels
+Most-viewed channels
+Most-viewed videos Arabic music videos Chinese music videos French music videos Indian videos Pakistani videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+YouTube Premium original programming
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+AlphaGo
+Google: Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Google Hacks
+The Google Story
+Googled: The End of the World as We Know It
+How Google Works
+I'm Feeling Lucky
+In the Plex
+The MANIAC
+Google Feud
+Google Me (film)
+" Google Me " (Kim Zolciak song)
+" Google Me " (Teyana Taylor song)
+Is Google Making Us Stupid?
+Proceratium google
+Matt Nathanson: Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego?
+" Attention Is All You Need "
+elgooG
+Generative pre-trained transformer
+" Me at the zoo "
+Predictions of the end
+Relationship with Wikipedia
+" Reunion "
+Robot Constitution
+Category
+Outline
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category

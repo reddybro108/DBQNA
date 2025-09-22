@@ -1,0 +1,65 @@
+Title: Braina
+URL: https://en.wikipedia.org/wiki/Braina
+PageID: 45001424
+Categories: Category:Chatbots, Category:Large language models, Category:Natural language processing software, Category:OpenAI, Category:Speech recognition software, Category:Speech synthesis, Category:Virtual assistants, Category:Windows software
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Braina is a virtual assistant [ 1 ] [ 2 ] and speech-to-text dictation [ 3 ] application for Microsoft Windows developed by Brainasoft. [ 4 ] Braina uses natural language interface , [ 5 ] speech synthesis , and speech recognition technology [ 6 ] to interact with its users and allows them to use natural language sentences to perform various tasks on a computer. The name Braina is a short form of "Brain Artificial". [ 7 ] [ 8 ]
+Braina is marketed as a Microsoft Copilot alternative. [ 9 ] It provides a voice interface for several locally run [ 10 ] and cloud large language models , including the latest LLMs from providers such as OpenAI, Anthropic, Google, xAI, Meta, Mistral, etc; while improving data privacy. [ 7 ] Braina also allows responses from its in-house large language models like Braina Swift and Braina Pinnacle. [ 11 ] It has an "Artificial Brain" [ 7 ] feature that provides persistent memory support for supported LLMs. [ 12 ]
+Features
+Braina provides is able to carry out various tasks on a computer, including automation. [ 13 ] [ 14 ] Braina can take commands inputted through typing or through dictation [ 3 ] [ 15 ] [ 13 ] [ 16 ] to store reminders, find information online, perform mathematical operations, open files, generate images from text , transcribe speech, and control open windows or programs. [ 17 ] [ 18 ] [ 4 ] [ 19 ] Braina adapts to user behavior over time with a goal of better anticipating needs. [ 13 ]
+Speech-to-text dictation
+Braina Pro can type spoken words into an active window at the location of a user's cursor. [ 15 ] [ 13 ] [ 16 ] Its speech recognition technology supports more than 100 languages and dialects [ 2 ] [ 7 ] [ 20 ] [ 13 ] and is able to isolate the recognition of a user's voice from disturbing environmental factors such as background noise, [ 21 ] other human voices, or external devices. Braina can also be taught to dictate uncommon legal, medical, and scientific terms. [ 13 ] [ 22 ] Users can also teach Braina uncommon names and vocabulary. [ 16 ] Users can edit or correct dictated text without using a keyboard or mouse by giving built-in voice commands. [ 13 ]
+Text-to-speech
+Braina can read aloud selected texts, such as e-books. [ 4 ] [ 13 ]
+Custom commands and automation
+Braina can automate computer tasks. [ 14 ] It lets users create custom voice commands to perform tasks such as opening files, programs, websites, or emails, as well as executing keyboard or mouse macros. [ 4 ] [ 23 ] [ 24 ] [ 13 ] [ 25 ]
+Transcription
+Braina can transcribe media file formats such as WAV , MP3 , and MP4 into text. [ 26 ]
+Notes and reminders
+Braina can store and recall notes and reminders. These can include scheduled or unscheduled commands, checklist items, alarms, chat conversations, memos, website snippets, bookmarks, contacts. [ 13 ] [ 4 ] [ 27 ]
+Image generation
+Brainasoft states that Braina can generate images from text using text-to-image models including Stable Diffusion and DALL-E . [ 28 ]
+Platforms
+In addition to the desktop version for Windows operating systems, [ 28 ] Braina is also available for the iOS and Android operating systems. [ 29 ] [ 3 ] [ 30 ]
+The mobile version of Braina has a feature allowing remote management of a Windows PC connected via Wi-Fi . [ 31 ]
+Distributions
+Braina is distributed in multiple modes. These include Braina Lite, a freeware version with limitations, [ 3 ] and premium versions Braina Pro, [ 13 ] Pro Plus, and Pro Ultra. [ 32 ]
+Some additional features in the Pro version include dictation, custom vocabulary, [ 21 ] video transcription, automation, [ 3 ] custom voice commands, and persistent LLM memory.
+Reception
+TechRadar has consistently listed Braina as one of the best dictation and virtual assistant apps between 2015 and 2024. [ 4 ] [ 33 ] [ 34 ] [ 35 ]
+References
+v
+t
+e
+AliGenie
+Alexa
+Alice
+Bixby Viv
+Viv
+Braina
+Celia
+Clova
+Google Assistant
+Maluuba
+Siri
+Voice Mate
+Watson
+WolframAlpha
+Xiaoice
+BlackBerry Assistant
+Cortana
+Google Now
+M
+Microsoft Agent
+Microsoft Bob
+Microsoft Voice Command
+Ms. Dewey
+Mya
+Mycroft
+Office Assistant (Clippy)
+S Voice
+Speaktoit Assistant
+Tafiti
+Vlingo

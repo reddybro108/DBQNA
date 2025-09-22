@@ -1,0 +1,299 @@
+Title: Lyra (codec)
+URL: https://en.wikipedia.org/wiki/Lyra_(codec)
+PageID: 71354664
+Categories: Category:2021 software, Category:Google software, Category:Lossy compression algorithms, Category:Machine learning, Category:Software using the Apache license, Category:Speech codecs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Lyra is a lossy audio codec developed by Google that is designed for compressing speech at very low bitrates. Unlike most other audio formats, it compresses data using a machine learning -based algorithm.
+Features
+The Lyra codec is designed to transmit speech in real-time when bandwidth is severely restricted, such as over slow or unreliable network connections. [ 1 ] It runs at fixed bitrates of 3.2, 6, and 9 kbit/s and it is intended to provide better quality than codecs that use traditional waveform-based algorithms at similar bitrates. [ 2 ] [ 3 ] Instead, compression is achieved via a machine learning algorithm that encodes the input with feature extraction, and then reconstructs an approximation of the original using a generative model. [ 1 ] This model was trained on thousands of hours of speech recorded in over 70 languages to function with various speakers. [ 2 ] Because generative models are more computationally complex than traditional codecs, a simple model that processes different frequency ranges in parallel is used to obtain acceptable performance. [ 4 ] Lyra imposes 20 ms of latency due to its frame size. [ 3 ] Google's reference implementation is available for Android and Linux . [ 4 ]
+Quality
+Lyra's initial version performed significantly better than traditional codecs at similar bitrates. [ 1 ] [ 4 ] [ 5 ] Ian Buckley at MakeUseOf said, "It succeeds in creating almost eerie levels of audio reproduction with bitrates as low as 3 kbps." Google claims that it reproduces natural-sounding speech, and that Lyra at 3 kbit/s beats Opus at 8 kbit/s. [ 2 ] Tsahi Levent-Levi writes that Satin , Microsoft's AI-based codec, outperforms it at higher bitrates. [ 5 ]
+History
+In December 2017, Google researchers published a preprint paper on replacing the Codec 2 decoder with a WaveNet neural network. They found that a neural network is able to extrapolate features of the voice not described in the Codec 2 bitstream and give better audio quality, and that the use of conventional features makes the neural network calculation simpler compared to a purely waveform-based network. Lyra version 1 would reuse this overall framework of feature extraction, quantization, and neural synthesis. [ 6 ]
+Lyra was first announced in February 2021, [ 2 ] and in April, Google released the source code of their reference implementation. [ 1 ] The initial version had a fixed bitrate of 3 kbit/s and around 90 ms latency. [ 1 ] [ 2 ] The encoder calculates a log mel spectrogram and performs vector quantization to store the spectrogram in a data stream. The decoder is a WaveNet neural network that takes the spectrogram and reconstructs the input audio. [ 2 ]
+A second version (v2/1.2.0), released in September 2022, improved sound quality, latency, and performance, and permitted multiple bitrates. V2 uses a "SoundStream" structure where both the encoder and decoder are neural networks, a kind of autoencoder . A residual vector quantizer is used to turn the feature values into transferrable data. [ 3 ]
+Support
+Implementations
+Google's implementation is available on GitHub under the Apache License. [ 1 ] [ 7 ] Written in C++ , it is optimized for 64-bit ARM but also runs on x86 , on either Android or Linux. [ 4 ]
+Applications
+Google Meet uses Lyra to transmit sound for video chats when bandwidth is limited. [ 1 ] [ 5 ]
+References
+External links
+Lyra: A New Very Low-Bitrate Codec for Speech Compression Google blog post with a demonstration comparing codecs
+See also
+Satin (codec) , an AI-based codec developed by Microsoft
+Comparison of audio coding formats
+Speech coding
+Videotelephony
+v
+t
+e
+DV
+MJPEG
+Motion JPEG 2000
+MPEG-1
+MPEG-2 Part 2
+Part 2
+MPEG-4 Part 2 / ASP Part 10 / AVC Part 33 / IVC
+Part 2 / ASP
+Part 10 / AVC
+Part 33 / IVC
+MPEG-H Part 2 / HEVC
+Part 2 / HEVC
+MPEG-I Part 3 / VVC
+Part 3 / VVC
+MPEG-5 Part 1 / EVC Part 2 / LCEVC
+Part 1 / EVC
+Part 2 / LCEVC
+H.120
+H.261
+H.262
+H.263
+H.264 / AVC
+H.265 / HEVC
+H.266 / VVC
+H.267 / Enhanced Compression Model
+VC-1
+VC-2
+VC-3
+VC-5
+VC-6
+TrueMotion S
+VP3
+VP6
+VP7
+VP8
+VP9
+AV1
+AVS1 P2/AVS+ (GB/T 20090.2/16)
+AVS2 P2 (GB/T 33475.2,GY/T 299.1) HDR Vivid(GY/T 358)
+HDR Vivid(GY/T 358)
+AVS3 P2(GY/T 368)
+Apple Video
+AVS
+Bink
+Cinepak
+Daala
+DVI
+FFV1
+Huffyuv
+Indeo
+Lagarith
+Microsoft Video 1
+MSU Lossless
+OMS Video
+Pixlet
+ProRes 422 4444
+422
+4444
+QuickTime Animation Graphics
+Animation
+Graphics
+RealVideo
+RTVideo
+SheerVideo
+Smacker
+Sorenson Video/Spark
+Theora
+Thor
+Ut
+WMV
+XEB
+YULS
+MPEG-1 Layer II Multichannel
+Multichannel
+MPEG-1 Layer I
+MPEG-1 Layer III (MP3)
+AAC HE-AAC AAC-LD
+HE-AAC
+AAC-LD
+MPEG Surround
+MPEG-4 ALS
+MPEG-4 SLS
+MPEG-4 DST
+MPEG-4 HVXC
+MPEG-4 CELP
+MPEG-D USAC
+MPEG-H 3D Audio
+G.711 A-law µ-law
+A-law
+µ-law
+G.718
+G.719
+G.722
+G.722.1
+G.722.2
+G.723
+G.723.1
+G.726
+G.728
+G.729
+G.729.1
+Opus
+iLBC
+Speex
+Vorbis
+FLAC
+AMR
+AMR-WB
+AMR-WB+
+EVRC
+EVRC-B
+EVS
+GSM-HR
+GSM-FR
+GSM-EFR
+AC-3
+AC-4
+DTS
+SBC
+LC3
+AVS1 P10 (GB/T 20090.10)
+AVS2 P3 (GB/T 33475.3) Audio Vivid (GY/T 363)
+Audio Vivid (GY/T 363)
+DRA (GB/T 22726)
+ExAC(SJ/T 11299.4)
+ACELP
+ALAC
+Asao
+ATRAC
+CELT
+Codec 2
+iSAC
+Lyra
+MELP
+Monkey's Audio
+MT9
+Musepack
+OptimFROG
+OSQ
+QCELP
+RCELP
+RealAudio
+SD2
+SHN
+SILK
+Siren
+SMV
+SVOPC
+TTA True Audio
+True Audio
+TwinVQ
+VMR-WB
+VSELP
+WavPack
+WMA
+MQA
+aptX
+aptX HD
+aptX Low Latency
+aptX Adaptive
+LDAC
+LHDC
+LLAC
+CCITT Group 4
+GIF
+HEIC / HEIF
+HEVC
+JBIG
+JBIG2
+JPEG
+JPEG 2000
+JPEG-LS
+JPEG XL
+JPEG XR
+JPEG XS
+JPEG XT
+PNG APNG
+APNG
+TIFF
+TIFF/EP
+TIFF/IT
+AV1
+AVIF
+BPG
+DjVu
+EXR
+FLIF
+ICER
+MNG
+PGF
+QOI
+QTVR
+WBMP
+WebP
+MPEG-ES MPEG-PES
+MPEG-PES
+MPEG-PS
+MPEG-TS
+ISO/IEC base media file format
+MPEG-4 Part 14 (MP4)
+Motion JPEG 2000
+MPEG-21 Part 9
+MPEG media transport
+H.222.0
+T.802
+RTP
+Ogg
+Matroska
+GXF
+MXF
+3GP and 3G2
+AMV
+ASF
+AIFF
+AVI
+AU
+BPG
+Bink Smacker
+Smacker
+BMP
+DivX Media Format
+EVO
+Flash Video
+HEIF
+IFF
+M2TS
+Matroska WebM
+WebM
+QuickTime File Format
+RatDVD
+RealMedia
+RIFF WAV
+WAV
+MOD and TOD
+VOB, IFO and BUP
+NETVC
+MPEG LA
+Alliance for Open Media
+Entropy Arithmetic Huffman Modified
+Arithmetic
+Huffman
+Modified
+LPC ACELP CELP LSP WLPC
+ACELP
+CELP
+LSP
+WLPC
+Lossless
+Lossy
+LZ DEFLATE LZW
+DEFLATE
+LZW
+PCM A-law µ-law ADPCM DPCM
+A-law
+µ-law
+ADPCM
+DPCM
+Transforms DCT FFT MDCT Wavelet Daubechies DWT
+DCT
+FFT
+MDCT
+Wavelet Daubechies DWT
+Daubechies
+DWT
+Comparison of audio coding formats
+Comparison of video codecs
+List of codecs

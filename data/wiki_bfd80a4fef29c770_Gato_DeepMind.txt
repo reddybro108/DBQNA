@@ -1,0 +1,76 @@
+Title: Gato (DeepMind)
+URL: https://en.wikipedia.org/wiki/Gato_(DeepMind)
+PageID: 70862096
+Categories: Category:2022 software, Category:Computational neuroscience stubs, Category:Deep learning software applications, Category:Google DeepMind, Category:Google stubs, Category:Machine learning stubs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Gato is a deep neural network for a range of complex tasks that exhibits multimodality . It can perform tasks such as engaging in a dialogue, playing video games, controlling a robot arm to stack blocks, and more. It was created by researchers at London-based AI firm DeepMind . It is a transformer , like GPT-3 . [ 1 ] According to MIT Technology Review , the system "learns multiple different tasks at the same time, which means it can switch between them without having to forget one skill before learning another" whereas "[t]he AI systems of today are called “narrow,” meaning they can only do a specific, restricted set of tasks such as generate text", [ 2 ] and according to The Independent , it is a "'generalist agent' that can carry out a huge range of complex tasks, from stacking blocks to writing poetry". [ 3 ] It uses supervised learning with 1.2B parameters. [ 4 ] The technology has been described as "general purpose" artificial intelligence and a "step toward" artificial general intelligence . [ 5 ]
+References
+Further reading
+Matthew Sparkes (May 19, 2022), "Is DeepMind's Gato AI really a human-level intelligence breakthrough?" , New Scientist
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+This Google -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
+This artificial neural network -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

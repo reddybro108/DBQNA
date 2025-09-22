@@ -1,0 +1,790 @@
+Title: 15.ai
+URL: https://en.wikipedia.org/wiki/15.ai
+PageID: 78635504
+Categories: Category:2020 in Internet culture, Category:2020 in artificial intelligence, Category:2020 software, Category:2020s fads and trends, Category:2020s in Internet culture, Category:2022 controversies, Category:American websites, Category:Applications of artificial intelligence, Category:Brony fandom, Category:Deep learning software applications, Category:Deepfakes, Category:English-language websites, Category:Generative artificial intelligence, Category:Internet-related controversies, Category:Internet properties established in 2020, Category:Massachusetts Institute of Technology software, Category:Speech synthesis, Category:Web applications
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Equestria
+Toyline
+Cutie mark
+Elements of Harmony
+My Little Pony: Equestria Girls (2013–2020) ( List of animations )
+My Little Pony: Pony Life (2020–2021) ( List of episodes )
+Twilight Sparkle
+Rainbow Dash
+Pinkie Pie
+Applejack
+Fluttershy
+Rarity
+Main Supporting
+Spike
+Princess Celestia
+Princess Luna
+Princess Cadance
+Shining Armor
+Recurring Characters
+Discord
+Starlight Glimmer
+Cutie Mark Crusaders
+The Great and Powerful Trixie
+Zecora
+Antagonists
+Queen Chrysalis
+Lord Tirek
+Background/Fan Favorites
+Derpy Hooves
+Background Six
+Cheese Sandwich
+Quibble Pants
+The Wonderbolts
+Aunt Holiday and Auntie Lofty
+Equestria Girls
+Sunset Shimmer
+" Friendship Is Magic "
+" The Ticket Master "
+" Applebuck Season "
+" Griffon the Brush Off "
+" Boast Busters "
+" Dragonshy "
+" Look Before You Sleep "
+" Bridle Gossip "
+" Swarm of the Century "
+" Winter Wrap Up "
+" Call of the Cutie "
+" Fall Weather Friends "
+" Suited for Success "
+" Feeling Pinkie Keen "
+" Sonic Rainboom "
+" Stare Master "
+" The Show Stoppers "
+" A Dog and Pony Show "
+" Green Isn't Your Color "
+" Over a Barrel "
+" A Bird in the Hoof "
+" The Cutie Mark Chronicles "
+" Owl's Well That Ends Well "
+" Party of One "
+" The Best Night Ever "
+Season 2 (2011–2012)
+" The Return of Harmony "
+" Lesson Zero "
+" Luna Eclipsed "
+" Sisterhooves Social "
+" The Cutie Pox "
+" May the Best Pet Win! "
+" The Mysterious Mare Do Well "
+" Sweet and Elite "
+" Secret of My Excess "
+" Hearth's Warming Eve "
+" Family Appreciation Day "
+" Baby Cakes "
+" The Last Roundup "
+" The Super Speedy Cider Squeezy 6000 "
+" Read It and Weep "
+" Hearts and Hooves Day "
+" A Friend in Deed "
+" Putting Your Hoof Down "
+" It's About Time "
+" Dragon Quest "
+" Hurricane Fluttershy "
+" Ponyville Confidential "
+" MMMystery on the Friendship Express "
+" A Canterlot Wedding "
+Season 3 (2012–2013)
+" The Crystal Empire "
+" Too Many Pinkie Pies "
+" One Bad Apple "
+" Magic Duel "
+" Sleepless in Ponyville "
+" Wonderbolts Academy "
+" Apple Family Reunion "
+" Spike at Your Service "
+" Keep Calm and Flutter On "
+" Just for Sidekicks "
+" Games Ponies Play "
+" Magical Mystery Cure "
+Season 4 (2013–2014)
+" Princess Twilight Sparkle "
+" Castle Mane-ia "
+" Daring Don't "
+" Flight to the Finish "
+" Power Ponies "
+" Bats! "
+" Rarity Takes Manehattan "
+" Pinkie Apple Pie "
+" Rainbow Falls "
+" Three's a Crowd "
+" Pinkie Pride "
+" Simple Ways "
+" Filli Vanilli "
+" Twilight Time "
+" It Ain't Easy Being Breezies "
+" Somepony to Watch Over Me "
+" Maud Pie "
+" For Whom the Sweetie Belle Toils "
+" Leap of Faith "
+" Testing Testing 1, 2, 3 "
+" Trade Ya! "
+" Inspiration Manifestation "
+" Equestria Games "
+" Twilight's Kingdom "
+Season 5 (2015)
+" The Cutie Map "
+" Castle Sweet Castle "
+" Tanks for the Memories "
+" Slice of Life "
+" Amending Fences "
+" Do Princesses Dream of Magic Sheep? "
+" Made in Manehattan "
+" Crusaders of the Lost Mark "
+" The Hooffields and McColts "
+" The Cutie Re-Mark "
+Season 6 (2016)
+" A Hearth's Warming Tail "
+" The Times They Are a Changeling "
+Season 7 (2017)
+" The Perfect Pear "
+Season 8 (2018)
+" Grannies Gone Wild "
+Season 9 (2019)
+" The Last Crusade "
+Series finale
+My Little Pony: The Movie (2017)
+My Little Pony: Best Gift Ever (2018)
+My Little Pony: Rainbow Roadtrip (2019)
+Music
+Movie Soundtrack " Rainbow " " Off to See the World "
+" Rainbow "
+" Off to See the World "
+Games
+My Little Pony: Twilight Sparkle, Teacher for a Day
+Gameloft video game
+Collectible card game
+Other media
+Home video releases
+IDW comics Issues My Little Pony/Transformers
+Issues
+My Little Pony/Transformers
+15.ai
+A Brony Tale
+Bronies (documentary)
+Equestria Daily
+FIMFiction
+Fallout: Equestria
+Friendship Is Witchcraft
+Legends of Equestria
+Love & Ponystep
+/mlp/
+Ponysona
+PONY.MOV
+Them's Fightin' Herds
+Fan culture
+Analysis
+Brony music
+Bronyspeak
+Charity
+Criticism
+Fan art Clop
+Clop
+Fan fiction
+Military bronies
+Online communities
+Fan conventions
+BABSCon
+BronyCAN
+BronyCon
+Czequestria
+Everfree Northwest
+GalaCon
+Ponyville Ciderfest
+RuBronyCon
+TrotCon
+UK PonyCon
+Vanhoover Pony Expo
+v
+t
+e
+15.ai is a free non-commercial web application and research project that uses artificial intelligence to generate text-to-speech voices of fictional characters from popular media . Created by a pseudonymous artificial intelligence researcher known as 15 , who began developing the technology as a freshman during their undergraduate research at the Massachusetts Institute of Technology , the application allowed users to make characters from video games , television shows , and movies speak custom text with emotional inflections faster than real-time. [ a ] The platform was notable for its ability to generate convincing voice output using minimal training data—the name "15.ai" referenced the creator's claim that a voice could be cloned with just 15 seconds of audio, in contrast to contemporary deep learning speech models which typically required tens of hours of audio data. It was an early example of an application of generative artificial intelligence during the initial stages of the AI boom .
+Launched in March 2020, 15.ai gained widespread attention in early 2021 when content utilizing it went viral on social media platforms like YouTube and Twitter , and quickly became popular among Internet fandoms, such as the My Little Pony: Friendship Is Magic , Team Fortress 2 , and SpongeBob SquarePants fandoms. The service distinguished itself through its support for emotional context in speech generation through emojis , precise pronunciation control through phonetic transcriptions , and multi-speaker capabilities that allowed a single model to generate diverse character voices. 15.ai is credited as the first mainstream platform to popularize AI voice cloning ( audio deepfakes ) in memes and content creation . [ 1 ]
+Voice actors and industry professionals debated 15.ai's merits for fan creativity versus its potential impact on the profession. While many critics praised the application's accessibility and emotional control, they also criticized technical limitations in areas like prosody options and non-English language support. 15.ai prompted discussions about ethical implications, including concerns about reduction of employment opportunities for voice actors, voice-related fraud , and misuse in explicit content .
+In January 2022, Voiceverse generated controversy when it was discovered that the company had generated audio using 15.ai without attribution and sold it as a non-fungible token (NFT) without permission. [ 2 ] News publications universally characterized this incident as Voiceverse having "stolen" voice lines from 15.ai. [ 3 ] The service was ultimately taken offline in September 2022 due to legal issues surrounding artificial intelligence and copyright . Its shutdown was followed by the emergence of various commercial alternatives in subsequent years, with their founders acknowledging 15.ai's pioneering influence in the field of deep learning speech synthesis .
+On May 18, 2025, 15 launched 15.dev , a sequel to the original service that launched after nearly three years of inactivity.
+History
+Background
+The field of artificial speech synthesis underwent a significant transformation with the introduction of deep learning approaches. In 2016, DeepMind 's publication of the seminal paper WaveNet : A Generative Model for Raw Audio marked a pivotal shift toward neural network -based speech synthesis, demonstrating unprecedented audio quality through causal convolutional neural networks . Previously, concatenative synthesis —which worked by stitching together pre-recorded segments of human speech—was the predominant method for generating artificial speech, but it often produced robotic-sounding results at the boundaries of sentences. [ 4 ] Two years later, this was followed by Google AI 's Tacotron 2 in 2018, which demonstrated that neural networks could produce highly natural speech synthesis but required substantial training data—typically tens of hours of audio—to achieve acceptable quality. When trained on smaller datasets, such as 2 hours of speech, the output quality degraded while still being able to maintain intelligible speech, and with just 24 minutes of training data, Tacotron 2 failed to produce intelligible speech. [ 5 ] The same year saw the emergence of HiFi-GAN, a generative adversarial network (GAN)-based vocoder that improved the efficiency of waveform generation while producing high-fidelity speech, [ 6 ] followed by Glow-TTS, which introduced a flow-based approach that allowed for both fast inference and voice style transfer capabilities. [ 7 ] Chinese tech companies also made significant contributions to the field, with Baidu and ByteDance developing proprietary text-to-speech frameworks that further advanced the technology, though specific technical details of their implementations remained largely undisclosed. [ 8 ]
+2016–2020: Conception and development
+[...] The website has multiple purposes. It serves as a proof of concept of a platform that allows anyone to create content, even if they can't hire someone to voice their projects.
+It also demonstrates the progress of my research in a far more engaging manner – by being able to use the actual model, you can discover things about it that even I wasn't aware of (such as getting characters to make gasping noises or moans by placing commas in between certain phonemes).
+It also doesn't let me get away with picking and choosing the best results and showing off only the ones that work [...] Being able to interact with the model with no filter allows the user to judge exactly how good the current work is at face value.
+15.ai was conceived in 2016 as a research project in deep learning speech synthesis by a developer known as 15 (at the age of 18 [ 11 ] ) during their freshman year at the Massachusetts Institute of Technology (MIT) as part of its Undergraduate Research Opportunities Program (UROP). [ 12 ] The developer was inspired by DeepMind 's WaveNet paper, with development continuing through their studies as Google AI released Tacotron 2 the following year. By 2019, the developer had demonstrated at MIT their ability to replicate WaveNet and Tacotron 2's results using 75% less training data than previously required. [ 8 ] The name 15 is a reference to the creator's claim that a voice can be cloned with as little as 15 seconds of data. [ 13 ]
+The developer had originally planned to pursue a doctorate based on their undergraduate research, but opted to work in the tech industry instead after their startup was accepted into the Y Combinator accelerator in 2019. After their departure in early 2020, the developer returned to their voice synthesis research, implementing it as a web application . According to a post on X from the developer, instead of using conventional voice datasets like LJSpeech that contained simple, monotone recordings, they sought out more challenging voice samples that could demonstrate the model's ability to handle complex speech patterns and emotional undertones. [ tweet 1 ] The Pony Preservation Project—a fan initiative originating from /mlp/ , [ 8 ] 4chan 's My Little Pony board, that had compiled voice clips from My Little Pony: Friendship Is Magic —played a crucial role in the implementation. The project's contributors had manually trimmed, denoised, transcribed, and emotion-tagged every line from the show. This dataset provided ideal training material for 15.ai's deep learning model. [ 8 ]
+2020–2022: Release and operation
+15.ai was released in March 2020 with a limited selection of characters, including those from My Little Pony: Friendship Is Magic and Team Fortress 2 . [ 14 ] The system was designed to function efficiently with limited training data —requiring only minutes of clean audio per character, in contrast to the 40+ hours typically needed by traditional deep learning models. [ 15 ] To overcome data constraints, the developer employed specific data augmentation techniques to improve generalization, including deliberate introduction of spelling variations, punctuation patterns, and pronunciation distortions during training. [ 15 ]
+Upon its launch, 15.ai was offered as a free [ 16 ] and non-commercial [ 17 ] service that did not require user registration or user accounts to operate, [ 18 ] and required the user to accept the terms of use before proceeding. [ 19 ] Users were permitted to create any content with the synthesized voices under two specific conditions: they must properly credit 15.ai by including the website URL in any posts, videos, or projects using the generated audio; [ 20 ] and they were prohibited from mixing 15.ai outputs with other text-to-speech outputs in the same work to prevent misrepresentation of the technology's capabilities. [ 21 ]
+More voices were added to the website in the following months. A significant technical advancement came in late 2020 with the implementation of a multi-speaker embedding in the deep neural network, enabling simultaneous training of multiple voices rather than requiring individual models for each character voice. [ 8 ] This not only allowed rapid expansion from eight to over fifty character voices, [ 11 ] but also let the model recognize common emotional patterns across characters, even when certain emotions were missing from some characters' training data. [ 22 ]
+By May 2020, the site had served over 4.2 million audio files to users. [ 23 ] In early 2021, the application gained popularity after skits, memes, and fan content created using 15.ai went viral on Twitter , TikTok , Reddit , Twitch , Facebook , and YouTube . [ 24 ] At its peak, the platform incurred operational costs of US$ 12,000 [ 13 ] per month from AWS infrastructure needed to handle millions of daily voice generations; despite receiving offers from companies to acquire 15.ai and its underlying technology, the website remained independent and was funded out of the personal previous startup earnings of the developer [ 8 ] —then aged 23 at the time.
+2022: Voiceverse NFT controversy
+On January 14, 2022, a controversy ensued after it was discovered that Voiceverse NFT had taken credit for voice lines generated from 15.ai without permission [ 3 ] and sold them as NFTs ( non-fungible tokens ). [ 2 ] This came shortly after 15.ai's developer had explicitly stated in December 2021 that they had no interest in incorporating NFTs into their work. [ 25 ] Log files showed that Voiceverse had generated audio of characters from My Little Pony: Friendship Is Magic using 15.ai, pitched them up to make them sound unrecognizable from the original voices to market their own platform [ 26 ] —in violation of 15.ai's terms of service which explicitly prohibited commercial use and required proper attribution. [ 27 ]
+Voiceverse initially claimed their platform would allow NFT owners to possess commercial rights to AI-generated voices for content creation, in-game chats, and video calls. [ 28 ] When confronted with evidence of their misappropriation, Voiceverse claimed that someone in their marketing team used the voice without properly crediting 15.ai [ 29 ] and explained in their Discord server that their marketing team had been in such a rush to create a partnership demo that they used 15.ai without waiting for their own voice technology to be ready. [ 30 ] The controversial tweet was deleted thereafter. [ 31 ] In response to their apology, 15 tweeted "Go fuck yourself," [ 32 ] which went viral, amassing hundreds of thousands of retweets and likes on Twitter in support of the developer. [ 8 ]
+I'm partnering with @VoiceverseNFT to explore ways where together we might bring new tools to new creators to make new things, and allow everyone a chance to own & invest in the IP's they create.
+We all have a story to tell.
+You can hate.
+Or you can create.
+What'll it be?
+Following continued backlash and the plagiarism revelation, voice actor Troy Baker (who had partnered with Voiceverse) faced criticism for supporting an NFT project [ 34 ] and his confrontational announcement tone. [ 35 ] Baker had described Voiceverse's service as allowing people to "create customized audiobooks, YouTube videos, e-learning lectures, or even podcasts with your favorite voice all without the hassle of additional legal work," [ 19 ] which raised concerns about potentially replacing professional voice actors with AI . [ 36 ] Baker subsequently acknowledged that his original announcement tweet ending with "You can hate. Or you can create. What'll it be?" may have been "antagonistic," [ 37 ] and on January 31, announced he would discontinue his partnership with Voiceverse. [ 38 ]
+The event raised concerns about NFT projects, which critics observed were frequently associated with intellectual property theft and questionable business practices. [ 39 ] The incident was documented in the AI Incident Database (AIID), which catalogued it as "an AI-synthetic audio sold as an NFT on Voiceverse's platform [that] was acknowledged by the company for having been created by 15.ai [...] and reused without proper attribution," [ 40 ] and in the AI, Algorithmic, and Automation Incidents and Controversies (AIAAIC) repository, which placed it within the controversial trend of the commercialization of AI-generated voices through NFTs. [ 41 ] The controversy was also featured in writer and crypto skeptic Molly White 's Web3 Is Going Just Great project, which documented how Baker's partnership announcement and its antagonistic tone exacerbated negative reactions to the NFT initiative. [ 42 ] White commented on the vague nature of Voiceverse's offering, described only as "provid[ing] you an ownership to a unique voice in the Metaverse ," [ 43 ] and stated that the revelation of stolen work from 15.ai further damaged Voiceverse's credibility. [ 42 ] Russian educational platform Skillbox listed the incident as an example of fraud in NFTs . [ 44 ] Voice actor and YouTuber Yong Yea criticized voice NFTs for its potential impact on the voice acting industry, [ 38 ] and stated in a follow-up YouTube video:
+"This isn't just one of those things [Voiceverse] can go 'Whoopsies!' on. [They] plagiarized somebody else's work and used that as a means to falsely market the quality of [their] own products, by using somebody else's higher quality voice AI to promote [Voiceverse] for [their] own benefit." [ video 1 ]
+In a 2024 class action lawsuit filed against LOVO, Inc., court documents alleged that the founders of LOVO also created Voiceverse, with plaintiffs claiming that Voiceverse had "already been found to have stolen technology from [15.ai]". [ 45 ]
+2022–2024: Inactivity
+In September 2022, 15.ai was taken offline due to legal issues surrounding artificial intelligence and copyright . [ 46 ] In a post on Twitter , 15 suggested a potential future version that would better address copyright concerns from the outset. [ 8 ]
+2025: Revival
+On May 18, 2025, 15 launched 15.dev as the official sequel to 15.ai. [ 47 ] [ 48 ] Fandom news site Equestria Daily reported that the website included "almost every voiced pony in the show" with "a dropdown for various emotions you want to generate." [ 49 ]
+Features
+15.ai is non-commercial , [ 17 ] has no advertisements , generates no revenue , and operates without requiring user registration or accounts . [ 18 ] Users generated speech by inputting text and selecting a character voice, with optional parameters for emotional contextualizers and phonetic transcriptions. Each request produced three audio variations with distinct emotional deliveries sorted by confidence score. [ 50 ] Characters available included multiple characters from Team Fortress 2 and My Little Pony: Friendship Is Magic , including the Mane Six and Derpy Hooves ; GLaDOS , Wheatley , and the Sentry Turret from the Portal series; SpongeBob SquarePants ; Kyu Sugardust from HuniePop , Rise Kujikawa from Persona 4 ; Daria Morgendorffer and Jane Lane from Daria ; Carl Brutananadilewski from Aqua Teen Hunger Force ; Steven Universe from Steven Universe ; Sans from Undertale ; Madeline and multiple characters from Celeste ; the Tenth Doctor Who ; the Narrator from The Stanley Parable ; and HAL 9000 from 2001: A Space Odyssey . [ 51 ] Out of the over fifty [ 11 ] voices available, thirty were of characters from My Little Pony: Friendship Is Magic . [ 52 ] Certain "silent" characters like Chell and Gordon Freeman were able to be selected as a joke, and would emit silent audio files when any text was submitted. [ 53 ] Characters from Undertale and Celeste did not produce spoken words but instead generated their games' distinctive beeps when text was entered. [ 54 ]
+15.ai generated audio at 44.1 kHz sampling rate —higher than the 16 kHz standard used by most deep learning text-to-speech systems of that period. This higher fidelity created more detailed audio spectrograms and greater audio resolution, though it also made any synthesis imperfections more noticeable. Users reported using Audacity to downsample any generated audio in order to mask apparent robotic artifacts, though this came at the cost of lower audio quality. [ 15 ] The system processed speech faster-than-real-time using customized deep neural networks combined with specialized audio synthesis algorithms. [ 56 ] While the underlying technology could produce 10 seconds of audio in less than 10 seconds of processing time (hence, faster-than-real-time ), the actual user experience often involved longer waits as the servers managed thousands of simultaneous requests, sometimes taking more than a minute to deliver results. [ 57 ]
+Due to its nondeterministic design, 15.ai produced variations in its speech output. 15.ai introduced the concept of emotional contextualizers, which allowed users to specify the emotional tone of generated speech through guiding phrases. [ 58 ] [ 8 ] The emotional contextualizer functionality utilized DeepMoji, a sentiment analysis neural network developed at the MIT Media Lab . Introduced in 2017, DeepMoji processed emoji embeddings from 1.2 billion Twitter posts (from 2013 to 2017) to analyze emotional content. [ 59 ] If an input into 15.ai contained additional context (specified by a vertical bar), the additional context following the bar would be used as the emotional contextualizer. [ 60 ] For example, if the input was Today is a great day!|I'm very sad. , the selected character would speak the sentence "Today is a great day!" in the emotion one would expect from someone saying the sentence "I'm very sad." [ 61 ] Certain characters, such as Twilight Sparkle from My Little Pony: Friendship Is Magic , offered preset emotional modes, who had specific options to output text in different emotional states such as "happy". [ 62 ]
+The application used pronunciation data from Oxford Dictionaries API , Wiktionary , and CMU Pronouncing Dictionary , the last of which is based on ARPABET , a set of English phonetic transcriptions originally developed by the Advanced Research Projects Agency in the 1970s. For modern and Internet-specific terminology, the system incorporated pronunciation data from user-generated content websites, including Reddit , Urban Dictionary , 4chan , and Google . [ 20 ] Inputting ARPABET transcriptions was also supported, allowing users to correct mispronunciations or specify the desired pronunciation between heteronyms —words that have the same spelling but have different pronunciations. Users could invoke ARPABET transcriptions by enclosing the phoneme string in curly braces within the input box (for example, {AA1 R P AH0 B EH2 T} to specify the pronunciation of the word "ARPABET" ( / ˈ ɑːr p ə ˌ b ɛ t / AR -pə-beht ). [ 22 ] The interface displayed parsed words with color-coding to indicate pronunciation certainty: green for words found in the existing pronunciation lookup table, blue for manually entered ARPABET pronunciations, and red for words where the pronunciation had to be algorithmically predicted. [ 20 ]
+Later versions of 15.ai introduced multi-speaker capabilities. Rather than training separate models for each voice, 15.ai used a unified model that learned multiple voices simultaneously through speaker embeddings –learned numerical representations that captured each character's unique vocal characteristics. [ 8 ] Along with the emotional context conferred by DeepMoji, this neural network architecture enabled the model to learn shared patterns across different characters' emotional expressions and speaking styles, even when individual characters lacked examples of certain emotional contexts in their training data. [ 22 ]
+The platform limited text input to 200 characters per generation, though users could create multiple clips for longer speech sequences. [ 63 ] The interface included technical metrics and graphs, which served to highlight the research aspect of the website. [ 11 ] The name of the underlying algorithm used by 15.ai was dubbed DeepThroat . [ 50 ] As of version v23 of 15.ai, the interface displayed comprehensive model analysis information, including word parsing results and emotional analysis data. The flow and generative adversarial network (GAN) hybrid vocoder and denoiser , introduced in an earlier version, was streamlined to remove manual parameter inputs. [ 11 ]
+Reception
+Critical reception
+Critics described 15.ai as easy to use and generally able to convincingly replicate character voices, with occasional mixed results. [ 64 ] Natalie Clayton of PC Gamer wrote that SpongeBob SquarePants ' voice was replicated well, but described challenges in mimicking the Narrator from the The Stanley Parable : "the algorithm simply can't capture Kevan Brighting 's whimsically droll intonation." [ 65 ] Similarly, Russian gaming website Rampaga reflected that GLaDOS performed exceptionally well since "her voice was originally created to simulate human speech by artificial intelligence," while the Narrator from The Stanley Parable was less convincing due to insufficient training data. [ 66 ] Zack Zwiezen of Kotaku reported that "[his] girlfriend was convinced it was a new voice line from GLaDOS' voice actor". [ 67 ] Calvin Rugona of gaming news publication Gamezo commented that the tool's simplicity contributed significantly to its widespread adoption, as it allowed anyone online to easily create and save voice clips. [ 54 ] Taiwanese newspaper United Daily News also highlighted 15.ai's ability to recreate GLaDOS's mechanical voice, alongside its diverse range of character voice options. [ 68 ] Yahoo! News Taiwan reported that "GLaDOS in Portal can pronounce lines nearly perfectly", but also criticized that "there are still many imperfections, such as word limit and tone control, which are still a little weird in some words." [ 69 ] Chris Button of AI newsletter Byteside called the ability to clone a voice with only 15 seconds of data "freaky," but also found the tech behind it impressive. [ 70 ] Robin Lamorlette of French online magazine Clubic described the technology as "devilishly fun" and wrote that Twitter and YouTube were filled with creative content from users experimenting with the tool. [ 71 ] The platform's voice generation capabilities were regularly featured on Equestria Daily , a fandom news site dedicated to the show My Little Pony: Friendship Is Magic and its other generations, with documented updates, fan creations, and additions of new character voices. In a post introducing new character additions to 15.ai, Equestria Daily' s founder Shaun Scotellaro —also known by his online moniker "Sethisto"—wrote that "some of [the voices] aren't great due to the lack of samples to draw from, but many are really impressive still anyway." [ 52 ] Chinese My Little Pony fan site EquestriaCN also documented 15.ai's development, highlighting its various updates, though they criticized some of the bugs and the long queue wait times of the application. [ 72 ]
+Multiple other critics also found the word count limit, prosody options, and English-only nature of the application as not entirely satisfactory. [ 73 ] Peter Paltridge of anime and superhero news outlet Anime Superhero News opined that "voice synthesis has evolved to the point where the more expensive efforts are nearly indistinguishable from actual human speech," but also stated that "In some ways, SAM is still more advanced than this. It was possible to affect SAM's inflections by using special characters, as well as change his pitch at will. With 15.ai, you're at the mercy of whatever random inflections you get." [ 74 ] Conversely, Lauren Morton of Rock, Paper, Shotgun praised the depth of pronunciation control—"if you're willing to get into the nitty gritty of it". [ 75 ] Similarly, Eugenio Moto of Spanish news website Qore.com wrote that "the most experienced of users can change parameters like the stress or the tone." [ 76 ] Takayuki Furushima of Den Fami Nico Gamer highlighted the "smooth pronunciations", and Yuki Kurosawa of AUTOMATON wrote that its "rich emotional expression" was a major feature; both Japanese authors mentioned the lack of Japanese-language support. [ 77 ] [ 78 ] Renan do Prado of Brazilian gaming news outlet Arkade and José Villalobos of Spanish gaming outlet LaPS4 remarked that while users could create amusing results in Portuguese and Spanish respectively, the generation performed best in English. [ 79 ] Chinese gaming news outlet GamerSky called the app "interesting", but also criticized the word count limit of the text and the lack of intonations. [ 80 ] Frank Park of South Korean video game outlet Zuntata wrote that "the surprising thing about 15.ai is that [for some characters], there's only about 30 seconds of data, but it achieves pronunciation accuracy close to 100%". [ 81 ] Machine learning professor Yongqiang Li remarked in his blog that the application was still free despite having 5,000 people generating voices concurrently at the time of writing. [ 82 ] Marco Cocomello of South African gaming and pop culture website GLITCHED remarked that despite the 200-character limitation, the results "blew [him] away" when testing the app with GLaDOS's voice. [ 83 ] Álvaro Ibáñez of Spanish technology publication Microsiervos wrote that he found the rhythm of the AI-generated voices noteworthy, observing that the system appeared to adapt its delivery based on the content's intended meaning. [ 84 ]
+Technical publications and outlets focusing on artificial intelligence provided more in-depth analysis of 15.ai's capabilities and limitations compared to other text-to-speech technologies of the time. [ 85 ] Rionaldi Chandraseta of AI newsletter Towards Data Science observed that voice models trained on larger datasets created more convincing output with better phrasing and natural pauses, particularly for extended text. [ 58 ] Bai Feng of Chinese tech and AI media outlet XinZhiYuan on QQ News highlighted the technical achievement of 15.ai's high-quality output ( 44.1 kHz sampling rate ) despite using minimal training data, remarking that this was of significantly higher quality than typical deep learning text-to-speech implementations which used 16 kHz sampling rates. The outlet also acknowledged that while some pronunciation errors occurred due to the limited training data, this was understandable given that traditional deep learning models typically required 40 or more hours of training data. [ 86 ] Similarly, Parth Mahendra of AI newsletter AI Daily observed that while the system "does a good job at accurately replicating most basic words," it struggled with more complex terms, noting that characters would "absolutely butcher the pronunciation" of certain words. [ 23 ] Ji Yunyo of Chinese tech news website NetEase News called the technology behind 15.ai "remarkably efficient" but also criticized its emotional limitations, writing that the emotional expression was relatively "neutral" and that "extreme" emotions couldn't be properly synthesized, making it less suitable for not safe for work applications. [ 87 ] Ji also mentioned that while many deepfake videos required creators to extract and edit material from hours of original content for very short results, 15.ai could achieve similar or better effects with only a few dozen minutes of training data per character, though server performance issues often meant synthesis could take over a minute to complete. [ 88 ]
+Reactions from voice actors of featured characters
+Some voice actors whose characters appeared on 15.ai have publicly shared their thoughts about the platform. In a 2021 interview on video game voice acting podcast The VŌC , John Patrick Lowrie —who voices the Sniper in Team Fortress 2 —explained that he had discovered 15.ai when a prospective intern showed him a skit she had created using AI-generated voices of the Sniper and the Spy from Team Fortress 2 . Lowrie commented:
+"The technology still has a long way to go before you really believe that these are just human beings, but I was impressed by how much [15.ai] could do. You certainly don't get the delivery that you get from an actual person who's analyzed the scene, [...] but I do think that as a fan source—for people wanting to put together mods and stuff like that—that it could be fun for fans to use the voice of characters they like."
+He drew an analogy to synthesized music , adding:
+"If you want the sound of a choir , and you want the sound of an orchestra , and you have the money, you hire a choir and an orchestra. And if you don't have the money, you have something that sounds pretty nice; but it's not the same as a choir and an orchestra." [ video 2 ]
+In a 2021 live broadcast on his Twitch channel, Nathan Vetterlein —the voice actor of the Scout from Team Fortress 2 —listened to an AI recreation of his character's voice. He described the impression as "interesting" and said that "there's some stuff in there." [ video 3 ]
+Ethical concerns
+Other voice actors had mixed reactions to 15.ai's capabilities. While some industry professionals acknowledged the technical innovation, others raised concerns about the technology's implications for their profession. [ 89 ] When voice actor Troy Baker announced his partnership with Voiceverse NFT, which had misappropriated 15.ai's technology, it sparked widespread controversy within the voice acting industry. [ 90 ] Critics raised concerns about automated voice acting's potential reduction of employment opportunities for voice actors, risk of voice impersonation , and potential misuse in explicit content . [ 91 ] Ruby Innes of Kotaku Australia wrote that "this practice could potentially put voice actors out of work considering you could just use their AI voice rather than getting them to voice act for a project and paying them." [ 19 ] In her coverage of the Voiceverse controversy, Edie WK of Checkpoint Gaming raised the concern that "this kind of technology has the potential to push voice actors out of work if it becomes easier and cheaper to use AI voices instead of working with the actor directly." [ 92 ]
+While 15.ai limited its scope to fictional characters and did not reproduce voices of real people or celebrities, [ 20 ] computer scientist Andrew Ng commented that similar technology could be used to do so, including for nefarious purposes. In his 2020 assessment of 15.ai, he wrote:
+"Voice cloning could be enormously productive. In Hollywood , it could revolutionize the use of virtual actors. In cartoons and audiobooks, it could enable voice actors to participate in many more productions. In online education, kids might pay more attention to lessons delivered by the voices of favorite personalities. And how many YouTube how-to video producers would love to have a synthetic Morgan Freeman narrate their scripts?
+While discussing potential risks, he added:
+"...but synthesizing a human actor's voice without consent is arguably unethical and possibly illegal. And this technology will be catnip for deepfakers, who could scrape recordings from social networks to impersonate private individuals." [ 93 ]
+Legacy
+15.ai was an early pioneer of audio deepfakes, leading to the emergence of AI speech synthesis-based memes during the initial stages of the AI boom in 2020. 15.ai is credited as the first mainstream platform to popularize AI voice cloning in Internet memes and content creation, [ 1 ] particularly through its ability to generate convincing character voices in real-time without requiring extensive technical expertise. [ 94 ] The platform's impact was especially notable in fan communities, including the My Little Pony: Friendship Is Magic , Portal , Team Fortress 2 , and SpongeBob SquarePants fandoms, where it enabled the creation of viral content that garnered millions of views across social media platforms like Twitter and YouTube . [ 95 ] Team Fortress 2 content creators also used the platform to produce both short-form memes and complex narrative animations using Source Filmmaker . Fan creations included skits and new fan animations [ 20 ] (such as the popular Team Fortress 2 Source Filmmaker video Spy's Confession [ 11 ] and a viral Among Us animation that used the voices of the Mane Six [ 96 ] ), crossover content—such as Game Informer writer Liana Ruppert's demonstration combining Portal and Mass Effect dialogue in her coverage of the platform [ 97 ] —recreations of viral videos (including the infamous Big Bill Hell's Cars car dealership parody [ 98 ] ), adaptations of fanfiction using AI-generated character voices (such as The Tax Breaks , a fully voiced 17-minute fan-made episode of Friendship Is Magic ), [ 11 ] music videos and new musical compositions—such as the Team Fortress 2 remix Pootis Hardbass [ 11 ] —and content where characters recited sea shanties . [ 99 ] Some fan creations gained mainstream attention, such as a viral edit replacing Donald Trump 's cameo in Home Alone 2: Lost in New York with the Heavy Weapons Guy 's AI-generated voice, which was featured on a daytime CNN segment in January 2021. [ 100 ] Some users integrated 15.ai's voice synthesis with VoiceAttack, a voice command software, to create personal assistants. [ 101 ]
+Its influence has been recognized in the years after it became defunct, [ 102 ] with several commercial alternatives emerging to fill the void, such as ElevenLabs [ b ] and Speechify . [ 104 ] Contemporary generative voice AI companies have acknowledged 15.ai's pioneering role. Y Combinator startup PlayHT called the debut of 15.ai "a breakthrough in the field of text-to-speech (TTS) and speech synthesis". [ 105 ] Cliff Weitzman , the founder and CEO of Speechify , credited 15.ai for "making AI voice cloning popular for content creation by being the first [...] to feature popular existing characters from fandoms". [ 106 ] Mati Staniszewski, co-founder and CEO of ElevenLabs , wrote that 15.ai was transformative in the field of AI text-to-speech . [ 107 ]
+15.ai established several technical precedents that influenced subsequent developments in AI voice synthesis. Its integration of DeepMoji for emotional analysis demonstrated the viability of incorporating sentiment-aware speech generation, [ 108 ] while its support for ARPABET phonetic transcriptions set a standard for precise pronunciation control in public-facing voice synthesis tools. [ 8 ] The platform's unified multi-speaker model, which enabled simultaneous training of diverse character voices, proved particularly influential. This approach allowed the system to recognize emotional patterns across different voices even when certain emotions were absent from individual character training sets; for example, if one character had examples of joyful speech but no angry examples, while another had angry but no joyful samples, the system could learn to generate both emotions for both characters by understanding the common patterns of how emotions affect speech. [ 22 ]
+15.ai also made a key contribution in reducing training data requirements for speech synthesis. Earlier systems like Google AI 's Tacotron and Microsoft Research 's FastSpeech required tens of hours of audio to produce acceptable results and failed to generate intelligible speech with less than 24 minutes of training data. [ 5 ] [ 109 ] In contrast, 15.ai demonstrated the ability to generate speech with substantially less training data—specifically, the name "15.ai" refers to the creator's claim that a voice could be cloned with just 15 seconds of data. [ 110 ] This approach to data efficiency influenced subsequent developments in AI voice synthesis technology, as the 15-second benchmark became a reference point for subsequent voice synthesis systems. The original claim that only 15 seconds of data is required to clone a human's voice was corroborated by OpenAI in 2024. [ 111 ]
+See also
+AI boom
+Character.ai
+Deepfake
+Ethics of artificial intelligence
+WaveNet
+My Little Pony: Friendship Is Magic fandom
+Synthetic media
+Explanatory footnotes
+References
+Notes
+Tweets
+Videos
+Works cited
+Abisola, Shojobi (January 3, 2025). "The MIT Project That Paved Way For Modern Voice AI" . Independent . Archived from the original on February 27, 2025 . Retrieved February 27, 2025 .
+Aktaş, Utku (January 19, 2022). "Troy Baker-backed NFT firm admitted using voice lines from another service without permission" . Mobidictum . Archived from the original on June 14, 2024 . Retrieved March 1, 2025 .
+"Voiceverse NFT caught plagiarising voice lines from AI service" . AI, Algorithmic, and Automation Incidents and Controversies . January 2022. Archived from the original on December 5, 2023 . Retrieved September 15, 2025 .
+Anikó, Angyal (January 17, 2022). "Voiceverse NFT Uses Stolen Technology!" . theGeek. Archived from the original on September 28, 2023 . Retrieved March 1, 2025 .
+Archer, Helder (January 24, 2022). "Grupo NFT do ator de voz de The Last of Us apanhado a roubar vozes de outro serviço" [The Last of Us Voice Actor NFT Group Caught Stealing Voices from Another Service]. OtakuPT (in Portuguese). Archived from the original on January 24, 2022 . Retrieved September 13, 2025 .
+Barakat, Huda; Turk, Oytun; Demiroglu, Cenk (2024). "Deep learning-based expressive speech synthesis: a systematic review of approaches, challenges, and resources" . EURASIP Journal on Audio, Speech, and Music Processing . 2024 (11) 11. doi : 10.1186/s13636-024-00329-7 .
+Baylos, Ramón (January 17, 2022). "La compañía de NFTs que se alió con el actor de voz de Joel de The Last of Us la ha liado bastante parda" [The NFT company that partnered with the voice actor of Joel from The Last of Us has made quite a mess of things.]. Sport.es (in Spanish). Archived from the original on January 23, 2025 . Retrieved March 25, 2025 .
+Button, Chris (January 19, 2021). "Make GLaDOS, SpongeBob and other friends say what you want with this AI text-to-speech tool" . Byteside . Archived from the original on June 25, 2024 . Retrieved December 18, 2024 .
+Cabibi-Wilkin, Lily (January 26, 2022). "NFTs Are Bad. So Why Do People Keep Making Them?" (PDF) . The Herald . Jonesboro, Arkansas: Arkansas State University . p. 2A. Archived (PDF) from the original on July 6, 2024 . Retrieved March 4, 2025 .
+Carcasole, David (January 17, 2022). "Troy Baker's NFT Partner Company Caught Claiming Voice Lines From Another Service As Their Own" . PlayStation Universe . Archived from the original on October 6, 2022 . Retrieved February 28, 2025 .
+Chandraseta, Rionaldi (January 21, 2021). "Generate Your Favourite Characters' Voice Lines using Machine Learning" . Towards Data Science . Archived from the original on January 21, 2021 . Retrieved December 18, 2024 .
+Clayton, Natalie (January 19, 2021). "Make the cast of TF2 recite old memes with this AI text-to-speech tool" . PC Gamer . Archived from the original on January 19, 2021 . Retrieved December 18, 2024 .
+Cocomello, Marco (January 20, 2021). "Make Portal's GLaDOS and Other Characters Say Whatever You Want With This New App" . GLITCHED . Archived from the original on March 12, 2025 . Retrieved March 10, 2025 .
+"CNN Newsroom" . CNN . January 15, 2021.
+do Prado, Renan (January 19, 2021). "Faça GLaDOS, Bob Esponja e outros personagens falarem textos escritos por você!" [Make GLaDOS, SpongeBob and other characters speak texts written by you!]. Arkade (in Brazilian Portuguese). Archived from the original on August 19, 2022 . Retrieved December 22, 2024 .
+"Can I publish the content I generate on the platform?" . ElevenLabs (Official website). 2024b. Archived from the original on December 23, 2024 . Retrieved December 23, 2024 .
+Enriquez, XC (January 16, 2022). "Voice Actor for Joel Receives Backlash after NFT Tweet" . ClutchPoints . Archived from the original on March 23, 2025 . Retrieved March 23, 2025 .
+"15.ai已经重新上线，版本更新至v23" [15.ai has been re-launched, version updated to v23]. EquestriaCN (in Chinese). October 1, 2021. Archived from the original on May 19, 2024 . Retrieved December 22, 2024 .
+Feng, Bai (March 15, 2020). "模型参数过亿跑不动？看MIT小哥，少量数据完成高质量文本转语音！" [Model has over 100 million parameters and won't run? Check out this MIT guy who achieves high-quality text-to-speech with minimal data!]. QQ News (in Chinese). XinZhiYuan. Archived from the original on February 27, 2025 . Retrieved February 22, 2025 .
+"这个网站可用AI生成语音 让ACG角色"说"出你输入的文本" [This Website Can Use AI to Generate Voice, Making ACG Characters "Say" the Text You Input]. GamerSky (in Chinese). January 18, 2021. Archived from the original on December 11, 2024 . Retrieved December 18, 2024 .
+"Audio samples from "Semi-Supervised Training for Improving Data Efficiency in End-to-End Speech Synthesis" " . August 30, 2018. Archived from the original on November 11, 2020 . Retrieved June 5, 2022 .
+Groth-Anderson, Magnus (January 19, 2022). "Troy Baker-støttet NFT-virksomhed indrømmer at have stjålet indhold" [Troy Baker-backed NFT company admits to stealing content]. Gamereactor (in Danish). Archived from the original on March 1, 2025 . Retrieved March 1, 2025 .
+"15.ai" . Hacker News . June 12, 2022 . Retrieved December 29, 2024 .
+Ifram, Lauda (January 18, 2022). "Proyek NFT Troy Baker Ketahuan Mencuri Aset Suara AI Tanpa Seizin Pemiliknya" [Troy Baker's NFT Project Caught Stealing AI Voice Assets Without Their Owners' Permission]. Gamebrott (in Indonesian). Archived from the original on May 26, 2022 . Retrieved September 12, 2025 .
+Innes, Ruby (January 18, 2022). "Voiceverse Is The Latest NFT Company Caught Using Someone Else's Content" . Kotaku Australia . Archived from the original on July 26, 2024 . Retrieved February 28, 2025 .
+Ibáñez, Álvaro (June 15, 2022). "Un algoritmo que convierte texto a voz "con emoción y sentimiento" e imita a personajes y voces conocidas" [An algorithm that converts text to speech "with emotion and feeling" and imitates familiar characters and voices]. Microsiervos (in Spanish). Archived from the original on December 12, 2024 . Retrieved March 23, 2025 .
+Ji, Yunyo (January 19, 2021). "这个国外的语音合成网站，可以让玩家操控二次元角色说话" [This foreign speech synthesis website allows players to control the two-dimensional characters to speak]. 163.com (in Chinese). NetEase News . Archived from the original on February 27, 2025 . Retrieved February 26, 2025 .
+Kar, Jess (January 18, 2022). "Troy Baker's Partner Voice NFT Platform Voiceverse Admits to Stealing Audio" . NFTGators . Archived from the original on September 15, 2024 . Retrieved February 28, 2025 .
+Khavanekar, Aditya (January 18, 2022). "The NFT company that Troy Baker markets took audio clips from another service" . GamingSym.in . Archived from the original on January 19, 2022 . Retrieved February 28, 2025 . Alt URL
+Khibchenko, Pavel (February 15, 2022). "NFT в геймдеве: проблемы регулирования, гнев игроков и поспешные решения разработчиков" . Skillbox (in Russian). Archived from the original on June 5, 2023 . Retrieved February 28, 2025 .
+Kim, Jaehyeon; Kim, Sungwon; Kong, Jungil; Yoon, Sungroh (2020). "Glow-TTS: A Generative Flow for Text-to-Speech via Monotonic Alignment Search" . In Larochelle, Hugo; Ranzato, Marc'Aurelio; Hadsell, Raia; Balcan, Maria-Florina; Lin, Hsuan-Tien (eds.). Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6–12, 2020, virtual . arXiv : 2005.11129 .
+Kong, Jungil; Kim, Jaehyeon; Bae, Jaekyoung (2020). "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis" . In Larochelle, Hugo; Ranzato, Marc'Aurelio; Hadsell, Raia; Balcan, Maria-Florina; Lin, Hsuan-Tien (eds.). Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6–12, 2020, virtual . arXiv : 2010.05646 .
+Kuchkanov, Phil (January 15, 2022). " "NFT-штука Троя Бейкера ворует чужие работы". В сети уничтожают известного актера озвучки" ["Troy Baker's NFT Thing Steals Other People's Work." The Internet Is Destroying a Famous Voice Actor]. GameGuru.ru . Archived from the original on January 15, 2022 . Retrieved March 23, 2025 .
+Kurosawa, Yuki (2021). "ゲームキャラ音声読み上げソフト「15.ai」公開中。『Undertale』や『Portal』のキャラに好きなセリフを言ってもらえる" [Game Character Voice Reading Software "15.ai" Now Available. Get Characters from Undertale and Portal to Say Your Desired Lines]. AUTOMATON (in Japanese). Archived from the original on January 19, 2021 . Retrieved December 18, 2024 .
+Lam, Khoa (January 14, 2022). "Incident 277: Voices Created Using Publicly Available App Stolen and Resold as NFT without Attribution" . AI Incident Database . Archived from the original on January 13, 2025 . Retrieved February 27, 2025 .
+Lamorlette, Robin (January 25, 2021). "Insolite : un site permet de faire dire ce que vous souhaitez à GlaDOS (et à d'autres personnages de jeux vidéo)" [Unusual: A site lets you make GlaDOS (and other video game characters) say whatever you want]. Clubic (in French). Archived from the original on January 19, 2025 . Retrieved March 23, 2025 .
+Lawrence, Briana (January 19, 2022). "Shonen Jump Scare Leads to Company Reassuring Fans That They Aren't Getting Into NFTs" . The Mary Sue . Archived from the original on January 13, 2025 . Retrieved December 23, 2024 .
+Li, Yongqiang (2021). "语音开源项目优选：免费配音网站15.ai" [Voice Open Source Project Selection: Free Voice Acting Website 15.ai]. Zhihu (in Chinese). Archived from the original on December 19, 2024 . Retrieved December 18, 2024 .
+Lopez, Ule (January 16, 2022). "Voiceverse NFT Service Reportedly Uses Stolen Technology from 15ai [UPDATE]" . Wccftech . Archived from the original on January 16, 2022 . Retrieved June 7, 2022 .
+Mahendra, Parth (May 11, 2020). "Spongebob Can Now Narrate Your Writing" . AI Daily . Archived from the original on July 1, 2021 . Retrieved March 4, 2025 .
+Morton, Lauren (January 18, 2021). "Put words in game characters' mouths with this fascinating text to speech tool" . Rock, Paper, Shotgun . Archived from the original on January 18, 2021 . Retrieved December 18, 2024 .
+Moto, Eugenio (January 20, 2021). "15.ai, el sitio que te permite usar voces de personajes populares para que digan lo que quieras" . Qore (in Spanish). Archived from the original on December 28, 2024 . Retrieved December 21, 2024 .
+MrSun (January 19, 2021). "讓你喜愛的ACG角色說出任何話！ AI生成技術幫助你實現夢想" [Let your favorite ACG characters say anything! AI generation technology helps you realize your dreams]. Yahoo! News Taiwan (in Chinese). Archived from the original on December 28, 2024 . Retrieved December 22, 2024 .
+"Troy Bakerin tukema NFT-yhtiö kärähti – Kaupitteli ääninäyttelyä luvatta" [Troy Baker-backed NFT company sued – peddling voice acting without permission]. Muropaketti (in Finnish). January 17, 2022. Archived from the original on May 25, 2022 . Retrieved March 1, 2025 .
+Myrén, Jonny (January 18, 2022). "NFT-företaget som Troy Baker marknadsför tog ljudklipp från annan tjänst" [The NFT company that Troy Baker promotes took audio clips from another service]. FZ (in Swedish). Archived from the original on January 1, 2024 . Retrieved March 24, 2025 .
+Ng, Andrew (April 1, 2020). "Voice Cloning for the Masses" . DeepLearning.AI . Archived from the original on December 28, 2024 . Retrieved December 22, 2024 .
+"Navigating the Challenges and Opportunities of Synthetic Voices" . OpenAI . March 9, 2024. Archived from the original on November 25, 2024 . Retrieved December 18, 2024 .
+Osman, Mohamed (2022). "Emo-TTS:Parallel Transformer-based Text-to-Speech Model with Emotional Awareness". Emo-TTS: Parallel Transformer-based Text-to-Speech Model with Emotional Awareness . IEEE . pp. 169– 174. doi : 10.1109/ICCI54321.2022.9756092 . ISBN 978-1-6654-9973-6 .
+Oxton (January 20, 2021). "При помощи AI можно озвучить набранный текст голосами GlaDOS, Мисс Полинг и других персонажей игр" [Using AI, you can voice typed text with the voices of GlaDOS, Miss Pauling and other game characters]. Rampaga (in Russian). Archived from the original on February 26, 2021 . Retrieved March 22, 2025 .
+Park, Frank (January 20, 2021). "게임 캐릭터 음성으로 영어를 읽어주는 소프트 15.ai 공개" [Software 15.ai Released That Reads English in Game Character Voices]. Tistory (in Korean). Archived from the original on December 20, 2024 . Retrieved December 18, 2024 .
+Paltridge, Peter (January 18, 2021). "This Website Will Say Whatever You Type In Spongebob's Voice" . Anime Superhero News . Archived from the original on October 17, 2021 . Retrieved December 22, 2024 .
+Parker, Jordan (February 5, 2022). "Like them or not, NFTs are here to stay" . The Journal . Webster University . Archived from the original on November 8, 2024 . Retrieved March 23, 2025 .
+Phillips, Tom (January 17, 2022). "Troy Baker-backed NFT firm admits using voice lines taken from another service without permission" . Eurogamer . Archived from the original on January 17, 2022 . Retrieved December 31, 2024 .
+Piletsky, Boris (January 15, 2022). "Создателей NFT-голосов, которых поддержал Трой Бейкер, уличили в краже голосов в тот же день" [NFT vote creators backed by Troy Baker were caught stealing votes on the same day]. iXBT Games . Archived from the original on September 24, 2023 . Retrieved March 23, 2025 .
+"Everything You Need to Know About 15.ai: The AI Voice Generator" . Play.ht . September 12, 2024. Archived from the original on December 25, 2024 . Retrieved December 18, 2024 .
+Ren, Yi; Ruan, Yangjun; Tan, Xu; Qin, Tao; Zhao, Sheng; Zhao, Zhou; Liu, Tie-Yan (2019). "FastSpeech: Fast, Robust and Controllable Text to Speech" . In Wallach, Hanna M.; Larochelle, Hugo; Beygelzimer, Alina; d'Alché-Buc, Florence; Fox, Emily B.; Garnett, Roman (eds.). Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8–14, 2019, Vancouver, BC, Canada . pp. 3165– 3174. arXiv : 1905.09263 .
+Rosas, Victor (January 17, 2022). "¡La decepción, hermano! Proyecto NFT apoyado por Troy Baker usó tecnología ajena" [Disappointment, bro! Troy Baker-backed NFT project used third-party technology.]. LevelUp.com (in Spanish). Yahoo! Finance . Archived from the original on February 3, 2022 . Retrieved September 12, 2025 . {{ cite web }} :  CS1 maint: ref duplicates default ( link )
+Rugona, Calvin (January 22, 2021). "Make GLaDos And Other Characters Say What You Want" . Gamezo . Archived from the original on March 21, 2025 . Retrieved March 22, 2025 .
+Ruppert, Liana (January 18, 2021). "Make Portal's GLaDOS And Other Beloved Characters Say The Weirdest Things With This App" . Game Informer . Archived from the original on January 18, 2021 . Retrieved December 18, 2024 .
+Scotellaro, Shaun (2020a). "15.ai Adds Tons of New Pony Voices" . Equestria Daily . Archived from the original on December 26, 2024 . Retrieved December 21, 2024 .
+Scotellaro, Shaun (2020b). "New Among Us Animation Goes Viral... With Pony Voices" . Equestria Daily . Retrieved January 1, 2025 .
+Scotellaro, Shaun (May 19, 2025). "15.ai Returns With Pony Voice Creation as the Focus" . Equestria Daily . Retrieved May 19, 2025 .
+Skorich, Lina (January 15, 2022). "Трою Бейкеру пришлось извиняться за решение сотрудничать с NFT-компанией" [Troy Baker forced to apologize for decision to partner with NFT company]. StopGame . Archived from the original on October 2, 2022 . Retrieved March 23, 2025 .
+Staniszewski, Mati (2024). "15.AI: Everything You Need to Know & Best Alternatives" . ElevenLabs (Official website). Archived from the original on December 25, 2024 . Retrieved December 18, 2024 .
+Temitope, Yusuf (December 10, 2024). "15.ai Creator reveals journey from MIT Project to internet phenomenon" . The Guardian . Archived from the original on December 28, 2024 . Retrieved December 25, 2024 .
+Toh, Brandon (January 18, 2022). "Troy Baker's NFT Partner Company Voiceverse Caught Using Voice Lines From Another Service Without Permission" . Geek Culture . Archived from the original on November 30, 2022 . Retrieved February 28, 2025 .
+遊戲, 遊戲角落 (January 20, 2021). "這個AI語音可以模仿《傳送門》GLaDOS講出任何對白！連《Undertale》都可以學" [This AI Voice Can Imitate Portal's GLaDOS Saying Any Dialog! It Can Even Learn Undertale]. United Daily News (in Chinese (Taiwan)). Archived from the original on December 19, 2024 . Retrieved December 18, 2024 .
+Villalobos, José (January 18, 2021). "Descubre 15.AI, un sitio web en el que podrás hacer que GlaDOS diga lo que quieras" [Discover 15.AI, a Website Where You Can Make GlaDOS Say What You Want]. LaPS4 (in Spanish). Archived from the original on January 18, 2021 . Retrieved January 18, 2021 .
+Anirudh VK (March 18, 2023). "Deepfakes Are Elevating Meme Culture, But At What Cost?" . Analytics India Magazine . Archived from the original on December 26, 2024 . Retrieved December 18, 2024 .
+W-K, Edie (January 15, 2022). "Troy Baker angers the internet with NFT partnership" . Checkpoint Gaming . Archived from the original on December 12, 2024 . Retrieved February 28, 2025 .
+Weitzman, Cliff (November 19, 2023). "15.ai: All about 15.ai and the best alternative" . Speechify . Archived from the original on December 25, 2024 . Retrieved December 31, 2024 .
+White, Molly (January 14, 2022). "Voice actor Troy Baker announces his involvement in "voice NFT" project Voiceverse with an antagonistic tweet, shortly before it's revealed that the project stole work" . Web3 Is Going Just Great . Archived from the original on July 24, 2024 . Retrieved February 28, 2025 .
+Williams, Demi (January 18, 2022). "Voiceverse NFT admits to taking voice lines from non-commercial service" . NME . Archived from the original on January 18, 2022 . Retrieved December 18, 2024 .
+Wright, Steve (January 17, 2022). "Troy Baker-backed NFT company admits to using content without permission" . Stevivor . Archived from the original on January 17, 2022 . Retrieved December 18, 2024 .
+Wright, Steven (March 21, 2023). "Why Biden, Trump, and Obama Arguing Over Video Games Is YouTube's New Obsession" . Inverse . Archived from the original on December 20, 2024 . Retrieved December 18, 2024 .
+Furushima, Takayuki (January 18, 2021). "『Portal』のGLaDOSや『UNDERTALE』のサンズがテキストを読み上げてくれる。文章に込められた感情まで再現することを目指すサービス「15.ai」が話題に" [Portal's GLaDOS and UNDERTALE's Sans Will Read Text for You. "15.ai" Service Aims to Reproduce Even the Emotions in Text, Becomes Topic of Discussion]. Den Fami Nico Gamer (in Japanese). Archived from the original on January 18, 2021 . Retrieved December 18, 2024 .
+Zwiezen, Zack (January 18, 2021). "Website Lets You Make GLaDOS Say Whatever You Want" . Kotaku . Archived from the original on January 17, 2021 . Retrieved December 18, 2024 .
+Коэн (January 15, 2022). "Создателей голосовых NFT, поддерживаемых Троем Бейкером, обвинили в воровстве голоса" . Shazoo (in Russian). Archived from the original on January 23, 2022 . Retrieved February 28, 2025 .
+External links
+Archived frontend
+Official website
+v
+t
+e
+eSpeak / eSpeakNG
+Gnopernicus
+Gnuspeech
+Orca
+Festival Speech Synthesis System / Flite
+FreeTTS
+Automatik Text Reader
+Retrieval-based Voice Conversion
+eCantorix
+Lyricos / Flinger
+Sinsy
+Retrieval-based Voice Conversion
+Amazon Polly
+DECtalk
+Software Automatic Mouth
+Talk It!
+Microsoft Agent
+Microsoft Speech API
+Microsoft text-to-speech voices
+Readspeaker
+Voice browser
+CoolSpeech
+IVONA
+Loquendo
+CereProc
+CeVIO Creative Studio
+Voiceroid
+LaLaVoice
+15.ai
+ElevenLabs
+Alter/Ego
+Cantor
+CeVIO Creative Studio
+Chipspeech
+NIAONiao Virtual Singer
+PPG Phonem
+Symphonic Choirs
+Synthesizer V
+UTAU
+Vocalina
+Vocaloid
+Xiaoice
+Echo II
+Mockingboard
+Pattern playback
+RIAS
+Texas Instruments LPC Speech Chips
+General Instrument SP0256
+TuVox
+AOLbyPhone
+DialogOS
+Dr. Sbaitso
+MBROLA
+Windows Narrator
+Microsoft Speech Server
+PlainTalk
+Voice font
+Speech Synthesis Markup Language
+SABLE
+VoiceXML
+Alan W. Black
+Catherine Browman
+Franklin Seaney Cooper
+Gunnar Fant
+Haskins Laboratories
+Wolfgang von Kempelen
+Ignatius Mattingly
+Philip Rubin
+Yamaha
+Articulatory synthesis
+Concatenative synthesis
+Currah
+Inverse filter
+PSOLA
+Phase vocoder
+Self-voicing
+Voice cloning
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category
+v
+t
+e
+History timeline
+timeline
+Companies
+Projects
+Parameter Hyperparameter
+Hyperparameter
+Loss functions
+Regression Bias–variance tradeoff Double descent Overfitting
+Bias–variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent SGD Quasi-Newton method Conjugate gradient method
+SGD
+Quasi-Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization Batchnorm
+Batchnorm
+Activation Softmax Sigmoid Rectifier
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets Augmentation
+Augmentation
+Prompt engineering
+Reinforcement learning Q-learning SARSA Imitation Policy gradient
+Q-learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self-supervised learning
+Reflection
+Recursive self-improvement
+Hallucination
+Word embedding
+Vibe coding
+Machine learning In-context learning
+In-context learning
+Artificial neural network Deep learning
+Deep learning
+Language model Large language model NMT
+Large language model
+NMT
+Reasoning language model
+Model Context Protocol
+Intelligent agent
+Artificial human companion
+Humanity's Last Exam
+Artificial general intelligence (AGI)
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Computer vision
+Speech synthesis 15.ai ElevenLabs
+15.ai
+ElevenLabs
+Speech recognition Whisper
+Whisper
+Facial recognition
+AlphaFold
+Text-to-image models Aurora DALL-E Firefly Flux Ideogram Imagen Midjourney Recraft Stable Diffusion
+Aurora
+DALL-E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Recraft
+Stable Diffusion
+Text-to-video models Dream Machine Runway Gen Hailuo AI Kling Sora Veo
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation Riffusion Suno AI Udio
+Riffusion
+Suno AI
+Udio
+Word2vec
+Seq2seq
+GloVe
+BERT
+T5
+Llama
+Chinchilla AI
+PaLM
+GPT 1 2 3 J ChatGPT 4 4o o1 o3 4.5 4.1 o4-mini 5
+1
+2
+3
+J
+ChatGPT
+4
+4o
+o1
+o3
+4.5
+4.1
+o4-mini
+5
+Claude
+Gemini Gemini (language model) Gemma
+Gemini (language model)
+Gemma
+Grok
+LaMDA
+BLOOM
+DBRX
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu-Σ
+DeepSeek
+Qwen
+AlphaGo
+AlphaZero
+OpenAI Five
+Self-driving car
+MuZero
+Action selection AutoGPT
+AutoGPT
+Robot control
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Shun'ichi Amari
+Kunihiko Fukushima
+Takeo Kanade
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A. Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+Geoffrey Hinton
+John Hopfield
+Jürgen Schmidhuber
+Yann LeCun
+Yoshua Bengio
+Lotfi A. Zadeh
+Stephen Grossberg
+Alex Graves
+James Goodnight
+Andrew Ng
+Fei-Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Oriol Vinyals
+Quoc V. Le
+Ian Goodfellow
+Demis Hassabis
+David Silver
+Andrej Karpathy
+Ashish Vaswani
+Noam Shazeer
+Aidan Gomez
+John Schulman
+Mustafa Suleyman
+Jan Leike
+Daniel Kokotajlo
+François Chollet
+Neural Turing machine
+Differentiable neural computer
+Transformer Vision transformer (ViT)
+Vision transformer (ViT)
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network (CNN)
+Residual neural network (RNN)
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network (GNN)
+Category

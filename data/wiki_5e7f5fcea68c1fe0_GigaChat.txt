@@ -1,0 +1,27 @@
+Title: GigaChat
+URL: https://en.wikipedia.org/wiki/GigaChat
+PageID: 76045173
+Categories: Category:2023 in artificial intelligence, Category:2023 software, Category:Chatbots, Category:Generative pre-trained transformers, Category:Interactive narrative, Category:Large language models, Category:Natural language processing stubs, Category:Russia stubs, Category:Russian inventions, Category:Sberbank of Russia, Category:Virtual assistants
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+GigaChat is a generative artificial intelligence chatbot developed by the Russian financial services corporation Sberbank . It was launched in a closed testing mode in April 2023 and is positioned as a Russian alternative to ChatGPT . [ 1 ] [ 2 ]
+The model is multimodal, meaning it can generate text, answer questions, and create images from text descriptions. It is also capable of writing software code. [ 3 ] [ 1 ] Sberbank claims the chatbot communicates better in the Russian language than other foreign-based chatbots. [ 1 ] [ 4 ] By February 2024, it had accumulated over 2.5 million users. [ 5 ]
+Capabilities
+GigaChat is designed to handle a range of tasks, including participating in discussions, generating text and code, and answering inquiries. The platform can be used to generate analytical reports, summarize extensive text volumes, and create articles in specified formats and styles. [ 5 ]
+In December 2023, Sberbank announced that a music generation function was added, allowing users to create short musical compositions and songs in various genres based on text descriptions. [ 6 ] [ 3 ] The model also supports other languages but its modules for them are reportedly weaker than its Russian-language capabilities. [ 1 ] [ 2 ] [ 7 ]
+See also
+List of artificial intelligence projects
+List of chatbots
+Alice (virtual assistant)
+Chatbot
+OpenAI
+References
+This large language model -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
+This Russia -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

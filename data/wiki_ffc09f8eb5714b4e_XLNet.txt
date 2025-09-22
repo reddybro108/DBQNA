@@ -1,0 +1,1153 @@
+Title: XLNet
+URL: https://en.wikipedia.org/wiki/XLNet
+PageID: 77600421
+Categories: Category:2019 software, Category:Google software, Category:Large language models, Category:Software using the Apache license
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+The XLNet was an autoregressive Transformer designed as an improvement over BERT , with 340M parameters and trained on 33 billion words. It was released on 19 June 2019, under the Apache 2.0 license. [ 1 ] It achieved state-of-the-art results on a variety of natural language processing tasks, including language modeling, question answering, and natural language inference.
+Architecture
+The main idea of XLNet is to model language autoregressively like the GPT models , but allow for all possible permutations of a sentence. [ 2 ] Concretely, consider the following sentence:
+My dog is cute.
+In standard autoregressive language modeling, the model would be tasked with predicting the probability of each word, conditioned on the previous words as its context:
+We factorize the joint probability of a sequence of words x 1 , … , x T {\displaystyle x_{1},\ldots ,x_{T}} using the chain rule: Pr ( x 1 , … , x T ) = Pr ( x 1 ) Pr ( x 2 | x 1 ) Pr ( x 3 | x 1 , x 2 ) … Pr ( x T | x 1 , … , x T − 1 ) . {\displaystyle \Pr(x_{1},\ldots ,x_{T})=\Pr(x_{1})\Pr(x_{2}|x_{1})\Pr(x_{3}|x_{1},x_{2})\ldots \Pr(x_{T}|x_{1},\ldots ,x_{T-1}).}
+For example, the sentence "My dog is cute" is factorized as:
+Pr ( My , dog , is , cute ) = Pr ( My ) Pr ( dog | My ) Pr ( is | My , dog ) Pr ( cute | My , dog , is ) . {\displaystyle \Pr({\text{My}},{\text{dog}},{\text{is}},{\text{cute}})=\Pr({\text{My}})\Pr({\text{dog}}|{\text{My}})\Pr({\text{is}}|{\text{My}},{\text{dog}})\Pr({\text{cute}}|{\text{My}},{\text{dog}},{\text{is}}).}
+Schematically, we can write it as
+<MASK> <MASK> <MASK> <MASK> → My <MASK> <MASK> <MASK> → My dog <MASK> <MASK> → My dog is <MASK> → My dog is cute . {\displaystyle {\texttt {<MASK>}}{\texttt {<MASK>}}{\texttt {<MASK>}}{\texttt {<MASK>}}\to {\text{My }}{\texttt {<MASK>}}{\texttt {<MASK>}}{\texttt {<MASK>}}\to {\text{My dog }}{\texttt {<MASK>}}{\texttt {<MASK>}}\to {\text{My dog is }}{\texttt {<MASK>}}\to {\text{My dog is cute}}.}
+However, for XLNet, the model is required to predict the words in a randomly generated order. Suppose we have sampled a randomly generated order 3241, then schematically, the model is required to perform the following prediction task:
+<MASK> <MASK> <MASK> <MASK> → <MASK> <MASK> is <MASK> → <MASK> dog is <MASK> → <MASK> dog is cute → My dog is cute {\displaystyle {\texttt {<MASK>}}{\texttt {<MASK>}}{\texttt {<MASK>}}{\texttt {<MASK>}}\to {\texttt {<MASK>}}{\texttt {<MASK>}}{\text{is }}{\texttt {<MASK>}}\to {\texttt {<MASK>}}{\text{dog is }}{\texttt {<MASK>}}\to {\texttt {<MASK>}}{\text{dog is cute}}\to {\text{My dog is cute}}}
+By considering all permutations, XLNet is able to capture longer-range dependencies and better model the bidirectional context of words.
+Two-Stream Self-Attention
+To implement permutation language modeling, XLNet uses a two-stream self-attention mechanism. The two streams are:
+Content stream: This stream encodes the content of each word, as in standard causally masked self-attention.
+Query stream: This stream encodes the content of each word in the context of what has gone before. In more detail, it is a masked cross-attention mechanism , where the queries are from the query stream, and the key-value pairs are from the content stream.
+The content stream uses the causal mask M causal = [ 0 − ∞ − ∞ … − ∞ 0 0 − ∞ … − ∞ 0 0 0 … − ∞ ⋮ ⋮ ⋮ ⋱ ⋮ 0 0 0 … 0 ] {\displaystyle M_{\text{causal}}={\begin{bmatrix}0&-\infty &-\infty &\dots &-\infty \\0&0&-\infty &\dots &-\infty \\0&0&0&\dots &-\infty \\\vdots &\vdots &\vdots &\ddots &\vdots \\0&0&0&\dots &0\end{bmatrix}}} permuted by a random permutation matrix to P M causal P − 1 {\displaystyle PM_{\text{causal}}P^{-1}} .
+The query stream uses the cross-attention mask P ( M causal − ∞ I ) P − 1 {\displaystyle P(M_{\text{causal}}-\infty I)P^{-1}} , where the diagonal is subtracted away specifically to avoid the model "cheating" by looking at the content stream for what the current masked token is.
+Like the causal masking for GPT models, this two-stream masked architecture allows the model to train on all tokens in one forward pass.
+Training
+Two models were released: [ 1 ] [ 2 ]
+XLNet-Large, cased: 110M parameters, 24-layer, 1024-hidden, 16-heads
+XLNet-Base, cased: 340M parameters, 12-layer, 768-hidden, 12-heads.
+It was trained on a dataset that amounted to 32.89 billion tokens after tokenization with SentencePiece. The dataset was composed of BooksCorpus , and English Wikipedia, Giga5, ClueWeb 2012-B, and Common Crawl .
+It was trained on 512 TPU v3 chips, for 5.5 days. At the end of training, it still under-fitted the data, meaning it could have achieved lower loss with more training. It took 0.5 million steps with an Adam optimizer , linear learning rate decay, and a batch size of 8192. [ 3 ]
+See also
+BERT (language model)
+Transformer (machine learning model)
+Generative pre-trained transformer
+References
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+v
+t
+e
+AI
+Area 120
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google.org Crisis Response
+Crisis Response
+Health
+Registry
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Security Operations
+Owlchemy Labs
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders' Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind 2018 2019
+2018
+2019
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN/YouTube presidential debates
+Code-in
+Code Jam
+Developer Day
+Developers Live
+Doodle4Google
+Future of Go Summit
+G-Day
+Hash Code
+I/O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship 2024
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards 2013 2015
+2013
+2015
+YouTube Space Lab
+YouTube Symphony Orchestra
+111 Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye-1
+Googleplex
+Ivanpah Solar Power Facility
+James R. Thompson Center
+King's Cross
+Mayfield Mall
+Pier 57
+Sidewalk Toronto
+St. John's Terminal
+Submarine cables Dunant Grace Hopper Unity
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L. Hennessy
+Urs Hölzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai (CEO)
+Ruth Porat (CFO)
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Andy Bechtolsheim
+Sergey Brin (co-founder)
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page (co-founder)
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M. Tilghman
+Rachel Whetstone
+Susan Wojcicki
+Censorship
+DeGoogle
+FairSearch
+" Google's Ideological Echo Chamber "
+No Tech for Apartheid
+Privacy concerns Street View YouTube
+Street View
+YouTube
+Trade unions Alphabet Workers Union
+Alphabet Workers Union
+YouTube copyright issues
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Android apps
+April Fools' Day jokes
+Doodles Doodle Champion Island Games Magic Cat Academy
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History Gmail Search YouTube
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium Blink
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Studio
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR-Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema.org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin UTM parameters
+UTM parameters
+V8
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Android Cupcake Donut Eclair Froyo Gingerbread Honeycomb Ice Cream Sandwich Jelly Bean KitKat Lollipop Marshmallow Nougat Oreo Pie 10 11 12 13 14 15 16 version history smartphones
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+10
+11
+12
+13
+14
+15
+16
+version history
+smartphones
+Android Automotive
+Android Go devices
+devices
+Android Things
+Android TV devices
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+BERT
+Chinchilla
+DreamBooth
+Gemini
+Gemma
+Imagen (2023)
+LaMDA
+PaLM
+T5
+Veo (text-to-video model)
+VideoPoet
+XLNet
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+AAB
+APK
+AV1
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+Ultra HDR
+VP3
+VP6
+VP8
+VP9
+WebM
+WebP
+WOFF2
+Carbon
+Dart
+Go
+Sawzall
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank matrix
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+.app
+.dev
+.google
+.zip
+g.co
+google.by
+Croscore
+Noto
+Product Sans
+Roboto
+Aardvark
+Account Dashboard Takeout
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts & Culture
+Assistant
+Attribution
+Authenticator
+BebaPay
+BeatThatQuote.com
+Beam
+Blog Search
+Blogger
+Body
+Bookmarks
+Books Ngram Viewer
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents (social app)
+Currents (news app)
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+Earth
+Etherpad
+Expeditions
+Express
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find Hub
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+Gboard
+Gemini
+Gesture Search
+Gizmo5
+Google+
+Gmail
+Goggles
+GOOG-411
+Grasshopper
+Groups
+Hangouts
+Helpouts
+iGoogle
+Images Image Labeler
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools Japanese Input Pinyin
+Japanese Input
+Pinyin
+Insights for Search
+Jaiku
+Jamboard
+Kaggle
+Keep
+Knol
+Labs
+Latitude
+Lens
+Like.com
+Live Transcribe
+Lively
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+Nearby Share
+News
+News & Weather
+News Archive
+Notebook
+NotebookLM
+Now
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+Panoramio
+PaperofRecord.com
+Patents
+Page Creator
+Pay (mobile app)
+Pay (payment method)
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Public Alerts
+Public Data Explorer
+Question Hub
+Quick, Draw!
+Quick Search Box
+Quick Share
+Quickoffice
+Read Along
+Reader
+Reply
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search AI Overviews Knowledge Graph SafeSearch
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow (chatbot)
+Sparrow (email client)
+Speech Recognition & Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic 3D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+URL Shortener
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+Pixel (2016)
+Pixel 2 (2017)
+Pixel 3 (2018)
+Pixel 3a (2019)
+Pixel 4 (2019)
+Pixel 4a (2020)
+Pixel 5 (2020)
+Pixel 5a (2021)
+Pixel 6 (2021)
+Pixel 6a (2022)
+Pixel 7 (2022)
+Pixel 7a (2023)
+Pixel Fold (2023)
+Pixel 8 (2023)
+Pixel 8a (2024)
+Pixel 9 (2024)
+Pixel 9 Pro Fold (2024)
+Pixel 9a (2025)
+Pixel 10 (2025)
+Pixel 10 Pro Fold (2025)
+Pixel Watch (2022)
+Pixel Watch 2 (2023)
+Pixel Watch 3 (2024)
+Pixel Watch 4 (2025)
+Pixel C (2015)
+Pixel Slate (2018)
+Pixel Tablet (2023)
+Chromebook Pixel (2013–2015)
+Pixelbook (2017)
+Pixelbook Go (2019)
+Pixel Buds (2017–present)
+Nexus One (2010)
+Nexus S (2010)
+Galaxy Nexus (2011)
+Nexus 4 (2012)
+Nexus 5 (2013)
+Nexus 6 (2014)
+Nexus 5X (2015)
+Nexus 6P (2015)
+Nexus 7 (2012)
+Nexus 10 (2012)
+Nexus 7 (2013)
+Nexus 9 (2014)
+Nexus Q (2012)
+Nexus Player (2014)
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest smart speakers Thermostat Wifi
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+v
+t
+e
+Feldman v. Google, Inc. (2007)
+Rescuecom Corp. v. Google Inc. (2009)
+Goddard v. Google, Inc. (2009)
+Rosetta Stone Ltd. v. Google, Inc. (2012)
+Google, Inc. v. American Blind & Wallpaper Factory, Inc. (2017)
+Jedi Blue
+European Union (2010–present)
+United States v. Adobe Systems, Inc., Apple Inc., Google Inc., Intel Corporation, Intuit, Inc., and Pixar (2011)
+Umar Javeed, Sukarma Thapar, Aaqib Javeed vs. Google LLC and Ors. (2019)
+United States v. Google LLC (2020)
+United States v. Google LLC (2023)
+Perfect 10, Inc. v. Amazon.com, Inc. (2007)
+Viacom International, Inc. v. YouTube, Inc. (2010)
+Lenz v. Universal Music Corp. (2015)
+Authors Guild, Inc. v. Google, Inc. (2015)
+Field v. Google, Inc. (2016)
+Google LLC v. Oracle America, Inc. (2021)
+Smartphone patent wars
+Rocky Mountain Bank v. Google, Inc. (2009)
+Hibnick v. Google, Inc. (2010)
+United States v. Google Inc. (2012)
+Judgement of the German Federal Court of Justice on Google's autocomplete function (2013)
+Joffe v. Google, Inc. (2013)
+Mosley v SARL Google (2013)
+Google Spain v AEPD and Mario Costeja González (2014)
+Frank v. Gaos (2019)
+Garcia v. Google, Inc. (2015)
+Google LLC v Defteros (2020)
+Epic Games v. Google (2021)
+Gonzalez v. Google LLC (2022)
+Beauty YouTuber
+BookTube
+BreadTube
+" Don't be evil "
+Gayglers
+Google as a verb
+Google bombing 2004 U.S. presidential election
+2004 U.S. presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber list
+list
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Africa
+Antarctica
+Asia Israel
+Israel
+Europe
+North America Canada United States
+Canada
+United States
+Oceania
+South America Argentina Chile Colombia
+Argentina
+Chile
+Colombia
+Copyright strike
+Education
+Features
+Moderation
+Most-disliked videos
+Most-liked videos
+Most-subscribed channels
+Most-viewed channels
+Most-viewed videos Arabic music videos Chinese music videos French music videos Indian videos Pakistani videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+YouTube Premium original programming
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+AlphaGo
+Google: Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Google Hacks
+The Google Story
+Googled: The End of the World as We Know It
+How Google Works
+I'm Feeling Lucky
+In the Plex
+The MANIAC
+Google Feud
+Google Me (film)
+" Google Me " (Kim Zolciak song)
+" Google Me " (Teyana Taylor song)
+Is Google Making Us Stupid?
+Proceratium google
+Matt Nathanson: Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego?
+" Attention Is All You Need "
+elgooG
+Generative pre-trained transformer
+" Me at the zoo "
+Predictions of the end
+Relationship with Wikipedia
+" Reunion "
+Robot Constitution
+Category
+Outline
+v
+t
+e
+AI-complete
+Bag-of-words
+n -gram Bigram Trigram
+Bigram
+Trigram
+Computational linguistics
+Natural language understanding
+Stop words
+Text processing
+Argument mining
+Collocation extraction
+Concept mining
+Coreference resolution
+Deep linguistic processing
+Distant reading
+Information extraction
+Named-entity recognition
+Ontology learning
+Parsing Semantic parsing Syntactic parsing
+Semantic parsing
+Syntactic parsing
+Part-of-speech tagging
+Semantic analysis
+Semantic role labeling
+Semantic decomposition
+Semantic similarity
+Sentiment analysis
+Terminology extraction
+Text mining
+Textual entailment
+Truecasing
+Word-sense disambiguation
+Word-sense induction
+Compound-term processing
+Lemmatisation
+Lexical analysis
+Text chunking
+Stemming
+Sentence segmentation
+Word segmentation
+Multi-document summarization
+Sentence extraction
+Text simplification
+Computer-assisted
+Example-based
+Rule-based
+Statistical
+Transfer-based
+Neural
+BERT
+Document-term matrix
+Explicit semantic analysis
+fastText
+GloVe
+Language model ( large )
+Latent semantic analysis
+Seq2seq
+Word embedding
+Word2vec
+Corpus linguistics
+Lexical resource
+Linguistic Linked Open Data
+Machine-readable dictionary
+Parallel text
+PropBank
+Semantic network
+Simple Knowledge Organization System
+Speech corpus
+Text corpus
+Thesaurus (information retrieval)
+Treebank
+Universal Dependencies
+BabelNet
+Bank of English
+DBpedia
+FrameNet
+Google Ngram Viewer
+UBY
+WordNet
+Wikidata
+Speech recognition
+Speech segmentation
+Speech synthesis
+Natural language generation
+Optical character recognition
+Document classification
+Latent Dirichlet allocation
+Pachinko allocation
+Automated essay scoring
+Concordancer
+Grammar checker
+Predictive text
+Pronunciation assessment
+Spell checker
+Chatbot
+Interactive fiction
+Question answering
+Virtual assistant
+Voice user interface
+Formal semantics
+Hallucination
+Natural Language Toolkit
+spaCy
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology

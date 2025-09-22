@@ -1,0 +1,229 @@
+Title: Velvet AI
+URL: https://en.wikipedia.org/wiki/Velvet_AI
+PageID: 79267188
+Categories: Category:2024 in artificial intelligence, Category:Artificial intelligence laboratories, Category:Large language models
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Artificial general intelligence
+Intelligent agent
+Recursive self-improvement
+Planning
+Computer vision
+General game playing
+Knowledge representation
+Natural language processing
+Robotics
+AI safety
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+Open-source
+Bioinformatics
+Deepfake
+Earth sciences
+Finance
+Generative AI Art Audio Music
+Art
+Audio
+Music
+Government
+Healthcare Mental health
+Mental health
+Industry
+Software development
+Translation
+Military
+Physics
+Projects
+AI alignment
+Artificial consciousness
+The bitter lesson
+Chinese room
+Friendly AI
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+Timeline
+Progress
+AI winter
+AI boom
+AI bubble
+Glossary
+v
+t
+e
+Velvet AI is a family of multilingual generative artificial intelligence models developed by Almawave, [ 3 ] an Italian company specializing in Data & Artificial Intelligence. The Velvet models, including Velvet 14B and Velvet 2B, are foundational large language models (LLMs) designed and developed entirely in Italy on Almawave's proprietary architecture. They were trained on the Leonardo supercomputer managed by CINECA and have been released in open-source format. [ 4 ] [ 5 ] [ 6 ]
+The Velvet models are designed to be sustainable, emphasizing energy efficiency while maintaining high performance in real-world applications. They are capable of operating in multiple languages, including Italian, English, Spanish, Portuguese-Brazilian, German and French, with a particular emphasis on the Italian language. This multilingual capability makes them suitable for various sectors such as healthcare, social security, justice, security, mobility, finance, and public administration. [ 7 ] [ 8 ]
+Models
+Velvet 14B
+Velvet 14B, the larger model with 14 billion parameters, was trained on over 4 trillion tokens across six languages, with Italian comprising approximately 23% of the data. In addition to linguistic data, Velvet incorporates over 400 billion tokens from more than 100 programming languages to facilitate more structured inferences. [ 9 ]
+The development of Velvet AI reflects Almawave's strategic investment in creating high-performance, energy-efficient AI solutions that align with European regulatory frameworks. The models are ready to be used on major market platforms in the cloud, on-premise, and on the edge, and are integrated into Almawave's AIWave platform, which offers a broad portfolio of vertical AI application solutions. [ 10 ] [ 11 ]
+References
+See also
+CINECA
+Istituto Italiano per l’Intelligenza Artificiale (AI4I)
+v
+t
+e
+LMArena
+List of chatbots
+List of LLMs
+character.ai
+ChatGPT
+Claude
+Command
+Copilot
+DeepSeek
+Ernie
+Gemini
+GLM
+Grok
+Hunyuan
+Kimi
+Llama
+Mistral
+Perplexity
+Poe
+Qwen
+You.com
+Category
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category

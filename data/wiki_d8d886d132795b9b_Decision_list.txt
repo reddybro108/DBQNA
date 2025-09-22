@@ -1,0 +1,20 @@
+Title: Decision list
+URL: https://en.wikipedia.org/wiki/Decision_list
+PageID: 19317802
+Categories: Category:Machine learning, Category:Machine learning stubs
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Decision lists are a representation for Boolean functions which can be easily learnable from examples. Single term decision lists are more expressive than disjunctions and conjunctions ; however, 1-term decision lists are less expressive than the general disjunctive normal form and the conjunctive normal form .
+The language specified by a k-length decision list includes as a subset the language specified by a k-depth decision tree .
+Learning decision lists can be used for attribute efficient learning .
+Definition
+A decision list (DL) of length r is of the form:
+where f i is the i th formula and b i is the i th boolean for i ∈ { 1... r } {\displaystyle i\in \{1...r\}} .  The last if-then-else is the default case, which means formula f r is always equal to true. A k -DL is a decision list where all of formulas have at most k terms.  Sometimes "decision list" is used to refer to a 1-DL, where all of the formulas are either a variable or its negation .
+See also
+Decision stump
+References
+This machine learning -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

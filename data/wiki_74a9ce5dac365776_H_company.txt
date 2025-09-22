@@ -1,0 +1,207 @@
+Title: H (company)
+URL: https://en.wikipedia.org/wiki/H_(company)
+PageID: 79230505
+Categories: Category:2023 establishments in France, Category:Artificial intelligence companies, Category:Companies based in Paris, Category:French companies established in 2023, Category:Generative artificial intelligence, Category:Machine learning, Category:Technology companies of France
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+Artificial general intelligence
+Intelligent agent
+Recursive self-improvement
+Planning
+Computer vision
+General game playing
+Knowledge representation
+Natural language processing
+Robotics
+AI safety
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+Open-source
+Bioinformatics
+Deepfake
+Earth sciences
+Finance
+Generative AI Art Audio Music
+Art
+Audio
+Music
+Government
+Healthcare Mental health
+Mental health
+Industry
+Software development
+Translation
+Military
+Physics
+Projects
+AI alignment
+Artificial consciousness
+The bitter lesson
+Chinese room
+Friendly AI
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+Timeline
+Progress
+AI winter
+AI boom
+AI bubble
+Glossary
+v
+t
+e
+H Company , also known simply as H , is a French artificial intelligence startup which develops "action-oriented" artificial intelligence agents for enterprise automation and productivity. In May 2024, H Company closed a record-setting $220 million Series B, at the time the largest AI raise in Europe .
+History
+H Company was created in 2023 by Charles Kantor and four DeepMind veterans: Laurent Sifre (participated in the AlphaGo research program), Daan Wiestra (founding member of Google DeepMind ), Karl Tuyls (specialized in multi-agent systems), and Julien Perollat (specialized in multi-agent systems and game theory ).
+In May 2024, the firm secured what was then the largest European AI seed round, totaling $220 million led by US investors including Eric Schmidt (former Google CEO), Amazon , and backed by Accel , Bpifrance , UiPath , Eurazeo , Xavier Niel , Yuri Milner , Bernard Arnault , Samsung and others. President Emmanuel Macron publicly congratulated the achievement on social media.
+By August 2024 three founding researchers—Wiestra, Tuyls and Perollat—had to depart over operational disagreements. In November 2024 H launched Runner H , its first agentic-API platform. In June 2025 the company unveiled three new agentic models. Later that month, founder-CEO Charles Kantor stepped down, succeeded by Gautier Cloix. aiming to pivot H Company toward an "agentic services" model. [ citation needed ] In July 2025, H Company introduced Surfer-H-CLI , an open-source, web-native Chrome agent designed for browser-based automation—able to search, scroll, click, and type on behalf of users and controllable via any visual language model (VLM). When paired with its June 2025 open-sourced 3B-parameter Holo-1 model, Surfer-H-CLI achieved 92.2% WebVoyager benchmark accuracy.
+Products
+Runner H - API for complex task automation and decision-making
+Surfer H and Tester H - companion agent frameworks (June 2025)
+Activity
+H Company is building the next generation of enterprise software powered by AI agents that observe, decide, and act. H products are autonomous by design, turning high-level goals into real execution across complex workflows. H Company aims to develop AI agents and "action-oriented" AI models to automate complex tasks and enhance productivity in various sectors.
+References
+External links
+Official website
+v
+t
+e
+Autoencoder
+Deep learning
+Fine-tuning
+Foundation model
+Generative adversarial network
+Generative pre-trained transformer
+Large language model
+Model Context Protocol
+Neural network
+Prompt engineering
+Reinforcement learning from human feedback
+Retrieval-augmented generation
+Self-supervised learning
+Stochastic parrot
+Synthetic data
+Top-p sampling
+Transformer
+Variational autoencoder
+Vibe coding
+Vision transformer
+Waluigi effect
+Word embedding
+Character.ai
+ChatGPT
+DeepSeek
+Ernie
+Gemini
+Grok
+Copilot
+Claude
+Gemini
+Gemma
+GPT 1 2 3 J 4 4o 4.5 4.1 OSS 5
+1
+2
+3
+J
+4
+4o
+4.5
+4.1
+OSS
+5
+Llama
+o1
+o3
+o4-mini
+Qwen
+Base44
+Claude Code
+Cursor
+Devstral
+GitHub Copilot
+Kimi-Dev
+Qwen3-Coder
+Replit
+Xcode
+Aurora
+Firefly
+Flux
+GPT Image 1
+Ideogram
+Imagen
+Midjourney
+Qwen-Image
+Recraft
+Seedream
+Stable Diffusion
+Dream Machine
+Hailuo AI
+Kling
+Midjourney Video
+Runway Gen
+Seedance
+Sora
+Veo
+Wan
+15.ai
+Eleven
+MiniMax Speech 2.5
+WaveNet
+Eleven Music
+Endel
+Lyria
+Riffusion
+Suno AI
+Udio
+Agentforce
+AutoGLM
+AutoGPT
+ChatGPT Agent
+Devin AI
+Manus
+OpenAI Codex
+Operator
+Replit Agent
+01.AI
+Aleph Alpha
+Anthropic
+Baichuan
+Canva
+Cognition AI
+Cohere
+Contextual AI
+DeepSeek
+ElevenLabs
+Google DeepMind
+HeyGen
+Hugging Face
+Inflection AI
+Krikey AI
+Kuaishou
+Luma Labs
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Perplexity AI
+Runway
+Safe Superintelligence
+Salesforce
+Scale AI
+SoundHound
+Stability AI
+Synthesia
+Thinking Machines Lab
+Upstage
+xAI
+Z.ai
+Category

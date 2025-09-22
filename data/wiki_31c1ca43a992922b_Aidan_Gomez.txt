@@ -1,0 +1,17 @@
+Title: Aidan Gomez
+URL: https://en.wikipedia.org/wiki/Aidan_Gomez
+PageID: 75216979
+Categories: Category:Alumni of the University of Oxford, Category:Artificial intelligence researchers, Category:British computer scientists, Category:British technology chief executives, Category:British technology company founders, Category:Businesspeople in information technology, Category:Canadian computer scientists, Category:Canadian technology chief executives, Category:Canadian technology company founders, Category:Google employees, Category:Living people, Category:Machine learning researchers, Category:University of Toronto alumni
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Aidan Gomez is a British-Canadian [ 1 ] computer scientist working in the field of artificial intelligence , with a focus on natural language processing . [ 2 ] He is the co-founder and CEO of the technology company Cohere . [ 3 ] [ 4 ]
+Early life and education
+Gomez grew up in Brighton, Ontario . [ 5 ] He graduated from the University of Toronto with a bachelor's degree in computer science and mathematics. [ 6 ] He was pursuing a PhD in computer science from the University of Oxford . [ 7 ] He paused his studies to launch Cohere; however, he ultimately was granted the PhD in 2024. [ 8 ]
+Career
+In 2017, as a 20 year-old intern at Google Brain , Gomez was one of eight authors of the research paper " Attention Is All You Need ", [ 9 ] which is credited with changing the AI industry and helping lead to the creation of ChatGPT . [ 3 ] [ 4 ] [ 10 ] [ 11 ] The paper proposed a novel deep learning architecture called the transformer , that enables machine learning models to analyze large amounts of data for patterns, and then use those patterns to make predictions while leveraging GPU parallelization.  It has been commonly adopted for training large language models and in the development of generative AI . [ 3 ] [ 12 ] In 2017, Gomez founded FOR.ai, [ 7 ] a program to help researchers learn machine learning techniques in a collaborative format, which later became Cohere For AI. [ 13 ]
+As a PhD student, Gomez worked as a machine learning researcher at Google Brain . [ 7 ] At that time, he co-authored the paper "One Model to Learn Them All" about multi-task learning by a single neural network . [ 6 ]
+In 2019, Gomez left Google Brain to launch Cohere, an enterprise-focused company that helps businesses implement AI into chatbots, search engines, and other products. [ 3 ] [ 4 ] [ 14 ] He is CEO of the company, which has been valued at $5.5 billion as of July 2024. [ 4 ]
+Gomez was named to the 2023 Time 100/AI list of the most influential people in the field of artificial intelligence. [ 3 ] He and his fellow Cohere founders Ivan Zhang and Nick Frosst were named number 1 on 2023 Maclean's AI Trailblazers Power List. [ 12 ]
+In April 2025, Gomez was elected to the board of Rivian . [ 15 ] [ 16 ]
+References

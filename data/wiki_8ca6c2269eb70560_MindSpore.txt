@@ -1,0 +1,554 @@
+Title: MindSpore
+URL: https://en.wikipedia.org/wiki/MindSpore
+PageID: 76087353
+Categories: Category:2020 software, Category:Deep learning software, Category:Free software programmed in C++, Category:Free statistical software, Category:Huawei products, Category:Open-source artificial intelligence, Category:Software using the Apache license
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+MindSpore is a open-source software framework for deep learning , machine learning and artificial intelligence developed by Huawei . [ 1 ] [ 2 ]
+Overview
+MindSpore provides support for Python by allowing users to define models, control flow, and custom operators using native Python syntax. Unlike graph-based frameworks that require users to learn DSL or complex APIs, MindSpore adopts a source-to-source (S2S) automatic differentiation approach, allowing Python code to be automatically transformed into optimized computational graphs. [ 3 ]
+It has support for custom OpenHarmony -based HarmonyOS NEXT single core framework system built for HarmonyOS , includes an AI system stack that comes with Huawei 's built LLM model called PanGu-Σ with full MindSpore framework support. [ 4 ] Alongside, OpenHarmony Native device-side AI support for training interface and ArkTS programming interface for its NNRt (Neural Network Runtime) backend configurations via MindSpore Lite AI framework codebase introduced in API 11 Beta 1 of OpenHarmony 4.1. MindSpore platform runs on Ascend AI chips and Kirin alongside other HiSilicon NPU chips. [ 5 ]
+CANN (Compute Architecture of Neural Networks), heterogeneous computing architecture for AI developed by Huawei. With CANN backend in OpenCV DNN, giving developers ability to run created AI models on the Ascend, Kirin and other HiSilicon NPU enabled chips. [ 6 ]
+It supports cross platform development such as Android , iOS , Windows , [ 7 ] global OpenHarmony-based distro, Eclipse Oniro, Linux-based EulerOS alongside OpenEuler Huawei's server OS platforms, macOS and Linux . [ 8 ] [ 9 ]
+History
+On April 24, 2024, Huawei's MindSpore 2.3.RC1 was released to open source community with Foundation Model Training, Full-Stack Upgrade of Foundation Model Inference, Static Graph Optimization, IT Features and new MindSpore Elec MT (MindSpore-powered magnetotelluric) Intelligent Inversion Model. [ 10 ]
+See also
+Free and open-source software portal
+Comparison of deep learning software
+Differentiable programming
+TensorFlow
+Keras
+CUDA
+References
+Bibliography
+Huawei MindSpore AI Development Framework (1st (Online) ed.). Springer, Singapore . October 22, 2022. pp. 137– 162. ISBN 978-981-19-2879-6 .
+Deep Learning and Mindspore Practice (Huawei Intelligent Computing Technology Series)(Chinese Edition) (1st ed.). Tsinghua University Press . March 1, 2020. p. 355. ISBN 978-7302546610 .
+External links
+Official website
+Learning MindSpore Web
+Deep Learning and Practice with MindSpore Book (ENG)
+v
+t
+e
+Huawei Ascend
+Ascend P P1 P2 P6 P7
+P1
+P2
+P6
+P7
+Ascend D D quad quad XL D1 1 XL D2
+D quad quad XL
+quad XL
+D1 1 XL
+1 XL
+D2
+Ascend G G6 G7 G300 G312 G330 G600 G750
+G6
+G7
+G300
+G312
+G330
+G600
+G750
+Ascend Mate Mate 2 Mate 7
+Mate 2
+Mate 7
+W1
+W2
+Ascend Y300
+Huawei P8 P8 Max
+P8 Max
+P9 9 Plus 9 lite
+9 Plus
+9 lite
+P10
+P20
+P30
+P40 40 lite
+40 lite
+P50 50 Pocket
+50 Pocket
+P60
+Pura 70 70 Pro 70 Pro+ 70 Ultra
+70 Pro
+70 Pro+
+70 Ultra
+Pura X
+Huawei Mate S
+8
+9 9 lite
+9 lite
+10
+SE
+20
+30
+40
+50
+60
+70
+X
+Xs
+X2
+Xs 2
+X3
+X5
+X6
+XT Ultimate Design
+Huawei Nova & Nova Plus lite 2017 lite+ 2 3 3+ Smart Young Youth
+lite 2017 lite+ 2 3 3+
+2017
+lite+
+2
+3 3+
+3+
+Smart
+Young
+Youth
+2 2 Plus 2i 2 lite 2s
+2 Plus
+2i
+2 lite
+2s
+3 3e 3i
+3e
+3i
+4 4e
+4e
+5 5 Pro 5i 5i Pro 5T 5z
+5 Pro
+5i
+5i Pro
+5T
+5z
+6 6 SE
+6 SE
+7 7 Pro 7i 7 SE Youth
+7 Pro
+7i
+7 SE Youth
+Youth
+8 8 Pro 8 SE Youth 8i
+8 Pro
+8 SE Youth
+Youth
+8i
+9 9 SE
+9 SE
+10 10 Pro 10 SE 10z
+10 Pro
+10 SE
+10z
+11 11 Pro/Ultra 11 SE 11i
+11 Pro/Ultra
+11 SE
+11i
+12 12 Pro/Ultra 12 SE 12i 12s/12 Lite
+12 Pro/Ultra
+12 SE
+12i
+12s/12 Lite
+13 13 Pro 13i
+13 Pro
+13i
+Flip
+Y60
+Y61/Y62/Y62 Plus
+Y70/Y70 Plus/Y71
+Y72 Y72S
+Y72S
+Y90
+Y91
+Huawei G7 Plus/G8
+G9 Plus 9 lite
+9 lite
+G Play Mini
+Mini
+GT3
+GR3 2017
+2017
+GR5 2017 5 mini
+2017
+5 mini
+Y3 (Y360) 3 II 2017 2018
+3 II
+2017
+2018
+Y5 (Y560) 5c 5 II 2017 2018 Prime lite 2019 5p
+5c
+5 II
+2017
+2018 Prime lite
+Prime
+lite
+2019
+5p
+Y6 6 Pro 6 II Compact 2017 Pro 2018 Prime 2019 Prime Pro 6s 6p
+6 Pro
+6 II Compact
+Compact
+2017 Pro
+Pro
+2018 Prime
+Prime
+2019 Prime Pro
+Prime
+Pro
+6s
+6p
+Y7 7 Prime 2018 Prime Pro 2019 Prime Pro 7p 7a
+7 Prime
+2018 Prime Pro
+Prime
+Pro
+2019 Prime Pro
+Prime
+Pro
+7p
+7a
+Y8 8s 8p
+8s
+8p
+Y9 2018 2019 Prime 9s 9a
+2018
+2019 Prime
+Prime
+9s
+9a
+Y Max
+Y625
+Y635
+Huawei G6600 Passport
+M835
+Pocket 2
+Pocket S
+Premia
+Sonic
+STREAM X GL07S
+T156
+T158
+T161L
+T201
+T208
+T211
+T261L
+T300
+U120
+U121
+U1000
+U1100
+U1250
+U1270
+U1310
+U2801
+U3300
+U7310
+U7510
+T-Mobile Tap (U7519)
+U8100
+U8110
+IDEOS U8150
+T-Mobile Pulse (U8220)
+U8230
+U8800
+U9130 Compass
+U9150
+Nexus 6P
+Huawei Ideos Tablet S7
+Honor Tablet 5
+Mediapad M5
+Mediapad M6
+MatePad Pro
+MateBook
+MateBook X Pro
+Watch GT
+X Gentle Monster Eyewear
+Watch GT 2 2e 2 Pro
+2e
+2 Pro
+Watch Fit
+X Gentle Monster Eyewear II
+Kirin
+Kunpeng , Ascend
+Atlas
+Tiangang (5G)
+Balong (modem: 5G/5.5G)
+EulerOS
+openEuler
+UniProton
+NestOS
+HarmonyOS NEXT kernel ; OpenHarmony version history
+NEXT
+kernel ;
+OpenHarmony
+version history
+LiteOS
+EMUI
+Huawei VRP
+E5
+E220
+SingleRAN
+4G eLTE
+Ark Compiler
+BiSheng Compiler
+DevEco Studio
+ArkTS
+eTS
+Cangjie
+Hvigor
+EROFS
+Huawei PanGu
+MindSpore
+ArkUI
+ArkUI-X
+GaussDB
+openGauss
+ArkData
+MetaERP
+Celia
+Huawei HiCar
+NearLink
+Softswitches
+Next generation home location register
+Internet Protocol Multimedia Subsystems
+xDSL
+Passive optical network
+Network switches
+Service delivery platforms
+Base station subsystems
+Mobile Services AppGallery HMS Core Petal Maps
+AppGallery
+HMS Core
+Petal Maps
+Network integration
+Object storage
+Music
+Video
+Cloud
+GameCenter
+Themes
+Health
+Find Device
+Ren Zhengfei (CEO)
+Liang Hua (Chairman)
+Sun Yafang (former chairwoman)
+Meng Wanzhou (deputy chair & CFO)
+Xu Zhijun (deputy chair)
+New IP
+Developer Conference
+Developer Day
+Symantec
+HiSilicon
+Criticism Li Hongyuan incident
+Li Hongyuan incident
+Huawei the Beautiful
+Nano Memory
+FreeBuds
+Sound X
+Sound Joy
+Vision
+MateView
+MateBook
+MateStation
+HarmonyOS Sans
+Huawei MRP
+nweb (ArkWeb) layer
+Ox Horn Campus
+Intelligent Automotive Solution
+Intelligent Mobility Alliance
+SiCarrier
+Huawei Lianqiuhu
+Commons
+Category
+v
+t
+e
+Comparison
+Apache MXNet
+Apache SINGA
+Caffe
+Deeplearning4j
+DeepSpeed
+Dlib
+Keras
+Microsoft Cognitive Toolkit
+ML.NET
+OpenNN
+PyTorch
+TensorFlow
+Theano
+Torch
+ONNX
+OpenVINO
+MindSpore
+Apple Core ML
+IBM Watson
+Neural Designer
+Wolfram Mathematica
+MATLAB Deep Learning Toolbox
+Category
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology

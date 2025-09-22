@@ -2,7 +2,7 @@ Title: Robot learning
 URL: https://en.wikipedia.org/wiki/Robot_learning
 PageID: 3290880
 Categories: Category:Learning, Category:Machine learning, Category:Robot control
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 Robot learning is a research field at the intersection of machine learning and robotics . It studies techniques allowing a robot to acquire novel skills or adapt to its environment through learning algorithms. The embodiment of the robot, situated in a physical embedding, provides at the same time specific difficulties (e.g. high-dimensionality, real time constraints for collecting data and learning) and opportunities for guiding the learning process (e.g. sensorimotor synergies, motor primitives).
@@ -11,10 +11,10 @@ Robot learning can be closely related to adaptive control , reinforcement learni
 Imitation learning
 Many research groups are developing techniques where robots learn by imitating. This includes various techniques for learning from demonstration (sometimes also referred to as " programming by demonstration ") and observational learning .
 Sharing learned skills and knowledge
-In Tellex's "Million Object Challenge", the goal is robots that learn how to spot and handle simple items and upload their data to the cloud to allow other robots to analyze and use the information.
-RoboBrain is a knowledge engine for robots which can be freely accessed by any device wishing to carry out a task. The database gathers new information about tasks as robots perform them, by searching the Internet, interpreting natural language text, images, and videos, object recognition as well as interaction. The project is led by Ashutosh Saxena at Stanford University .
-RoboEarth is a project that has been described as a " World Wide Web for robots" − it is a network and database repository where robots can share information and learn from each other and a cloud for outsourcing heavy computation tasks. The project brings together researchers from five major universities in Germany, the Netherlands and Spain and is backed by the European Union .
-Google Research, DeepMind , and Google X have decided to allow their robots share their experiences.
+In Tellex's "Million Object Challenge", the goal is robots that learn how to spot and handle simple items and upload their data to the cloud to allow other robots to analyze and use the information. [ 1 ]
+RoboBrain is a knowledge engine for robots which can be freely accessed by any device wishing to carry out a task. The database gathers new information about tasks as robots perform them, by searching the Internet, interpreting natural language text, images, and videos, object recognition as well as interaction. The project is led by Ashutosh Saxena at Stanford University . [ 2 ] [ 3 ]
+RoboEarth is a project that has been described as a " World Wide Web for robots" − it is a network and database repository where robots can share information and learn from each other and a cloud for outsourcing heavy computation tasks. The project brings together researchers from five major universities in Germany, the Netherlands and Spain and is backed by the European Union . [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ]
+Google Research, DeepMind , and Google X have decided to allow their robots share their experiences. [ 9 ] [ 10 ] [ 11 ]
 Vision-language-action model
 Research groups and companies are developing vision-language-action models , foundation models that allow robotic control through the combination of vision and language. Google DeepMind , Figure AI and Hugging Face are actively working on that.
 See also

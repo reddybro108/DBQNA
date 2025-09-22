@@ -1,0 +1,14 @@
+Title: Bayesian regret
+URL: https://en.wikipedia.org/wiki/Bayesian_regret
+PageID: 8529968
+Categories: Category:Bayesian estimation, Category:Bayesian statistics, Category:Economic theories, Category:Game theory, Category:Machine learning, Category:Social choice theory
+Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+
+-----
+In stochastic game theory , Bayesian regret is the expected difference (" regret ") between the utility of a given strategy and the utility of the best possible strategy in hindsight—i.e., the strategy that would have maximized expected payoff if the true underlying model or distribution were known. This notion of regret measures how much is lost, on average, due to uncertainty or imperfect information.
+Etymology
+The term Bayesian refers to Thomas Bayes (1702–1761), who proved a special case of what is now called Bayes' theorem , who provided the first mathematical treatment of a non-trivial problem of statistical data analysis using what is now known as Bayesian inference .
+Economics
+This term has been used to compare a random buy-and-hold strategy to professional traders' records. This same concept has  received numerous different names, as the New York Times notes:
+"In 1957, for example, a statistician named James Hanna called his theorem Bayesian Regret. He had been preceded by David Blackwell , also a statistician , who called his theorem Controlled Random Walks. Other, later papers had titles like 'On Pseudo Games', 'How to Play an Unknown Game' [ citation needed ] , 'Universal Coding' and 'Universal Portfolios'".
+References

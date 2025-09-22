@@ -1,0 +1,25 @@
+Title: Quoc V. Le
+URL: https://en.wikipedia.org/wiki/Quoc_V._Le
+PageID: 72336770
+Categories: Category:1982 births, Category:American computer scientists, Category:Artificial intelligence researchers, Category:Australian National University alumni, Category:Google Fellows, Category:Google people, Category:Living people, Category:Machine learning researchers, Category:People from Huế, Category:Stanford University alumni, Category:Vietnamese computer specialists
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Lê Viết Quốc (born 1982), [ 1 ] or in romanized form Quoc Viet Le , is a Vietnamese-American computer scientist and a machine learning pioneer at Google Brain , which he established with colleagues from Google. He co-invented the doc2vec [ 2 ] and seq2seq [ 3 ] models in natural language processing . Le also initiated and lead the AutoML initiative at Google Brain, including the proposal of neural architecture search . [ 4 ] [ 5 ] [ 6 ] [ 7 ]
+Education and career
+Le was born in Hương Thủy in the Thừa Thiên Huế province of Vietnam. [ 5 ] He attended Quốc Học Huế High School [ 8 ] before moving to Australia in 2004 to pursue a Bachelor’s degree at the Australian National University . During his undergraduate studies, he worked with Alex Smola on Kernel method in machine learning. [ 9 ] In 2007,  Le moved to the United States to pursue graduate studies in computer science at Stanford University , where his PhD advisor was Andrew Ng .
+In 2011, Le became a founding member of Google Brain along with his then advisor Andrew Ng , Google Fellow Jeff Dean , and researcher Greg Corrado. [ 5 ] He led Google Brain ’s first major breakthrough: a deep learning algorithm trained on 16,000 CPU cores , which learned to recognize cats by watching YouTube videos—without being explicitly taught the concept of a "cat." [ 10 ] [ 11 ]
+In 2014, Le co-proposed two influential models in machine learning. Together with Ilya Sutskever , Oriol Vinyals , he introduced the seq2seq model for machine translation , a foundational technique in natural language processing. In the same year, in collaboration with Tomáš Mikolov , Le developed the doc2vec model for representation learning of documents. Le was also a key contributor of Google Neural Machine Translation system. [ 12 ]
+In 2017, Le initiated and led the AutoML project at Google Brain , pioneering the use of neural architecture search . [ 13 ] This project significantly advanced automated machine learning.
+In 2020, Le contributed to the development of Meena, later renamed LaMDA , a conversational large language model based on the seq2seq architecture. [ 14 ] In 2022, Le and coauthors published chain-of-thought prompting , a method that enhances the reasoning capabilities of large language models. [ 15 ]
+Honors and awards
+Le was named MIT Technology Review 's innovators under 35 in 2014. [ 16 ] He has been interviewed by and his research has been reported in major media outlets including Wired , [ 6 ] the New York Times , [ 17 ] the Atlantic , [ 18 ] and the MIT Technology Review . [ 19 ] Le was named an Alumni Laureate of the Australian National University School of Computing in 2022. [ 20 ]
+See also
+Oriol Vinyals
+Ilya Sutskever
+Jeff Dean
+Alex Smola
+References
+Mathematics Genealogy Project
+Google Scholar
+DBLP

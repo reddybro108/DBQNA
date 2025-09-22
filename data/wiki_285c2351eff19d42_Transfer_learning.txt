@@ -1,0 +1,171 @@
+Title: Transfer learning
+URL: https://en.wikipedia.org/wiki/Transfer_learning
+PageID: 3920550
+Categories: Category:Machine learning
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Self-supervised learning
+Reinforcement learning
+Meta-learning
+Online learning
+Batch learning
+Curriculum learning
+Rule-based learning
+Neuro-symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+Apprenticeship learning
+Decision trees
+Ensembles Bagging Boosting Random forest
+Bagging
+Boosting
+Random forest
+k -NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+BIRCH
+CURE
+Hierarchical
+k -means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+Graphical models Bayes net Conditional random field Hidden Markov
+Bayes net
+Conditional random field
+Hidden Markov
+RANSAC
+k -NN
+Local outlier factor
+Isolation forest
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network LSTM GRU ESN reservoir computing
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine Restricted
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network U-Net LeNet AlexNet DeepDream
+U-Net
+LeNet
+AlexNet
+DeepDream
+Neural field Neural radiance field Physics-informed neural networks
+Neural radiance field
+Physics-informed neural networks
+Transformer Vision
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+Q-learning
+Policy gradient
+SARSA
+Temporal difference (TD)
+Multi-agent Self-play
+Self-play
+Active learning
+Crowdsourcing
+Human-in-the-loop
+Mechanistic interpretability
+RLHF
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+AAAI
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+Glossary of artificial intelligence
+List of datasets for machine-learning research List of datasets in computer vision and image processing
+List of datasets in computer vision and image processing
+Outline of machine learning
+v
+t
+e
+Transfer learning ( TL ) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task. [ 1 ] For example, for image classification , knowledge gained while learning to recognize cars could be applied when trying to recognize trucks. This topic is related to the psychological literature on transfer of learning , although practical ties between the two fields are limited. Reusing or transferring information from previously learned tasks to new tasks has the potential to significantly improve learning efficiency. [ 2 ]
+Since transfer learning makes use of training with multiple objective functions it is related to cost-sensitive machine learning and multi-objective optimization . [ 3 ]
+History
+In 1976, Bozinovski and Fulgosi published a paper addressing transfer learning in neural network training. [ 4 ] [ 5 ] The paper gives a mathematical and geometrical model of the topic. In 1981, a report considered the application of transfer learning to a dataset of images representing letters of computer terminals, experimentally demonstrating positive and negative transfer learning. [ 6 ]
+In 1992, Lorien Pratt formulated the discriminability-based transfer (DBT) algorithm. [ 7 ]
+By 1998, the field had advanced to include multi-task learning , [ 8 ] along with more formal theoretical foundations. [ 9 ] Influential publications on transfer learning include the book Learning to Learn in 1998, [ 10 ] a 2009 survey [ 11 ] and a 2019 survey. [ 12 ]
+Ng said in his NIPS 2016 tutorial [ 13 ] [ 14 ] that TL would become the next driver of machine learning commercial success after supervised learning .
+In the 2020 paper, "Rethinking Pre-Training and self-training", [ 15 ] Zoph et al. reported that pre-training can hurt accuracy, and advocate self-training instead.
+Definition
+The definition of transfer learning is given in terms of domains and tasks. A domain D {\displaystyle {\mathcal {D}}} consists of: a feature space X {\displaystyle {\mathcal {X}}} and a marginal probability distribution P ( X ) {\displaystyle P(X)} , where X = { x 1 , . . . , x n } ∈ X {\displaystyle X=\{x_{1},...,x_{n}\}\in {\mathcal {X}}} . Given a specific domain, D = { X , P ( X ) } {\displaystyle {\mathcal {D}}=\{{\mathcal {X}},P(X)\}} , a task consists of two components: a label space Y {\displaystyle {\mathcal {Y}}} and an objective predictive function f : X → Y {\displaystyle f:{\mathcal {X}}\rightarrow {\mathcal {Y}}} . The function f {\displaystyle f} is used to predict the corresponding label f ( x ) {\displaystyle f(x)} of a new instance x {\displaystyle x} . This task, denoted by T = { Y , f ( x ) } {\displaystyle {\mathcal {T}}=\{{\mathcal {Y}},f(x)\}} , is learned from the training data consisting of pairs { x i , y i } {\displaystyle \{x_{i},y_{i}\}} , where x i ∈ X {\displaystyle x_{i}\in {\mathcal {X}}} and y i ∈ Y {\displaystyle y_{i}\in {\mathcal {Y}}} . [ 16 ]
+Given a source domain D S {\displaystyle {\mathcal {D}}_{S}} and learning task T S {\displaystyle {\mathcal {T}}_{S}} , a target domain D T {\displaystyle {\mathcal {D}}_{T}} and learning task T T {\displaystyle {\mathcal {T}}_{T}} , where D S ≠ D T {\displaystyle {\mathcal {D}}_{S}\neq {\mathcal {D}}_{T}} , or T S ≠ T T {\displaystyle {\mathcal {T}}_{S}\neq {\mathcal {T}}_{T}} , transfer learning aims to help improve the learning of the target predictive function f T ( ⋅ ) {\displaystyle f_{T}(\cdot )} in D T {\displaystyle {\mathcal {D}}_{T}} using the knowledge in D S {\displaystyle {\mathcal {D}}_{S}} and T S {\displaystyle {\mathcal {T}}_{S}} . [ 16 ]
+Applications
+Algorithms for transfer learning are available in Markov logic networks [ 17 ] and Bayesian networks . [ 18 ] Transfer learning has been applied to cancer subtype discovery, [ 19 ] building utilization, [ 20 ] [ 21 ] general game playing , [ 22 ] text classification , [ 23 ] [ 24 ] digit recognition, [ 25 ] medical imaging and spam filtering . [ 26 ]
+In 2020, it was discovered that, due to their similar physical natures, transfer learning is possible between electromyographic (EMG) signals from the muscles and classifying the behaviors of electroencephalographic (EEG) brainwaves, from the gesture recognition domain to the mental state recognition domain. It was noted that this relationship worked in both directions, showing that electroencephalographic can likewise be used to classify EMG. [ 27 ] The experiments noted that the accuracy of neural networks and convolutional neural networks were improved [ 28 ] through transfer learning both prior to any learning (compared to standard random weight distribution) and at the end of the learning process (asymptote). That is, results are improved by exposure to another domain. Moreover, the end-user of a pre-trained model can change the structure of fully-connected layers to improve performance. [ 29 ]
+See also
+Crossover (genetic algorithm)
+Domain adaptation
+General game playing
+Multi-task learning
+Multitask optimization
+Transfer of learning in educational psychology
+Zero-shot learning
+Feature learning
+external validity
+References
+Sources
+Thrun, Sebastian; Pratt, Lorien (6 December 2012). Learning to Learn . Springer Science & Business Media. ISBN 978-1-4615-5529-2 .

@@ -1,0 +1,385 @@
+Title: Geoffrey Hinton
+URL: https://en.wikipedia.org/wiki/Geoffrey_Hinton
+PageID: 507174
+Categories: Category:1947 births, Category:2023 fellows of the Association for Computing Machinery, Category:Academic staff of the University of Toronto, Category:Alumni of King's College, Cambridge, Category:Alumni of the University of Edinburgh, Category:Artificial intelligence researchers, Category:British computer scientists, Category:British socialists, Category:Canada Research Chairs, Category:Canadian Nobel laureates, Category:Canadian computer scientists, Category:Canadian fellows of the Royal Society, Category:Canadian socialists, Category:Carnegie Mellon University faculty, Category:Companions of the Order of Canada, Category:Fellows of the Association for the Advancement of Artificial Intelligence, Category:Fellows of the Cognitive Science Society, Category:Fellows of the Royal Society, Category:Foreign associates of the National Academy of Engineering, Category:Google employees, Category:Hinton family, Category:Living people, Category:Machine learning researchers, Category:Nobel laureates in Physics, Category:People educated at Clifton College, Category:People from Wimbledon, London, Category:Rumelhart Prize laureates, Category:Turing Award laureates
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Geoffrey Everest Hinton (born 6 December 1947) is a British-Canadian computer scientist , cognitive scientist , and cognitive psychologist known for his work on artificial neural networks , which earned him the title "the Godfather of AI". [ 9 ]
+Hinton is University Professor Emeritus at the University of Toronto . From 2013 to 2023, he divided his time working for Google ( Google Brain ) and the University of Toronto before publicly announcing his departure from Google in May 2023, citing concerns about the many risks of artificial intelligence (AI) technology. [ 10 ] [ 11 ] In 2017, he co-founded and became the chief scientific advisor of the Vector Institute in Toronto. [ 12 ] [ 13 ]
+With David Rumelhart and Ronald J. Williams , Hinton was co-author of a highly cited paper published in 1986 that popularised the backpropagation algorithm for training multi-layer neural networks, [ 14 ] although they were not the first to propose the approach. [ 15 ] Hinton is viewed as a leading figure in the deep learning community. [ 21 ] The image-recognition milestone of the AlexNet designed in collaboration with his students Alex Krizhevsky [ 22 ] and Ilya Sutskever for the ImageNet challenge 2012 [ 8 ] was a breakthrough in the field of computer vision. [ 23 ]
+Hinton received the 2018 Turing Award , together with Yoshua Bengio and Yann LeCun for their work on deep learning. [ 24 ] They are sometimes referred to as the "Godfathers of Deep Learning" [ 25 ] [ 26 ] and have continued to give public talks together. [ 27 ] [ 28 ] He was also awarded, along with John Hopfield , the 2024 Nobel Prize in Physics for ‹See Tfd› foundational discoveries and inventions that enable machine learning with artificial neural networks . [ 29 ] [ 30 ]
+In May 2023, Hinton announced his resignation from Google to be able to "freely speak out about the risks of A.I." [ 31 ] He has voiced concerns about deliberate misuse by malicious actors , technological unemployment , and existential risk from artificial general intelligence . [ 32 ] He noted that establishing safety guidelines will require cooperation among those competing in use of AI in order to avoid the worst outcomes. [ 33 ] After receiving the Nobel Prize, he called for urgent research into AI safety to figure out how to control AI systems smarter than humans. [ 34 ] [ 35 ] [ 36 ]
+Education
+Hinton was born on 6 December 1947 [ 37 ] in Wimbledon , England, and was educated at Clifton College in Bristol. [ 38 ] In 1967, he enrolled as an undergraduate student at King's College, Cambridge , and after repeatedly switching between different fields, like natural sciences , history of art , and philosophy , he eventually graduated with a Bachelor of Arts degree in experimental psychology at the University of Cambridge in 1970. [ 37 ] [ 39 ] He spent a year apprenticing carpentry before returning to academic studies. [ 40 ] From 1972 to 1975, he continued his study at the University of Edinburgh , where he was awarded a PhD in artificial intelligence in 1978 for research supervised by Christopher Longuet-Higgins , who favored the symbolic AI approach over the neural network approach. [ 39 ] [ 41 ] [ 42 ] [ 40 ]
+Career and research
+After his PhD, Hinton initially worked at the University of Sussex and at the MRC Applied Psychology Unit . After having difficulty getting funding in Britain, [ 40 ] he worked in the US at the University of California, San Diego and Carnegie Mellon University . [ 37 ] He was the founding director of the Gatsby Charitable Foundation Computational Neuroscience Unit at University College London . [ 37 ] He is currently [update] [ 43 ] University Professor Emeritus in the Department of Computer Science at the University of Toronto , where he has been affiliated since 1987. [ 44 ]
+Upon arrival in Canada, Geoffrey Hinton was appointed at the Canadian Institute for Advanced Research (CIFAR) in 1987 as a Fellow in CIFAR's first research program, Artificial Intelligence, Robotics & Society. [ 45 ] In 2004, Hinton and collaborators successfully proposed the launch of a new program at CIFAR, "Neural Computation and Adaptive Perception" [ 46 ] (NCAP), which today is named "Learning in Machines & Brains". Hinton would go on to lead NCAP for ten years. [ 47 ] Among the members of the program are Yoshua Bengio and Yann LeCun , with whom Hinton would go on to win the ACM A.M. Turing Award in 2018. [ 48 ] All three Turing winners continue to be members of the CIFAR Learning in Machines & Brains program. [ 49 ]
+Hinton taught a free online course on Neural Networks on the education platform Coursera in 2012. [ 50 ] He co-founded DNNresearch Inc. in 2012 with his two graduate students Alex Krizhevsky and Ilya Sutskever at the University of Toronto’s department of computer science. In March 2013, Google acquired DNNresearch Inc. for $44 million, and Hinton planned to "divide his time between his university research and his work at Google". [ 51 ] [ 52 ] [ 53 ]
+Hinton's research concerns ways of using neural networks for machine learning , memory , perception , and symbol processing. He has written or co-written more than 200 peer-reviewed publications. [ 1 ] [ 54 ]
+While Hinton was a postdoc at UC San Diego, David E. Rumelhart and Hinton and Ronald J. Williams applied the backpropagation algorithm to multi-layer neural networks. Their experiments showed that such networks can learn useful internal representations of data. [ 14 ] In a 2018 interview, [ 55 ] Hinton said that " David E. Rumelhart came up with the basic idea of backpropagation, so it's his invention". Although this work was important in popularising backpropagation, it was not the first to suggest the approach. [ 15 ] Reverse-mode automatic differentiation , of which backpropagation is a special case, was proposed by Seppo Linnainmaa in 1970, and Paul Werbos proposed to use it to train neural networks in 1974. [ 15 ]
+In 1985, Hinton co-invented Boltzmann machines with David Ackley and Terry Sejnowski . [ 56 ] His other contributions to neural network research include distributed representations , time delay neural network , mixtures of experts , Helmholtz machines and product of experts . [ 57 ] An accessible introduction to Geoffrey Hinton's research can be found in his articles in Scientific American in September 1992 and October 1993. [ 58 ] In 2007, Hinton coauthored an unsupervised learning paper titled Unsupervised learning of image transformations . [ 59 ] In 2008, he developed the visualization method t-SNE with Laurens van der Maaten. [ 60 ] [ 61 ]
+In October and November 2017, Hinton published two open access research papers on the theme of capsule neural networks , [ 62 ] [ 63 ] which, according to Hinton, are "finally something that works well". [ 64 ]
+At the 2022 Conference on Neural Information Processing Systems (NeurIPS), Hinton introduced a new learning algorithm for neural networks that he calls the "Forward-Forward" algorithm. The idea of the new algorithm is to replace the traditional forward-backward passes of backpropagation with two forward passes, one with positive (i.e. real) data and the other with negative data that could be generated solely by the network. [ 65 ] [ 66 ]
+In May 2023, Hinton publicly announced his resignation from Google. He explained his decision by saying that he wanted to "freely speak out about the risks of A.I." and added that a part of him now regrets his life's work. [ 10 ] [ 31 ]
+Notable former PhD students and postdoctoral researchers from his group include Peter Dayan , [ 67 ] Sam Roweis, [ 67 ] Max Welling , [ 67 ] Richard Zemel , [ 41 ] [ 2 ] Brendan Frey , [ 3 ] Radford M. Neal , [ 4 ] Yee Whye Teh , [ 5 ] Ruslan Salakhutdinov , [ 6 ] Ilya Sutskever , [ 7 ] Yann LeCun , [ 68 ] Alex Graves , [ 67 ] Zoubin Ghahramani , [ 67 ] and Peter Fitzhugh Brown . [ 69 ]
+Honours and awards
+Hinton is a Fellow of the US Association for the Advancement of Artificial Intelligence (FAAAI) since 1990. [ 70 ] He was elected a Fellow of the Royal Society of Canada (FRSC) in 1996, [ 71 ] and then a Fellow of the Royal Society of London (FRS) in 1998 . [ 72 ] He was the first winner of the Rumelhart Prize in 2001. [ 73 ] His certificate of election for the Royal Society reads:
+Geoffrey E. Hinton is internationally known for his work on artificial neural nets, especially how they can be designed to learn without the aid of a human teacher. He has compared effects of brain damage with effects of losses in such a net, and found striking similarities with human impairment, such as for recognition of names and losses of categorisation. His work includes studies of mental imagery, and inventing puzzles for testing originality and creative intelligence. It is conceptual, mathematically sophisticated, and experimental. He brings these skills together with striking effect to produce important work of great interest. [ 74 ]
+In 2001, Hinton was awarded an honorary Doctor of Science (DSc) degree from the University of Edinburgh . [ 39 ] [ 75 ] He was awarded as International Honorary Member of the American Academy of Arts and Sciences in 2003. [ 76 ] Also, in this year he was elected a Fellow of the US Cognitive Science Society . [ 77 ] He was the 2005 recipient of the IJCAI Award for Research Excellence lifetime-achievement award. [ 78 ] He was awarded the 2011 Herzberg Canada Gold Medal for Science and Engineering . [ 79 ] In that same year, he also was awarded an honorary DSc degree from the University of Sussex [ 39 ] In 2012, he received the Canada Council Killam Prize in Engineering. In 2013, he was awarded an honorary doctorate from the Université de Sherbrooke . [ 39 ] [ 80 ] Hinton was elected an Honorary Foreign Member of the Spanish Royal Academy of Engineering in 2015. [ 39 ]
+In 2016, Hinton was elected an International Member of the US National Academy of Engineering "for contributions to the theory and practice of artificial neural networks and their application to speech recognition and computer vision". [ 81 ] [ 82 ] He received the 2016 IEEE/RSE Wolfson James Clerk Maxwell Award . [ 83 ] In 2016, he furthermore won the BBVA Foundation Frontiers of Knowledge Award in the Information and Communication Technologies category, "for his pioneering and highly influential work" to endow machines with the ability to learn. [ 84 ]
+Together with Yann LeCun , and Yoshua Bengio , Hinton won the 2018 Turing Award for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing. [ 85 ] [ 86 ] [ 87 ] Also in 2018, he became a Companion of the Order of Canada (CC). [ 88 ] In 2021, he received the Dickson Prize in Science from the Carnegie Mellon University [ 89 ] and in 2022 the Princess of Asturias Award in the Scientific Research category, along with Yann LeCun , Yoshua Bengio , and Demis Hassabis . [ 90 ] In the same year, Hinton received an Honorary DSc degree from the University of Toronto . [ 39 ] In 2023, he was named an ACM Fellow , [ 91 ] elected an International Member of the US National Academy of Sciences , [ 92 ] and received Lifeboat Foundation 's 2023 Guardian Award along with Ilya Sutskever. [ 93 ] In 2023, he was named a Highly Ranked Scholar by ScholarGPS for both lifetime and prior five years. [ 94 ]
+In 2024, he was jointly awarded the Nobel Prize in Physics with John Hopfield "for foundational discoveries and inventions that enable machine learning with artificial neural networks." [ 95 ] His development of the Boltzmann machine was explicitly mentioned in the citation. [ 29 ] [ 96 ] When the New York Times reporter Cade Metz asked Hinton to explain in simpler terms how the Boltzmann machine could "pretrain" backpropagation networks, Hinton quipped that Richard Feynman reportedly said: "Listen, buddy, if I could explain it in a couple of minutes, it wouldn't be worth the Nobel Prize." [ 97 ] That same year, he received the VinFuture Prize grand award alongside Yoshua Bengio , Yann LeCun , Jen-Hsun Huang , and Fei-Fei Li for groundbreaking contributions to neural networks and deep learning algorithms. [ 98 ]
+In 2025 he was awarded the Queen Elizabeth Prize for Engineering jointly with Yoshua Bengio , Bill Dally , John Hopfield , Yann LeCun , Jen-Hsun Huang and Fei-Fei Li . [ 99 ] He was also awarded the King Charles III Coronation Medal . [ 100 ]
+Views
+Risks of artificial intelligence
+In 2023, Hinton expressed concerns about the rapid progress of AI . [ 32 ] [ 31 ] He had previously believed that artificial general intelligence (AGI) was "30 to 50 years or even longer away." [ 31 ] However, in a March 2023 interview with CBS , he said that "general-purpose AI" might be fewer than 20 years away and could bring about changes "comparable in scale with the industrial revolution or electricity ." [ 32 ]
+In an interview with The New York Times published on 1 May 2023, [ 31 ] Hinton announced his resignation from Google so he could "talk about the dangers of AI without considering how this impacts Google." [ 101 ] He noted that "a part of him now regrets his life's work". [ 31 ] [ 11 ]
+In early May 2023, Hinton said in an interview with BBC that AI might soon surpass the information capacity of the human brain. He described some of the risks posed by these chatbots as "quite scary". Hinton explained that chatbots have the ability to learn independently and share knowledge, so that whenever one copy acquires new information, it is automatically disseminated to the entire group, allowing AI chatbots to have the capability to accumulate knowledge far beyond the capacity of any individual. [ 102 ] In 2025, he said "My greatest fear is that, in the long run, it'll turn out that these kind of digital beings we're creating are just a better form of intelligence than people. […] We'd no longer be needed. […] If you want to know how it's like not to be the apex intelligence, ask a chicken. [ 103 ]
+Existential risk from AGI
+Hinton has expressed concerns about the possibility of an AI takeover , stating that "it's not inconceivable" that AI could "wipe out humanity" . [ 32 ] Hinton said in 2023 that AI systems capable of intelligent agency would be useful for military or economic purposes. [ 104 ] He worries that generally intelligent AI systems could "create sub-goals" that are unaligned with their programmers' interests. [ 105 ] He says that AI systems may become power-seeking or prevent themselves from being shut off, not because programmers intended them to, but because those sub-goals are useful for achieving later goals . [ 102 ] In particular, Hinton says "we have to think hard about how to control" AI systems capable of self-improvement . [ 106 ]
+Catastrophic misuse
+Hinton reports concerns about deliberate misuse of AI by malicious actors, stating that "it is hard to see how you can prevent the bad actors from using [AI] for bad things." [ 31 ] In 2017, Hinton called for an international ban on lethal autonomous weapons . [ 107 ] In 2025, in an interview, Hinton cited the use of AI by bad actors to create lethal viruses one of the greatest existential threats posed in the short term. "It just requires one crazy guy with a grudge...you can now create new viruses relatively cheaply using AI. And you don't need to be a very skilled molecular biologist to do it." [ 108 ]
+Economic impacts
+Hinton was previously optimistic about the economic effects of AI, noting in 2018 that: "The phrase 'artificial general intelligence' carries with it the implication that this sort of single robot is suddenly going to be smarter than you. I don't think it's going to be that. I think more and more of the routine things we do are going to be replaced by AI systems." [ 109 ] Hinton had also argued that AGI would not make humans redundant: "[AI in the future is] going to know a lot about what you're probably going to want to do... But it's not going to replace you." [ 109 ]
+In 2023, however, Hinton became "worried that AI technologies will in time upend the job market" and take away more than just "drudge work" . [ 31 ] He said in 2024 that the British government would have to establish a universal basic income to deal with the impact of AI on inequality. [ 110 ] In Hinton's view, AI will boost productivity and generate more wealth. But unless the government intervenes, it will only make the rich richer and hurt the people who might lose their jobs. "That's going to be very bad for society," he said. [ 111 ]
+At Christmas 2024 he had become somewhat more pessimistic, saying that there was a "10 to 20 percent chance" that AI would be the cause of human extinction within the following three decades (he had previously suggested a 10% chance, without a timescale). [ 112 ] He expressed surprise at the speed with which AI was advancing, and said that most experts expected AI to advance, probably in the next 20 years, to be "smarter than people ... a scary thought. ... So just leaving it to the profit motive of large companies is not going to be sufficient to make sure they develop it safely. The only thing that can force those big companies to do more research on safety is government regulation." [ 112 ] Another "godfather of AI", Yann LeCun , disagreed, saying AI "could actually save humanity from extinction". [ 112 ]
+Politics
+Hinton is a socialist . [ 113 ] He moved from the US to Canada in part due to disillusionment with Ronald Reagan –era politics and disapproval of military funding of artificial intelligence. [ 40 ]
+In August 2024, Hinton co-authored a letter with Yoshua Bengio , Stuart Russell , and Lawrence Lessig in support of SB 1047 , a California AI safety bill that would require companies training models which cost more than US$100 million to perform risk assessments before deployment. They said the legislation was the "bare minimum for effective regulation of this technology." [ 114 ] [ 115 ]
+Personal life
+Hinton's first wife, Rosalind Zalin, died of ovarian cancer in 1994; his second wife, Jacqueline "Jackie" Ford, died of pancreatic cancer in 2018. [ 9 ] [ 116 ]
+Hinton is the great-great-grandson of the mathematician and educator Mary Everest Boole and her husband, the logician George Boole . [ 117 ] George Boole's work eventually became one of the foundations of modern computer science. Another great-great-grandfather of his was the surgeon and author James Hinton , [ 118 ] who was the father of the mathematician Charles Howard Hinton .
+Hinton's father was the entomologist Howard Hinton . [ 37 ] [ 119 ] His middle name comes from another relative, George Everest , the Surveyor General of India after whom the mountain is named. [ 40 ] He is the nephew of the economist Colin Clark , [ 120 ] and nuclear physicist Joan Hinton , one of the two female physicists at the Manhattan Project , was his first cousin once removed. [ 121 ]
+Hinton injured his back at age 19, which makes sitting painful for him. He has dealt with depression throughout his life. [ 122 ]
+References
+Further reading
+Rothman, Joshua (20 November 2023). "Why the Godfather of A.I. Fears What He's Built" . The New Yorker . pp. 29– 39.
+External links
+v
+t
+e
+Colin Atkinson
+David Barker
+Jean Beggs
+Harshad Bhadeshia
+David Keith Bowen
+Roger Cashmore
+Andrew Casson
+Thomas Cavalier-Smith
+David W. Clarke
+Enrico Coen
+Stephen Cook
+Peter Crane
+Richard Denton
+Raymond Dwek
+Charles Ellington
+Richard B. Flavell
+Ken Freeman
+Brian Greenwood
+J. Philip Grime
+David C. Hanna
+Geoffrey Hinton
+Steven Martin
+Raghunath Anant Mashelkar
+Yoshio Masui
+Ronald Charles Newman
+Mark Pepys
+Trevor Charles Platt
+Alan Plumb
+Richard J. Puddephatt
+Philip Ruffles
+Anthony Segal
+Ashoke Sen
+Jonathan Sprent
+James Staunton
+John Michael Taylor
+Robert K. Thomas
+Cheryll Tickle
+S. R. Srinivasa Varadhan
+Bernard Wood
+Brian Worthington
+John E. Casida
+Elias James Corey
+Walter Kohn
+Oliver Smithies
+Rolf M. Zinkernagel
+v
+t
+e
+1901: Röntgen
+1902: Lorentz / Zeeman
+1903: Becquerel / P. Curie / M. Curie
+1904: Rayleigh
+1905: Lenard
+1906: J. J. Thomson
+1907: Michelson
+1908: Lippmann
+1909: Marconi / Braun
+1910: Van der Waals
+1911: Wien
+1912: Dalén
+1913: Kamerlingh Onnes
+1914: Laue
+1915: W. L. Bragg / W. H. Bragg
+1916
+1917: Barkla
+1918: Planck
+1919: Stark
+1920: Guillaume
+1921: Einstein
+1922: N. Bohr
+1923: Millikan
+1924: M. Siegbahn
+1925: Franck / Hertz
+1926: Perrin
+1927: Compton / C. Wilson
+1928: O. Richardson
+1929: De Broglie
+1930: Raman
+1931
+1932: Heisenberg
+1933: Schrödinger / Dirac
+1934
+1935: Chadwick
+1936: Hess / C. D. Anderson
+1937: Davisson / G. P. Thomson
+1938: Fermi
+1939: Lawrence
+1940
+1941
+1942
+1943: Stern
+1944: Rabi
+1945: Pauli
+1946: Bridgman
+1947: Appleton
+1948: Blackett
+1949: Yukawa
+1950: Powell
+1951: Cockcroft / Walton
+1952: Bloch / Purcell
+1953: Zernike
+1954: Born / Bothe
+1955: Lamb / Kusch
+1956: Shockley / Bardeen / Brattain
+1957: C. N. Yang / T. D. Lee
+1958: Cherenkov / Frank / Tamm
+1959: Segrè / Chamberlain
+1960: Glaser
+1961: Hofstadter / Mössbauer
+1962: Landau
+1963: Wigner / Goeppert Mayer / Jensen
+1964: Townes / Basov / Prokhorov
+1965: Tomonaga / Schwinger / Feynman
+1966: Kastler
+1967: Bethe
+1968: Alvarez
+1969: Gell-Mann
+1970: Alfvén / Néel
+1971: Gabor
+1972: Bardeen / Cooper / Schrieffer
+1973: Esaki / Giaever / Josephson
+1974: Ryle / Hewish
+1975: A. Bohr / Mottelson / Rainwater
+1976: Richter / Ting
+1977: P. W. Anderson / Mott / Van Vleck
+1978: Kapitsa / Penzias / R. Wilson
+1979: Glashow / Salam / Weinberg
+1980: Cronin / Fitch
+1981: Bloembergen / Schawlow / K. Siegbahn
+1982: K. Wilson
+1983: Chandrasekhar / Fowler
+1984: Rubbia / Van der Meer
+1985: von Klitzing
+1986: Ruska / Binnig / Rohrer
+1987: Bednorz / Müller
+1988: Lederman / Schwartz / Steinberger
+1989: Ramsey / Dehmelt / Paul
+1990: Friedman / Kendall / R. Taylor
+1991: de Gennes
+1992: Charpak
+1993: Hulse / J. Taylor
+1994: Brockhouse / Shull
+1995: Perl / Reines
+1996: D. Lee / Osheroff / R. Richardson
+1997: Chu / Cohen-Tannoudji / Phillips
+1998: Laughlin / Störmer / Tsui
+1999: 't Hooft / Veltman
+2000: Alferov / Kroemer / Kilby
+2001: Cornell / Ketterle / Wieman
+2002: Davis / Koshiba / Giacconi
+2003: Abrikosov / Ginzburg / Leggett
+2004: Gross / Politzer / Wilczek
+2005: Glauber / Hall / Hänsch
+2006: Mather / Smoot
+2007: Fert / Grünberg
+2008: Nambu / Kobayashi / Maskawa
+2009: Kao / Boyle / Smith
+2010: Geim / Novoselov
+2011: Perlmutter / Schmidt / Riess
+2012: Wineland / Haroche
+2013: Englert / Higgs
+2014: Akasaki / Amano / Nakamura
+2015: Kajita / McDonald
+2016: Thouless / Haldane / Kosterlitz
+2017: Weiss / Barish / Thorne
+2018: Ashkin / Mourou / Strickland
+2019: Peebles / Mayor / Queloz
+2020: Penrose / Genzel / Ghez
+2021: Parisi / Hasselmann / Manabe
+2022: Aspect / Clauser / Zeilinger
+2023: Agostini / Krausz / L'Huillier
+2024: Hopfield / Hinton
+v
+t
+e
+David Baker (United States)
+Demis Hassabis (United Kingdom)
+John M. Jumper (United States)
+Han Kang (South Korea)
+Geoffrey Hinton (Canada/United Kingdom)
+John Hopfield (United States)
+Victor Ambros (United States)
+Gary Ruvkun (United States)
+Daron Acemoglu (Turkey/United States)
+Simon Johnson (United Kingdom/United States)
+James A. Robinson (United Kingdom/United States)
+v
+t
+e
+Alan Perlis (1966)
+Maurice Wilkes (1967)
+Richard Hamming (1968)
+Marvin Minsky (1969)
+James H. Wilkinson (1970)
+John McCarthy (1971)
+Edsger W. Dijkstra (1972)
+Charles Bachman (1973)
+Donald Knuth (1974)
+Allen Newell / Herbert A. Simon (1975)
+Michael O. Rabin / Dana Scott (1976)
+John Backus (1977)
+Robert W. Floyd (1978)
+Kenneth E. Iverson (1979)
+Tony Hoare (1980)
+Edgar F. Codd (1981)
+Stephen Cook (1982)
+Dennis Ritchie / Ken Thompson (1983)
+Niklaus Wirth (1984)
+Richard Karp (1985)
+John Hopcroft / Robert Tarjan (1986)
+John Cocke (1987)
+Ivan Sutherland (1988)
+William Kahan (1989)
+Fernando J. Corbató (1990)
+Robin Milner (1991)
+Butler Lampson (1992)
+Juris Hartmanis / Richard E. Stearns (1993)
+Edward Feigenbaum / Raj Reddy (1994)
+Manuel Blum (1995)
+Amir Pnueli (1996)
+Douglas Engelbart (1997)
+Jim Gray (1998)
+Fred Brooks (1999)
+Andrew Yao (2000)
+Ole-Johan Dahl / Kristen Nygaard (2001)
+Leonard Adleman / Ron Rivest / Adi Shamir (2002)
+Alan Kay (2003)
+Vint Cerf / Bob Kahn (2004)
+Peter Naur (2005)
+Frances Allen (2006)
+Edmund M. Clarke / E. Allen Emerson / Joseph Sifakis (2007)
+Barbara Liskov (2008)
+Charles P. Thacker (2009)
+Leslie Valiant (2010)
+Judea Pearl (2011)
+Shafi Goldwasser / Silvio Micali (2012)
+Leslie Lamport (2013)
+Michael Stonebraker (2014)
+Whitfield Diffie / Martin Hellman (2015)
+Tim Berners-Lee (2016)
+John L. Hennessy / David Patterson (2017)
+Yoshua Bengio / Geoffrey Hinton / Yann LeCun (2018)
+Ed Catmull / Pat Hanrahan (2019)
+Alfred Aho / Jeffrey Ullman (2020)
+Jack Dongarra (2021)
+Robert Metcalfe (2022)
+Avi Wigderson (2023)
+Andrew Barto / Richard S. Sutton (2024)
+v
+t
+e
+1981: Alberto Sols
+1982: Manuel Ballester
+1983: Luis Antonio Santaló Sors
+1984: Antonio Garcia-Bellido
+1985: David Vázquez Martínez and Emilio Rosenblueth
+1986: Antonio González González
+1987: Jacinto Convit and Pablo Rudomín
+1988: Manuel Cardona and Marcos Moshinsky
+1989: Guido Münch
+1990: Santiago Grisolía and Salvador Moncada
+1991: Francisco Bolívar Zapata
+1992: Federico García Moliner
+1993: Amable Liñán
+1994: Manuel Patarroyo
+1995: Manuel Losada Villasante and Instituto Nacional de Biodiversidad of Costa Rica
+1996: Valentín Fuster
+1997: Atapuerca research team
+1998: Emilio Méndez Pérez and Pedro Miguel Echenique Landiríbar
+1999: Ricardo Miledi and Enrique Moreno González
+2000: Robert Gallo and Luc Montagnier
+2001: Craig Venter , John Sulston , Francis Collins , Hamilton Smith , and Jean Weissenbach
+2002: Lawrence Roberts , Robert E. Kahn , Vinton Cerf , and Tim Berners-Lee
+2003: Jane Goodall
+2004: Judah Folkman , Tony Hunter , Joan Massagué , Bert Vogelstein , and Robert Weinberg
+2005: Antonio Damasio
+2006: Juan Ignacio Cirac
+2007: Peter Lawrence and Ginés Morata
+2008: Sumio Iijima , Shuji Nakamura , Robert Langer , George M. Whitesides , and Tobin Marks
+2009: Martin Cooper and Raymond Tomlinson
+2010: David Julius , Baruch Minke , and Linda Watkins
+2011: Joseph Altman , Arturo Álvarez-Buylla , and Giacomo Rizzolatti
+2012: Gregory Winter and Richard A. Lerner
+2013: Peter Higgs , François Englert , and European Organization for Nuclear Research CERN
+2014: Avelino Corma Canós , Mark E. Davis , and Galen D. Stucky
+2015: Emmanuelle Charpentier and Jennifer Doudna
+2016: Hugh Herr
+2017: Rainer Weiss , Kip S. Thorne , Barry C. Barish , and the LIGO Scientific Collaboration
+2018: Svante Pääbo
+2019: Joanne Chory and Sandra Myrna Díaz
+2020: Yves Meyer , Ingrid Daubechies , Terence Tao , and Emmanuel Candès
+2021: Katalin Karikó , Drew Weissman , Philip Felgner , Uğur Şahin , Özlem Türeci , Derrick Rossi , and Sarah Gilbert
+2022: Geoffrey Hinton , Yann LeCun , Yoshua Bengio , and Demis Hassabis
+2023: Jeffrey I. Gordon , Everett Peter Greenberg , and Bonnie Bassler
+2024: Daniel J. Drucker , Jeffrey M. Friedman , Joel F. Habener , Jens Juul Holst , and Svetlana Mojsov
+2025: Mary-Claire King
+ISNI
+VIAF
+GND
+FAST
+WorldCat
+United States
+France
+BnF data
+Italy
+Australia
+Czech Republic
+Netherlands
+Norway 2
+2
+Korea
+Poland
+Israel
+CiNii
+Mathematics Genealogy Project
+Association for Computing Machinery
+Scopus
+zbMATH
+Google Scholar
+DBLP
+MathSciNet
+Trove
+IdRef
+Yale LUX

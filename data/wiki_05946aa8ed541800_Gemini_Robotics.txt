@@ -1,0 +1,76 @@
+Title: Gemini Robotics
+URL: https://en.wikipedia.org/wiki/Gemini_Robotics
+PageID: 79443826
+Categories: Category:Computational neuroscience stubs, Category:Google DeepMind, Category:Large language models, Category:Machine learning stubs, Category:Natural language processing stubs
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Gemini Robotics is an advanced vision-language-action model developed by Google DeepMind [ 1 ] in partnership with Apptronik. [ 2 ] It is based on the Gemini 2.0 large language model. [ 3 ] It is tailored for robotics applications and can understand new situations. [ 4 ] [ 5 ] There is a related version called Gemini Robotics-ER , which stands for embodied reasoning. [ 3 ] The two models were launched on March 12, 2025. [ 5 ]
+On June 24, 2025, Google DeepMind released Gemini Robotics On-Device, a variant designed and optimized to run locally on robotic devices. [ 6 ]
+Access to Gemini Robotics models is currently restricted to trusted testers, including Agile Robots, Agility Robots, Boston Dynamics, and Enchanted Tools. [ 2 ]
+References
+v
+t
+e
+Google
+Google Brain
+Google DeepMind
+AlphaGo (2015)
+Master (2016)
+AlphaGo Zero (2017)
+AlphaZero (2017)
+MuZero (2019)
+Fan Hui (2015)
+Lee Sedol (2016)
+Ke Jie (2017)
+AlphaGo (2017)
+The MANIAC (2023)
+AlphaFold (2018)
+AlphaStar (2019)
+AlphaDev (2023)
+AlphaGeometry (2024)
+AlphaGenome (2025)
+Inception (2014)
+WaveNet (2016)
+MobileNet (2017)
+Transformer (2017)
+EfficientNet (2019)
+Gato (2022)
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Assistant (2016)
+Sparrow (2022)
+Gemini (2023)
+BERT (2018)
+XLNet (2019)
+T5 (2019)
+LaMDA (2021)
+Chinchilla (2022)
+PaLM (2022)
+Imagen (2023)
+Gemini (2023)
+VideoPoet (2024)
+Gemma (2024)
+Veo (2024)
+DreamBooth (2022)
+NotebookLM (2023)
+Vids (2024)
+Gemini Robotics (2025)
+" Attention Is All You Need "
+Future of Go Summit
+Generative pre-trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+Category
+Commons
+This large language model -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e
+This artificial neural network -related article is a stub . You can help Wikipedia by expanding it .
+v
+t
+e

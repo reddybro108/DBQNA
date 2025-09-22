@@ -1,0 +1,117 @@
+Title: LangChain
+URL: https://en.wikipedia.org/wiki/LangChain
+PageID: 73577626
+Categories: Category:2022 software, Category:AI software, Category:Large language models, Category:Software frameworks
+Source: Wikipedia (CC BY-SA 4.0).
+
+-----
+Free and open-source software portal
+LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications. As a language model integration framework, LangChain's use-cases largely overlap with those of language models in general, including document analysis and summarization , chatbots , and code analysis . [ 2 ]
+History
+LangChain was launched in October 2022 as an open source project by Harrison Chase, while working at machine learning startup Robust Intelligence. In April 2023, LangChain had incorporated and the new startup raised over $20 million in funding at a valuation of at least $200 million from venture firm Sequoia Capital , a week after announcing a $10 million seed investment from Benchmark . [ 3 ] [ 4 ]
+In the third quarter of 2023, the LangChain Expression Language (LCEL) was introduced, which provides a declarative way to define chains of actions. [ 5 ] [ 6 ]
+In October 2023 LangChain introduced LangServe, a deployment tool to host LCEL code as a production-ready API . [ 7 ]
+In February 2024 LangChain released LangSmith, a closed-source observability and evaluation platform for LLM applications, and announced a US $25 million Series A led by Sequoia Capital. [ 8 ] On 14 May 2025 the company launched LangGraph Platform into general availability, providing managed infrastructure for deploying long-running, stateful AI agents. [ 9 ]
+Capabilities
+LangChain's developers highlight the framework's applicability to use-cases including chatbots , [ 10 ] retrieval-augmented generation , [ 11 ] document summarization , [ 12 ] and synthetic data generation. [ 13 ]
+As of March 2023, LangChain included integrations with systems including Amazon, Google, and Microsoft Azure cloud storage ; [ 14 ] API wrappers for news, movie information, and weather; Bash for summarization, syntax and semantics checking, and execution of shell scripts ; multiple web scraping subsystems and templates; few-shot learning prompt generation support; finding and summarizing "todo" tasks in code; Google Drive documents, spreadsheets, and presentations summarization, extraction, and creation; Google Search and Microsoft Bing web search; [ 15 ] OpenAI, Anthropic, and Hugging Face language models; iFixit repair guides and wikis search and summarization; MapReduce for question answering, combining documents, and question generation; N-gram overlap scoring; PyPDF, pdfminer, fitz, and pymupdf for PDF file text extraction and manipulation; Python and JavaScript code generation, analysis, and debugging; Milvus vector database [ 16 ] to store and retrieve vector embeddings; Weaviate vector database [ 17 ] to cache embedding and data objects; Redis cache database storage; Python RequestsWrapper and other methods for API requests; SQL and NoSQL databases including JSON support; Streamlit, including for logging; text mapping for k-nearest neighbors search; time zone conversion and calendar operations; tracing and recording stack symbols in threaded and asynchronous subprocess runs; and the Wolfram Alpha website and SDK. [ 18 ] As of April 2023, it can read from more than 50 document types and data sources. [ 19 ]
+LangChain tools
+References
+External links
+Media from Commons
+Data from Wikidata
+Official website
+Discord server support hub
+Langchain-ai on GitHub
+v
+t
+e
+ChatGPT in education GPT Store DALL-E ChatGPT Search Sora Whisper
+in education
+GPT Store
+DALL-E
+ChatGPT Search
+Sora
+Whisper
+GitHub Copilot
+OpenAI Codex
+Generative pre-trained transformer GPT-1 GPT-2 GPT-3 GPT-4 GPT-4o o1 o3 GPT-4.5 GPT-4.1 o4-mini GPT-OSS GPT-5
+GPT-1
+GPT-2
+GPT-3
+GPT-4
+GPT-4o
+o1
+o3
+GPT-4.5
+GPT-4.1
+o4-mini
+GPT-OSS
+GPT-5
+ChatGPT Deep Research
+Operator
+Sam Altman removal
+removal
+Greg Brockman
+Sarah Friar
+Jakub Pachocki
+Scott Schools
+Mira Murati
+Emmett Shear
+Sam Altman
+Adam D'Angelo
+Sue Desmond-Hellmann
+Zico Kolter
+Paul Nakasone
+Adebayo Ogunlesi
+Nicole Seligman
+Fidji Simo
+Lawrence Summers
+Bret Taylor (chair)
+Greg Brockman (2017–2023)
+Reid Hoffman (2019–2023)
+Will Hurd (2021–2023)
+Holden Karnofsky (2017–2021)
+Elon Musk (2015–2018)
+Ilya Sutskever (2017–2023)
+Helen Toner (2021–2023)
+Shivon Zilis (2019–2023)
+Stargate LLC
+Apple Intelligence
+AI Dungeon
+AutoGPT
+Contrastive Language-Image Pre-training
+" Deep Learning "
+LangChain
+Microsoft Copilot
+OpenAI Five
+Transformer
+Category
+v
+t
+e
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+TensorFlow
+PyTorch
+Keras
+scikit-learn
+Theano
+JAX
+Flux.jl
+MindSpore
+Portals Computer programming Technology
+Computer programming
+Technology

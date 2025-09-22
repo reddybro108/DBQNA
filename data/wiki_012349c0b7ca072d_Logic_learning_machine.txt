@@ -2,7 +2,7 @@ Title: Logic learning machine
 URL: https://en.wikipedia.org/wiki/Logic_learning_machine
 PageID: 45378845
 Categories: Category:Classification algorithms, Category:Machine learning algorithms
-Source: Wikipedia (CC BY-SA 4.0). Content may require attribution.
+Source: Wikipedia (CC BY-SA 4.0).
 
 -----
 Supervised learning
@@ -142,10 +142,10 @@ Outline of machine learning
 v
 t
 e
-Logic learning machine ( LLM ) is a machine learning method based on the generation of intelligible rules. LLM is an efficient implementation of the Switching Neural Network (SNN) paradigm, developed by Marco Muselli, Senior Researcher at the Italian National Research Council CNR-IEIIT in Genoa .
-LLM has been employed in many different sectors, including the field of medicine (orthopedic patient classification, DNA micro-array analysis and Clinical Decision Support Systems ), financial services and supply chain management.
+Logic learning machine ( LLM ) is a machine learning method based on the generation of intelligible rules. LLM is an efficient implementation of the Switching Neural Network (SNN) paradigm, [ 1 ] developed by Marco Muselli, Senior Researcher at the Italian National Research Council CNR-IEIIT in Genoa .
+LLM has been employed in many different sectors, including the field of medicine (orthopedic patient classification, [ 2 ] DNA micro-array analysis [ 3 ] and Clinical Decision Support Systems [ 4 ] ), financial services and supply chain management.
 History
-The Switching Neural Network approach was developed in the 1990s to overcome the drawbacks of the most commonly used machine learning methods. In particular, black box methods, such as multilayer perceptron and support vector machine , had good accuracy but could not provide deep insight into the studied phenomenon. On the other hand, decision trees were able to describe the phenomenon but often lacked accuracy. Switching Neural Networks made use of Boolean algebra to build sets of intelligible rules able to obtain very good performance. In 2014, an efficient version of Switching Neural Network was developed and implemented in the Rulex suite with the name Logic Learning Machine. Also, an LLM version devoted to regression problems was developed.
+The Switching Neural Network approach was developed in the 1990s to overcome the drawbacks of the most commonly used machine learning methods. In particular, black box methods, such as multilayer perceptron and support vector machine , had good accuracy but could not provide deep insight into the studied phenomenon. On the other hand, decision trees were able to describe the phenomenon but often lacked accuracy. Switching Neural Networks made use of Boolean algebra to build sets of intelligible rules able to obtain very good performance. In 2014, an efficient version of Switching Neural Network was developed and implemented in the Rulex suite with the name Logic Learning Machine. [ 5 ] Also, an LLM version devoted to regression problems was developed.
 General
 Like other machine learning methods, LLM uses data to build a model able to perform a good forecast about future behaviors. LLM starts from a table including a target variable (output) and some inputs and generates a set of rules that return the output value y {\displaystyle y} corresponding to a given configuration of inputs. A rule is written in the form:
 where consequence contains the output value whereas premise includes one or more conditions on the inputs. According to the input type, conditions can have different forms:
