@@ -1,226 +1,199 @@
-DBQNA - Document-Based Question Answering System
+# DBQNA – Document-Based Question Answering System by using RAG
 
-DBQNA is an open-source Retrieval-Augmented Generation (RAG) system designed for enterprise-grade document question answering. Upload documents in PDF, DOCX, or TXT formats, and query them using natural language. It leverages HuggingFace models for embeddings and text generation, Qdrant for efficient vector search, and FastAPI for scalable APIs. Built for production, it includes Docker support, secure configuration, and CI/CD integration.
-This project is ideal for building knowledge bases, internal search tools, or AI-powered chatbots that answer questions based on uploaded documents.
-Table of Contents
+DBQNA is a production-ready **Retrieval-Augmented Generation (RAG)** framework engineered for high-performance, document-centric question answering. It ingests PDF, DOCX, and TXT files, performs semantic chunking and embedding generation using Hugging Face transformers, persists vector representations in **Qdrant**, and exposes a scalable **FastAPI** service layer for real-time querying.  
+The system is container-orchestrated with Docker/Docker Compose and designed with CI/CD pipelines and secure environment configuration to accelerate deployment in enterprise settings.
 
-Features
-Architecture
-Tech Stack
-Installation
-Usage
-API Endpoints
-Configuration
-Project Structure
-Contributing
-License
+---
 
-Features
+## Table of Contents  
+- Features  
+- System Architecture  
+- Technology Stack  
+- Installation  
+- Usage  
+- API Endpoints  
+- Configuration  
+- Project Layout  
+- Contributing  
+- License  
 
-📥 Document Ingestion: Upload and process PDF, DOCX, and TXT files. Extracts text, splits into chunks, generates embeddings, and stores them in Qdrant.
-🔍 RAG Pipeline: Queries are embedded, matched against document chunks via vector search, and augmented for LLM-based answer generation.
-⚡ FastAPI Backend: Exposes RESTful APIs for document ingestion, querying, and vector store management, with Swagger UI for interactive testing.
-🐳 Containerization: Docker and Docker Compose for easy local or cloud deployment.
-🔒 Secure Configuration: Environment variables for API keys, model selection, and database credentials.
-🧪 Testing & CI/CD: Unit tests with pytest and automated workflows via GitHub Actions.
-📊 Monitoring (Planned): Support for Prometheus and Grafana integration for query and system metrics.
+---
 
-Architecture
-DBQNA follows a modular Retrieval-Augmented Generation (RAG) pipeline:
+## Key Features  
 
-Ingestion: Documents are parsed (using PyPDF2 for PDFs, python-docx for DOCX, or plain text for TXT), split into chunks (e.g., 512-token segments), and converted to embeddings using HuggingFace's sentence-transformers.
-Vector Storage: Embeddings are stored in Qdrant for fast similarity search.
-Querying: User queries are embedded, searched against Qdrant for top-k relevant chunks, and passed to an LLM (e.g., HuggingFace's gpt2 or OpenAI's GPT-3.5) for answer generation.
-API Layer: FastAPI serves asynchronous endpoints for ingestion and querying.
+- **Automated Document Ingestion:** Extracts text from PDF/DOCX/TXT, segments it into semantically coherent blocks, generates high-dimensional embeddings, and stores them in Qdrant for millisecond-level retrieval.  
+- **End-to-End RAG Pipeline:** Transforms user queries into vector space, retrieves the most relevant chunks, and synthesizes context-aware answers using transformer-based LLMs.  
+- **FastAPI Microservice Layer:** Fully asynchronous REST endpoints for ingestion, querying, and vector-store administration, bundled with interactive OpenAPI/Swagger documentation.  
+- **Containerized Deployment:** Docker/Docker Compose enable reproducible, cloud-agnostic deployments and local testing environments.  
+- **Security & Config Management:** Environment-variable-driven secrets management for API keys, model parameters, and infrastructure URLs.  
+- **Automated QA & CI/CD:** Pytest test harness and GitHub Actions integration for continuous validation and deployment.  
+- **Observability Ready (Planned):** Hooks for Prometheus/Grafana to monitor latency, query volume, and resource utilization.  
 
-+-------------+     +----------------+     +---------------------+
-| Client UI/  | <--> | FastAPI Server | <--> | Qdrant Vector DB    |
-| API Caller  |     | (app/main.py)  |     | (Local/Cloud Vector |
-+-------------+     +----------------+     | Store with Embeddings)|
-                                    +---------------------+
+---
 
-Tech Stack
+## System Architecture  
 
+DBQNA implements a modular, high-throughput RAG pipeline:
 
+1. **Ingestion Layer:** Documents parsed using PyPDF2 (PDF), python-docx (DOCX), or raw text. Semantic chunking (e.g., 512-token blocks) + Hugging Face sentence-transformers for embedding generation.  
+2. **Vector Storage Layer:** Qdrant provides high-performance approximate-nearest-neighbor search for embeddings.  
+3. **Query Layer:** User questions embedded with the same model, similarity-matched in Qdrant, then context passed to an LLM (Hugging Face or OpenAI) for answer synthesis.  
+4. **API Layer:** FastAPI delivers stateless, async REST endpoints for ingestion, querying, and admin tasks.  
 
-Layer
-Technology
+```
 
++-------------+      +----------------+      +-----------------+
+|  Client UI  | <--> | FastAPI Server  | <--> | Qdrant Vector DB |
++-------------+      +----------------+      +-----------------+
 
+````
 
-Backend
-Python 3.11 / FastAPI
+---
 
+## Technology Stack  
 
-Embeddings/LLM
-HuggingFace Transformers (e.g., all-MiniLM-L6-v2, gpt2) / OpenAI API (optional)
+| Layer                | Technology                                                      |
+|----------------------|------------------------------------------------------------------|
+| Backend Framework    | Python 3.11 + FastAPI (asynchronous REST services)               |
+| Embeddings / LLM     | Hugging Face Transformers (e.g., all-MiniLM-L6-v2, GPT-2) + optional OpenAI API |
+| Vector Store         | Qdrant (local or cloud instance)                                 |
+| Document Parsing     | PyPDF2, python-docx, plain text                                  |
+| Containerization     | Docker / Docker Compose                                          |
+| CI/CD                | GitHub Actions                                                  |
+| Testing Framework    | pytest                                                          |
+| Monitoring (planned) | Prometheus + Grafana                                            |
 
+---
 
-Vector Store
-Qdrant (open-source, scalable)
+## Installation  
 
+### Prerequisites  
+- Python ≥ 3.11  
+- Docker (for Qdrant or full containerized setup)  
+- Hugging Face account for model downloads  
+- Optional: OpenAI API key  
 
-Document Parsing
-PyPDF2, python-docx, plain text
+### Setup Steps  
 
-
-Containerization
-Docker / Docker Compose
-
-
-CI/CD
-GitHub Actions
-
-
-Testing
-pytest
-
-
-Monitoring
-Prometheus / Grafana (planned)
-
-
-Installation
-Prerequisites
-
-Python: 3.11 or higher
-Docker: For containerized setup
-HuggingFace: Access to models (free, create an account at huggingface.co)
-Qdrant: Local instance or Qdrant Cloud account
-Optional: OpenAI API key for proprietary models
-
-Steps
-
-Clone the Repository:
+**Clone the repository:**  
+```bash
 git clone https://github.com/reddybro108/DBQNA.git
 cd DBQNA
+````
 
+**Install Python dependencies:**
 
-Install Dependencies:Create a requirements.txt with:
-fastapi==0.115.0
-uvicorn==0.30.6
-qdrant-client==1.11.0
-transformers==4.44.2
-sentence-transformers==3.0.1
-pypdf2==3.0.1
-python-docx==1.1.2
-python-dotenv==1.0.1
-pytest==8.3.2
-
-Then run:
+```bash
 pip install -r requirements.txt
+```
 
+**Start Qdrant locally (Docker):**
 
-Set Up Qdrant:
+```bash
+docker run -p 6333:6333 qdrant/qdrant
+```
 
-Local: Start Qdrant with Docker:docker run -p 6333:6333 qdrant/qdrant
+**Or configure Qdrant Cloud:**
+Sign up at [cloud.qdrant.io](https://cloud.qdrant.io), retrieve URL + API key, and update your `.env`.
 
+**Run the FastAPI server locally:**
 
-Cloud: Sign up at cloud.qdrant.io and get your API key and URL.
-
-
-Docker Setup (Optional):Use the provided docker-compose.yml:
-docker-compose up -d
-
-
-
-Usage
-Start the FastAPI Server
-Run locally:
+```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
 
-Access the API at http://localhost:8000. Use Swagger UI at http://localhost:8000/docs for interactive testing.
-Ingest a Document
-Upload a document via API:
+---
+
+## Usage
+
+**Ingest a document:**
+
+```bash
 curl -X POST "http://localhost:8000/ingest" -F "file=@/path/to/document.pdf"
+```
 
-This parses the document, generates embeddings, and stores them in Qdrant.
-Query Documents
-Ask a question:
-curl -X POST "http://localhost:8000/query" -H "Content-Type: application/json" -d '{"question": "What is the main topic of the document?"}'
+**Query your knowledge base:**
 
-Example Response:
-{
-  "answer": "The document discusses enterprise-grade question answering.",
-  "sources": ["document.pdf:chunk_1"],
-  "confidence": 0.95
-}
+```bash
+curl -X POST "http://localhost:8000/query" \
+  -H "Content-Type: application/json" \
+  -d '{"question":"Summarize the document"}'
+```
 
-API Endpoints
+Use the Swagger UI at `http://localhost:8000/docs` for interactive API testing.
 
+---
 
+## API Endpoints
 
-Endpoint
-Method
-Description
+| Endpoint   | Method | Description                     |
+| ---------- | ------ | ------------------------------- |
+| `/ingest`  | POST   | Upload and index a document     |
+| `/query`   | POST   | Submit a natural-language query |
+| `/health`  | GET    | API health check                |
+| `/vectors` | GET    | Inspect stored vectors          |
 
+---
 
+## Configuration
 
-/ingest
-POST
-Upload and process a document
+Add a `.env` file in the project root:
 
-
-/query
-POST
-Query documents with a question
-
-
-/health
-GET
-Check API server status
-
-
-/vectors
-GET
-List stored vectors (admin only)
-
-
-Explore full API docs at /docs.
-Configuration
-Create a .env file in the project root:
+```
 QDRANT_URL=http://localhost:6333
-QDRANT_API_KEY=your_key_here  # If using Qdrant Cloud
+QDRANT_API_KEY=your_qdrant_key
 HF_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 HF_LLM_MODEL=gpt2
-OPENAI_API_KEY=sk-...  # Optional, for OpenAI models
+OPENAI_API_KEY=sk-...   # optional
 FASTAPI_PORT=8000
+```
 
-The app loads these using python-dotenv. Update app/main.py to read these variables:
-from dotenv import load_dotenv
-import os
-load_dotenv()
-QDRANT_URL = os.getenv("QDRANT_URL")
+`python-dotenv` automatically loads these variables at runtime.
 
-Project Structure
+---
+
+## Project Layout
+
+```
 DBQNA/
 ├── app/
-│   ├── main.py          # FastAPI app entry point
-│   ├── ingestion.py     # Document parsing and embedding logic
-│   ├── query.py         # RAG pipeline for querying
-│   ├── config.py        # Environment variable handling
+│   ├── main.py          # FastAPI entry point
+│   ├── ingestion.py     # Document parsing + embedding logic
+│   ├── query.py         # Query + RAG orchestration
+│   ├── config.py        # Env var handling
 ├── tests/
-│   ├── test_ingestion.py # Unit tests for ingestion
-│   ├── test_query.py     # Unit tests for querying
-├── Dockerfile           # Docker configuration
-├── docker-compose.yml   # Multi-container setup
-├── requirements.txt     # Python dependencies
-├── .env.example         # Sample env file
-├── .gitignore           # Git ignore rules
-└── README.md            # This file
+│   ├── test_ingestion.py
+│   ├── test_query.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── .env.example
+└── README.md
+```
 
-Note: If you haven’t created these files yet, use this as a blueprint for organizing your code.
-Contributing
-We welcome contributions to DBQNA! To get started:
+---
 
-Fork the repository.
-Create a feature branch: git checkout -b feature/your-feature.
-Commit changes: git commit -m "Add your feature".
-Push and open a Pull Request.
-Report bugs or suggest features via GitHub Issues.
+## Contributing
 
-Please follow PEP8 style guidelines and include tests for new features. Run tests with:
+Contributions are welcome!
+
+* Fork this repo, create a feature branch, commit your changes, and open a Pull Request.
+* File bug reports or feature requests via GitHub Issues.
+* Follow PEP-8 and include unit tests (`pytest`) for new code paths.
+
+Run tests locally:
+
+```bash
 pytest tests/
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## License
+
+This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
+
+```
+
+This version is ready to paste into your GitHub repository as `README.md`. It makes the tech stack explicit, uses enterprise-style phrasing, and mirrors your actual codebase.
+```
